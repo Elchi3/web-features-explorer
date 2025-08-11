@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Pointer Events</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,52 +31,77 @@
 
     
 <main class="feature-page">
-  <div id="pointer-events-api" class="feature baseline-high">
+  <div id="pointer-events-api" class="feature full baseline-high">
   <div class="header">
     <h1 data-pagefind-body="">Pointer Events</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="pointer-events-api" data-len="18"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    Pointer events, such as <code>pointerdown</code>, and the <code>PointerEvent</code> API, represent general pointing inputs, from a wide range of devices, such as a mouse, pen or stylus, or touch with one or more fingers. Not to be confused with the <code>pointer-events</code> CSS property.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     
     
-    Widely available since 2023-01-28
+    Baseline Widely Available (since 2023-01-28)
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">api</span>
-    
-  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/Pointer_events">
+            
+              Pointer events
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://w3c.github.io/pointerevents/">Pointer Events</a>,
+            from <a href="https://www.w3.org/groups/wg/pointer-events/">Pointer Events Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    Pointer events, such as <code>pointerdown</code>, and the <code>PointerEvent</code> API, represent general pointing inputs, from a wide range of devices, such as a mouse, pen or stylus, or touch with one or more fingers. Not to be confused with the <code>pointer-events</code> CSS property.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/Pointer_events">
-          
-            Pointer events
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support <span class="subtext">(<a href="https://caniuse.com/pointer">view on caniuse.com</a>)</span></h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support <span class="subtext">(<a href="https://caniuse.com/pointer">view on caniuse.com</a>)</span></h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -141,35 +167,50 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
+
+  
+
+  
+  <div class="interop feature-box">
+    <h3>Interop</h3>
     <ul>
       
         <li>
-          
-            <a href="https://w3c.github.io/pointerevents/">Pointer Events</a>,
-            from <a href="https://www.w3.org/groups/wg/pointer-events/">Pointer Events Working Group</a> (W3C).
-          
+          Included in <a href="https://wpt.fyi/interop-2023?feature=interop-2023-events">Interop 2023</a>
+        </li>
+      
+        <li>
+          Included in <a href="https://wpt.fyi/interop-2024?feature=interop-2023-events">Interop 2024</a>
+        </li>
+      
+        <li>
+          Included in <a href="https://wpt.fyi/interop-2025?feature=interop-2023-events">Interop 2025</a>
         </li>
       
     </ul>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Apointer-events-api">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/pointer-events-api.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/pointer-events-api.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[pointer-events-api] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  <p class="edit-links">
+    <a href="../pointer-events-api.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/pointer-events-api.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[pointer-events-api] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/pointer-events-api.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/pointer-events-api.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

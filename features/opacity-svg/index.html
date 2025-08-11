@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Opacity (SVG)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,71 +31,70 @@
 
     
 <main class="feature-page">
-  <div id="opacity-svg" class="feature baseline-high">
+  <div id="opacity-svg" class="feature full baseline-high">
   <div class="header">
     <h1 data-pagefind-body="">Opacity (SVG)</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="opacity-svg" data-len="11"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>fill-opacity</code>, and <code>stroke-opacity</code> SVG attributes and CSS properties control the transparency of a stroke or fill of an SVG element.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     
     
-    Widely available since before 2022-09-24
+    Baseline Widely Available (since before 2022-09-24)
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
+    <strong>No MDN documentation found.</strong>
     
-      <span class="tag">css</span>
-    
-      <span class="tag">svg</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          SVG 
-        
-      </span>
+      You can <a href="https://developer.mozilla.org/search?q=Opacity (SVG)">search for the feature on MDN</a>. If you believe that MDN has no documentation about this feature, you can <a href="https://github.com/mdn/mdn/issues/new?template=content-or-feature-suggestion.yml">open an issue on MDN's GitHub repository</a>.
     
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties">Scalable Vector Graphics (SVG) 2 (#ObjectAndGroupOpacityProperties)</a>,
+            from <a href="https://www.w3.org/Graphics/SVG/WG/">SVG Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>fill-opacity</code>, and <code>stroke-opacity</code> SVG attributes and CSS properties control the transparency of a stroke or fill of an SVG element.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill-opacity">
-          
-            fill-opacity
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-opacity">
-          
-            stroke-opacity
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -127,8 +127,8 @@
       <span class="name">Firefox</span>
       
       
-        <span class="version">1</span>
-        <span class="date">Released on 2004-11-09</span>
+        <span class="version">1.5</span>
+        <span class="date">Released on 2005-11-29</span>
       
     </li>
   
@@ -160,35 +160,31 @@
     </li>
   
 </ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties">Scalable Vector Graphics (SVG) 2 (#ObjectAndGroupOpacityProperties)</a>,
-            from <a href="https://www.w3.org/Graphics/SVG/WG/">SVG Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
   </div>
 
+  
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aopacity-svg">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/opacity-svg.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/opacity-svg.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[opacity-svg] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../opacity-svg.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/opacity-svg.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[opacity-svg] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/opacity-svg.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/opacity-svg.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

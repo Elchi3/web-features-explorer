@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Web platform features explorer - translate attribute</title>
+    <title>Web platform features explorer - translate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,54 +31,79 @@
 
     
 <main class="feature-page">
-  <div id="translate" class="feature baseline-low">
+  <div id="translate" class="feature full baseline-low">
   <div class="header">
-    <h1 data-pagefind-body="">translate attribute</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2023-03-14
-    
-  
-</div>
+    <h1 data-pagefind-body="">translate</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="translate" data-len="9"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">api</span>
-    
-      <span class="tag">html</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>translate</code> HTML attribute marks whether an element's text should be translated.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/translate">
-          
-            translate
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2023-03-14)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2025-09-14
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/translate">
+            
+              HTML translate global attribute
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/dom.html#attr-translate">HTML (#attr-translate)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -143,35 +169,31 @@
     </li>
   
 </ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/dom.html#attr-translate">HTML (#attr-translate)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-    </ul>
   </div>
 
+  
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Atranslate">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/translate.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/translate.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[translate] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../translate.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/translate.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[translate] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/translate.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/translate.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

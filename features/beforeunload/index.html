@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Web platform features explorer - Beforeunload</title>
+    <title>Web platform features explorer - beforeunload</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,52 +31,77 @@
 
     
 <main class="feature-page">
-  <div id="beforeunload" class="feature baseline-high">
+  <div id="beforeunload" class="feature full baseline-false">
   <div class="header">
-    <h1 data-pagefind-body="">Beforeunload</h1>
-    <div class="availability">
-  
-    
-    
-    Widely available since 2018-01-29
-  
-</div>
+    <h1 data-pagefind-body="">beforeunload</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="beforeunload" data-len="12"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">api</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>beforeunload</code> event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    Limited availability
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/Window/beforeunload_event">
-          
-            Window: beforeunload event
-          
-        </a>
-      </li>
     
-  </ul>
+  
+</div>
+    
+    
+  </div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/Window/beforeunload_event">
+            
+              Window: beforeunload event
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-beforeunloadevent-interface">HTML (#the-beforeunloadevent-interface)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -131,45 +157,59 @@
       
     </li>
   
-    <li class="browser browser-safari_ios supported">
+    <li class="browser browser-safari_ios">
       <span class="name">Safari on iOS</span>
       
       
-        <span class="version">1</span>
-        <span class="date">Released on 2007-06-29</span>
+        <span class="version">❌</span>
+        
+          <span class="bug">
+            See
+            
+              <a href="https://webkit.org/b/219102">webkit.org/b/219102</a>
+            
+          </span>
+        
+        
+  
+  
+
+
       
     </li>
   
 </ul>
+      <p>Baseline availability blocked since July 2015 by Safari on iOS (121 months)</p>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-beforeunloadevent-interface">HTML (#the-beforeunloadevent-interface)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~58.007% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/275">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Abeforeunload">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/beforeunload.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/beforeunload.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[beforeunload] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../beforeunload.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/beforeunload.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[beforeunload] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/beforeunload.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/beforeunload.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

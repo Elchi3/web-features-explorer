@@ -5,6 +5,7 @@
     <title>Web platform features explorer - WebVTT cue alignment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,9 +31,30 @@
 
     
 <main class="feature-page">
-  <div id="webvtt-cue-alignment" class="feature baseline-false">
+  <div id="webvtt-cue-alignment" class="feature full baseline-false">
   <div class="header">
     <h1 data-pagefind-body="">WebVTT cue alignment</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="webvtt-cue-alignment" data-len="20"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The WebVTT cue alignment settings control which part of the cue is aligned with the given line and position. Cue alignment is set using <code>line</code> and <code>position</code> settings in WebVTT files or the <code>lineAlign</code> and <code>positionAlign</code> properties of <code>VTTCue</code> using JavaScript.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     Limited availability
@@ -40,50 +62,61 @@
     
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">api</span>
-    
-  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/VTTCue/lineAlign">
+            
+              VTTCue: lineAlign property
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/VTTCue/positionAlign">
+            
+              VTTCue: positionAlign property
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://w3c.github.io/webvtt/#dom-vttcue-linealign">WebVTT: The Web Video Text Tracks Format (#dom-vttcue-linealign)</a>,
+            from <a href="https://www.w3.org/AudioVideo/TT/">Timed Text Working Group</a> (W3C).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://w3c.github.io/webvtt/#dom-vttcue-positionalign">WebVTT: The Web Video Text Tracks Format (#dom-vttcue-positionalign)</a>,
+            from <a href="https://www.w3.org/AudioVideo/TT/">Timed Text Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The WebVTT cue alignment settings control which part of the cue is aligned with the given line and position. Cue alignment is set using <code>line</code> and <code>position</code> settings in WebVTT files or the <code>lineAlign</code> and <code>positionAlign</code> properties of <code>VTTCue</code> using JavaScript.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/VTTCue/lineAlign">
-          
-            VTTCue: lineAlign property
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/VTTCue/positionAlign">
-          
-            VTTCue: positionAlign property
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome">
       <span class="name">Chrome</span>
@@ -173,42 +206,36 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://w3c.github.io/webvtt/#dom-vttcue-linealign">WebVTT: The Web Video Text Tracks Format (#dom-vttcue-linealign)</a>,
-            from <a href="https://www.w3.org/AudioVideo/TT/">Timed Text Working Group</a> (W3C).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://w3c.github.io/webvtt/#dom-vttcue-positionalign">WebVTT: The Web Video Text Tracks Format (#dom-vttcue-positionalign)</a>,
-            from <a href="https://www.w3.org/AudioVideo/TT/">Timed Text Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
+
+  
+
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:webvtt-cue-alignment">View the latest WPT test results for this feature</a>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Awebvtt-cue-alignment">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/webvtt-cue-alignment.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/webvtt-cue-alignment.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[webvtt-cue-alignment] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  <p class="edit-links">
+    <a href="../webvtt-cue-alignment.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/webvtt-cue-alignment.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[webvtt-cue-alignment] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/webvtt-cue-alignment.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/webvtt-cue-alignment.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

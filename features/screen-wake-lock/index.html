@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Screen wake lock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,56 +31,79 @@
 
     
 <main class="feature-page">
-  <div id="screen-wake-lock" class="feature baseline-false">
+  <div id="screen-wake-lock" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">Screen wake lock</h1>
-    <div class="availability">
-  
-    Limited availability
-    
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="screen-wake-lock" data-len="16"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">api</span>
-    
-      <span class="tag">html</span>
-    
-      <span class="tag">http</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>navigator.wakeLock.request("screen")</code> API prevents the device's screen from dimming or being turned off.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/Screen_Wake_Lock_API">
-          
-            Screen Wake Lock API
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2025-03-31)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2027-10-01
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/Screen_Wake_Lock_API">
+            
+              Screen Wake Lock API
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support <span class="subtext">(<a href="https://caniuse.com/wake-lock">view on caniuse.com</a>)</span></h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://w3c.github.io/screen-wake-lock/">Screen Wake Lock API</a>,
+            from <a href="https://www.w3.org/das/">Devices and Sensors Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support <span class="subtext">(<a href="https://caniuse.com/wake-lock">view on caniuse.com</a>)</span></h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -135,61 +159,51 @@
       
     </li>
   
-    <li class="browser browser-safari_ios">
+    <li class="browser browser-safari_ios supported">
       <span class="name">Safari on iOS</span>
       
       
-        <span class="version">❌</span>
-        
-        
-  
-  
-  <span class="position position-support">
-    <a href="https://github.com/WebKit/standards-positions/issues/63">Vendor position</a>
-    
-      <span>: support</span>
-    
-    
-      <span>(concerns: power)</span>
-    
-  </span>
-
-
-
+        <span class="version">18.4</span>
+        <span class="date">Released on 2025-03-31</span>
       
     </li>
   
 </ul>
+  </div>
 
   
-    <p>Baseline availability blocked since May 2024 by Safari on iOS (9 months)</p>
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://w3c.github.io/screen-wake-lock/">Screen Wake Lock API</a>,
-            from <a href="https://www.w3.org/das/">Devices and Sensors Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~1.290% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/104">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Ascreen-wake-lock">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/screen-wake-lock.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/screen-wake-lock.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[screen-wake-lock] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:screen-wake-lock">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../screen-wake-lock.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/screen-wake-lock.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[screen-wake-lock] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/screen-wake-lock.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/screen-wake-lock.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

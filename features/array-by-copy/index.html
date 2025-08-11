@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Array by copy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,99 +31,145 @@
 
     
 <main class="feature-page">
-  <div id="array-by-copy" class="feature baseline-low">
+  <div id="array-by-copy" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">Array by copy</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2023-07-04
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="array-by-copy" data-len="13"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">javascript</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          JavaScript  &gt; 
-        
-          Collections  &gt; 
-        
-          Arrays 
-        
-      </span>
-    
-      <span class="tag">
-        
-          JavaScript  &gt; 
-        
-          Collections  &gt; 
-        
-          Typed arrays 
-        
-      </span>
-    
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>toReversed()</code>, <code>toSorted()</code>, <code>toSpliced()</code>, and <code>with()</code> methods of arrays and typed arrays return changed copies of arrays. They stand in contrast to methods such as <code>sort()</code> or <code>reverse()</code> that change arrays in place.
   </p>
 
-  <h3>Learning resources on MDN</h3>
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    
+    Baseline Newly Available (since 2023-07-04)
+    
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2026-01-04
+    
+    
+  </p></div>
 
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed">
-          
-            Array.prototype.toReversed()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted">
-          
-            Array.prototype.toSorted()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced">
-          
-            Array.prototype.toSpliced()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/with">
-          
-            Array.prototype.with()
-          
-        </a>
-      </li>
-    
-  </ul>
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed">
+            
+              Array.prototype.toReversed()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted">
+            
+              Array.prototype.toSorted()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced">
+            
+              Array.prototype.toSpliced()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/with">
+            
+              Array.prototype.with()
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.toreversed">ECMAScript® 2026 Language Specification (#sec-array.prototype.toreversed)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tosorted">ECMAScript® 2026 Language Specification (#sec-array.prototype.tosorted)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tospliced">ECMAScript® 2026 Language Specification (#sec-array.prototype.tospliced)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.with">ECMAScript® 2026 Language Specification (#sec-array.prototype.with)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.toreversed">ECMAScript® 2026 Language Specification (#sec-%25typedarray%25.prototype.toreversed)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.tosorted">ECMAScript® 2026 Language Specification (#sec-%25typedarray%25.prototype.tosorted)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.with">ECMAScript® 2026 Language Specification (#sec-%25typedarray%25.prototype.with)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -188,77 +235,51 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
+  <div class="surveys feature-box">
+    <h3>Developer signals</h3>
     <ul>
       
         <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.toreversed">ECMAScript® 2025 Language Specification (#sec-array.prototype.toreversed)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
+          State of JS 2024: <a href="https://2024.stateofjs.com/en-US/features/#reading_list">reading_list/reading_list question</a>
         </li>
       
         <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tosorted">ECMAScript® 2025 Language Specification (#sec-array.prototype.tosorted)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tospliced">ECMAScript® 2025 Language Specification (#sec-array.prototype.tospliced)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.with">ECMAScript® 2025 Language Specification (#sec-array.prototype.with)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.toreversed">ECMAScript® 2025 Language Specification (#sec-%25typedarray%25.prototype.toreversed)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.tosorted">ECMAScript® 2025 Language Specification (#sec-%25typedarray%25.prototype.tosorted)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.with">ECMAScript® 2025 Language Specification (#sec-%25typedarray%25.prototype.with)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
+          State of JS 2024: <a href="https://2024.stateofjs.com/en-US/features/#array_features">features/array_features question</a>
         </li>
       
     </ul>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aarray-by-copy">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-by-copy.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/array-by-copy.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[array-by-copy] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~1.907% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/223">More data at chromestatus</a>.</p>
+  </div>
+
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../array-by-copy.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/array-by-copy.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[array-by-copy] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-by-copy.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-by-copy.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

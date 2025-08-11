@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Feature IDs and BCD keys</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -192,7 +193,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>abs-sign</td>
           <td>abs() and sign()</td>
           <td>The abs() and sign() CSS functions compute the absolute value or the sign of the input.</td>
@@ -278,8 +279,8 @@
       
         <tr class="baseline-high">
           <td>accesskey</td>
-          <td>Accesskey</td>
-          <td>The accessKey global HTML attribute gives a hint for generating a keyboard shortcut for the current element. The attribute value must consist of a single printable character.</td>
+          <td>accesskey</td>
+          <td>The accesskey global HTML attribute gives a hint for generating a keyboard shortcut for the current element. The attribute value must consist of a single printable character.</td>
           <td>
             <ul>
               
@@ -288,6 +289,25 @@
                 <li>api.HTMLElement.accessKeyLabel</li>
               
                 <li>html.global_attributes.accesskey</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>accessor-methods</td>
+          <td>Accessor methods</td>
+          <td>The __defineGetter__() and __defineSetter__() methods of objects bind a function to a property, which is called on setting or reading the property.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.Object.defineGetter</li>
+              
+                <li>javascript.builtins.Object.defineSetter</li>
+              
+                <li>javascript.builtins.Object.lookupGetter</li>
+              
+                <li>javascript.builtins.Object.lookupSetter</li>
               
             </ul>
           </td>
@@ -619,9 +639,9 @@
               
                 <li>api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference</li>
               
-                <li>api.HTMLElement.showPopover.source.implicit_anchor_reference</li>
+                <li>api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference</li>
               
-                <li>api.HTMLElement.togglePopover.source.implicit_anchor_reference</li>
+                <li>api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference</li>
               
                 <li>api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference</li>
               
@@ -1003,7 +1023,32 @@
               
                 <li>api.LaunchParams.files</li>
               
-                <li>html.manifest.file_handlers</li>
+                <li>manifests.webapp.file_handlers</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>app-launch-handler</td>
+          <td>Launch handler</td>
+          <td>The launch_handler web app manifest member, with the client_mode property, configure how web app launches behave when an instance of the app is already open. For example, you can choose to focus the existing app instance instead of launching a new one.</td>
+          <td>
+            <ul>
+              
+                <li>api.LaunchParams</li>
+              
+                <li>api.LaunchParams.targetURL</li>
+              
+                <li>api.LaunchQueue</li>
+              
+                <li>api.LaunchQueue.setConsumer</li>
+              
+                <li>api.Window.launchQueue</li>
+              
+                <li>manifests.webapp.launch_handler</li>
+              
+                <li>manifests.webapp.launch_handler.client_mode</li>
               
             </ul>
           </td>
@@ -1016,11 +1061,11 @@
           <td>
             <ul>
               
-                <li>html.manifest.protocol_handlers</li>
+                <li>manifests.webapp.protocol_handlers</li>
               
-                <li>html.manifest.protocol_handlers.protocol</li>
+                <li>manifests.webapp.protocol_handlers.protocol</li>
               
-                <li>html.manifest.protocol_handlers.url</li>
+                <li>manifests.webapp.protocol_handlers.url</li>
               
             </ul>
           </td>
@@ -1033,7 +1078,7 @@
           <td>
             <ul>
               
-                <li>html.manifest.share_target</li>
+                <li>manifests.webapp.share_target</li>
               
             </ul>
           </td>
@@ -1046,7 +1091,7 @@
           <td>
             <ul>
               
-                <li>html.manifest.shortcuts</li>
+                <li>manifests.webapp.shortcuts</li>
               
             </ul>
           </td>
@@ -1775,6 +1820,8 @@
               
                 <li>api.ReadableStream.@@asyncIterator</li>
               
+                <li>api.ReadableStream.values</li>
+              
             </ul>
           </td>
         </tr>
@@ -1800,7 +1847,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>atomics-pause</td>
           <td>Atomics.pause()</td>
           <td>The Atomics.pause() static method gives a hint to the CPU that the code calling the method is in a short-duration wait for shared memory, known as spinning or a spinlock.</td>
@@ -2047,6 +2094,8 @@
               
                 <li>api.AudioWorkletGlobalScope.currentTime</li>
               
+                <li>api.AudioWorkletGlobalScope.port</li>
+              
                 <li>api.AudioWorkletGlobalScope.registerProcessor</li>
               
                 <li>api.AudioWorkletGlobalScope.sampleRate</li>
@@ -2069,13 +2118,19 @@
               
                 <li>api.BaseAudioContext.audioWorklet</li>
               
+                <li>api.Worklet</li>
+              
+                <li>api.Worklet.addModule</li>
+              
+                <li>api.WorkletGlobalScope</li>
+              
             </ul>
           </td>
         </tr>
       
         <tr class="baseline-false">
           <td>autocapitalize</td>
-          <td>Autocapitalize</td>
+          <td>autocapitalize</td>
           <td>The autocapitalize global HTML attribute sets the virtual keyboard capitalization behavior for user input on an element, such as the first letter of sentences or all words.</td>
           <td>
             <ul>
@@ -2090,7 +2145,7 @@
       
         <tr class="baseline-false">
           <td>autocorrect</td>
-          <td>Autocorrect</td>
+          <td>autocorrect</td>
           <td>The autocorrect global HTML attribute controls whether to automatically correct spelling or punctuation errors for user input.</td>
           <td>
             <ul>
@@ -2118,7 +2173,7 @@
       
         <tr class="baseline-high">
           <td>autofocus</td>
-          <td>Autofocus</td>
+          <td>autofocus</td>
           <td>The autofocus HTML attribute gives focus to an element on page load.</td>
           <td>
             <ul>
@@ -2825,9 +2880,9 @@
           </td>
         </tr>
       
-        <tr class="baseline-high">
+        <tr class="baseline-false">
           <td>beforeunload</td>
-          <td>Beforeunload</td>
+          <td>beforeunload</td>
           <td>The beforeunload event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.</td>
           <td>
             <ul>
@@ -2947,8 +3002,6 @@
                 <li>html.elements.script.blocking</li>
               
                 <li>html.elements.style.blocking</li>
-              
-                <li>http.headers.Link.blocking</li>
               
             </ul>
           </td>
@@ -3239,6 +3292,8 @@
           <td>
             <ul>
               
+                <li>http.headers.Accept-Encoding.br</li>
+              
                 <li>http.headers.Content-Encoding.br</li>
               
             </ul>
@@ -3485,6 +3540,8 @@
               
                 <li>api.CanvasRenderingContext2D.isPointInStroke.path_parameter</li>
               
+                <li>api.CanvasRenderingContext2D.lang</li>
+              
                 <li>api.CanvasRenderingContext2D.letterSpacing</li>
               
                 <li>api.CanvasRenderingContext2D.lineCap</li>
@@ -3554,6 +3611,8 @@
                 <li>api.CanvasRenderingContext2D.translate</li>
               
                 <li>api.CanvasRenderingContext2D.wordSpacing</li>
+              
+                <li>api.HTMLCanvasElement.getContext.2d_context</li>
               
                 <li>api.ImageData</li>
               
@@ -3987,9 +4046,9 @@
               
                 <li>javascript.classes.static</li>
               
-                <li>javascript.classes.static_class_fields</li>
+                <li>javascript.classes.static.class_fields</li>
               
-                <li>javascript.classes.static_initialization_blocks</li>
+                <li>javascript.classes.static.initialization_blocks</li>
               
                 <li>javascript.operators.class</li>
               
@@ -4084,7 +4143,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-high">
           <td>clip-path-animatable</td>
           <td>Animatable clipping paths</td>
           <td>The clip-path property can be animated using CSS transitions and animations.</td>
@@ -4150,7 +4209,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>clipboard-supports</td>
           <td>ClipboardItem.supports()</td>
           <td>The ClipboardItem.supports() static method checks if the browser supports writing data types such as &quot;image/svg+xml&quot; or other custom formats to the system clipboard.</td>
@@ -4322,9 +4381,7 @@
               
                 <li>css.properties.color-scheme.normal</li>
               
-                <li>css.properties.color-scheme.only_dark</li>
-              
-                <li>css.properties.color-scheme.only_light</li>
+                <li>css.properties.color-scheme.only</li>
               
                 <li>html.elements.meta.name.color-scheme</li>
               
@@ -4416,6 +4473,17 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>column-pseudo</td>
+          <td>::column</td>
+          <td>The ::column CSS pseudo-element represents the individual columns of a multi-column layout container. Columns can only be styled with scroll snap CSS properties and can also have a ::scroll-marker pseudo-element, which scrolls to the column when activated.</td>
+          <td>
+            <ul>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-high">
           <td>column-span</td>
           <td>column-span</td>
@@ -4464,6 +4532,33 @@
                 <li>api.Element.compositionstart_event</li>
               
                 <li>api.Element.compositionupdate_event</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>compression-dictionary-transport</td>
+          <td>Compression Dictionary Transport</td>
+          <td>Compression Dictionary Transport is a mechanism for using designated HTTP responses as an external dictionary for future HTTP responses for compression schemes that support using external dictionaries (e.g., Brotli and Zstandard)</td>
+          <td>
+            <ul>
+              
+                <li>html.elements.link.rel.compression-dictionary</li>
+              
+                <li>http.headers.Accept-Encoding.dcb</li>
+              
+                <li>http.headers.Accept-Encoding.dcz</li>
+              
+                <li>http.headers.Available-Dictionary</li>
+              
+                <li>http.headers.Content-Encoding.dcb</li>
+              
+                <li>http.headers.Content-Encoding.dcz</li>
+              
+                <li>http.headers.Dictionary-ID</li>
+              
+                <li>http.headers.Use-As-Dictionary</li>
               
             </ul>
           </td>
@@ -4829,7 +4924,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>contain-inline-size</td>
           <td>Inline-size containment</td>
           <td>The contain: inline-size CSS declaration prevents the element&#39;s inline dimension from being set by the element&#39;s contents. This permits the browser to avoid slower layout calculations.</td>
@@ -5083,7 +5178,7 @@
       
         <tr class="baseline-high">
           <td>contenteditable</td>
-          <td>Contenteditable</td>
+          <td>contenteditable</td>
           <td>The contenteditable global HTML attribute allows the user to edit the content of an element, such as inserting or deleting text.</td>
           <td>
             <ul>
@@ -5098,7 +5193,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>contenteditable-plaintextonly</td>
           <td>contenteditable="plaintext-only"</td>
           <td>The contenteditable=&quot;plaintext-only&quot; global HTML attribute allows the user to edit the content of an element, but prevents rich-text formatting.</td>
@@ -5151,6 +5246,8 @@
           <td>
             <ul>
               
+                <li>css.types.color.contrast-color</li>
+              
             </ul>
           </td>
         </tr>
@@ -5175,7 +5272,7 @@
         <tr class="baseline-low">
           <td>cookie-enabled</td>
           <td>cookieEnabled</td>
-          <td>The navigator.cookieEnabled property returns a Boolean value for whether the browser accepts or ignores attempts to write cookie data.</td>
+          <td>The navigator.cookieEnabled property is a boolean for whether the browser accepts or ignores attempts to write cookie data.</td>
           <td>
             <ul>
               
@@ -5198,35 +5295,7 @@
               
                 <li>api.CookieChangeEvent.changed</li>
               
-                <li>api.CookieChangeEvent.changed.domain_property</li>
-              
-                <li>api.CookieChangeEvent.changed.expires_property</li>
-              
-                <li>api.CookieChangeEvent.changed.name_property</li>
-              
-                <li>api.CookieChangeEvent.changed.path_property</li>
-              
-                <li>api.CookieChangeEvent.changed.sameSite_property</li>
-              
-                <li>api.CookieChangeEvent.changed.secure_property</li>
-              
-                <li>api.CookieChangeEvent.changed.value_property</li>
-              
                 <li>api.CookieChangeEvent.deleted</li>
-              
-                <li>api.CookieChangeEvent.deleted.domain_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.expires_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.name_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.path_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.sameSite_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.secure_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.value_property</li>
               
                 <li>api.CookieStore</li>
               
@@ -5251,20 +5320,6 @@
                 <li>api.CookieStore.get.value_return_property</li>
               
                 <li>api.CookieStore.getAll</li>
-              
-                <li>api.CookieStore.getAll.domain_return_property</li>
-              
-                <li>api.CookieStore.getAll.expires_return_property</li>
-              
-                <li>api.CookieStore.getAll.name_return_property</li>
-              
-                <li>api.CookieStore.getAll.path_return_property</li>
-              
-                <li>api.CookieStore.getAll.sameSite_return_property</li>
-              
-                <li>api.CookieStore.getAll.secure_return_property</li>
-              
-                <li>api.CookieStore.getAll.value_return_property</li>
               
                 <li>api.CookieStore.set</li>
               
@@ -5484,7 +5539,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-high">
           <td>createimagebitmap</td>
           <td>createImageBitmap</td>
           <td>The createImageBitmap() global method creates an ImageBitmap object from a source such as an image, SVG, blob, or canvas. An ImageBitmap object represents pixel data that can be drawn to a canvas with lower latency than other types, such as ImageData.</td>
@@ -5498,12 +5553,6 @@
                 <li>api.ImageBitmap.height</li>
               
                 <li>api.ImageBitmap.width</li>
-              
-                <li>api.ImageBitmapRenderingContext</li>
-              
-                <li>api.ImageBitmapRenderingContext.canvas</li>
-              
-                <li>api.ImageBitmapRenderingContext.transferFromImageBitmap</li>
               
                 <li>api.createImageBitmap</li>
               
@@ -5609,32 +5658,6 @@
           <td>Content Security Policy (CSP) helps to mitigate certain security threats, including cross-site scripting (XSS) and clickjacking attacks. It consists of a set of directives from a website to a browser, which instruct the browser to restrict the things that the site is allowed to do.</td>
           <td>
             <ul>
-              
-                <li>api.CSPViolationReportBody</li>
-              
-                <li>api.CSPViolationReportBody.blockedURL</li>
-              
-                <li>api.CSPViolationReportBody.columnNumber</li>
-              
-                <li>api.CSPViolationReportBody.disposition</li>
-              
-                <li>api.CSPViolationReportBody.documentURL</li>
-              
-                <li>api.CSPViolationReportBody.effectiveDirective</li>
-              
-                <li>api.CSPViolationReportBody.lineNumber</li>
-              
-                <li>api.CSPViolationReportBody.originalPolicy</li>
-              
-                <li>api.CSPViolationReportBody.referrer</li>
-              
-                <li>api.CSPViolationReportBody.sample</li>
-              
-                <li>api.CSPViolationReportBody.sourceFile</li>
-              
-                <li>api.CSPViolationReportBody.statusCode</li>
-              
-                <li>api.CSPViolationReportBody.toJSON</li>
               
                 <li>api.Document.securitypolicyviolation_event</li>
               
@@ -6441,7 +6464,7 @@
               
                 <li>css.properties.custom-property</li>
               
-                <li>css.properties.custom-property.var</li>
+                <li>css.types.var</li>
               
             </ul>
           </td>
@@ -6453,6 +6476,16 @@
           <td>The &lt;select&gt; element&#39;s appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.</td>
           <td>
             <ul>
+              
+                <li>css.properties.appearance.base-select</li>
+              
+                <li>css.selectors.checkmark</li>
+              
+                <li>css.selectors.picker</li>
+              
+                <li>css.selectors.picker-icon</li>
+              
+                <li>html.elements.selectedcontent</li>
               
             </ul>
           </td>
@@ -6656,6 +6689,34 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>date-get-year-set-year</td>
+          <td>getYear() and setYear()</td>
+          <td>The getYear() and setYear() methods of Date objects get and set the year as an offset to 1900.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.Date.getYear</li>
+              
+                <li>javascript.builtins.Date.setYear</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>date-to-gmt-string</td>
+          <td>toGMTString()</td>
+          <td>The toGMTString() method of Date objects is an alias to the toUTCString() method.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.Date.toGMTString</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-low">
           <td>declarative-shadow-dom</td>
           <td>Declarative shadow DOM</td>
@@ -6678,6 +6739,79 @@
                 <li>html.elements.template.shadowrootmode</li>
               
                 <li>html.elements.template.shadowrootserializable</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-high">
+          <td>dedicated-workers</td>
+          <td>Dedicated workers</td>
+          <td>The Worker() constructor runs a script in its own thread, which can send and receive messages with the script that created it. Also known as web workers.</td>
+          <td>
+            <ul>
+              
+                <li>api.DedicatedWorkerGlobalScope</li>
+              
+                <li>api.DedicatedWorkerGlobalScope.close</li>
+              
+                <li>api.DedicatedWorkerGlobalScope.name</li>
+              
+                <li>api.Worker</li>
+              
+                <li>api.Worker.Worker</li>
+              
+                <li>api.Worker.Worker.mime_checks</li>
+              
+                <li>api.Worker.Worker.options_name_parameter</li>
+              
+                <li>api.Worker.error_event</li>
+              
+                <li>api.Worker.terminate</li>
+              
+                <li>api.Worker.worker_support</li>
+              
+                <li>api.WorkerGlobalScope</li>
+              
+                <li>api.WorkerGlobalScope.error_event</li>
+              
+                <li>api.WorkerGlobalScope.importScripts</li>
+              
+                <li>api.WorkerGlobalScope.importScripts.mime_checks</li>
+              
+                <li>api.WorkerGlobalScope.location</li>
+              
+                <li>api.WorkerGlobalScope.navigator</li>
+              
+                <li>api.WorkerGlobalScope.rejectionhandled_event</li>
+              
+                <li>api.WorkerGlobalScope.self</li>
+              
+                <li>api.WorkerGlobalScope.unhandledrejection_event</li>
+              
+                <li>api.WorkerLocation</li>
+              
+                <li>api.WorkerLocation.hash</li>
+              
+                <li>api.WorkerLocation.host</li>
+              
+                <li>api.WorkerLocation.hostname</li>
+              
+                <li>api.WorkerLocation.href</li>
+              
+                <li>api.WorkerLocation.origin</li>
+              
+                <li>api.WorkerLocation.pathname</li>
+              
+                <li>api.WorkerLocation.port</li>
+              
+                <li>api.WorkerLocation.protocol</li>
+              
+                <li>api.WorkerLocation.search</li>
+              
+                <li>api.WorkerLocation.toString</li>
+              
+                <li>api.WorkerNavigator</li>
               
             </ul>
           </td>
@@ -6815,7 +6949,7 @@
         <tr class="baseline-false">
           <td>device-memory</td>
           <td>Device memory</td>
-          <td>The navigator.deviceMemory property returns the approximate amount of device memory, in gigabytes.</td>
+          <td>The navigator.deviceMemory property is the approximate amount of device memory, in gigabytes.</td>
           <td>
             <ul>
               
@@ -6931,7 +7065,7 @@
         <tr class="baseline-false">
           <td>devicepixelratio</td>
           <td>devicePixelRatio</td>
-          <td>The window.devicePixelRatio read-only property returns the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.</td>
+          <td>The window.devicePixelRatio property is the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.</td>
           <td>
             <ul>
               
@@ -6984,6 +7118,21 @@
                 <li>html.elements.dialog</li>
               
                 <li>html.elements.dialog.open</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>dialog-closedby</td>
+          <td>&lt;dialog closedby&gt;</td>
+          <td>The closedby HTML attribute for &lt;dialog&gt; sets which user actions close a dialog. For example, closedby=&quot;any&quot; allows the dialog to be closed by clicking outside of it.</td>
+          <td>
+            <ul>
+              
+                <li>api.HTMLDialogElement.closedBy</li>
+              
+                <li>html.elements.dialog.closedby</li>
               
             </ul>
           </td>
@@ -7153,6 +7302,8 @@
               
                 <li>css.properties.display.ruby-text-container</li>
               
+                <li>css.properties.ruby-position.alternate</li>
+              
             </ul>
           </td>
         </tr>
@@ -7219,6 +7370,8 @@
                 <li>api.CaretPosition.offsetNode</li>
               
                 <li>api.Document.caretPositionFromPoint</li>
+              
+                <li>api.Document.caretPositionFromPoint.options_parameter</li>
               
             </ul>
           </td>
@@ -7289,11 +7442,11 @@
               
                 <li>api.Document.write</li>
               
-                <li>api.Document.write.accepts_TrustedHTML</li>
+                <li>api.Document.write.enforces_trusted_types</li>
               
                 <li>api.Document.writeln</li>
               
-                <li>api.Document.writeln.accepts_TrustedHTML</li>
+                <li>api.Document.writeln.enforces_trusted_types</li>
               
             </ul>
           </td>
@@ -7717,6 +7870,8 @@
                 <li>api.HTMLElement.hidden</li>
               
                 <li>api.HTMLElement.innerText</li>
+              
+                <li>api.HTMLElement.load_event</li>
               
                 <li>api.HTMLElement.offsetHeight</li>
               
@@ -8695,7 +8850,7 @@
       
         <tr class="baseline-high">
           <td>enterkeyhint</td>
-          <td>Enterkeyhint</td>
+          <td>enterkeyhint</td>
           <td>The enterkeyhint global HTML attribute sets the label for a virtual keyboard&#39;s Enter key. For example, enterkeyhint=&quot;search&quot; may label the key with a magnifying glass icon.</td>
           <td>
             <ul>
@@ -8718,6 +8873,21 @@
                 <li>javascript.builtins.Error.Error.options_cause_parameter</li>
               
                 <li>javascript.builtins.Error.cause</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>escape-unescape</td>
+          <td>escape() and unescape()</td>
+          <td>The escape() and unescape() built-in Javascript methods encode and unencode strings using percent encoding, where certain characters are replaced by hexadecimal escape sequences.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.escape</li>
+              
+                <li>javascript.builtins.unescape</li>
               
             </ul>
           </td>
@@ -9088,7 +9258,7 @@
       
         <tr class="baseline-false">
           <td>ext-texture-norm16</td>
-          <td>EXT_texture_norm16c WebGL extension</td>
+          <td>EXT_texture_norm16 WebGL extension</td>
           <td>The EXT_texture_norm16 extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.</td>
           <td>
             <ul>
@@ -9159,7 +9329,7 @@
               
                 <li>api.CredentialsContainer.get.identity_option.context_option</li>
               
-                <li>api.CredentialsContainer.get.identity_option.loginHint</li>
+                <li>api.CredentialsContainer.get.identity_option.providers_option_loginHint</li>
               
                 <li>api.IdentityCredential</li>
               
@@ -9432,7 +9602,7 @@
         <tr class="baseline-low">
           <td>fetch-priority</td>
           <td>Fetch priority</td>
-          <td>The fetch() priority option and the fetchPriority HTML attribute give hints to the browser about which requests to do before other requests of the same type.</td>
+          <td>The fetch() priority option and the fetchpriority HTML attribute give hints to the browser about which requests to do before other requests of the same type.</td>
           <td>
             <ul>
               
@@ -9454,18 +9624,45 @@
               
                 <li>http.headers.Link.fetchpriority</li>
               
+                <li>svg.elements.feImage.fetchpriority</li>
+              
+                <li>svg.elements.image.fetchpriority</li>
+              
+                <li>svg.elements.script.fetchpriority</li>
+              
             </ul>
           </td>
         </tr>
       
         <tr class="baseline-false">
           <td>fetch-request-streams</td>
-          <td>Fetch request streams</td>
-          <td>A fetch() request streams data to the server when a request&#39;s body property is a ReadableStream object.</td>
+          <td>Fetch upload streams</td>
+          <td>A fetch() request uploads a stream of data to the server when a request&#39;s body property is a ReadableStream object.</td>
           <td>
             <ul>
               
                 <li>api.Request.body</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>fetchlater</td>
+          <td>fetchLater</td>
+          <td>The fetchLater() method requests a deferred fetch sent at an unknown time. The browser chooses a reliable time to send the request, ideally when the document is unloaded, and ignores the response. This API is useful for sending beacons to a server without expecting a particular response.</td>
+          <td>
+            <ul>
+              
+                <li>api.FetchLaterResult</li>
+              
+                <li>api.FetchLaterResult.activated</li>
+              
+                <li>api.Window.fetchLater</li>
+              
+                <li>http.headers.Permissions-Policy.deferred-fetch</li>
+              
+                <li>http.headers.Permissions-Policy.deferred-fetch-minimal</li>
               
             </ul>
           </td>
@@ -9842,6 +10039,8 @@
               
                 <li>css.properties.align-content.flex_context.stretch</li>
               
+                <li>css.properties.align-content.normal</li>
+              
                 <li>css.properties.align-items</li>
               
                 <li>css.properties.align-items.flex_context</li>
@@ -9858,6 +10057,8 @@
               
                 <li>css.properties.align-self</li>
               
+                <li>css.properties.align-self.auto</li>
+              
                 <li>css.properties.align-self.flex_context</li>
               
                 <li>css.properties.align-self.flex_context.baseline</li>
@@ -9871,6 +10072,10 @@
                 <li>css.properties.align-self.flex_context.start_end</li>
               
                 <li>css.properties.align-self.flex_context.stretch</li>
+              
+                <li>css.properties.align-self.normal</li>
+              
+                <li>css.properties.align-self.stretch</li>
               
                 <li>css.properties.display.flex</li>
               
@@ -9932,9 +10137,21 @@
               
                 <li>css.properties.justify-content.flex_context.stretch</li>
               
+                <li>css.properties.justify-content.left</li>
+              
+                <li>css.properties.justify-content.normal</li>
+              
+                <li>css.properties.justify-content.right</li>
+              
                 <li>css.properties.justify-items</li>
               
                 <li>css.properties.justify-items.flex_context</li>
+              
+                <li>css.properties.justify-items.left</li>
+              
+                <li>css.properties.justify-items.legacy</li>
+              
+                <li>css.properties.justify-items.right</li>
               
                 <li>css.properties.order</li>
               
@@ -10000,7 +10217,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>float16array</td>
           <td>Float16Array</td>
           <td>Float16Array is a typed array of 16-bit floating point numbers.</td>
@@ -10220,6 +10437,12 @@
               
                 <li>css.properties.font-kerning</li>
               
+                <li>css.properties.font-kerning.auto</li>
+              
+                <li>css.properties.font-kerning.none</li>
+              
+                <li>css.properties.font-kerning.normal</li>
+              
             </ul>
           </td>
         </tr>
@@ -10368,7 +10591,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>font-palette</td>
           <td>font-palette</td>
           <td>The font-palette CSS property selects a color palette from the font, optionally overriding individual colors in the @font-palette-values at-rule.</td>
@@ -10487,7 +10710,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-high">
+        <tr class="baseline-false">
           <td>font-stretch</td>
           <td>font-stretch</td>
           <td>The font-stretch CSS property selects a font face from a font family based on width, either by a keyword such as condensed or a percentage.</td>
@@ -10500,7 +10723,7 @@
               
                 <li>css.properties.font-stretch.percentage</li>
               
-                <li>css.properties.font.font_stretch_support</li>
+                <li>css.properties.font.font-width_keyword_values</li>
               
                 <li>svg.global_attributes.font-stretch</li>
               
@@ -10946,7 +11169,38 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-false">
+          <td>font-width</td>
+          <td>font-width</td>
+          <td>The font-width CSS property selects a font face from a font family based on width, either by a keyword such as condensed or a percentage.</td>
+          <td>
+            <ul>
+              
+                <li>css.properties.font-width</li>
+              
+                <li>css.properties.font-width.condensed</li>
+              
+                <li>css.properties.font-width.expanded</li>
+              
+                <li>css.properties.font-width.extra-condensed</li>
+              
+                <li>css.properties.font-width.extra-expanded</li>
+              
+                <li>css.properties.font-width.normal</li>
+              
+                <li>css.properties.font-width.semi-condensed</li>
+              
+                <li>css.properties.font-width.semi-expanded</li>
+              
+                <li>css.properties.font-width.ultra-condensed</li>
+              
+                <li>css.properties.font-width.ultra-expanded</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-high">
           <td>forced-colors</td>
           <td>Forced colors</td>
           <td>The forced-colors CSS @media rule detects when a user has chosen to use a forced colors mode, also known as high-contrast mode, and the forced-color-adjust CSS property sets whether forced colors apply to an element.</td>
@@ -11158,6 +11412,17 @@
                 <li>html.elements.iframe.allowfullscreen</li>
               
                 <li>http.headers.Permissions-Policy.fullscreen</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>function</td>
+          <td>@function</td>
+          <td>The @function CSS at-rule defines a custom function that takes CSS values or custom properties as arguments, and returns a CSS value. It can be based on conditional logic such as by using the @media at-rule.</td>
+          <td>
+            <ul>
               
             </ul>
           </td>
@@ -11398,6 +11663,17 @@
                 <li>api.GamepadPose.position</li>
               
                 <li>api.GamepadPose.secure_context_required</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>gap-decorations</td>
+          <td>Gap decorations</td>
+          <td>The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.</td>
+          <td>
+            <ul>
               
             </ul>
           </td>
@@ -11722,6 +11998,8 @@
               
                 <li>css.properties.gap.grid_context.percentage_values</li>
               
+                <li>css.properties.gap.normal</li>
+              
                 <li>css.properties.grid</li>
               
                 <li>css.properties.grid-area</li>
@@ -11796,7 +12074,17 @@
               
                 <li>css.properties.justify-self</li>
               
+                <li>css.properties.justify-self.auto</li>
+              
                 <li>css.properties.justify-self.grid_context</li>
+              
+                <li>css.properties.justify-self.left</li>
+              
+                <li>css.properties.justify-self.normal</li>
+              
+                <li>css.properties.justify-self.right</li>
+              
+                <li>css.properties.justify-self.stretch</li>
               
                 <li>css.properties.place-content.grid_context</li>
               
@@ -11808,13 +12096,15 @@
               
                 <li>css.properties.row-gap.grid_context</li>
               
+                <li>css.properties.row-gap.normal</li>
+              
                 <li>css.types.flex</li>
               
             </ul>
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>grid-animation</td>
           <td>Grid animation</td>
           <td>Grid animation allows you to animate the grid-template-columns and grid-template-rows CSS properties.</td>
@@ -11880,7 +12170,7 @@
         <tr class="baseline-high">
           <td>hardware-concurrency</td>
           <td>hardwareConcurrency</td>
-          <td>The navigator.hardwareConcurrency read-only property returns the number of logical processors available to run threads on the user&#39;s computer.</td>
+          <td>The navigator.hardwareConcurrency property is the number of logical processors available to run threads on the user&#39;s computer.</td>
           <td>
             <ul>
               
@@ -12088,6 +12378,8 @@
               
                 <li>api.HighlightRegistry.has</li>
               
+                <li>api.HighlightRegistry.highlightsFromPoint</li>
+              
                 <li>api.HighlightRegistry.keys</li>
               
                 <li>api.HighlightRegistry.set</li>
@@ -12243,6 +12535,45 @@
                 <li>api.HTMLInputElement.capture</li>
               
                 <li>html.elements.input.capture</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>html-wrapper-methods</td>
+          <td>HTML wrapper methods</td>
+          <td>JavaScript built-in methods such as, String.bold() and String.italics(), wrap strings in (often historic) HTML.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.String.anchor</li>
+              
+                <li>javascript.builtins.String.big</li>
+              
+                <li>javascript.builtins.String.blink</li>
+              
+                <li>javascript.builtins.String.bold</li>
+              
+                <li>javascript.builtins.String.fixed</li>
+              
+                <li>javascript.builtins.String.fontcolor</li>
+              
+                <li>javascript.builtins.String.fontsize</li>
+              
+                <li>javascript.builtins.String.italics</li>
+              
+                <li>javascript.builtins.String.link</li>
+              
+                <li>javascript.builtins.String.small</li>
+              
+                <li>javascript.builtins.String.strike</li>
+              
+                <li>javascript.builtins.String.sub</li>
+              
+                <li>javascript.builtins.String.substr</li>
+              
+                <li>javascript.builtins.String.sup</li>
               
             </ul>
           </td>
@@ -12611,7 +12942,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>ic</td>
           <td>ic unit</td>
           <td>The ic CSS length unit corresponds to the width of CJK ideographic characters.</td>
@@ -12648,6 +12979,19 @@
                 <li>html.elements.iframe.allow.idle-detection</li>
               
                 <li>http.headers.Permissions-Policy.idle-detection</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>if</td>
+          <td>if()</td>
+          <td>The if() CSS function is an inline conditional value that returns a value based on a set of conditions.</td>
+          <td>
+            <ul>
+              
+                <li>css.types.if</li>
               
             </ul>
           </td>
@@ -12905,6 +13249,27 @@
                 <li>css.properties.content.image-set</li>
               
                 <li>css.types.image.image-set</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-high">
+          <td>imagebitmaprenderingcontext</td>
+          <td>ImageBitmapRenderingContext</td>
+          <td>The ImageBitmapRenderingContext API is the &quot;bitmaprenderer&quot; rendering context for the &lt;canvas&gt; element. It is commonly used to transfer frames from an OffscreenCanvas to a user-visible &lt;canvas&gt; element.</td>
+          <td>
+            <ul>
+              
+                <li>api.HTMLCanvasElement.getContext.bitmaprenderer_context</li>
+              
+                <li>api.HTMLCanvasElement.getContext.bitmaprenderer_context.options_alpha_parameter</li>
+              
+                <li>api.ImageBitmapRenderingContext</li>
+              
+                <li>api.ImageBitmapRenderingContext.canvas</li>
+              
+                <li>api.ImageBitmapRenderingContext.transferFromImageBitmap</li>
               
             </ul>
           </td>
@@ -13314,9 +13679,9 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>inert</td>
-          <td>Inert elements</td>
+          <td>inert</td>
           <td>The inert HTML attribute marks an element and its descendants as non-interactive. Inert elements don&#39;t get focus or fire click events.</td>
           <td>
             <ul>
@@ -13326,6 +13691,8 @@
                 <li>api.HTMLElement.inert.ignores_find_in_page</li>
               
                 <li>html.global_attributes.inert</li>
+              
+                <li>html.global_attributes.inert.ignores_find_in_page</li>
               
             </ul>
           </td>
@@ -13564,6 +13931,14 @@
           <td>The &lt;input type=&quot;color&quot;&gt; HTML element shows a color picker from which users can choose a color value.</td>
           <td>
             <ul>
+              
+                <li>api.HTMLInputElement.alpha</li>
+              
+                <li>api.HTMLInputElement.colorSpace</li>
+              
+                <li>html.elements.input.alpha</li>
+              
+                <li>html.elements.input.colorspace</li>
               
                 <li>html.elements.input.type_color</li>
               
@@ -14216,7 +14591,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>intl-duration-format</td>
           <td>Intl.DurationFormat</td>
           <td>The Intl.DurationFormat API creates a locale-aware formatter that turns an object representing a duration (such as days, hours, and minutes) into a string.</td>
@@ -14517,7 +14892,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>iterator-methods</td>
           <td>Iterator methods</td>
           <td>The Iterator object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as filter(), find(), map(), and reduce(). You can also use the static method Iterator.from() to convert an existing iterable into an Iterator.</td>
@@ -14806,6 +15181,8 @@
           <td>
             <ul>
               
+                <li>api.Worklet.ecmascript_modules</li>
+              
                 <li>html.elements.script.nomodule</li>
               
                 <li>html.elements.script.type.module</li>
@@ -14908,7 +15285,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>json-modules</td>
           <td>JSON import attributes</td>
           <td>Module import … with { type: &quot;json&quot; } statements load JSON data. Also known as JSON module scripts.</td>
@@ -15142,7 +15519,7 @@
       
         <tr class="baseline-high">
           <td>lang-attr</td>
-          <td>Lang</td>
+          <td>lang</td>
           <td>The lang global HTML attribute defines the language of an element. It&#39;s used by assistive technology to correctly read the content, translation tools to select the origin language, and other applications.</td>
           <td>
             <ul>
@@ -15158,7 +15535,7 @@
         <tr class="baseline-high">
           <td>language</td>
           <td>Language</td>
-          <td>The navigator.language read-only property returns a string representing the preferred language of the user, usually the language of the browser UI. The navigator.languages read-only property returns an array of strings representing the user&#39;s preferred languages.</td>
+          <td>The navigator.language property is a string representing the preferred language of the user, usually the language of the browser UI. The navigator.languages property is an array of strings representing the user&#39;s preferred languages.</td>
           <td>
             <ul>
               
@@ -15450,7 +15827,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-false">
           <td>link-rel-dns-prefetch</td>
           <td>&lt;link rel="dns-prefetch"&gt;</td>
           <td>The rel=&quot;dns-prefetch&quot; attribute for the &lt;link&gt; HTML element is a hint to the browser that the page or user is likely to request resources from another domain, so the browser should preemptively resolve DNS for the href value&#39;s domain.</td>
@@ -16230,35 +16607,35 @@
               
                 <li>html.elements.link.rel.manifest</li>
               
-                <li>html.manifest.background_color</li>
+                <li>manifests.webapp.background_color</li>
               
-                <li>html.manifest.description</li>
+                <li>manifests.webapp.description</li>
               
-                <li>html.manifest.display</li>
+                <li>manifests.webapp.display</li>
               
-                <li>html.manifest.icons</li>
+                <li>manifests.webapp.icons</li>
               
-                <li>html.manifest.id</li>
+                <li>manifests.webapp.id</li>
               
-                <li>html.manifest.name</li>
+                <li>manifests.webapp.name</li>
               
-                <li>html.manifest.orientation</li>
+                <li>manifests.webapp.orientation</li>
               
-                <li>html.manifest.scope</li>
+                <li>manifests.webapp.scope</li>
               
-                <li>html.manifest.serviceworker</li>
+                <li>manifests.webapp.serviceworker</li>
               
-                <li>html.manifest.serviceworker.scope</li>
+                <li>manifests.webapp.serviceworker.scope</li>
               
-                <li>html.manifest.serviceworker.src</li>
+                <li>manifests.webapp.serviceworker.src</li>
               
-                <li>html.manifest.serviceworker.use_cache</li>
+                <li>manifests.webapp.serviceworker.use_cache</li>
               
-                <li>html.manifest.short_name</li>
+                <li>manifests.webapp.short_name</li>
               
-                <li>html.manifest.start_url</li>
+                <li>manifests.webapp.start_url</li>
               
-                <li>html.manifest.theme_color</li>
+                <li>manifests.webapp.theme_color</li>
               
             </ul>
           </td>
@@ -16548,7 +16925,20 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-false">
+          <td>math-sum-precise</td>
+          <td>Math.sumPrecise()</td>
+          <td>The Math.sumPrecise() static method returns the sum of an iterable of numbers. It avoids the precision loss of intermediate partial sums, as found using reduce() or a loop to add together an array of values.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.Math.sumPrecise</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-high">
           <td>mathml</td>
           <td>MathML</td>
           <td>MathML, or the Mathematical Markup Language, describes mathematical notation, such as expressions and formulas. Also known as MathML Core.</td>
@@ -17297,6 +17687,51 @@
         </tr>
       
         <tr class="baseline-false">
+          <td>mediacontroller</td>
+          <td>MediaController</td>
+          <td>The playback of multiple &lt;video&gt; or &lt;audio&gt; elements can be coordinated by a MediaController instance, for example to synchronize a sign-language interpreter track with the main video track.</td>
+          <td>
+            <ul>
+              
+                <li>api.HTMLMediaElement.controller</li>
+              
+                <li>api.MediaController</li>
+              
+                <li>api.MediaController.MediaController</li>
+              
+                <li>api.MediaController.buffered</li>
+              
+                <li>api.MediaController.currentTime</li>
+              
+                <li>api.MediaController.defaultPlaybackRate</li>
+              
+                <li>api.MediaController.duration</li>
+              
+                <li>api.MediaController.muted</li>
+              
+                <li>api.MediaController.pause</li>
+              
+                <li>api.MediaController.paused</li>
+              
+                <li>api.MediaController.play</li>
+              
+                <li>api.MediaController.playbackRate</li>
+              
+                <li>api.MediaController.playbackState</li>
+              
+                <li>api.MediaController.played</li>
+              
+                <li>api.MediaController.seekable</li>
+              
+                <li>api.MediaController.unpause</li>
+              
+                <li>api.MediaController.volume</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
           <td>mediastream-recording</td>
           <td>MediaStream recording</td>
           <td>The MediaRecorder API captures data generated by MediaStream or HTMLMediaElement objects for analysis, processing, or saving to disk. Also known as the Media Recording API or the MediaRecorder API.</td>
@@ -17385,7 +17820,11 @@
               
                 <li>api.ServiceWorkerContainer.messageerror_event</li>
               
+                <li>api.ServiceWorkerGlobalScope.messageerror_event</li>
+              
                 <li>api.Window.messageerror_event</li>
+              
+                <li>api.Worker.messageerror_event</li>
               
             </ul>
           </td>
@@ -17620,7 +18059,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>modal</td>
           <td>:modal</td>
           <td>The :modal pseudo-class selects elements that put other elements into a non-interactive state, such as a fullscreen element or a &lt;dialog&gt; element used with showModal().</td>
@@ -17646,7 +18085,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>motion-path</td>
           <td>Motion path</td>
           <td>The offset CSS property animates an element along a defined motion path.</td>
@@ -17808,6 +18247,23 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>move-before</td>
+          <td>moveBefore()</td>
+          <td>The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.</td>
+          <td>
+            <ul>
+              
+                <li>api.Document.moveBefore</li>
+              
+                <li>api.DocumentFragment.moveBefore</li>
+              
+                <li>api.Element.moveBefore</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-high">
           <td>multi-column</td>
           <td>Multi-column layout</td>
@@ -17828,6 +18284,8 @@
                 <li>css.properties.column-gap.multicol_context.calc_values</li>
               
                 <li>css.properties.column-gap.multicol_context.percentage_values</li>
+              
+                <li>css.properties.column-gap.normal</li>
               
                 <li>css.properties.column-rule</li>
               
@@ -18973,6 +19431,77 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>observable</td>
+          <td>Observable</td>
+          <td>The when() method on a event target returns an Observable object, which provides a declarative API for subscribing to and operating on events. It&#39;s an alternative to addEventListener() callbacks.</td>
+          <td>
+            <ul>
+              
+                <li>api.EventTarget.when</li>
+              
+                <li>api.Observable</li>
+              
+                <li>api.Observable.Observable</li>
+              
+                <li>api.Observable.catch</li>
+              
+                <li>api.Observable.drop</li>
+              
+                <li>api.Observable.every</li>
+              
+                <li>api.Observable.filter</li>
+              
+                <li>api.Observable.finally</li>
+              
+                <li>api.Observable.find</li>
+              
+                <li>api.Observable.first</li>
+              
+                <li>api.Observable.flatMap</li>
+              
+                <li>api.Observable.forEach</li>
+              
+                <li>api.Observable.from_static</li>
+              
+                <li>api.Observable.inspect</li>
+              
+                <li>api.Observable.last</li>
+              
+                <li>api.Observable.map</li>
+              
+                <li>api.Observable.reduce</li>
+              
+                <li>api.Observable.some</li>
+              
+                <li>api.Observable.subscribe</li>
+              
+                <li>api.Observable.switchMap</li>
+              
+                <li>api.Observable.take</li>
+              
+                <li>api.Observable.takeUntil</li>
+              
+                <li>api.Observable.toArray</li>
+              
+                <li>api.Subscriber</li>
+              
+                <li>api.Subscriber.active</li>
+              
+                <li>api.Subscriber.addTeardown</li>
+              
+                <li>api.Subscriber.complete</li>
+              
+                <li>api.Subscriber.error</li>
+              
+                <li>api.Subscriber.next</li>
+              
+                <li>api.Subscriber.signal</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-high">
           <td>oes-element-index-uint</td>
           <td>OES_element_index_uint WebGL extension</td>
@@ -19315,7 +19844,7 @@
         <tr class="baseline-high">
           <td>online</td>
           <td>Online status</td>
-          <td>The navigator.onLine property returns a Boolean for whether the browser is connected to some network (though not necessarily the internet). The online and offline events fire when the connection state changes.</td>
+          <td>The navigator.onLine property is a boolean for whether the browser is connected to some network (though not necessarily the internet). The online and offline events fire when the connection state changes.</td>
           <td>
             <ul>
               
@@ -19638,6 +20167,25 @@
           </td>
         </tr>
       
+        <tr class="baseline-high">
+          <td>overflow-clip</td>
+          <td>overflow: clip</td>
+          <td>The overflow: clip CSS declaration clips an element&#39;s overflowing content to the box that&#39;s defined by the overflow-clip-margin property. Unlike overflow: hidden, it allows you to hide overflow on one axis while keeping overflow on the other axis visible.</td>
+          <td>
+            <ul>
+              
+                <li>css.properties.overflow-x.clip</li>
+              
+                <li>css.properties.overflow-y.clip</li>
+              
+                <li>css.properties.overflow.clip</li>
+              
+                <li>css.types.overflow.clip</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-false">
           <td>overflow-clip-margin</td>
           <td>overflow-clip-margin</td>
@@ -19670,7 +20218,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>overflow-shorthand</td>
           <td>overflow</td>
           <td>The overflow CSS property sets the behavior for when content doesn&#39;t fit in an element.</td>
@@ -19683,8 +20231,6 @@
               
                 <li>css.properties.overflow-x.auto</li>
               
-                <li>css.properties.overflow-x.clip</li>
-              
                 <li>css.properties.overflow-x.hidden</li>
               
                 <li>css.properties.overflow-x.scroll</li>
@@ -19695,8 +20241,6 @@
               
                 <li>css.properties.overflow-y.auto</li>
               
-                <li>css.properties.overflow-y.clip</li>
-              
                 <li>css.properties.overflow-y.hidden</li>
               
                 <li>css.properties.overflow-y.scroll</li>
@@ -19704,8 +20248,6 @@
                 <li>css.properties.overflow-y.visible</li>
               
                 <li>css.properties.overflow.auto</li>
-              
-                <li>css.properties.overflow.clip</li>
               
                 <li>css.properties.overflow.hidden</li>
               
@@ -19716,8 +20258,6 @@
                 <li>css.properties.overflow.visible</li>
               
                 <li>css.types.overflow</li>
-              
-                <li>css.types.overflow.clip</li>
               
             </ul>
           </td>
@@ -19759,7 +20299,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>overscroll-behavior</td>
           <td>overscroll-behavior</td>
           <td>The overscroll-behavior CSS property disables default scrolling behaviors when the edges of a scrolling area are reached.</td>
@@ -20281,7 +20821,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-false">
           <td>parse-html-unsafe</td>
           <td>Unsanitized HTML parsing methods</td>
           <td>The Document.parseHTMLUnsafe() static method parses HTML into a DOM tree, while the setHTMLUnsafe() method of Element and ShadowRoot parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.</td>
@@ -20305,15 +20845,9 @@
           <td>
             <ul>
               
-                <li>api.CookieChangeEvent.changed.partitioned_property</li>
-              
-                <li>api.CookieChangeEvent.deleted.partitioned_property</li>
-              
                 <li>api.CookieStore.delete.partitioned_option</li>
               
                 <li>api.CookieStore.get.partitioned_return_property</li>
-              
-                <li>api.CookieStore.getAll.partitioned_return_property</li>
               
                 <li>api.CookieStore.set.partitioned_option</li>
               
@@ -20508,7 +21042,7 @@
         <tr class="baseline-low">
           <td>pdf-viewer</td>
           <td>pdfViewerEnabled</td>
-          <td>The navigator.pdfViewerEnabled read-only property returns a Boolean for whether the browser navigates to and shows a PDF in the browser window or downloads the PDF.</td>
+          <td>The navigator.pdfViewerEnabled property is a boolean for whether the browser navigates to and shows a PDF in the browser window or downloads the PDF.</td>
           <td>
             <ul>
               
@@ -20688,7 +21222,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>permissions</td>
           <td>Permissions</td>
           <td>The navigator.permissions API checks whether a permission, such as access to geolocation data, has been granted.</td>
@@ -21003,13 +21537,13 @@
               
                 <li>api.HTMLElement.showPopover</li>
               
-                <li>api.HTMLElement.showPopover.source</li>
+                <li>api.HTMLElement.showPopover.options_source_parameter</li>
               
                 <li>api.HTMLElement.togglePopover</li>
               
-                <li>api.HTMLElement.togglePopover.returns_boolean</li>
+                <li>api.HTMLElement.togglePopover.options_source_parameter</li>
               
-                <li>api.HTMLElement.togglePopover.source</li>
+                <li>api.HTMLElement.togglePopover.returns_boolean</li>
               
                 <li>api.HTMLElement.toggle_event.popover_elements</li>
               
@@ -21339,9 +21873,9 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>print-color-adjust</td>
-          <td>Print color adjust</td>
+          <td>print-color-adjust</td>
           <td>The print-color-adjust CSS property sets whether styles of printed pages should be adjusted to use less ink, in cases such as light text on a dark background.</td>
           <td>
             <ul>
@@ -21548,6 +22082,19 @@
             <ul>
               
                 <li>javascript.builtins.Promise.withResolvers</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>proto</td>
+          <td>__proto__</td>
+          <td>The __proto__ property of objects partially exposes the prototype of an object.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.Object.proto</li>
               
             </ul>
           </td>
@@ -21792,6 +22339,66 @@
         </tr>
       
         <tr class="baseline-false">
+          <td>readable-byte-streams</td>
+          <td>Readable byte streams</td>
+          <td>A ReadableStream constructed with { type: &quot;bytes&quot; } reads bytes from a stream without making extra copies, improving efficiency for streams of large chunks. Also known as BYOB or bring your own buffer.</td>
+          <td>
+            <ul>
+              
+                <li>api.ReadableByteStreamController</li>
+              
+                <li>api.ReadableByteStreamController.byobRequest</li>
+              
+                <li>api.ReadableByteStreamController.close</li>
+              
+                <li>api.ReadableByteStreamController.desiredSize</li>
+              
+                <li>api.ReadableByteStreamController.enqueue</li>
+              
+                <li>api.ReadableByteStreamController.error</li>
+              
+                <li>api.ReadableStreamBYOBReader</li>
+              
+                <li>api.ReadableStreamBYOBReader.ReadableStreamBYOBReader</li>
+              
+                <li>api.ReadableStreamBYOBReader.cancel</li>
+              
+                <li>api.ReadableStreamBYOBReader.closed</li>
+              
+                <li>api.ReadableStreamBYOBReader.read</li>
+              
+                <li>api.ReadableStreamBYOBReader.read.options_min_parameter</li>
+              
+                <li>api.ReadableStreamBYOBReader.releaseLock</li>
+              
+                <li>api.ReadableStreamBYOBReader.releaseLock.reject_pending_read_request</li>
+              
+                <li>api.ReadableStreamBYOBRequest</li>
+              
+                <li>api.ReadableStreamBYOBRequest.respond</li>
+              
+                <li>api.ReadableStreamBYOBRequest.respondWithNewView</li>
+              
+                <li>api.ReadableStreamBYOBRequest.view</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>readablestream-from</td>
+          <td>ReadableStream.from()</td>
+          <td>The ReadableStream.from() static method converts an iterable or async iterable object, such as an array or async generator function, into a readable stream.</td>
+          <td>
+            <ul>
+              
+                <li>api.ReadableStream.from_static</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
           <td>reading-flow</td>
           <td>reading-flow</td>
           <td>The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation.</td>
@@ -21799,6 +22406,20 @@
             <ul>
               
                 <li>css.properties.reading-flow</li>
+              
+                <li>css.properties.reading-flow.flex-flow</li>
+              
+                <li>css.properties.reading-flow.flex-visual</li>
+              
+                <li>css.properties.reading-flow.grid-columns</li>
+              
+                <li>css.properties.reading-flow.grid-order</li>
+              
+                <li>css.properties.reading-flow.grid-rows</li>
+              
+                <li>css.properties.reading-flow.normal</li>
+              
+                <li>css.properties.reading-flow.source-order</li>
               
             </ul>
           </td>
@@ -22043,6 +22664,19 @@
         </tr>
       
         <tr class="baseline-false">
+          <td>regexp-compile</td>
+          <td>RegExp compile()</td>
+          <td>The compile() method of RegExp objects recompiles an existing regular expression object using a new pattern and flags.</td>
+          <td>
+            <ul>
+              
+                <li>javascript.builtins.RegExp.compile</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-low">
           <td>regexp-escape</td>
           <td>RegExp.escape()</td>
           <td>The RegExp.escape() static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, RegExp.escape(&quot;[abc]&quot;) returns &quot;&#92;&#92;[abc&#92;&#92;]&quot;.</td>
@@ -22288,23 +22922,39 @@
         <tr class="baseline-false">
           <td>reporting</td>
           <td>Reporting API</td>
-          <td>The Reporting API makes consistent reports about Content Security Policy violations, Permissions-Policy violations, deprecated feature usage, crashes, and other web platform features available to your server endpoints.</td>
+          <td>The Reporting-Endpoints HTTP header and ReportingObserver() API send reports of Content Security Policy (CSP) violations, Permissions-Policy violations, deprecated feature usage, browser interventions, and crashes to a nominated URL or callback function.</td>
           <td>
             <ul>
               
-                <li>api.Report</li>
+                <li>api.DeprecationReportBody</li>
               
-                <li>api.Report.body</li>
+                <li>api.DeprecationReportBody.anticipatedRemoval</li>
               
-                <li>api.Report.toJSON</li>
+                <li>api.DeprecationReportBody.columnNumber</li>
               
-                <li>api.Report.type</li>
+                <li>api.DeprecationReportBody.id</li>
               
-                <li>api.Report.url</li>
+                <li>api.DeprecationReportBody.lineNumber</li>
               
-                <li>api.ReportBody</li>
+                <li>api.DeprecationReportBody.message</li>
               
-                <li>api.ReportBody.toJSON</li>
+                <li>api.DeprecationReportBody.sourceFile</li>
+              
+                <li>api.DeprecationReportBody.toJSON</li>
+              
+                <li>api.InterventionReportBody</li>
+              
+                <li>api.InterventionReportBody.columnNumber</li>
+              
+                <li>api.InterventionReportBody.id</li>
+              
+                <li>api.InterventionReportBody.lineNumber</li>
+              
+                <li>api.InterventionReportBody.message</li>
+              
+                <li>api.InterventionReportBody.sourceFile</li>
+              
+                <li>api.InterventionReportBody.toJSON</li>
               
                 <li>api.ReportingObserver</li>
               
@@ -22364,6 +23014,19 @@
                 <li>api.HTMLVideoElement.cancelVideoFrameCallback</li>
               
                 <li>api.HTMLVideoElement.requestVideoFrameCallback</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-low">
+          <td>requestclose</td>
+          <td>dialog.requestClose()</td>
+          <td>The requestClose() method of a &lt;dialog&gt; HTML element closes the dialog, firing a cancel event first, which listeners can use to prevent the dialog from closing. This differs from the close() method, which only fires the non-cancelable close event.</td>
+          <td>
+            <ul>
+              
+                <li>api.HTMLDialogElement.requestClose</li>
               
             </ul>
           </td>
@@ -22477,7 +23140,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>resolution</td>
           <td>resolution media query</td>
           <td>The resolution CSS media query sets styles based on the pixel density, or how many pixels a device uses to display a single CSS pixel.</td>
@@ -22647,8 +23310,6 @@
           <td>
             <ul>
               
-                <li>css.properties.line-height-step</li>
-              
             </ul>
           </td>
         </tr>
@@ -22773,8 +23434,6 @@
               
                 <li>css.properties.ruby-position</li>
               
-                <li>css.properties.ruby-position.alternate</li>
-              
                 <li>css.properties.ruby-position.inter-character</li>
               
                 <li>css.properties.ruby-position.over</li>
@@ -22805,15 +23464,15 @@
           <td>
             <ul>
               
-                <li>css.properties.custom-property.env</li>
+                <li>css.types.env</li>
               
-                <li>css.properties.custom-property.env.safe-area-inset-bottom</li>
+                <li>css.types.env.safe-area-inset-bottom</li>
               
-                <li>css.properties.custom-property.env.safe-area-inset-left</li>
+                <li>css.types.env.safe-area-inset-left</li>
               
-                <li>css.properties.custom-property.env.safe-area-inset-right</li>
+                <li>css.types.env.safe-area-inset-right</li>
               
-                <li>css.properties.custom-property.env.safe-area-inset-top</li>
+                <li>css.types.env.safe-area-inset-top</li>
               
             </ul>
           </td>
@@ -22827,6 +23486,45 @@
             <ul>
               
                 <li>html.elements.samp</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>sanitizer</td>
+          <td>Sanitizer API</td>
+          <td>The parseHTML() method for the Document interface and the setHTML() methods for the Element and ShadowRoot interfaces parse and insert HTML into the DOM in a way that can prevent cross-site scripting attacks. The Sanitizer API can customize the sanitization process.</td>
+          <td>
+            <ul>
+              
+                <li>api.Document.parseHTML_static</li>
+              
+                <li>api.Element.setHTML</li>
+              
+                <li>api.Sanitizer</li>
+              
+                <li>api.Sanitizer.Sanitizer</li>
+              
+                <li>api.Sanitizer.allowAttribute</li>
+              
+                <li>api.Sanitizer.allowElement</li>
+              
+                <li>api.Sanitizer.get</li>
+              
+                <li>api.Sanitizer.removeAttribute</li>
+              
+                <li>api.Sanitizer.removeElement</li>
+              
+                <li>api.Sanitizer.removeUnsafe</li>
+              
+                <li>api.Sanitizer.replaceElementWithChildren</li>
+              
+                <li>api.Sanitizer.setComments</li>
+              
+                <li>api.Sanitizer.setDataAttributes</li>
+              
+                <li>api.ShadowRoot.setHTML</li>
               
             </ul>
           </td>
@@ -22915,6 +23613,29 @@
                 <li>css.selectors.scope</li>
               
                 <li>css.selectors.scope.dom_api</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>scoped-custom-element-registries</td>
+          <td>Scoped custom element registries</td>
+          <td>The CustomElementRegistry() constructor creates a new custom element registry that&#39;s separate from the global window.customElements registry. Creating more than one registry is useful for multiple custom elements that have the same tag name to coexist.</td>
+          <td>
+            <ul>
+              
+                <li>api.CustomElementRegistry.CustomElementRegistry</li>
+              
+                <li>api.CustomElementRegistry.initialize</li>
+              
+                <li>api.Document.customElementRegistry</li>
+              
+                <li>api.Element.customElementRegistry</li>
+              
+                <li>api.HTMLTemplateElement.shadowRootCustomElementRegistry</li>
+              
+                <li>api.ShadowRoot.customElementRegistry</li>
               
             </ul>
           </td>
@@ -23022,7 +23743,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>screen-wake-lock</td>
           <td>Screen wake lock</td>
           <td>The navigator.wakeLock.request(&quot;screen&quot;) API prevents the device&#39;s screen from dimming or being turned off.</td>
@@ -23125,6 +23846,17 @@
                 <li>css.properties.scroll-behavior.auto</li>
               
                 <li>css.properties.scroll-behavior.smooth</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>scroll-buttons</td>
+          <td>::scroll-button</td>
+          <td>The ::scroll-button(&lt;dir&gt;) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.</td>
+          <td>
+            <ul>
               
             </ul>
           </td>
@@ -23296,6 +24028,23 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>scroll-initial-target</td>
+          <td>scroll-initial-target</td>
+          <td>The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.</td>
+          <td>
+            <ul>
+              
+                <li>css.properties.scroll-initial-target</li>
+              
+                <li>css.properties.scroll-initial-target.nearest</li>
+              
+                <li>css.properties.scroll-initial-target.none</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-high">
           <td>scroll-into-view</td>
           <td>scrollIntoView()</td>
@@ -23306,6 +24055,29 @@
                 <li>api.Element.scrollIntoView</li>
               
                 <li>api.Element.scrollIntoView.options_parameter</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>scroll-markers</td>
+          <td>Scroll markers</td>
+          <td>A scroll container can be navigated by activating ::scroll-marker pseudo-elements which appear in a generated ::scroll-marker-group pseudo-element, either before or after the scroll container.</td>
+          <td>
+            <ul>
+              
+                <li>css.properties.scroll-marker-group</li>
+              
+                <li>css.properties.scroll-marker-group.after</li>
+              
+                <li>css.properties.scroll-marker-group.before</li>
+              
+                <li>css.properties.scroll-marker-group.none</li>
+              
+                <li>css.selectors.scroll-marker</li>
+              
+                <li>css.selectors.scroll-marker-group</li>
               
             </ul>
           </td>
@@ -23902,19 +24674,29 @@
               
                 <li>api.Serial.requestPort</li>
               
+                <li>api.Serial.requestPort.allowedBluetoothServiceClassIds_option</li>
+              
+                <li>api.Serial.requestPort.filters_bluetoothServiceClassId</li>
+              
                 <li>api.SerialPort</li>
               
                 <li>api.SerialPort.close</li>
               
                 <li>api.SerialPort.connect_event</li>
               
+                <li>api.SerialPort.connect_event.bluetooth_rfcomm</li>
+              
                 <li>api.SerialPort.connected</li>
               
                 <li>api.SerialPort.disconnect_event</li>
               
+                <li>api.SerialPort.disconnect_event.bluetooth_rfcomm</li>
+              
                 <li>api.SerialPort.forget</li>
               
                 <li>api.SerialPort.getInfo</li>
+              
+                <li>api.SerialPort.getInfo.bluetoothServiceClassId</li>
               
                 <li>api.SerialPort.getSignals</li>
               
@@ -24190,8 +24972,6 @@
               
                 <li>api.ServiceWorkerGlobalScope.message_event</li>
               
-                <li>api.ServiceWorkerGlobalScope.messageerror_event</li>
-              
                 <li>api.ServiceWorkerGlobalScope.registration</li>
               
                 <li>api.ServiceWorkerGlobalScope.serviceWorker</li>
@@ -24331,7 +25111,7 @@
       
         <tr class="baseline-high">
           <td>settimeout</td>
-          <td>setTimeout</td>
+          <td>setTimeout()</td>
           <td>The setTimeout() global function executes provided code after a given duration of time, and the accompanying clearTimeout() cancels the timer.</td>
           <td>
             <ul>
@@ -24629,6 +25409,37 @@
         </tr>
       
         <tr class="baseline-false">
+          <td>shared-workers</td>
+          <td>Shared worker</td>
+          <td>The SharedWorker() constructor runs a script in its own thread, which can send and receive messages with other scripts running at the same origin.</td>
+          <td>
+            <ul>
+              
+                <li>api.SharedWorker</li>
+              
+                <li>api.SharedWorker.SharedWorker</li>
+              
+                <li>api.SharedWorker.SharedWorker.mime_checks</li>
+              
+                <li>api.SharedWorker.SharedWorker.options_name_parameter</li>
+              
+                <li>api.SharedWorker.error_event</li>
+              
+                <li>api.SharedWorker.port</li>
+              
+                <li>api.SharedWorkerGlobalScope</li>
+              
+                <li>api.SharedWorkerGlobalScope.close</li>
+              
+                <li>api.SharedWorkerGlobalScope.connect_event</li>
+              
+                <li>api.SharedWorkerGlobalScope.name</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
           <td>show-picker-input</td>
           <td>showPicker() for &lt;input&gt;</td>
           <td>The showPicker() method for &lt;input&gt; elements shows the user interface for picking a value. For example, for &lt;input type=&quot;date&quot;&gt; it shows the interface for picking a date.</td>
@@ -24657,6 +25468,57 @@
             <ul>
               
                 <li>api.HTMLSelectElement.showPicker</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>sibling-count</td>
+          <td>sibling-count() and sibling-index()</td>
+          <td>The sibling-count() and sibling-index() CSS functions return integers that are useful to style elements based on their positions among siblings or on the number of siblings, for example as part of a calc() expression.</td>
+          <td>
+            <ul>
+              
+                <li>css.types.sibling-count</li>
+              
+                <li>css.types.sibling-index</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-low">
+          <td>single-color-gradients</td>
+          <td>Single color stop gradients</td>
+          <td>A single color stop can be provided to the linear-gradient(), radial-gradient(), and conic-gradient() CSS functions, and their repeating counterparts, to create a solid color background.</td>
+          <td>
+            <ul>
+              
+                <li>css.types.gradient.conic-gradient.single_color_stop</li>
+              
+                <li>css.types.gradient.linear-gradient.single_color_stop</li>
+              
+                <li>css.types.gradient.radial-gradient.single_color_stop</li>
+              
+                <li>css.types.gradient.repeating-conic-gradient.single_color_stop</li>
+              
+                <li>css.types.gradient.repeating-linear-gradient.single_color_stop</li>
+              
+                <li>css.types.gradient.repeating-radial-gradient.single_color_stop</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>sizes-auto</td>
+          <td>&lt;img sizes="auto" loading="lazy"&gt;</td>
+          <td>The sizes=&quot;auto&quot; attribute for the &lt;img&gt; HTML element reserves layout space for an image before it loads, avoiding some layout shifts. This attribute only applies to images with the loading=&quot;lazy&quot; attribute.</td>
+          <td>
+            <ul>
+              
+                <li>html.elements.img.sizes.auto</li>
               
             </ul>
           </td>
@@ -25049,6 +25911,10 @@
               
                 <li>html.elements.script.type.speculationrules.source_optional</li>
               
+                <li>html.elements.script.type.speculationrules.tag</li>
+              
+                <li>html.elements.script.type.speculationrules.target_hint</li>
+              
                 <li>html.elements.script.type.speculationrules.urls</li>
               
                 <li>html.elements.script.type.speculationrules.where</li>
@@ -25056,6 +25922,8 @@
                 <li>http.headers.Content-Security-Policy.script-src.inline-speculation-rules</li>
               
                 <li>http.headers.Sec-Purpose.speculationrules</li>
+              
+                <li>http.headers.Sec-Speculation-Tags</li>
               
                 <li>http.headers.Speculation-Rules</li>
               
@@ -25076,24 +25944,6 @@
           <td>
             <ul>
               
-                <li>api.SpeechGrammar</li>
-              
-                <li>api.SpeechGrammar.src</li>
-              
-                <li>api.SpeechGrammar.weight</li>
-              
-                <li>api.SpeechGrammarList</li>
-              
-                <li>api.SpeechGrammarList.SpeechGrammarList</li>
-              
-                <li>api.SpeechGrammarList.addFromString</li>
-              
-                <li>api.SpeechGrammarList.addFromURI</li>
-              
-                <li>api.SpeechGrammarList.item</li>
-              
-                <li>api.SpeechGrammarList.length</li>
-              
                 <li>api.SpeechRecognition</li>
               
                 <li>api.SpeechRecognition.SpeechRecognition</li>
@@ -25109,8 +25959,6 @@
                 <li>api.SpeechRecognition.end_event</li>
               
                 <li>api.SpeechRecognition.error_event</li>
-              
-                <li>api.SpeechRecognition.grammars</li>
               
                 <li>api.SpeechRecognition.interimResults</li>
               
@@ -25171,6 +26019,37 @@
                 <li>api.SpeechRecognitionResultList.item</li>
               
                 <li>api.SpeechRecognitionResultList.length</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>speech-recognition-grammar</td>
+          <td>Speech recognition grammar</td>
+          <td>The SpeechRecognition.grammars property of the Web Speech API represents a set of words or patterns of words that the recognition service should recognize, used for when the recognition service&#39;s accuracy is low. This feature has been removed due to advancements in speech recognition.</td>
+          <td>
+            <ul>
+              
+                <li>api.SpeechGrammar</li>
+              
+                <li>api.SpeechGrammar.src</li>
+              
+                <li>api.SpeechGrammar.weight</li>
+              
+                <li>api.SpeechGrammarList</li>
+              
+                <li>api.SpeechGrammarList.SpeechGrammarList</li>
+              
+                <li>api.SpeechGrammarList.addFromString</li>
+              
+                <li>api.SpeechGrammarList.addFromURI</li>
+              
+                <li>api.SpeechGrammarList.item</li>
+              
+                <li>api.SpeechGrammarList.length</li>
+              
+                <li>api.SpeechRecognition.grammars</li>
               
             </ul>
           </td>
@@ -25273,7 +26152,7 @@
       
         <tr class="baseline-high">
           <td>spellcheck</td>
-          <td>Spellcheck</td>
+          <td>spellcheck</td>
           <td>The spellcheck global HTML attribute sets whether the browser may check an element for spelling errors.</td>
           <td>
             <ul>
@@ -25360,7 +26239,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-low">
           <td>starting-style</td>
           <td>@starting-style</td>
           <td>The @starting-style CSS at-rule sets the starting values for properties that are transitioning when the target element&#39;s style is first updated.</td>
@@ -25548,7 +26427,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-false">
+        <tr class="baseline-high">
           <td>streams</td>
           <td>Streams</td>
           <td>The streams API creates, composes, and consumes continuously generated data.</td>
@@ -25571,25 +26450,11 @@
               
                 <li>api.CountQueuingStrategy.size</li>
               
-                <li>api.ReadableByteStreamController</li>
-              
-                <li>api.ReadableByteStreamController.byobRequest</li>
-              
-                <li>api.ReadableByteStreamController.close</li>
-              
-                <li>api.ReadableByteStreamController.desiredSize</li>
-              
-                <li>api.ReadableByteStreamController.enqueue</li>
-              
-                <li>api.ReadableByteStreamController.error</li>
-              
                 <li>api.ReadableStream</li>
               
                 <li>api.ReadableStream.ReadableStream</li>
               
                 <li>api.ReadableStream.cancel</li>
-              
-                <li>api.ReadableStream.from_static</li>
               
                 <li>api.ReadableStream.getReader</li>
               
@@ -25600,34 +26465,6 @@
                 <li>api.ReadableStream.pipeTo</li>
               
                 <li>api.ReadableStream.tee</li>
-              
-                <li>api.ReadableStream.transferable</li>
-              
-                <li>api.ReadableStream.values</li>
-              
-                <li>api.ReadableStreamBYOBReader</li>
-              
-                <li>api.ReadableStreamBYOBReader.ReadableStreamBYOBReader</li>
-              
-                <li>api.ReadableStreamBYOBReader.cancel</li>
-              
-                <li>api.ReadableStreamBYOBReader.closed</li>
-              
-                <li>api.ReadableStreamBYOBReader.read</li>
-              
-                <li>api.ReadableStreamBYOBReader.read.options_min_parameter</li>
-              
-                <li>api.ReadableStreamBYOBReader.releaseLock</li>
-              
-                <li>api.ReadableStreamBYOBReader.releaseLock.reject_pending_read_request</li>
-              
-                <li>api.ReadableStreamBYOBRequest</li>
-              
-                <li>api.ReadableStreamBYOBRequest.respond</li>
-              
-                <li>api.ReadableStreamBYOBRequest.respondWithNewView</li>
-              
-                <li>api.ReadableStreamBYOBRequest.view</li>
               
                 <li>api.ReadableStreamDefaultController</li>
               
@@ -25667,8 +26504,6 @@
               
                 <li>api.TransformStream.readable</li>
               
-                <li>api.TransformStream.transferable</li>
-              
                 <li>api.TransformStream.writable</li>
               
                 <li>api.TransformStreamDefaultController</li>
@@ -25692,8 +26527,6 @@
                 <li>api.WritableStream.getWriter</li>
               
                 <li>api.WritableStream.locked</li>
-              
-                <li>api.WritableStream.transferable</li>
               
                 <li>api.WritableStreamDefaultController</li>
               
@@ -26054,6 +26887,49 @@
                 <li>css.properties.grid-template-columns.subgrid</li>
               
                 <li>css.properties.grid-template-rows.subgrid</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>summarizer</td>
+          <td>Summarizer</td>
+          <td>The Summarizer API uses an on-device language model to summarize text.</td>
+          <td>
+            <ul>
+              
+                <li>api.Summarizer</li>
+              
+                <li>api.Summarizer.availability_static</li>
+              
+                <li>api.Summarizer.create_static</li>
+              
+                <li>api.Summarizer.destroy</li>
+              
+                <li>api.Summarizer.expectedContextLanguages</li>
+              
+                <li>api.Summarizer.expectedInputLanguages</li>
+              
+                <li>api.Summarizer.format</li>
+              
+                <li>api.Summarizer.inputQuota</li>
+              
+                <li>api.Summarizer.length</li>
+              
+                <li>api.Summarizer.measureInputUsage</li>
+              
+                <li>api.Summarizer.outputLanguage</li>
+              
+                <li>api.Summarizer.sharedContext</li>
+              
+                <li>api.Summarizer.summarize</li>
+              
+                <li>api.Summarizer.summarizeStreaming</li>
+              
+                <li>api.Summarizer.type</li>
+              
+                <li>http.headers.Permissions-Policy.summarizer</li>
               
             </ul>
           </td>
@@ -27309,40 +28185,6 @@
               
                 <li>api.SVGElement.className</li>
               
-                <li>api.SVGFontElement</li>
-              
-                <li>api.SVGFontFaceElement</li>
-              
-                <li>api.SVGFontFaceFormatElement</li>
-              
-                <li>api.SVGFontFaceNameElement</li>
-              
-                <li>api.SVGFontFaceSrcElement</li>
-              
-                <li>api.SVGFontFaceUriElement</li>
-              
-                <li>api.SVGGlyphElement</li>
-              
-                <li>api.SVGGlyphRefElement</li>
-              
-                <li>api.SVGGlyphRefElement.dx</li>
-              
-                <li>api.SVGGlyphRefElement.dy</li>
-              
-                <li>api.SVGGlyphRefElement.format</li>
-              
-                <li>api.SVGGlyphRefElement.glyphRef</li>
-              
-                <li>api.SVGGlyphRefElement.href</li>
-              
-                <li>api.SVGGlyphRefElement.x</li>
-              
-                <li>api.SVGGlyphRefElement.y</li>
-              
-                <li>api.SVGHKernElement</li>
-              
-                <li>api.SVGMissingGlyphElement</li>
-              
                 <li>api.SVGPathElement.createSVGPathSegArcAbs</li>
               
                 <li>api.SVGPathElement.createSVGPathSegArcRel</li>
@@ -27409,8 +28251,6 @@
               
                 <li>api.SVGTextContentElement.selectSubString</li>
               
-                <li>api.SVGVKernElement</li>
-              
                 <li>css.at-rules.font-face.SVG_fonts</li>
               
                 <li>svg.elements.a.xlink_actuate</li>
@@ -27421,183 +28261,13 @@
               
                 <li>svg.elements.a.xlink_title</li>
               
-                <li>svg.elements.cursor</li>
-              
-                <li>svg.elements.cursor.href</li>
-              
-                <li>svg.elements.cursor.systemLanguage</li>
-              
-                <li>svg.elements.cursor.x</li>
-              
-                <li>svg.elements.cursor.xlink_href</li>
-              
-                <li>svg.elements.cursor.y</li>
-              
                 <li>svg.elements.feImage.xlink_href</li>
               
                 <li>svg.elements.filter.xlink_href</li>
               
-                <li>svg.elements.font</li>
-              
-                <li>svg.elements.font-face</li>
-              
-                <li>svg.elements.font-face-format</li>
-              
-                <li>svg.elements.font-face-format.string</li>
-              
-                <li>svg.elements.font-face-name</li>
-              
-                <li>svg.elements.font-face-name.name</li>
-              
-                <li>svg.elements.font-face-src</li>
-              
-                <li>svg.elements.font-face-uri</li>
-              
-                <li>svg.elements.font-face-uri.xlink_href</li>
-              
-                <li>svg.elements.font-face.accent-height</li>
-              
-                <li>svg.elements.font-face.alphabetic</li>
-              
-                <li>svg.elements.font-face.ascent</li>
-              
-                <li>svg.elements.font-face.bbox</li>
-              
-                <li>svg.elements.font-face.cap-height</li>
-              
-                <li>svg.elements.font-face.descent</li>
-              
-                <li>svg.elements.font-face.font-family</li>
-              
-                <li>svg.elements.font-face.font-size</li>
-              
-                <li>svg.elements.font-face.font-stretch</li>
-              
-                <li>svg.elements.font-face.font-style</li>
-              
-                <li>svg.elements.font-face.font-variant</li>
-              
-                <li>svg.elements.font-face.font-weight</li>
-              
-                <li>svg.elements.font-face.hanging</li>
-              
-                <li>svg.elements.font-face.ideographic</li>
-              
-                <li>svg.elements.font-face.mathematical</li>
-              
-                <li>svg.elements.font-face.overline-position</li>
-              
-                <li>svg.elements.font-face.overline-thickness</li>
-              
-                <li>svg.elements.font-face.panose-1</li>
-              
-                <li>svg.elements.font-face.slope</li>
-              
-                <li>svg.elements.font-face.stemh</li>
-              
-                <li>svg.elements.font-face.stemv</li>
-              
-                <li>svg.elements.font-face.strikethrough-position</li>
-              
-                <li>svg.elements.font-face.strikethrough-thickness</li>
-              
-                <li>svg.elements.font-face.underline-position</li>
-              
-                <li>svg.elements.font-face.underline-thickness</li>
-              
-                <li>svg.elements.font-face.unicode-range</li>
-              
-                <li>svg.elements.font-face.units-per-em</li>
-              
-                <li>svg.elements.font-face.v-alphabetic</li>
-              
-                <li>svg.elements.font-face.v-hanging</li>
-              
-                <li>svg.elements.font-face.v-ideographic</li>
-              
-                <li>svg.elements.font-face.v-mathematical</li>
-              
-                <li>svg.elements.font-face.widths</li>
-              
-                <li>svg.elements.font-face.x-height</li>
-              
-                <li>svg.elements.font.horiz-adv-x</li>
-              
-                <li>svg.elements.font.horiz-origin-x</li>
-              
-                <li>svg.elements.font.horiz-origin-y</li>
-              
-                <li>svg.elements.font.vert-adv-y</li>
-              
-                <li>svg.elements.font.vert-origin-x</li>
-              
-                <li>svg.elements.font.vert-origin-y</li>
-              
-                <li>svg.elements.glyph</li>
-              
-                <li>svg.elements.glyph.arabic-form</li>
-              
-                <li>svg.elements.glyph.d</li>
-              
-                <li>svg.elements.glyph.glyph-name</li>
-              
-                <li>svg.elements.glyph.horiz-adv-x</li>
-              
-                <li>svg.elements.glyph.lang</li>
-              
-                <li>svg.elements.glyph.orientation</li>
-              
-                <li>svg.elements.glyph.unicode</li>
-              
-                <li>svg.elements.glyph.vert-adv-y</li>
-              
-                <li>svg.elements.glyph.vert-origin-x</li>
-              
-                <li>svg.elements.glyph.vert-origin-y</li>
-              
-                <li>svg.elements.glyphRef</li>
-              
-                <li>svg.elements.glyphRef.dx</li>
-              
-                <li>svg.elements.glyphRef.dy</li>
-              
-                <li>svg.elements.glyphRef.format</li>
-              
-                <li>svg.elements.glyphRef.glyphRef</li>
-              
-                <li>svg.elements.glyphRef.x</li>
-              
-                <li>svg.elements.glyphRef.xlink_href</li>
-              
-                <li>svg.elements.glyphRef.y</li>
-              
-                <li>svg.elements.hkern</li>
-              
-                <li>svg.elements.hkern.g1</li>
-              
-                <li>svg.elements.hkern.g2</li>
-              
-                <li>svg.elements.hkern.k</li>
-              
-                <li>svg.elements.hkern.u1</li>
-              
-                <li>svg.elements.hkern.u2</li>
-              
                 <li>svg.elements.image.xlink_href</li>
               
                 <li>svg.elements.linearGradient.xlink_href</li>
-              
-                <li>svg.elements.missing-glyph</li>
-              
-                <li>svg.elements.missing-glyph.d</li>
-              
-                <li>svg.elements.missing-glyph.horiz-adv-x</li>
-              
-                <li>svg.elements.missing-glyph.vert-adv-y</li>
-              
-                <li>svg.elements.missing-glyph.vert-origin-x</li>
-              
-                <li>svg.elements.missing-glyph.vert-origin-y</li>
               
                 <li>svg.elements.mpath.xlink_href</li>
               
@@ -27615,31 +28285,9 @@
               
                 <li>svg.elements.textPath.xlink_href</li>
               
-                <li>svg.elements.tref</li>
-              
-                <li>svg.elements.tref.fill</li>
-              
-                <li>svg.elements.tref.fill.context-fill</li>
-              
-                <li>svg.elements.tref.systemLanguage</li>
-              
-                <li>svg.elements.tref.xlink_href</li>
-              
                 <li>svg.elements.use.xlink_href</li>
               
                 <li>svg.elements.view.zoomAndPan</li>
-              
-                <li>svg.elements.vkern</li>
-              
-                <li>svg.elements.vkern.g1</li>
-              
-                <li>svg.elements.vkern.g2</li>
-              
-                <li>svg.elements.vkern.k</li>
-              
-                <li>svg.elements.vkern.u1</li>
-              
-                <li>svg.elements.vkern.u2</li>
               
                 <li>svg.global_attributes.clip</li>
               
@@ -28509,7 +29157,15 @@
               
                 <li>css.properties.empty-cells</li>
               
+                <li>css.properties.empty-cells.hide</li>
+              
+                <li>css.properties.empty-cells.show</li>
+              
                 <li>css.properties.table-layout</li>
+              
+                <li>css.properties.table-layout.auto</li>
+              
+                <li>css.properties.table-layout.fixed</li>
               
                 <li>html.elements.caption</li>
               
@@ -28554,6 +29210,195 @@
                 <li>html.elements.thead</li>
               
                 <li>html.elements.tr</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
+        <tr class="baseline-false">
+          <td>table-discouraged</td>
+          <td>Table styling</td>
+          <td>Attributes and properties of table elements, such as align, vAlign, noWrap, bgcolor, or char set various visual presentation properties of the table and its sections and cells. These are obsolete, and some of them have no effect. Use CSS instead.</td>
+          <td>
+            <ul>
+              
+                <li>api.HTMLTableCaptionElement.align</li>
+              
+                <li>api.HTMLTableCellElement.align</li>
+              
+                <li>api.HTMLTableCellElement.axis</li>
+              
+                <li>api.HTMLTableCellElement.bgColor</li>
+              
+                <li>api.HTMLTableCellElement.ch</li>
+              
+                <li>api.HTMLTableCellElement.chOff</li>
+              
+                <li>api.HTMLTableCellElement.height</li>
+              
+                <li>api.HTMLTableCellElement.noWrap</li>
+              
+                <li>api.HTMLTableCellElement.vAlign</li>
+              
+                <li>api.HTMLTableCellElement.width</li>
+              
+                <li>api.HTMLTableColElement.align</li>
+              
+                <li>api.HTMLTableColElement.ch</li>
+              
+                <li>api.HTMLTableColElement.chOff</li>
+              
+                <li>api.HTMLTableColElement.vAlign</li>
+              
+                <li>api.HTMLTableColElement.width</li>
+              
+                <li>api.HTMLTableElement.align</li>
+              
+                <li>api.HTMLTableElement.bgColor</li>
+              
+                <li>api.HTMLTableElement.border</li>
+              
+                <li>api.HTMLTableElement.cellPadding</li>
+              
+                <li>api.HTMLTableElement.cellSpacing</li>
+              
+                <li>api.HTMLTableElement.frame</li>
+              
+                <li>api.HTMLTableElement.rules</li>
+              
+                <li>api.HTMLTableElement.summary</li>
+              
+                <li>api.HTMLTableElement.width</li>
+              
+                <li>api.HTMLTableRowElement.align</li>
+              
+                <li>api.HTMLTableRowElement.bgColor</li>
+              
+                <li>api.HTMLTableRowElement.ch</li>
+              
+                <li>api.HTMLTableRowElement.chOff</li>
+              
+                <li>api.HTMLTableRowElement.vAlign</li>
+              
+                <li>api.HTMLTableSectionElement.align</li>
+              
+                <li>api.HTMLTableSectionElement.ch</li>
+              
+                <li>api.HTMLTableSectionElement.chOff</li>
+              
+                <li>api.HTMLTableSectionElement.vAlign</li>
+              
+                <li>html.elements.caption.align</li>
+              
+                <li>html.elements.col.align</li>
+              
+                <li>html.elements.col.char</li>
+              
+                <li>html.elements.col.charoff</li>
+              
+                <li>html.elements.col.valign</li>
+              
+                <li>html.elements.col.width</li>
+              
+                <li>html.elements.colgroup.align</li>
+              
+                <li>html.elements.colgroup.char</li>
+              
+                <li>html.elements.colgroup.charoff</li>
+              
+                <li>html.elements.colgroup.valign</li>
+              
+                <li>html.elements.colgroup.width</li>
+              
+                <li>html.elements.table.align</li>
+              
+                <li>html.elements.table.bgcolor</li>
+              
+                <li>html.elements.table.border</li>
+              
+                <li>html.elements.table.cellpadding</li>
+              
+                <li>html.elements.table.cellspacing</li>
+              
+                <li>html.elements.table.frame</li>
+              
+                <li>html.elements.table.rules</li>
+              
+                <li>html.elements.table.summary</li>
+              
+                <li>html.elements.table.width</li>
+              
+                <li>html.elements.tbody.align</li>
+              
+                <li>html.elements.tbody.bgcolor</li>
+              
+                <li>html.elements.tbody.char</li>
+              
+                <li>html.elements.tbody.charoff</li>
+              
+                <li>html.elements.tbody.valign</li>
+              
+                <li>html.elements.td.abbr</li>
+              
+                <li>html.elements.td.align</li>
+              
+                <li>html.elements.td.axis</li>
+              
+                <li>html.elements.td.bgcolor</li>
+              
+                <li>html.elements.td.char</li>
+              
+                <li>html.elements.td.charoff</li>
+              
+                <li>html.elements.td.scope</li>
+              
+                <li>html.elements.td.valign</li>
+              
+                <li>html.elements.td.width</li>
+              
+                <li>html.elements.tfoot.align</li>
+              
+                <li>html.elements.tfoot.bgcolor</li>
+              
+                <li>html.elements.tfoot.char</li>
+              
+                <li>html.elements.tfoot.charoff</li>
+              
+                <li>html.elements.tfoot.valign</li>
+              
+                <li>html.elements.th.align</li>
+              
+                <li>html.elements.th.axis</li>
+              
+                <li>html.elements.th.bgcolor</li>
+              
+                <li>html.elements.th.char</li>
+              
+                <li>html.elements.th.charoff</li>
+              
+                <li>html.elements.th.valign</li>
+              
+                <li>html.elements.th.width</li>
+              
+                <li>html.elements.thead.align</li>
+              
+                <li>html.elements.thead.bgcolor</li>
+              
+                <li>html.elements.thead.char</li>
+              
+                <li>html.elements.thead.charoff</li>
+              
+                <li>html.elements.thead.valign</li>
+              
+                <li>html.elements.tr.align</li>
+              
+                <li>html.elements.tr.bgcolor</li>
+              
+                <li>html.elements.tr.char</li>
+              
+                <li>html.elements.tr.charoff</li>
+              
+                <li>html.elements.tr.valign</li>
               
             </ul>
           </td>
@@ -29152,7 +29997,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>text-align-last</td>
           <td>text-align-last</td>
           <td>The text-align-last CSS property sets the alignment of the last line of text before a forced line break.</td>
@@ -29237,6 +30082,10 @@
             <ul>
               
                 <li>css.properties.text-combine-upright</li>
+              
+                <li>css.properties.text-combine-upright.all</li>
+              
+                <li>css.properties.text-combine-upright.none</li>
               
             </ul>
           </td>
@@ -29604,6 +30453,8 @@
               
                 <li>api.HTMLMediaElement.addTextTrack</li>
               
+                <li>api.HTMLMediaElement.textTracks</li>
+              
                 <li>api.HTMLTrackElement</li>
               
                 <li>api.HTMLTrackElement.cuechange_event</li>
@@ -29756,6 +30607,8 @@
             <ul>
               
                 <li>css.properties.text-underline-position</li>
+              
+                <li>css.properties.text-underline-position.auto</li>
               
                 <li>css.properties.text-underline-position.from-font</li>
               
@@ -29957,8 +30810,6 @@
               
                 <li>html.elements.textarea.rows</li>
               
-                <li>html.elements.textarea.spellcheck</li>
-              
                 <li>html.elements.textarea.wrap</li>
               
                 <li>html.elements.textarea.wrap.hard</li>
@@ -29989,7 +30840,7 @@
         <tr class="baseline-false">
           <td>time-relative-selectors</td>
           <td>Time-relative pseudo-selectors</td>
-          <td>The :future and :past CSS pseudo-classes match upcoming or prior elements during media playback.</td>
+          <td>The :past and :future CSS pseudo-classes match prior or upcoming text track cues during media playback.</td>
           <td>
             <ul>
               
@@ -30173,6 +31024,23 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>transferable-streams</td>
+          <td>Transferable streams</td>
+          <td>Streams are transferable objects, which can be moved between contexts such as windows and workers.</td>
+          <td>
+            <ul>
+              
+                <li>api.ReadableStream.transferable</li>
+              
+                <li>api.TransformStream.transferable</li>
+              
+                <li>api.WritableStream.transferable</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-low">
           <td>transform-box</td>
           <td>transform-box</td>
@@ -30320,6 +31188,19 @@
           </td>
         </tr>
       
+        <tr class="baseline-false">
+          <td>transformstream-transformer-cancel</td>
+          <td>TransformStream transformer cancel() method</td>
+          <td>The cancel() method of a TransformStream transformer cleans up resources when the readable side cancels or the writable side aborts.</td>
+          <td>
+            <ul>
+              
+                <li>api.TransformStream.TransformStream.transformer_cancel</li>
+              
+            </ul>
+          </td>
+        </tr>
+      
         <tr class="baseline-low">
           <td>transition-behavior</td>
           <td>transition-behavior</td>
@@ -30390,7 +31271,7 @@
       
         <tr class="baseline-low">
           <td>translate</td>
-          <td>translate attribute</td>
+          <td>translate</td>
           <td>The translate HTML attribute marks whether an element&#39;s text should be translated.</td>
           <td>
             <ul>
@@ -30435,17 +31316,17 @@
           <td>
             <ul>
               
-                <li>api.Element.innerHTML.accepts_TrustedHTML</li>
+                <li>api.Element.innerHTML.enforces_trusted_types</li>
               
-                <li>api.HTMLElement.innerText.scripts_accept_TrustedScript</li>
+                <li>api.HTMLElement.innerText.enforces_trusted_types</li>
               
-                <li>api.HTMLScriptElement.src.accepts_TrustedScriptURL</li>
+                <li>api.HTMLScriptElement.src.enforces_trusted_types</li>
               
-                <li>api.HTMLScriptElement.text.accepts_TrustedScript</li>
+                <li>api.HTMLScriptElement.text.enforces_trusted_types</li>
               
-                <li>api.Node.textContent.scripts_accept_TrustedScript</li>
+                <li>api.Node.textContent.enforces_trusted_types</li>
               
-                <li>api.ShadowRoot.innerHTML.accepts_TrustedHTML</li>
+                <li>api.ShadowRoot.innerHTML.enforces_trusted_types</li>
               
                 <li>api.TrustedHTML</li>
               
@@ -30495,9 +31376,9 @@
               
                 <li>api.TrustedTypePolicyFactory.isScriptURL</li>
               
-                <li>api.setInterval.code_param_accepts_trustedScript</li>
+                <li>api.setInterval.code_param_enforces_trusted_types</li>
               
-                <li>api.setTimeout.code_param_accepts_trustedScript</li>
+                <li>api.setTimeout.code_param_enforces_trusted_types</li>
               
                 <li>api.trustedTypes</li>
               
@@ -31052,6 +31933,10 @@
               
                 <li>css.selectors.hover</li>
               
+                <li>css.selectors.hover.a_elements</li>
+              
+                <li>css.selectors.hover.all_elements</li>
+              
             </ul>
           </td>
         </tr>
@@ -31078,7 +31963,7 @@
         <tr class="baseline-high">
           <td>user-agent-sniffing</td>
           <td>User agent sniffing</td>
-          <td>The navigator.userAgent read-only property returns the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.</td>
+          <td>The navigator.userAgent property is the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.</td>
           <td>
             <ul>
               
@@ -31319,6 +32204,20 @@
               
                 <li>api.HTMLVideoElement.width</li>
               
+                <li>api.MediaError</li>
+              
+                <li>api.MediaError.code</li>
+              
+                <li>api.MediaError.message</li>
+              
+                <li>api.TimeRanges</li>
+              
+                <li>api.TimeRanges.end</li>
+              
+                <li>api.TimeRanges.length</li>
+              
+                <li>api.TimeRanges.start</li>
+              
                 <li>html.elements.video</li>
               
                 <li>html.elements.video.autoplay</li>
@@ -31382,6 +32281,10 @@
               
                 <li>api.Document.startViewTransition</li>
               
+                <li>api.Document.startViewTransition.callbackOptions_parameter</li>
+              
+                <li>api.Document.startViewTransition.updateCallback_parameter</li>
+              
                 <li>api.PageRevealEvent</li>
               
                 <li>api.PageRevealEvent.PageRevealEvent</li>
@@ -31412,6 +32315,8 @@
               
                 <li>css.properties.view-transition-name</li>
               
+                <li>css.properties.view-transition-name.match-element</li>
+              
                 <li>css.properties.view-transition-name.none</li>
               
                 <li>css.selectors.view-transition</li>
@@ -31428,7 +32333,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>viewport-unit-variants</td>
           <td>Small, large, and dynamic viewport units</td>
           <td>The sv*, lv*, and dv* CSS viewport units are relative to the smallest, largest, and current (dynamic) viewport size. They are used to size elements in relation to the viewport&#39;s dimensions.</td>
@@ -31504,11 +32409,11 @@
           <td>
             <ul>
               
-                <li>webdriver.commands.CreateVirtualPressureSource</li>
+                <li>webdriver.classic.CreateVirtualPressureSource</li>
               
-                <li>webdriver.commands.DeleteVirtualPressureSource</li>
+                <li>webdriver.classic.DeleteVirtualPressureSource</li>
               
-                <li>webdriver.commands.UpdateVirtualPressureSource</li>
+                <li>webdriver.classic.UpdateVirtualPressureSource</li>
               
             </ul>
           </td>
@@ -31521,13 +32426,13 @@
           <td>
             <ul>
               
-                <li>webdriver.commands.CreateVirtualSensor</li>
+                <li>webdriver.classic.CreateVirtualSensor</li>
               
-                <li>webdriver.commands.DeleteVirtualSensor</li>
+                <li>webdriver.classic.DeleteVirtualSensor</li>
               
-                <li>webdriver.commands.GetVirtualSensorInformation</li>
+                <li>webdriver.classic.GetVirtualSensorInformation</li>
               
-                <li>webdriver.commands.UpdateVirtualSensorReading</li>
+                <li>webdriver.classic.UpdateVirtualSensorReading</li>
               
             </ul>
           </td>
@@ -31971,17 +32876,19 @@
               
                 <li>javascript.builtins.FinalizationRegistry.register</li>
               
-                <li>javascript.builtins.FinalizationRegistry.symbol_as_target</li>
+                <li>javascript.builtins.FinalizationRegistry.register.symbol_as_target</li>
               
                 <li>javascript.builtins.FinalizationRegistry.unregister</li>
+              
+                <li>javascript.builtins.FinalizationRegistry.unregister.symbol_as_target</li>
               
                 <li>javascript.builtins.WeakRef</li>
               
                 <li>javascript.builtins.WeakRef.WeakRef</li>
               
-                <li>javascript.builtins.WeakRef.deref</li>
+                <li>javascript.builtins.WeakRef.WeakRef.symbol_as_target</li>
               
-                <li>javascript.builtins.WeakRef.symbol_as_target</li>
+                <li>javascript.builtins.WeakRef.deref</li>
               
             </ul>
           </td>
@@ -32046,7 +32953,7 @@
         <tr class="baseline-high">
           <td>web-animations</td>
           <td>Web animations</td>
-          <td>The animate() method of Element objects programmatically animates elements over time and can synchronize the animations of multiple elements.</td>
+          <td>The web animation API programmatically creates, inspects, and controls element animations, to change and synchronize appearance over time.</td>
           <td>
             <ul>
               
@@ -33336,6 +34243,10 @@
               
                 <li>api.VideoDecoder.configure</li>
               
+                <li>api.VideoDecoder.configure.flip_option</li>
+              
+                <li>api.VideoDecoder.configure.rotation_option</li>
+              
                 <li>api.VideoDecoder.decode</li>
               
                 <li>api.VideoDecoder.decodeQueueSize</li>
@@ -33345,6 +34256,10 @@
                 <li>api.VideoDecoder.flush</li>
               
                 <li>api.VideoDecoder.isConfigSupported_static</li>
+              
+                <li>api.VideoDecoder.isConfigSupported_static.flip_option</li>
+              
+                <li>api.VideoDecoder.isConfigSupported_static.rotation_option</li>
               
                 <li>api.VideoDecoder.reset</li>
               
@@ -33376,6 +34291,10 @@
               
                 <li>api.VideoFrame.VideoFrame</li>
               
+                <li>api.VideoFrame.VideoFrame.flip_option</li>
+              
+                <li>api.VideoFrame.VideoFrame.rotation_option</li>
+              
                 <li>api.VideoFrame.allocationSize</li>
               
                 <li>api.VideoFrame.clone</li>
@@ -33398,7 +34317,11 @@
               
                 <li>api.VideoFrame.duration</li>
               
+                <li>api.VideoFrame.flip</li>
+              
                 <li>api.VideoFrame.format</li>
+              
+                <li>api.VideoFrame.rotation</li>
               
                 <li>api.VideoFrame.timestamp</li>
               
@@ -33417,115 +34340,115 @@
               
                 <li>api.Navigator.webdriver</li>
               
-                <li>webdriver.commands.AcceptAlert</li>
+                <li>webdriver.classic.AcceptAlert</li>
               
-                <li>webdriver.commands.AddCookie</li>
+                <li>webdriver.classic.AddCookie</li>
               
-                <li>webdriver.commands.Back</li>
+                <li>webdriver.classic.Back</li>
               
-                <li>webdriver.commands.CloseWindow</li>
+                <li>webdriver.classic.CloseWindow</li>
               
-                <li>webdriver.commands.DeleteAllCookies</li>
+                <li>webdriver.classic.DeleteAllCookies</li>
               
-                <li>webdriver.commands.DeleteCookie</li>
+                <li>webdriver.classic.DeleteCookie</li>
               
-                <li>webdriver.commands.DeleteSession</li>
+                <li>webdriver.classic.DeleteSession</li>
               
-                <li>webdriver.commands.DismissAlert</li>
+                <li>webdriver.classic.DismissAlert</li>
               
-                <li>webdriver.commands.ElementClear</li>
+                <li>webdriver.classic.ElementClear</li>
               
-                <li>webdriver.commands.ElementClick</li>
+                <li>webdriver.classic.ElementClick</li>
               
-                <li>webdriver.commands.ElementSendKeys</li>
+                <li>webdriver.classic.ElementSendKeys</li>
               
-                <li>webdriver.commands.ExecuteAsyncScript</li>
+                <li>webdriver.classic.ExecuteAsyncScript</li>
               
-                <li>webdriver.commands.ExecuteScript</li>
+                <li>webdriver.classic.ExecuteScript</li>
               
-                <li>webdriver.commands.FindElement</li>
+                <li>webdriver.classic.FindElement</li>
               
-                <li>webdriver.commands.FindElementFromElement</li>
+                <li>webdriver.classic.FindElementFromElement</li>
               
-                <li>webdriver.commands.FindElements</li>
+                <li>webdriver.classic.FindElements</li>
               
-                <li>webdriver.commands.FindElementsFromElement</li>
+                <li>webdriver.classic.FindElementsFromElement</li>
               
-                <li>webdriver.commands.Forward</li>
+                <li>webdriver.classic.Forward</li>
               
-                <li>webdriver.commands.FullscreenWindow</li>
+                <li>webdriver.classic.FullscreenWindow</li>
               
-                <li>webdriver.commands.GetActiveElement</li>
+                <li>webdriver.classic.GetActiveElement</li>
               
-                <li>webdriver.commands.GetAlertText</li>
+                <li>webdriver.classic.GetAlertText</li>
               
-                <li>webdriver.commands.GetAllCookies</li>
+                <li>webdriver.classic.GetAllCookies</li>
               
-                <li>webdriver.commands.GetCurrentURL</li>
+                <li>webdriver.classic.GetCurrentURL</li>
               
-                <li>webdriver.commands.GetElementAttribute</li>
+                <li>webdriver.classic.GetElementAttribute</li>
               
-                <li>webdriver.commands.GetElementCSSValue</li>
+                <li>webdriver.classic.GetElementCSSValue</li>
               
-                <li>webdriver.commands.GetElementProperty</li>
+                <li>webdriver.classic.GetElementProperty</li>
               
-                <li>webdriver.commands.GetElementRect</li>
+                <li>webdriver.classic.GetElementRect</li>
               
-                <li>webdriver.commands.GetElementTagName</li>
+                <li>webdriver.classic.GetElementTagName</li>
               
-                <li>webdriver.commands.GetElementText</li>
+                <li>webdriver.classic.GetElementText</li>
               
-                <li>webdriver.commands.GetNamedCookie</li>
+                <li>webdriver.classic.GetNamedCookie</li>
               
-                <li>webdriver.commands.GetPageSource</li>
+                <li>webdriver.classic.GetPageSource</li>
               
-                <li>webdriver.commands.GetTimeouts</li>
+                <li>webdriver.classic.GetTimeouts</li>
               
-                <li>webdriver.commands.GetTitle</li>
+                <li>webdriver.classic.GetTitle</li>
               
-                <li>webdriver.commands.GetWindowHandle</li>
+                <li>webdriver.classic.GetWindowHandle</li>
               
-                <li>webdriver.commands.GetWindowHandles</li>
+                <li>webdriver.classic.GetWindowHandles</li>
               
-                <li>webdriver.commands.GetWindowRect</li>
+                <li>webdriver.classic.GetWindowRect</li>
               
-                <li>webdriver.commands.IsElementEnabled</li>
+                <li>webdriver.classic.IsElementEnabled</li>
               
-                <li>webdriver.commands.IsElementSelected</li>
+                <li>webdriver.classic.IsElementSelected</li>
               
-                <li>webdriver.commands.MaximizeWindow</li>
+                <li>webdriver.classic.MaximizeWindow</li>
               
-                <li>webdriver.commands.MinimizeWindow</li>
+                <li>webdriver.classic.MinimizeWindow</li>
               
-                <li>webdriver.commands.NavigateTo</li>
+                <li>webdriver.classic.NavigateTo</li>
               
-                <li>webdriver.commands.NewSession</li>
+                <li>webdriver.classic.NewSession</li>
               
-                <li>webdriver.commands.NewWindow</li>
+                <li>webdriver.classic.NewWindow</li>
               
-                <li>webdriver.commands.PerformActions</li>
+                <li>webdriver.classic.PerformActions</li>
               
-                <li>webdriver.commands.Refresh</li>
+                <li>webdriver.classic.Refresh</li>
               
-                <li>webdriver.commands.ReleaseActions</li>
+                <li>webdriver.classic.ReleaseActions</li>
               
-                <li>webdriver.commands.SendAlertText</li>
+                <li>webdriver.classic.SendAlertText</li>
               
-                <li>webdriver.commands.SetTimeouts</li>
+                <li>webdriver.classic.SetTimeouts</li>
               
-                <li>webdriver.commands.SetWindowRect</li>
+                <li>webdriver.classic.SetWindowRect</li>
               
-                <li>webdriver.commands.Status</li>
+                <li>webdriver.classic.Status</li>
               
-                <li>webdriver.commands.SwitchToFrame</li>
+                <li>webdriver.classic.SwitchToFrame</li>
               
-                <li>webdriver.commands.SwitchToParentFrame</li>
+                <li>webdriver.classic.SwitchToParentFrame</li>
               
-                <li>webdriver.commands.SwitchToWindow</li>
+                <li>webdriver.classic.SwitchToWindow</li>
               
-                <li>webdriver.commands.TakeElementScreenshot</li>
+                <li>webdriver.classic.TakeElementScreenshot</li>
               
-                <li>webdriver.commands.TakeScreenshot</li>
+                <li>webdriver.classic.TakeScreenshot</li>
               
             </ul>
           </td>
@@ -33548,6 +34471,8 @@
           <td>The WebGLRenderingContext API is the &quot;webgl&quot; rendering context for the &lt;canvas&gt; element. It represents a space for drawing two- and three-dimensional graphics and animations.</td>
           <td>
             <ul>
+              
+                <li>api.HTMLCanvasElement.getContext.webgl_context</li>
               
                 <li>api.HTMLCanvasElement.getContext.webgl_context.options_alpha_parameter</li>
               
@@ -34124,7 +35049,7 @@
           </td>
         </tr>
       
-        <tr class="baseline-low">
+        <tr class="baseline-high">
           <td>webgl-oes-draw-buffers-indexed</td>
           <td>OES_draw_buffers_indexed WebGL extension</td>
           <td>The OES_draw_buffers_indexed extension for WebGL 2.0 contexts allows you to control blending on a per-color basis when writing to multiple color buffers simultaneously.</td>
@@ -34232,6 +35157,8 @@
           <td>The WebGL2RenderingContext API is the &quot;webgl2&quot; rendering context for the &lt;canvas&gt; element. It represents a space for drawing two- and three-dimensional graphics and animations. It corresponds to OpenGL ES 3.0.</td>
           <td>
             <ul>
+              
+                <li>api.HTMLCanvasElement.getContext.webgl2_context</li>
               
                 <li>api.HTMLCanvasElement.getContext.webgl2_context.options_alpha_parameter</li>
               
@@ -34764,8 +35691,6 @@
               
                 <li>api.GPUAdapter.info</li>
               
-                <li>api.GPUAdapter.isFallbackAdapter</li>
-              
                 <li>api.GPUAdapter.limits</li>
               
                 <li>api.GPUAdapter.requestDevice</li>
@@ -35242,8 +36167,6 @@
               
                 <li>api.GPUSupportedLimits.maxDynamicUniformBuffersPerPipelineLayout</li>
               
-                <li>api.GPUSupportedLimits.maxInterStageShaderComponents</li>
-              
                 <li>api.GPUSupportedLimits.maxInterStageShaderVariables</li>
               
                 <li>api.GPUSupportedLimits.maxSampledTexturesPerShaderStage</li>
@@ -35283,6 +36206,8 @@
                 <li>api.GPUTexture.createView</li>
               
                 <li>api.GPUTexture.createView.texture_rgb10a2uint</li>
+              
+                <li>api.GPUTexture.createView.usage</li>
               
                 <li>api.GPUTexture.depthOrArrayLayers</li>
               
@@ -35639,8 +36564,6 @@
                 <li>api.MLGraphBuilder.where</li>
               
                 <li>api.MLOperand</li>
-              
-                <li>api.MLOperand.MLNumber</li>
               
                 <li>api.Navigator.ml</li>
               
@@ -36357,6 +37280,8 @@
               
                 <li>api.RTCStatsReport.type_inbound-rtp.concealmentEvents</li>
               
+                <li>api.RTCStatsReport.type_inbound-rtp.estimatedPlayoutTimestamp</li>
+              
                 <li>api.RTCStatsReport.type_inbound-rtp.fecPacketsDiscarded</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.fecPacketsReceived</li>
@@ -36365,11 +37290,15 @@
               
                 <li>api.RTCStatsReport.type_inbound-rtp.frameWidth</li>
               
+                <li>api.RTCStatsReport.type_inbound-rtp.framesAssembledFromMultiplePackets</li>
+              
                 <li>api.RTCStatsReport.type_inbound-rtp.framesDecoded</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.framesPerSecond</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.framesReceived</li>
+              
+                <li>api.RTCStatsReport.type_inbound-rtp.freezeCount</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.headerBytesReceived</li>
               
@@ -36403,6 +37332,8 @@
               
                 <li>api.RTCStatsReport.type_inbound-rtp.packetsReceived</li>
               
+                <li>api.RTCStatsReport.type_inbound-rtp.pauseCount</li>
+              
                 <li>api.RTCStatsReport.type_inbound-rtp.playoutId</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.qpSum</li>
@@ -36417,11 +37348,17 @@
               
                 <li>api.RTCStatsReport.type_inbound-rtp.timestamp</li>
               
+                <li>api.RTCStatsReport.type_inbound-rtp.totalAssemblyTime</li>
+              
                 <li>api.RTCStatsReport.type_inbound-rtp.totalAudioEnergy</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.totalDecodeTime</li>
               
+                <li>api.RTCStatsReport.type_inbound-rtp.totalFreezesDuration</li>
+              
                 <li>api.RTCStatsReport.type_inbound-rtp.totalInterFrameDelay</li>
+              
+                <li>api.RTCStatsReport.type_inbound-rtp.totalPausesDuration</li>
               
                 <li>api.RTCStatsReport.type_inbound-rtp.totalProcessingDelay</li>
               
@@ -36552,6 +37489,8 @@
                 <li>api.RTCStatsReport.type_outbound-rtp.retransmittedBytesSent</li>
               
                 <li>api.RTCStatsReport.type_outbound-rtp.retransmittedPacketsSent</li>
+              
+                <li>api.RTCStatsReport.type_outbound-rtp.rid</li>
               
                 <li>api.RTCStatsReport.type_outbound-rtp.scalabilityMode</li>
               
@@ -36862,8 +37801,6 @@
                 <li>api.WebTransportDatagramDuplexStream.outgoingMaxAge</li>
               
                 <li>api.WebTransportDatagramDuplexStream.readable</li>
-              
-                <li>api.WebTransportDatagramDuplexStream.writable</li>
               
                 <li>api.WebTransportError</li>
               
@@ -37288,6 +38225,10 @@
               
                 <li>api.VTTCue.text.all_html_character_references</li>
               
+                <li>css.selectors.cue</li>
+              
+                <li>css.selectors.cue.selector_argument</li>
+              
             </ul>
           </td>
         </tr>
@@ -37325,10 +38266,6 @@
                 <li>api.VTTCue.snapToLines</li>
               
                 <li>api.VTTCue.vertical</li>
-              
-                <li>css.selectors.cue</li>
-              
-                <li>css.selectors.cue.selector_argument</li>
               
             </ul>
           </td>
@@ -38269,15 +39206,15 @@
               
                 <li>api.WindowControlsOverlayGeometryChangeEvent.visible</li>
               
-                <li>css.properties.custom-property.env.titlebar-area-height</li>
+                <li>css.types.env.titlebar-area-height</li>
               
-                <li>css.properties.custom-property.env.titlebar-area-width</li>
+                <li>css.types.env.titlebar-area-width</li>
               
-                <li>css.properties.custom-property.env.titlebar-area-x</li>
+                <li>css.types.env.titlebar-area-x</li>
               
-                <li>css.properties.custom-property.env.titlebar-area-y</li>
+                <li>css.types.env.titlebar-area-y</li>
               
-                <li>html.manifest.display_override.window-controls-overlay</li>
+                <li>manifests.webapp.display_override.window-controls-overlay</li>
               
             </ul>
           </td>
@@ -38533,6 +39470,8 @@
               
                 <li>api.ProgressEvent.ProgressEvent</li>
               
+                <li>api.ProgressEvent.ProgressEvent.loaded_total_options_accept_double</li>
+              
                 <li>api.ProgressEvent.lengthComputable</li>
               
                 <li>api.ProgressEvent.loaded</li>
@@ -38776,6 +39715,8 @@
           <td>Zstandard or zstd is fast lossless compression algorithm. When used as a content encoding, it is often faster and offers better compression than brotli.</td>
           <td>
             <ul>
+              
+                <li>http.headers.Accept-Encoding.zstd</li>
               
                 <li>http.headers.Content-Encoding.zstd</li>
               

@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Media element pseudo-classes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,9 +31,30 @@
 
     
 <main class="feature-page">
-  <div id="media-pseudos" class="feature baseline-false">
+  <div id="media-pseudos" class="feature full baseline-false">
   <div class="header">
     <h1 data-pagefind-body="">Media element pseudo-classes</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="media-pseudos" data-len="13"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>:playing</code>, <code>:paused</code>, <code>:seeking</code>, <code>:buffering</code>, <code>:stalled</code>, <code>:muted</code>, and <code>:volume-locked</code> CSS pseudo-classes match <code>&#x3C;audio></code> and <code>&#x3C;video></code> elements based on their state.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     Limited availability
@@ -40,61 +62,61 @@
     
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">css</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          HTML  &gt; 
-        
-          Media elements 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/:paused">
+            
+              :paused
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/:playing">
+            
+              :playing
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://drafts.csswg.org/selectors-4/#resource-pseudos">Selectors Level 4 (#resource-pseudos)</a>,
+            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/semantics-other.html#pseudo-classes">HTML (#pseudo-classes)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>:playing</code>, <code>:paused</code>, <code>:seeking</code>, <code>:buffering</code>, <code>:stalled</code>, <code>:muted</code>, and <code>:volume-locked</code> CSS pseudo-classes match <code>&#x3C;audio></code> and <code>&#x3C;video></code> elements based on their state.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/:paused">
-          
-            :paused
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/:playing">
-          
-            :playing
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome">
       <span class="name">Chrome</span>
@@ -194,42 +216,36 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://drafts.csswg.org/selectors-4/#resource-pseudos">Selectors Level 4 (#resource-pseudos)</a>,
-            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/semantics-other.html#pseudo-classes">HTML (#pseudo-classes)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-    </ul>
+
+  
+
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:media-pseudos">View the latest WPT test results for this feature</a>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Amedia-pseudos">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/media-pseudos.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/media-pseudos.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[media-pseudos] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  <p class="edit-links">
+    <a href="../media-pseudos.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/media-pseudos.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[media-pseudos] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/media-pseudos.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/media-pseudos.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

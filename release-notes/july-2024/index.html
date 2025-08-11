@@ -5,6 +5,7 @@
     <title>Web platform features explorer - July 2024 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -50,11 +51,6 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/parse-html-unsafe/">Unsanitized HTML parsing methods</a></strong>:
-              The <code>Document.parseHTMLUnsafe()</code> static method parses HTML into a DOM tree, while the <code>setHTMLUnsafe()</code> method of <code>Element</code> and <code>ShadowRoot</code> parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.
-            </li>
-          
-            <li>
               <strong><a href="/web-features-explorer/features/registered-custom-properties/">Registered custom properties</a></strong>:
               The <code>CSS.registerProperty()</code> static method and the <code>@property</code> CSS at-rule register custom properties for which types and behaviors can be defined.
             </li>
@@ -85,33 +81,7 @@
 
     
       
-        <section class="baseline-false chrome">
-          <h2>New in Chrome</h2>
-          <p>The following features are now available in Chrome:</p>
-          <ul>
-            
-              <li>
-                <strong><a href="/web-features-explorer/features/speculation-rules/">Speculation rules</a></strong>:
-                Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.
-              </li>
-            
-          </ul>
-        </section>
-      
     
-      
-        <section class="baseline-false chrome_android">
-          <h2>New in Chrome Android</h2>
-          <p>The following features are now available in Chrome Android:</p>
-          <ul>
-            
-              <li>
-                <strong><a href="/web-features-explorer/features/speculation-rules/">Speculation rules</a></strong>:
-                Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.
-              </li>
-            
-          </ul>
-        </section>
       
     
       
@@ -125,6 +95,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/gethtml/">getHTML()</a></strong>:
                 The <code>getHTML()</code> method of <code>Element</code> and <code>ShadowRoot</code> objects serializes an element's DOM to an HTML string.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/parse-html-unsafe/">Unsanitized HTML parsing methods</a></strong>:
+                The <code>Document.parseHTMLUnsafe()</code> static method parses HTML into a DOM tree, while the <code>setHTMLUnsafe()</code> method of <code>Element</code> and <code>ShadowRoot</code> parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.
               </li>
             
               <li>
@@ -148,6 +123,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/parse-html-unsafe/">Unsanitized HTML parsing methods</a></strong>:
+                The <code>Document.parseHTMLUnsafe()</code> static method parses HTML into a DOM tree, while the <code>setHTMLUnsafe()</code> method of <code>Element</code> and <code>ShadowRoot</code> parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/relative-color/">Relative colors</a></strong>:
                 The <code>from</code> keyword for color functions (<code>color()</code>, <code>hsl()</code>, <code>oklch()</code>, etc.) creates a new color based on a given color by modifying the values of the input color. Also known as relative color syntax (RCS).
               </li>
@@ -165,6 +145,42 @@
   <aside>
     <h2>Other release notes</h2>
     <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
       
         
           <li class="month-entry">
@@ -251,43 +267,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         

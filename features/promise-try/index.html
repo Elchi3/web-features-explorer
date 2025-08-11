@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Promise.try()</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,63 +31,79 @@
 
     
 <main class="feature-page">
-  <div id="promise-try" class="feature baseline-low">
+  <div id="promise-try" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">Promise.try()</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2025-01-07
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="promise-try" data-len="11"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">javascript</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          JavaScript  &gt; 
-        
-          Promises 
-        
-      </span>
-    
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>Promise.try()</code> static method returns a promise that takes a callback of any kind (returns or throws, synchronously or asynchronously) and wraps its result in a <code>Promise</code>.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/try">
-          
-            Promise.try()
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2025-01-07)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2027-07-07
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/try">
+            
+              Promise.try()
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.try">ECMAScript® 2026 Language Specification (#sec-promise.try)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -152,35 +169,51 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
+  <div class="surveys feature-box">
+    <h3>Developer signals</h3>
     <ul>
       
         <li>
-          
-            <a href="https://tc39.es/proposal-promise-try/">Promise.try</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
+          State of JS 2024: <a href="https://2024.stateofjs.com/en-US/features/#reading_list">reading_list/reading_list question</a>
+        </li>
+      
+        <li>
+          State of JS 2024: <a href="https://2024.stateofjs.com/en-US/features/#async_features">features/async_features question</a>
         </li>
       
     </ul>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Apromise-try">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/promise-try.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/promise-try.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[promise-try] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~3.153% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/251">More data at chromestatus</a>.</p>
+  </div>
+
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../promise-try.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/promise-try.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[promise-try] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/promise-try.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/promise-try.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Individual transform properties</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,79 +31,93 @@
 
     
 <main class="feature-page">
-  <div id="individual-transforms" class="feature baseline-high">
+  <div id="individual-transforms" class="feature full baseline-high">
   <div class="header">
     <h1 data-pagefind-body="">Individual transform properties</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="individual-transforms" data-len="21"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>translate</code>, <code>rotate</code>, and <code>scale</code> CSS properties apply single transformations independently, as opposed to applying multiple transformations with the <code>transform</code> CSS property.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     
     
-    Widely available since 2025-02-05
+    Baseline Widely Available (since 2025-02-05)
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">css</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          CSS  &gt; 
-        
-          Transforms 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/translate">
+            
+              translate()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate">
+            
+              rotate()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/scale">
+            
+              scale()
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://drafts.csswg.org/css-transforms-2/#individual-transforms">CSS Transforms Module Level 2 (#individual-transforms)</a>,
+            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>translate</code>, <code>rotate</code>, and <code>scale</code> CSS properties apply single transformations independently, as opposed to applying multiple transformations with the <code>transform</code> CSS property.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/translate">
-          
-            translate()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate">
-          
-            rotate()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/transform-function/scale">
-          
-            scale()
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -168,35 +183,41 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://drafts.csswg.org/css-transforms-2/#individual-transforms">CSS Transforms Module Level 2 (#individual-transforms)</a>,
-            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~13.226% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/43">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aindividual-transforms">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/individual-transforms.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/individual-transforms.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[individual-transforms] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:individual-transforms">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../individual-transforms.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/individual-transforms.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[individual-transforms] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/individual-transforms.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/individual-transforms.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

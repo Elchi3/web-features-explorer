@@ -5,6 +5,7 @@
     <title>Web platform features explorer - &amp;lt;ol&amp;gt;, &amp;lt;ul&amp;gt;, and &amp;lt;li&amp;gt;</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,89 +31,107 @@
 
     
 <main class="feature-page">
-  <div id="list-elements" class="feature baseline-high">
+  <div id="list-elements" class="feature full baseline-high">
   <div class="header">
     <h1 data-pagefind-body="">&lt;ol&gt;, &lt;ul&gt;, and &lt;li&gt;</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="list-elements" data-len="13"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>&#x3C;ol></code>, <code>&#x3C;ul></code>, and <code>&#x3C;li></code> HTML elements represent ordered and unordered lists.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     
     
-    Widely available since 2018-01-29
+    Baseline Widely Available (since 2018-01-29)
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">api</span>
-    
-      <span class="tag">html</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          HTML  &gt; 
-        
-          HTML elements 
-        
-      </span>
-    
-      <span class="tag">
-        
-          CSS  &gt; 
-        
-          Lists 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/ol">
+            
+              &lt;ol&gt;: The Ordered List element
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/ul">
+            
+              &lt;ul&gt;: The Unordered List element
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/li">
+            
+              &lt;li&gt;: The List Item element
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element">HTML (#the-ol-element)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element">HTML (#the-ul-element)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element">HTML (#the-li-element)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>&#x3C;ol></code>, <code>&#x3C;ul></code>, and <code>&#x3C;li></code> HTML elements represent ordered and unordered lists.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/HTML/Element/ol">
-          
-            &lt;ol&gt;: The Ordered List element
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/HTML/Element/ul">
-          
-            &lt;ul&gt;: The Unordered List element
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/HTML/Element/li">
-          
-            &lt;li&gt;: The List Item element
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -178,49 +197,31 @@
     </li>
   
 </ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element">HTML (#the-ol-element)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element">HTML (#the-ul-element)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element">HTML (#the-li-element)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-    </ul>
   </div>
 
+  
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Alist-elements">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/list-elements.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/list-elements.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[list-elements] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../list-elements.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/list-elements.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[list-elements] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/list-elements.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/list-elements.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

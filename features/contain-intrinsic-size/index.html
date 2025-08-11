@@ -5,6 +5,7 @@
     <title>Web platform features explorer - contain-intrinsic-size</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,63 +31,79 @@
 
     
 <main class="feature-page">
-  <div id="contain-intrinsic-size" class="feature baseline-low">
+  <div id="contain-intrinsic-size" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">contain-intrinsic-size</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2023-09-18
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="contain-intrinsic-size" data-len="22"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">css</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          CSS  &gt; 
-        
-          Containment 
-        
-      </span>
-    
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>contain-intrinsic-size</code> CSS property sets the intrinsic size of an element. When using size containment, the browser will lay out the element as if it had a single child of this size.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size">
-          
-            contain-intrinsic-size
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2023-09-18)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2026-03-18
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size">
+            
+              contain-intrinsic-size
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://drafts.csswg.org/css-sizing-4/#intrinsic-size-override">CSS Box Sizing Module Level 4 (#intrinsic-size-override)</a>,
+            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -152,35 +169,52 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~6.014% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/21">More data at chromestatus</a>.</p>
+  </div>
+
+
+  
+  <div class="interop feature-box">
+    <h3>Interop</h3>
     <ul>
       
         <li>
-          
-            <a href="https://drafts.csswg.org/css-sizing-4/#intrinsic-size-override">CSS Box Sizing Module Level 4 (#intrinsic-size-override)</a>,
-            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
-          
+          Included in <a href="https://wpt.fyi/interop-2023?feature=interop-2023-contain">Interop 2023</a>
         </li>
       
     </ul>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Acontain-intrinsic-size">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/contain-intrinsic-size.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/contain-intrinsic-size.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[contain-intrinsic-size] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:contain-intrinsic-size">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../contain-intrinsic-size.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/contain-intrinsic-size.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[contain-intrinsic-size] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/contain-intrinsic-size.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/contain-intrinsic-size.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

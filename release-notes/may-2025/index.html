@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - May 2025 release notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    <header>
+      <a href="/web-features-explorer/">Web platform features explorer</a>
+
+      <nav>
+        <ul>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/features">Explore all features</a></li>
+          <li><a href="/web-features-explorer/about">About</a></li>
+        </ul>
+        <search>
+          <form>
+            <input type="search" id="search" placeholder="Search">
+          </form>
+        </search>
+      </nav>
+
+      <output for="search"></output>
+    </header>
+
+    
+<main class="release-notes">
+  <h1>📃 May 2025 release notes</h1>
+
+  <div>
+    
+      <section class="baseline-low">
+        <h2>Newly available</h2>
+        <p>The following features are newly available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/print-color-adjust/">print-color-adjust</a></strong>:
+              The <code>print-color-adjust</code> CSS property sets whether styles of printed pages should be adjusted to use less ink, in cases such as light text on a dark background.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/regexp-escape/">RegExp.escape()</a></strong>:
+              The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape("[abc]")</code> returns <code>"\\[abc\\]"</code>.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/requestclose/">dialog.requestClose()</a></strong>:
+              The <code>requestClose()</code> method of a <code>&#x3C;dialog></code> HTML element closes the dialog, firing a <code>cancel</code> event first, which listeners can use to prevent the dialog from closing. This differs from the <code>close()</code> method, which only fires the non-cancelable <code>close</code> event.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      <section class="baseline-high">
+        <h2>Widely available</h2>
+        <p>The following features are now widely available:</p>
+        <ul>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/font-palette/">font-palette</a></strong>:
+              The <code>font-palette</code> CSS property selects a color palette from the font, optionally overriding individual colors in the <code>@font-palette-values</code> at-rule.
+            </li>
+          
+        </ul>
+      </section>
+    
+
+    
+      
+        <section class="baseline-false chrome">
+          <h2>New in Chrome</h2>
+          <p>The following features are now available in Chrome:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/composed-ranges/">Selection composed ranges</a></strong>:
+                The <code>window.getSelection().getComposedRanges()</code> method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/if/">if()</a></strong>:
+                The <code>if()</code> CSS function is an inline conditional value that returns a value based on a set of conditions.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/reading-flow/">reading-flow</a></strong>:
+                The <code>reading-flow</code> CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-exnref-exceptions/">Exception references with exnref (WebAssembly)</a></strong>:
+                When caught, an exception is reified into an exception reference, a value of the new type <code>exnref</code>.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false chrome_android">
+          <h2>New in Chrome Android</h2>
+          <p>The following features are now available in Chrome Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/composed-ranges/">Selection composed ranges</a></strong>:
+                The <code>window.getSelection().getComposedRanges()</code> method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/if/">if()</a></strong>:
+                The <code>if()</code> CSS function is an inline conditional value that returns a value based on a set of conditions.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/reading-flow/">reading-flow</a></strong>:
+                The <code>reading-flow</code> CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/wasm-exnref-exceptions/">Exception references with exnref (WebAssembly)</a></strong>:
+                When caught, an exception is reified into an exception reference, a value of the new type <code>exnref</code>.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false edge">
+          <h2>New in Edge</h2>
+          <p>The following features are now available in Edge:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/composed-ranges/">Selection composed ranges</a></strong>:
+                The <code>window.getSelection().getComposedRanges()</code> method returns ranges that represent the current user selection, even if the selection spans across shadow tree boundaries.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/if/">if()</a></strong>:
+                The <code>if()</code> CSS function is an inline conditional value that returns a value based on a set of conditions.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/reading-flow/">reading-flow</a></strong>:
+                The <code>reading-flow</code> CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox">
+          <h2>New in Firefox</h2>
+          <p>The following features are now available in Firefox:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/hidden-until-found/">hidden="until-found"</a></strong>:
+                The <code>hidden="until-found"</code> attribute hides an element until it is found using the browser's find-in-page search or it is directly navigated to by following a URL fragment.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/temporal/">Temporal</a></strong>:
+                The <code>Temporal</code> API allows you to work with dates, times, time zones, and durations. It is more powerful than the <code>Date</code> API.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+        <section class="baseline-false firefox_android">
+          <h2>New in Firefox for Android</h2>
+          <p>The following features are now available in Firefox for Android:</p>
+          <ul>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/hidden-until-found/">hidden="until-found"</a></strong>:
+                The <code>hidden="until-found"</code> attribute hides an element until it is found using the browser's find-in-page search or it is directly navigated to by following a URL fragment.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/temporal/">Temporal</a></strong>:
+                The <code>Temporal</code> API allows you to work with dates, times, time zones, and durations. It is more powerful than the <code>Date</code> API.
+              </li>
+            
+          </ul>
+        </section>
+      
+    
+      
+    
+      
+    
+  </div>
+
+  <aside>
+    <h2>Other release notes</h2>
+    <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2025">February 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2025">January 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../december-2024">December 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../november-2024">November 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../october-2024">October 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../september-2024">September 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../august-2024">August 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2024">July 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2024">June 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2024">May 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2024">April 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2024">March 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../february-2024">February 2024</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../january-2024">January 2024</a>
+          </li>
+        
+      
+        
+          <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </aside>
+</main>
+
+    
+    <script src="/web-features-explorer/assets/search.js" defer=""></script>
+  </body>
+</html>

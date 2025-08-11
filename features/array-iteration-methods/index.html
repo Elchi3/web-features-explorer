@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Array iteration methods</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,65 +31,133 @@
 
     
 <main class="feature-page">
-  <div id="array-iteration-methods" class="feature baseline-high">
+  <div id="array-iteration-methods" class="feature full baseline-high">
   <div class="header">
     <h1 data-pagefind-body="">Array iteration methods</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="array-iteration-methods" data-len="23"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    Array iteration methods
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     
     
-    Widely available since 2018-01-29
+    Baseline Widely Available (since 2018-01-29)
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">javascript</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          JavaScript  &gt; 
-        
-          Collections  &gt; 
-        
-          Arrays 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">
+            
+              Array
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.every">ECMAScript® 2026 Language Specification (#sec-array.prototype.every)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.filter">ECMAScript® 2026 Language Specification (#sec-array.prototype.filter)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach">ECMAScript® 2026 Language Specification (#sec-array.prototype.foreach)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof">ECMAScript® 2026 Language Specification (#sec-array.prototype.indexof)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.lastindexof">ECMAScript® 2026 Language Specification (#sec-array.prototype.lastindexof)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.map">ECMAScript® 2026 Language Specification (#sec-array.prototype.map)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduce">ECMAScript® 2026 Language Specification (#sec-array.prototype.reduce)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduceright">ECMAScript® 2026 Language Specification (#sec-array.prototype.reduceright)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.some">ECMAScript® 2026 Language Specification (#sec-array.prototype.some)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    Array iteration methods
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">
-          
-            Array
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -154,91 +223,31 @@
     </li>
   
 </ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.every">ECMAScript® 2025 Language Specification (#sec-array.prototype.every)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.filter">ECMAScript® 2025 Language Specification (#sec-array.prototype.filter)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach">ECMAScript® 2025 Language Specification (#sec-array.prototype.foreach)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof">ECMAScript® 2025 Language Specification (#sec-array.prototype.indexof)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.lastindexof">ECMAScript® 2025 Language Specification (#sec-array.prototype.lastindexof)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.map">ECMAScript® 2025 Language Specification (#sec-array.prototype.map)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduce">ECMAScript® 2025 Language Specification (#sec-array.prototype.reduce)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduceright">ECMAScript® 2025 Language Specification (#sec-array.prototype.reduceright)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.some">ECMAScript® 2025 Language Specification (#sec-array.prototype.some)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-    </ul>
   </div>
 
+  
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aarray-iteration-methods">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-iteration-methods.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/array-iteration-methods.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[array-iteration-methods] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../array-iteration-methods.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/array-iteration-methods.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[array-iteration-methods] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-iteration-methods.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/array-iteration-methods.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

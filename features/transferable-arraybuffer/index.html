@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Transferable ArrayBuffer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,60 +31,87 @@
 
     
 <main class="feature-page">
-  <div id="transferable-arraybuffer" class="feature baseline-low">
+  <div id="transferable-arraybuffer" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">Transferable ArrayBuffer</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2024-03-05
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="transferable-arraybuffer" data-len="24"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">javascript</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>transfer()</code> and <code>transferToFixedLength()</code> methods of <code>ArrayBuffer</code> move a buffer from one context to another (for example, to a worker).
   </p>
 
-  <h3>Learning resources on MDN</h3>
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    
+    Baseline Newly Available (since 2024-03-05)
+    
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2026-09-05
+    
+    
+  </p></div>
 
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transfer">
-          
-            ArrayBuffer.prototype.transfer()
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transferToFixedLength">
-          
-            ArrayBuffer.prototype.transferToFixedLength()
-          
-        </a>
-      </li>
-    
-  </ul>
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transfer">
+            
+              ArrayBuffer.prototype.transfer()
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transferToFixedLength">
+            
+              ArrayBuffer.prototype.transferToFixedLength()
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.transfer">ECMAScript® 2026 Language Specification (#sec-arraybuffer.prototype.transfer)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -149,35 +177,36 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.transfer">ECMAScript® 2025 Language Specification (#sec-arraybuffer.prototype.transfer)</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~0.822% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/241">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Atransferable-arraybuffer">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/transferable-arraybuffer.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/transferable-arraybuffer.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[transferable-arraybuffer] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../transferable-arraybuffer.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/transferable-arraybuffer.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[transferable-arraybuffer] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/transferable-arraybuffer.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/transferable-arraybuffer.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

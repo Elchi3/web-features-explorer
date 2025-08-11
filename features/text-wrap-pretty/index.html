@@ -5,6 +5,7 @@
     <title>Web platform features explorer - text-wrap: pretty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,9 +31,30 @@
 
     
 <main class="feature-page">
-  <div id="text-wrap-pretty" class="feature baseline-false">
+  <div id="text-wrap-pretty" class="feature full baseline-false">
   <div class="header">
     <h1 data-pagefind-body="">text-wrap: pretty</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="text-wrap-pretty" data-len="16"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>text-wrap: pretty</code> CSS declaration prioritizes better layout over speed when text is broken into multiple lines.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     Limited availability
@@ -40,55 +62,46 @@
     
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">css</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          CSS  &gt; 
-        
-          Text  &gt; 
-        
-          Text wrap 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/text-wrap#pretty">
+            
+              Pretty, in <em>text-wrap</em>
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-pretty">CSS Text Module Level 4 (#valdef-text-wrap-style-pretty)</a>,
+            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>text-wrap: pretty</code> CSS declaration prioritizes better layout over speed when text is broken into multiple lines.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/text-wrap#pretty">
-          
-            Pretty, in <em>text-wrap</em>
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -194,35 +207,60 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
+  <div class="surveys feature-box">
+    <h3>Developer signals</h3>
     <ul>
       
         <li>
-          
-            <a href="https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-pretty">CSS Text Module Level 4 (#valdef-text-wrap-style-pretty)</a>,
-            from <a href="https://www.w3.org/Style/CSS/">Cascading Style Sheets (CSS) Working Group</a> (W3C).
-          
+          State of CSS 2025: <a href="https://2025.stateofcss.com/en-US/features/#all_features">features/all_features question</a>
+        </li>
+      
+        <li>
+          State of CSS 2024: <a href="https://2024.stateofcss.com/en-US/features/#reading_list">reading_list/reading_list question</a>
+        </li>
+      
+        <li>
+          State of CSS 2024: <a href="https://2024.stateofcss.com/en-US/features/#all_features">features/all_features question</a>
         </li>
       
     </ul>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Atext-wrap-pretty">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/text-wrap-pretty.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/text-wrap-pretty.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[text-wrap-pretty] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~1.100% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/72">More data at chromestatus</a>.</p>
+  </div>
+
+
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:text-wrap-pretty">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../text-wrap-pretty.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/text-wrap-pretty.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[text-wrap-pretty] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/text-wrap-pretty.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/text-wrap-pretty.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

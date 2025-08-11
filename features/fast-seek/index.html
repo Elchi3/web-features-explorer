@@ -5,6 +5,7 @@
     <title>Web platform features explorer - fastSeek()</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,9 +31,30 @@
 
     
 <main class="feature-page">
-  <div id="fast-seek" class="feature baseline-false">
+  <div id="fast-seek" class="feature full baseline-false">
   <div class="header">
     <h1 data-pagefind-body="">fastSeek()</h1>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="fast-seek" data-len="9"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
+  </div>
+
+  
+
+  <p class="description" data-pagefind-body="">
+    The <code>fastSeek()</code> method seeks an <code>&#x3C;audio></code> or <code>&#x3C;video></code> element as fast as possible, by seeking to a keyframe instead of exactly the requested time.
+  </p>
+
+  <div class="baseline feature-box">
+    <h3>Status</h3>
     <div class="availability">
   
     Limited availability
@@ -40,53 +62,46 @@
     
   
 </div>
+    
+    
   </div>
-  <div class="tags">
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
   
-    Tags:
-    
-      <span class="tag">api</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          HTML  &gt; 
-        
-          Media elements 
-        
-      </span>
-    
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/fastSeek">
+            
+              HTMLMediaElement: fastSeek() method
+            
+          </a>
+        </li>
+      
+    </ul>
   
 </div>
 
+  
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/media.html#dom-media-fastseek-dev">HTML (#dom-media-fastseek-dev)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+    </ul>
+  </div>
 
   
-
-  <p data-pagefind-body="">
-    The <code>fastSeek()</code> method seeks an <code>&#x3C;audio></code> or <code>&#x3C;video></code> element as fast as possible, by seeking to a keyframe instead of exactly the requested time.
-  </p>
-
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/fastSeek">
-          
-            HTMLMediaElement: fastSeek() method
-          
-        </a>
-      </li>
-    
-  </ul>
-
-  
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome">
       <span class="name">Chrome</span>
@@ -176,35 +191,31 @@
     </li>
   
 </ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/media.html#dom-media-fastseek-dev">HTML (#dom-media-fastseek-dev)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-    </ul>
   </div>
 
+  
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Afast-seek">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/fast-seek.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/fast-seek.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[fast-seek] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../fast-seek.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/fast-seek.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[fast-seek] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/fast-seek.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/fast-seek.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

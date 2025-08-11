@@ -5,6 +5,7 @@
     <title>Web platform features explorer - September 2022 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -60,8 +61,8 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/overflow-shorthand/">overflow</a></strong>:
-              The <code>overflow</code> CSS property sets the behavior for when content doesn't fit in an element.
+              <strong><a href="/web-features-explorer/features/overflow-clip/">overflow: clip</a></strong>:
+              The <code>overflow: clip</code> CSS declaration clips an element's overflowing content to the box that's defined by the <code>overflow-clip-margin</code> property. Unlike <code>overflow: hidden</code>, it allows you to hide overflow on one axis while keeping overflow on the other axis visible.
             </li>
           
             <li>
@@ -95,16 +96,6 @@
         <ul>
           
             <li>
-              <strong><a href="/web-features-explorer/features/display-table/">display: table</a></strong>:
-              The <code>display: table</code> CSS declaration renders an element with the box layout of a <code>&#x3C;table></code> HTML element. Child elements may use equivalents to <code>&#x3C;table></code> internal elements such as <code>display: table-row</code> for <code>&#x3C;tr></code>.
-            </li>
-          
-            <li>
-              <strong><a href="/web-features-explorer/features/dominant-baseline/">dominant-baseline</a></strong>:
-              The <code>dominant-baseline</code> CSS property sets the specific baseline used to align an elements's text and inline-level contents.
-            </li>
-          
-            <li>
               <strong><a href="/web-features-explorer/features/font-optical-sizing/">font-optical-sizing</a></strong>:
               The <code>font-optical-sizing</code> CSS property sets whether text rendering is optimized for viewing at different sizes.
             </li>
@@ -120,6 +111,11 @@
             </li>
           
             <li>
+              <strong><a href="/web-features-explorer/features/overflow-shorthand/">overflow</a></strong>:
+              The <code>overflow</code> CSS property sets the behavior for when content doesn't fit in an element.
+            </li>
+          
+            <li>
               <strong><a href="/web-features-explorer/features/q-unit/">Q unit</a></strong>:
               The <code>Q</code> CSS length unit is an absolute length anchored to the physical measurement of quarter-millimeters. <code>1Q</code> is equivalent to 1/40 of 1 centimeter.
             </li>
@@ -127,11 +123,6 @@
             <li>
               <strong><a href="/web-features-explorer/features/wasm-mutable-globals/">Import and export of mutable globals (WebAssembly)</a></strong>:
               Mutable global variables are importable and exportable.
-            </li>
-          
-            <li>
-              <strong><a href="/web-features-explorer/features/web-animations/">Web animations</a></strong>:
-              The <code>animate()</code> method of <code>Element</code> objects programmatically animates elements over time and can synchronize the animations of multiple elements.
             </li>
           
         </ul>
@@ -161,8 +152,8 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch request streams</a></strong>:
-                A <code>fetch()</code> request streams data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
+                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch upload streams</a></strong>:
+                A <code>fetch()</code> request uploads a stream of data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
               </li>
             
               <li>
@@ -226,8 +217,8 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch request streams</a></strong>:
-                A <code>fetch()</code> request streams data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
+                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch upload streams</a></strong>:
+                A <code>fetch()</code> request uploads a stream of data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
               </li>
             
               <li>
@@ -291,8 +282,8 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch request streams</a></strong>:
-                A <code>fetch()</code> request streams data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
+                <strong><a href="/web-features-explorer/features/fetch-request-streams/">Fetch upload streams</a></strong>:
+                A <code>fetch()</code> request uploads a stream of data to the server when a request's <code>body</code> property is a <code>ReadableStream</code> object.
               </li>
             
               <li>
@@ -386,7 +377,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16c WebGL extension</a></strong>:
+                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16 WebGL extension</a></strong>:
                 The <code>EXT_texture_norm16</code> extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.
               </li>
             
@@ -403,6 +394,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/push/">Push messages</a></strong>:
                 The Push API subscribes to and receives server-initiated messages. Subscribers receive pushed messages in the background, even after periods inactive or offline.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/shared-workers/">Shared worker</a></strong>:
+                The <code>SharedWorker()</code> constructor runs a script in its own thread, which can send and receive messages with other scripts running at the same origin.
               </li>
             
               <li>
@@ -456,7 +452,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16c WebGL extension</a></strong>:
+                <strong><a href="/web-features-explorer/features/ext-texture-norm16/">EXT_texture_norm16 WebGL extension</a></strong>:
                 The <code>EXT_texture_norm16</code> extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.
               </li>
             
@@ -468,6 +464,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/js-modules-shared-workers/">JavaScript modules in shared workers</a></strong>:
                 The <code>SharedWorker()</code> constructor accepts <code>{ type: "module" }</code> to load scripts that use <code>import</code> and <code>export</code>. Also known as ECMAScript modules or ESM in shared workers.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/shared-workers/">Shared worker</a></strong>:
+                The <code>SharedWorker()</code> constructor runs a script in its own thread, which can send and receive messages with other scripts running at the same origin.
               </li>
             
               <li>
@@ -494,6 +495,42 @@
   <aside>
     <h2>Other release notes</h2>
     <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
       
         
           <li class="month-entry">
@@ -580,43 +617,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         

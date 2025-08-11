@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Clearing site data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,52 +31,72 @@
 
     
 <main class="feature-page">
-  <div id="clear-site-data" class="feature baseline-low">
+  <div id="clear-site-data" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">Clearing site data</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2023-09-18
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="clear-site-data" data-len="15"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">http</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>Clear-Site-Data</code> header deletes browsing data (such as cookies, storage, or cache) associated with the requesting website.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data">
-          
-            Clear-Site-Data
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2023-09-18)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2026-03-18
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <strong>No MDN documentation found.</strong>
+    
+      You can <a href="https://developer.mozilla.org/search?q=Clearing site data">search for the feature on MDN</a>. If you believe that MDN has no documentation about this feature, you can <a href="https://github.com/mdn/mdn/issues/new?template=content-or-feature-suggestion.yml">open an issue on MDN's GitHub repository</a>.
+    
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://w3c.github.io/webappsec-clear-site-data/">Clear Site Data</a>,
+            from <a href="https://www.w3.org/groups/wg/webappsec/">Web Application Security Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
@@ -141,35 +162,41 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://w3c.github.io/webappsec-clear-site-data/">Clear Site Data</a>,
-            from <a href="https://www.w3.org/groups/wg/webappsec/">Web Application Security Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~0.225% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/339">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aclear-site-data">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clear-site-data.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/clear-site-data.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[clear-site-data] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:clear-site-data">View the latest WPT test results for this feature</a>
+  </div>
+
+
+  <p class="edit-links">
+    <a href="../clear-site-data.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/clear-site-data.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[clear-site-data] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clear-site-data.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clear-site-data.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

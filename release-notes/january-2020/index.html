@@ -5,6 +5,7 @@
     <title>Web platform features explorer - January 2020 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -90,6 +91,11 @@
             </li>
           
             <li>
+              <strong><a href="/web-features-explorer/features/clip-path-animatable/">Animatable clipping paths</a></strong>:
+              The <code>clip-path</code> property can be animated using CSS transitions and animations.
+            </li>
+          
+            <li>
               <strong><a href="/web-features-explorer/features/colrv0/">COLRv0</a></strong>:
               COLRv0 is a font format that supports multi-color glyphs. COLRv0 supports only solid colors.
             </li>
@@ -132,6 +138,11 @@
             <li>
               <strong><a href="/web-features-explorer/features/dom-geometry/">DOM Geometry</a></strong>:
               The <code>DOMMatrix</code>, <code>DOMPoint</code>, <code>DOMQuad</code> and <code>DOMRect</code> interfaces offer a way to represent points, rectangles, quadrilaterals and transformation matrices within JavaScript. They can be used in transformations in CSS, <code>&#x3C;canvas></code>, and SVG.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/dominant-baseline/">dominant-baseline</a></strong>:
+              The <code>dominant-baseline</code> CSS property sets the specific baseline used to align an elements's text and inline-level contents.
             </li>
           
             <li>
@@ -207,6 +218,11 @@
             <li>
               <strong><a href="/web-features-explorer/features/iframe-srcdoc/">srcdoc</a></strong>:
               The <code>srcdoc</code> attribute for the <code>&#x3C;iframe></code> HTML element sets a string of HTML to embed in the document. The value of <code>srcdoc</code> overrides loading a document from the <code>src</code> attribute.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/imagebitmaprenderingcontext/">ImageBitmapRenderingContext</a></strong>:
+              The <code>ImageBitmapRenderingContext</code> API is the <code>"bitmaprenderer"</code> rendering context for the <code>&#x3C;canvas></code> element. It is commonly used to transfer frames from an <code>OffscreenCanvas</code> to a user-visible <code>&#x3C;canvas></code> element.
             </li>
           
             <li>
@@ -432,6 +448,11 @@
           <ul>
             
               <li>
+                <strong><a href="/web-features-explorer/features/alignment-baseline/">alignment-baseline</a></strong>:
+                The <code>alignment-baseline</code> CSS property sets which baseline of an element is aligned with the corresponding baseline of its parent.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/alt-text-generated-content/">Alt text for generated content</a></strong>:
                 The <code>/</code> notation in <code>content</code> CSS property values adds alternative text to generated content. For example, the <code>content: url('upvote-icon.svg') / 'Upvote'</code> declaration adds accessible 'Upvote' text to the SVG icon. Also known as alternate text.
               </li>
@@ -447,7 +468,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/autocapitalize/">Autocapitalize</a></strong>:
+                <strong><a href="/web-features-explorer/features/autocapitalize/">autocapitalize</a></strong>:
                 The <code>autocapitalize</code> global HTML attribute sets the virtual keyboard capitalization behavior for user input on an element, such as the first letter of sentences or all words.
               </li>
             
@@ -469,6 +490,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/background-sync/">Background sync</a></strong>:
                 The background synchronization API registers a service worker callback to run only when the device is no longer offline. You can use this to let users continue using your app while offline and synchronize with a server after reconnecting.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/baseline-shift/">baseline-shift</a></strong>:
+                The <code>baseline-shift</code> CSS property sets the position of an element relative to its dominant baseline.
               </li>
             
               <li>
@@ -497,6 +523,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/canvas-2d-alpha/">2D canvas opacity</a></strong>:
+                The optional <code>alpha</code> parameter of a 2D canvas's <code>getContext()</code> method sets whether the canvas has an alpha transparency channel. If set to <code>false</code>, then this permits the browser to optimize compositing for an opaque canvas.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/canvas-2d-desynchronized/">Desynchronized 2D canvas</a></strong>:
                 The optional <code>desynchronized</code> parameter of a canvas's <code>getContext()</code> method permits the browser to draw a 2D canvas independently of the event loop. This can reduce drawing latency.
               </li>
@@ -507,8 +538,8 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/clip-path-animatable/">Animatable clipping paths</a></strong>:
-                The <code>clip-path</code> property can be animated using CSS transitions and animations.
+                <strong><a href="/web-features-explorer/features/clip/">clip</a></strong>:
+                The <code>clip</code> CSS property sets the visible area of an absolutely positioned element.
               </li>
             
               <li>
@@ -578,7 +609,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/device-memory/">Device memory</a></strong>:
-                The <code>navigator.deviceMemory</code> property returns the approximate amount of device memory, in gigabytes.
+                The <code>navigator.deviceMemory</code> property is the approximate amount of device memory, in gigabytes.
               </li>
             
               <li>
@@ -597,7 +628,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/enterkeyhint/">Enterkeyhint</a></strong>:
+                <strong><a href="/web-features-explorer/features/enterkeyhint/">enterkeyhint</a></strong>:
                 The <code>enterkeyhint</code> global HTML attribute sets the label for a virtual keyboard's Enter key. For example, <code>enterkeyhint="search"</code> may label the key with a magnifying glass icon.
               </li>
             
@@ -722,6 +753,16 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/link-rel-dns-prefetch/">&lt;link rel="dns-prefetch"&gt;</a></strong>:
+                The <code>rel="dns-prefetch"</code> attribute for the <code>&#x3C;link></code> HTML element is a hint to the browser that the page or user is likely to request resources from another domain, so the browser should preemptively resolve DNS for the <code>href</code> value's domain.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/link-rel-preload/">&lt;link rel="preload"&gt;</a></strong>:
+                The <code>rel="preload"</code> attribute for the <code>&#x3C;link></code> HTML element requests resources, such as images or style sheets, that the page needs soon, so the browser may prioritize them for loading before rendering begins.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/loading-lazy/">Lazy-loading images and iframes</a></strong>:
                 The <code>loading="lazy"</code> attribute for <code>&#x3C;img></code> and <code>&#x3C;iframe></code> elements blocks loading the external resource until the user scrolls to that element's part of the page.
               </li>
@@ -747,8 +788,18 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/modulepreload/">&lt;link rel="modulepreload"&gt;</a></strong>:
+                The <code>rel="modulepreload"</code> attribute for the <code>&#x3C;link></code> HTML element indicates that a module script should be fetched, parsed, and compiled preemptively, and stored for later execution.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/motion-path/">Motion path</a></strong>:
                 The <code>offset</code> CSS property animates an element along a defined motion path.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/numeric-factory-functions/">Numeric factory functions</a></strong>:
+                The numeric factory functions, such as <code>CSS.px()</code> or <code>CSS.kHz()</code>, return a <code>CSSUnitValue</code> representing a CSS number value (as in <code>12px</code> or <code>440kHz</code>).
               </li>
             
               <li>
@@ -772,6 +823,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/overflow-shorthand/">overflow</a></strong>:
+                The <code>overflow</code> CSS property sets the behavior for when content doesn't fit in an element.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/page-lifecycle/">Page lifecycle</a></strong>:
                 The page lifecycle API helps you safely handle page suspensions or discards from memory. The <code>freeze</code> and <code>resume</code> events fire when the browser suspends or resumes a page from memory while the <code>document.wasDiscarded</code> property reports whether the page was reloaded after being dropped.
               </li>
@@ -784,11 +840,6 @@
               <li>
                 <strong><a href="/web-features-explorer/features/paint/">paint()</a></strong>:
                 The <code>paint()</code> CSS function creates a custom image, drawn using a paint worklet, for an element's background or border.
-              </li>
-            
-              <li>
-                <strong><a href="/web-features-explorer/features/paint-timing/">Paint timing</a></strong>:
-                The <code>paint</code> performance entry and the <code>PerformancePaintTiming</code> API measures the duration of "paint" (also called "render") operations as a page loads. The API measures the time to First Paint (FP) and First Contentful Paint (FCP), common metrics for perceived loading times.
               </li>
             
               <li>
@@ -912,6 +963,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/shared-workers/">Shared worker</a></strong>:
+                The <code>SharedWorker()</code> constructor runs a script in its own thread, which can send and receive messages with other scripts running at the same origin.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/steps-easing/">steps() easing</a></strong>:
                 The <code>steps()</code> CSS easing function divides an animation or transition into equidistant intervals, jumping from value to value. The <code>step-start</code> and <code>step-end</code> keyword values are presets with a single interval.
               </li>
@@ -919,6 +975,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/storage-manager/">Storage manager</a></strong>:
                 The <code>navigator.storage</code> API provides information about the availability and persistence of the data that a site stores on the device, by using APIs such as the Cache API or the IndexedDB API.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/streams/">Streams</a></strong>:
+                The streams API creates, composes, and consumes continuously generated data.
               </li>
             
               <li>
@@ -948,11 +1009,11 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/time-relative-selectors/">Time-relative pseudo-selectors</a></strong>:
-                The <code>:future</code> and <code>:past</code> CSS pseudo-classes match upcoming or prior elements during media playback.
+                The <code>:past</code> and <code>:future</code> CSS pseudo-classes match prior or upcoming text track cues during media playback.
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/translate/">translate attribute</a></strong>:
+                <strong><a href="/web-features-explorer/features/translate/">translate</a></strong>:
                 The <code>translate</code> HTML attribute marks whether an element's text should be translated.
               </li>
             
@@ -989,11 +1050,6 @@
               <li>
                 <strong><a href="/web-features-explorer/features/wasm-threads/">Threads and atomics (WebAssembly)</a></strong>:
                 Threads in WebAssembly run code in parallel, while atomic memory instructions can guarantee that no two threads can read or write to shared memory at the same time.
-              </li>
-            
-              <li>
-                <strong><a href="/web-features-explorer/features/web-animations/">Web animations</a></strong>:
-                The <code>animate()</code> method of <code>Element</code> objects programmatically animates elements over time and can synchronize the animations of multiple elements.
               </li>
             
               <li>
@@ -1109,6 +1165,42 @@
       
         
           <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
             <a href="../february-2025">February 2025</a>
           </li>
         
@@ -1192,43 +1284,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         

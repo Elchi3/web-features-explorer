@@ -5,6 +5,7 @@
     <title>Web platform features explorer - messageerror</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,76 +31,101 @@
 
     
 <main class="feature-page">
-  <div id="messageerror" class="feature baseline-low">
+  <div id="messageerror" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">messageerror</h1>
-    <div class="availability">
-  
-    
-    Newly available since 2023-03-27
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="messageerror" data-len="12"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">api</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          Messaging 
-        
-      </span>
-    
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>messageerror</code> event fires on a target, such as a window or worker, when an incoming message cannot be deserialized. This event can fire for many types of messages, such as cross-document messages or broadcast channel messages.
   </p>
 
-  <h3>Learning resources on MDN</h3>
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    
+    Baseline Newly Available (since 2023-03-27)
+    
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2025-09-27
+    
+    
+  </p></div>
 
-
-  <ul data-pagefind-body="">
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/Window/messageerror_event">
-          
-            Window: messageerror event
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event">
-          
-            Worker: messageerror event
-          
-        </a>
-      </li>
-    
-  </ul>
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/Window/messageerror_event">
+            
+              Window: messageerror event
+            
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event">
+            
+              Worker: messageerror event
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://html.spec.whatwg.org/multipage/indices.html#event-messageerror">HTML (#event-messageerror)</a>,
+            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
+          
+        </li>
+      
+        <li>
+          
+            <a href="https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror">Service Workers (#eventdef-serviceworkerglobalscope-messageerror)</a>,
+            from <a href="https://www.w3.org/groups/wg/webapps/">Web Applications Working Group</a> (W3C).
+          
+        </li>
+      
+    </ul>
+  </div>
+
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
     <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
       
       
-        <span class="version">80</span>
-        <span class="date">Released on 2020-02-04</span>
+        <span class="version">60</span>
+        <span class="date">Released on 2017-07-25</span>
       
     </li>
   
@@ -107,8 +133,8 @@
       <span class="name">Chrome Android</span>
       
       
-        <span class="version">80</span>
-        <span class="date">Released on 2020-02-04</span>
+        <span class="version">60</span>
+        <span class="date">Released on 2017-08-01</span>
       
     </li>
   
@@ -116,8 +142,8 @@
       <span class="name">Edge</span>
       
       
-        <span class="version">80</span>
-        <span class="date">Released on 2020-02-07</span>
+        <span class="version">18</span>
+        <span class="date">Released on 2018-10-02</span>
       
     </li>
   
@@ -125,8 +151,8 @@
       <span class="name">Firefox</span>
       
       
-        <span class="version">65</span>
-        <span class="date">Released on 2019-01-29</span>
+        <span class="version">57</span>
+        <span class="date">Released on 2017-11-14</span>
       
     </li>
   
@@ -134,8 +160,8 @@
       <span class="name">Firefox for Android</span>
       
       
-        <span class="version">65</span>
-        <span class="date">Released on 2019-01-29</span>
+        <span class="version">57</span>
+        <span class="date">Released on 2017-11-28</span>
       
     </li>
   
@@ -158,42 +184,36 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://html.spec.whatwg.org/multipage/indices.html#event-messageerror">HTML (#event-messageerror)</a>,
-            from <a href="https://html.spec.whatwg.org/multipage/">HTML Workstream</a> (WHATWG).
-          
-        </li>
-      
-        <li>
-          
-            <a href="https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror">Service Workers (#eventdef-serviceworkerglobalscope-messageerror)</a>,
-            from <a href="https://www.w3.org/groups/wg/service-workers/">Service Workers Working Group</a> (W3C).
-          
-        </li>
-      
-    </ul>
+
+  
+
+  
+
+  
+  <div class="wpt feature-box">
+    <h3>Web Platform Tests (WPT)</h3>
+    <a href="https://wpt.fyi/results/?q=feature:messageerror">View the latest WPT test results for this feature</a>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Amessageerror">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/messageerror.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/messageerror.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[messageerror] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  <p class="edit-links">
+    <a href="../messageerror.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/messageerror.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[messageerror] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/messageerror.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/messageerror.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

@@ -5,6 +5,7 @@
     <title>Web platform features explorer - July 2015 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -55,8 +56,8 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/accesskey/">Accesskey</a></strong>:
-              The <code>accessKey</code> global HTML attribute gives a hint for generating a keyboard shortcut for the current element. The attribute value must consist of a single printable character.
+              <strong><a href="/web-features-explorer/features/accesskey/">accesskey</a></strong>:
+              The <code>accesskey</code> global HTML attribute gives a hint for generating a keyboard shortcut for the current element. The attribute value must consist of a single printable character.
             </li>
           
             <li>
@@ -110,7 +111,7 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/autofocus/">Autofocus</a></strong>:
+              <strong><a href="/web-features-explorer/features/autofocus/">autofocus</a></strong>:
               The <code>autofocus</code> HTML attribute gives focus to an element on page load.
             </li>
           
@@ -172,11 +173,6 @@
             <li>
               <strong><a href="/web-features-explorer/features/before-after/">::before and ::after</a></strong>:
               The <code>::before</code> and <code>::after</code> CSS pseudo-elements select inline boxes preceding and following an element. They are often used with the <code>content</code> property to generate cosmetic content.
-            </li>
-          
-            <li>
-              <strong><a href="/web-features-explorer/features/beforeunload/">Beforeunload</a></strong>:
-              The <code>beforeunload</code> event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.
             </li>
           
             <li>
@@ -275,7 +271,7 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/contenteditable/">Contenteditable</a></strong>:
+              <strong><a href="/web-features-explorer/features/contenteditable/">contenteditable</a></strong>:
               The <code>contenteditable</code> global HTML attribute allows the user to edit the content of an element, such as inserting or deleting text.
             </li>
           
@@ -317,6 +313,11 @@
             <li>
               <strong><a href="/web-features-explorer/features/date/">Date</a></strong>:
               The <code>Date</code> object represents a single moment in time.
+            </li>
+          
+            <li>
+              <strong><a href="/web-features-explorer/features/dedicated-workers/">Dedicated workers</a></strong>:
+              The <code>Worker()</code> constructor runs a script in its own thread, which can send and receive messages with the script that created it. Also known as web workers.
             </li>
           
             <li>
@@ -675,13 +676,13 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/lang-attr/">Lang</a></strong>:
+              <strong><a href="/web-features-explorer/features/lang-attr/">lang</a></strong>:
               The <code>lang</code> global HTML attribute defines the language of an element. It's used by assistive technology to correctly read the content, translation tools to select the origin language, and other applications.
             </li>
           
             <li>
               <strong><a href="/web-features-explorer/features/language/">Language</a></strong>:
-              The <code>navigator.language</code> read-only property returns a string representing the preferred language of the user, usually the language of the browser UI. The <code>navigator.languages</code> read-only property returns an array of strings representing the user's preferred languages.
+              The <code>navigator.language</code> property is a string representing the preferred language of the user, usually the language of the browser UI. The <code>navigator.languages</code> property is an array of strings representing the user's preferred languages.
             </li>
           
             <li>
@@ -841,7 +842,7 @@
           
             <li>
               <strong><a href="/web-features-explorer/features/online/">Online status</a></strong>:
-              The <code>navigator.onLine</code> property returns a Boolean for whether the browser is connected to some network (though not necessarily the internet). The <code>online</code> and <code>offline</code> events fire when the connection state changes.
+              The <code>navigator.onLine</code> property is a boolean for whether the browser is connected to some network (though not necessarily the internet). The <code>online</code> and <code>offline</code> events fire when the connection state changes.
             </li>
           
             <li>
@@ -990,7 +991,7 @@
             </li>
           
             <li>
-              <strong><a href="/web-features-explorer/features/settimeout/">setTimeout</a></strong>:
+              <strong><a href="/web-features-explorer/features/settimeout/">setTimeout()</a></strong>:
               The <code>setTimeout()</code> global function executes provided code after a given duration of time, and the accompanying <code>clearTimeout()</code> cancels the timer.
             </li>
           
@@ -1131,7 +1132,7 @@
           
             <li>
               <strong><a href="/web-features-explorer/features/user-agent-sniffing/">User agent sniffing</a></strong>:
-              The <code>navigator.userAgent</code> read-only property returns the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
+              The <code>navigator.userAgent</code> property is the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
             </li>
           
             <li>
@@ -1308,6 +1309,11 @@
           <ul>
             
               <li>
+                <strong><a href="/web-features-explorer/features/accessor-methods/">Accessor methods</a></strong>:
+                The <code>__defineGetter__()</code> and <code>__defineSetter__()</code> methods of objects bind a function to a property, which is called on setting or reading the property.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/angle-instanced-arrays/">ANGLE_instanced_arrays WebGL extension</a></strong>:
                 The <code>ANGLE_instanced_arrays</code> extension for WebGL 1.0 contexts draws the same object multiple times or groups of similar objects multiple times, if the group shares the same vertex data, primitive count and type.
               </li>
@@ -1363,6 +1369,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/beforeunload/">beforeunload</a></strong>:
+                The <code>beforeunload</code> event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/border-image/">Border images</a></strong>:
                 The <code>border-image</code> CSS property draws an image around an element.
               </li>
@@ -1393,8 +1404,13 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/contenteditable-plaintextonly/">contenteditable="plaintext-only"</a></strong>:
+                The <code>contenteditable="plaintext-only"</code> global HTML attribute allows the user to edit the content of an element, but prevents rich-text formatting.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/cookie-enabled/">cookieEnabled</a></strong>:
-                The <code>navigator.cookieEnabled</code> property returns a Boolean value for whether the browser accepts or ignores attempts to write cookie data.
+                The <code>navigator.cookieEnabled</code> property is a boolean for whether the browser accepts or ignores attempts to write cookie data.
               </li>
             
               <li>
@@ -1405,6 +1421,16 @@
               <li>
                 <strong><a href="/web-features-explorer/features/datalist/">&lt;datalist&gt;</a></strong>:
                 The <code>&#x3C;datalist></code> element sets recommended values for an <code>&#x3C;input></code> element. Browsers may show a dropdown menu of all values or match values as the user types.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/date-get-year-set-year/">getYear() and setYear()</a></strong>:
+                The <code>getYear()</code> and <code>setYear()</code> methods of <code>Date</code> objects get and set the year as an offset to 1900.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/date-to-gmt-string/">toGMTString()</a></strong>:
+                The <code>toGMTString()</code> method of <code>Date</code> objects is an alias to the <code>toUTCString()</code> method.
               </li>
             
               <li>
@@ -1419,7 +1445,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/devicepixelratio/">devicePixelRatio</a></strong>:
-                The <code>window.devicePixelRatio</code> read-only property returns the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.
+                The <code>window.devicePixelRatio</code> property is the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.
               </li>
             
               <li>
@@ -1435,6 +1461,16 @@
               <li>
                 <strong><a href="/web-features-explorer/features/domparser/">DOMParser</a></strong>:
                 The <code>DOMParser</code> API parses XML or HTML source code from a string into a DOM Document.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/escape-unescape/">escape() and unescape()</a></strong>:
+                The <code>escape()</code> and <code>unescape()</code> built-in Javascript methods encode and unencode strings using percent encoding, where certain characters are replaced by hexadecimal escape sequences.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/execcommand/">execCommand()</a></strong>:
+                The <code>execCommand()</code> method reads and writes from the clipboard and performs editing commands on editable text, such as changing the font name or style. Related methods check whether commands are supported, enabled, or applied.
               </li>
             
               <li>
@@ -1473,6 +1509,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/html-wrapper-methods/">HTML wrapper methods</a></strong>:
+                JavaScript built-in methods such as, <code>String.bold()</code> and <code>String.italics()</code>, wrap strings in (often historic) HTML.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/http2/">HTTP/2</a></strong>:
                 The HTTP/2 protocol is a major revision of the HTTP network protocol, providing improved performance and efficiency by using a single TCP connection to send multiple streams of data at once.
               </li>
@@ -1495,6 +1536,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/intl/">Intl</a></strong>:
                 The <code>Intl</code> API provides language sensitive string comparison, number formatting, date and time formatting, and more.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/link-rel-prefetch/">&lt;link rel="prefetch"&gt;</a></strong>:
+                The <code>rel="prefetch"</code> attribute for the <code>&#x3C;link></code> HTML element is a hint to the browser that the user is likely to navigate to a resource, so the browser should preemptively fetch and cache the resource.
               </li>
             
               <li>
@@ -1558,8 +1604,18 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/proto/">__proto__</a></strong>:
+                The <code>__proto__</code> property of objects partially exposes the prototype of an object.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/proxy-reflect/">Proxy and Reflect</a></strong>:
                 The <code>Proxy</code> and <code>Reflect</code> JavaScript built-ins intercept and define custom behavior for fundamental language operations (such as property lookup, assignment, enumeration, or function invocation).
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/regexp-compile/">RegExp compile()</a></strong>:
+                The <code>compile()</code> method of <code>RegExp</code> objects recompiles an existing regular expression object using a new pattern and flags.
               </li>
             
               <li>
@@ -1588,7 +1644,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/spellcheck/">Spellcheck</a></strong>:
+                <strong><a href="/web-features-explorer/features/spellcheck/">spellcheck</a></strong>:
                 The <code>spellcheck</code> global HTML attribute sets whether the browser may check an element for spelling errors.
               </li>
             
@@ -1635,6 +1691,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/symbol/">Symbol</a></strong>:
                 A <code>Symbol</code> value is a unique, non-enumerable primitive value used for encapsulation or information hiding. For example, a symbol can be a key of an object that can never collide with any other key.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/table-discouraged/">Table styling</a></strong>:
+                Attributes and properties of table elements, such as <code>align</code>, <code>vAlign</code>, <code>noWrap</code>, <code>bgcolor</code>, or <code>char</code> set various visual presentation properties of the table and its sections and cells. These are obsolete, and some of them have no effect. Use CSS instead.
               </li>
             
               <li>
@@ -1813,6 +1874,42 @@
       
         
           <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
             <a href="../february-2025">February 2025</a>
           </li>
         
@@ -1896,43 +1993,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         

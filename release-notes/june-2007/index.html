@@ -5,6 +5,7 @@
     <title>Web platform features explorer - June 2007 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -64,6 +65,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/absolute-positioning/">Absolute positioning</a></strong>:
                 The <code>position: absolute</code> CSS declaration removes an element from the normal flow and positions it relative to its containing block, which is often the root element, or closest positioned ancestor.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/accessor-methods/">Accessor methods</a></strong>:
+                The <code>__defineGetter__()</code> and <code>__defineSetter__()</code> methods of objects bind a function to a property, which is called on setting or reading the property.
               </li>
             
               <li>
@@ -117,11 +123,6 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/beforeunload/">Beforeunload</a></strong>:
-                The <code>beforeunload</code> event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.
-              </li>
-            
-              <li>
                 <strong><a href="/web-features-explorer/features/body/">&lt;body&gt;</a></strong>:
                 The <code>&#x3C;body></code> element represents the content of an HTML document.
               </li>
@@ -144,6 +145,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/canvas-2d/">2D canvas</a></strong>:
                 The <code>CanvasRenderingContext2D</code> API is the "2d" rendering context for the <code>&#x3C;canvas></code> element. It represents a flat, two-dimensional space for drawing graphics and animations.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/clip/">clip</a></strong>:
+                The <code>clip</code> CSS property sets the visible area of an absolutely positioned element.
               </li>
             
               <li>
@@ -177,6 +183,16 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/date-get-year-set-year/">getYear() and setYear()</a></strong>:
+                The <code>getYear()</code> and <code>setYear()</code> methods of <code>Date</code> objects get and set the year as an offset to 1900.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/date-to-gmt-string/">toGMTString()</a></strong>:
+                The <code>toGMTString()</code> method of <code>Date</code> objects is an alias to the <code>toUTCString()</code> method.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/device-queries/">Device media queries</a></strong>:
                 The <code>device-aspect-ratio</code>, <code>device-height</code>, and <code>device-width</code> media features describe physical properties of the displaying output device.
               </li>
@@ -207,6 +223,11 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/escape-unescape/">escape() and unescape()</a></strong>:
+                The <code>escape()</code> and <code>unescape()</code> built-in Javascript methods encode and unencode strings using percent encoding, where certain characters are replaced by hexadecimal escape sequences.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/events/">Events</a></strong>:
                 The <code>Event</code> API and the <code>addEventListener()</code> method on objects that receive events (event targets) represent and handle significant things happening on a page. Many APIs fire events for a wide range of situations relating to those APIs, such as an image loading, a user clicking, or a value changing.
               </li>
@@ -214,6 +235,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/ex/">ex unit</a></strong>:
                 The <code>ex</code> CSS length unit is a font-relative length equal to the used x-height of the first available font. X-height is often equal to the height of the lowercase x.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/execcommand/">execCommand()</a></strong>:
+                The <code>execCommand()</code> method reads and writes from the clipboard and performs editing commands on editable text, such as changing the font name or style. Related methods check whether commands are supported, enabled, or applied.
               </li>
             
               <li>
@@ -294,6 +320,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/html/">&lt;html&gt;</a></strong>:
                 The <code>&#x3C;html></code> element represents the top-level of an HTML document and is referred to as the root element.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/html-wrapper-methods/">HTML wrapper methods</a></strong>:
+                JavaScript built-in methods such as, <code>String.bold()</code> and <code>String.italics()</code>, wrap strings in (often historic) HTML.
               </li>
             
               <li>
@@ -388,7 +419,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/language/">Language</a></strong>:
-                The <code>navigator.language</code> read-only property returns a string representing the preferred language of the user, usually the language of the browser UI. The <code>navigator.languages</code> read-only property returns an array of strings representing the user's preferred languages.
+                The <code>navigator.language</code> property is a string representing the preferred language of the user, usually the language of the browser UI. The <code>navigator.languages</code> property is an array of strings representing the user's preferred languages.
               </li>
             
               <li>
@@ -504,6 +535,11 @@
               <li>
                 <strong><a href="/web-features-explorer/features/print/">window.print()</a></strong>:
                 The <code>window.print()</code> method opens the browser's print dialog.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/proto/">__proto__</a></strong>:
+                The <code>__proto__</code> property of objects partially exposes the prototype of an object.
               </li>
             
               <li>
@@ -693,6 +729,42 @@
       
         
           <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
             <a href="../february-2025">February 2025</a>
           </li>
         
@@ -776,43 +848,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         

@@ -5,6 +5,7 @@
     <title>Web platform features explorer - clip</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,34 +31,21 @@
 
     
 <main class="feature-page">
-  <div id="clip" class="feature baseline-false discouraged">
+  <div id="clip" class="feature full baseline-false discouraged">
   <div class="header">
     <h1 data-pagefind-body="">clip</h1>
-    <div class="availability">
-  
-    Discouraged
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="clip" data-len="4"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">css</span>
-    
-  
-  
-    Groups:
-    
-      <span class="tag">
-        
-          Clipping, shapes and masking 
-        
-      </span>
-    
-  
-</div>
-
 
   
   <div class="discouraged-info">
@@ -81,100 +69,42 @@
   </div>
 
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>clip</code> CSS property sets the visible area of an absolutely positioned element.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
+    Discouraged
+  
+</div>
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/CSS/clip">
-          
-            clip
-          
-        </a>
-      </li>
     
-  </ul>
+  </div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/CSS/clip">
+            
+              clip
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
-  
-    <li class="browser browser-chrome supported">
-      <span class="name">Chrome</span>
-      
-      
-        <span class="version">≤80</span>
-        <span class="date">Released before 2020-02-04</span>
-      
-    </li>
-  
-    <li class="browser browser-chrome_android supported">
-      <span class="name">Chrome Android</span>
-      
-      
-        <span class="version">≤80</span>
-        <span class="date">Released before 2020-02-04</span>
-      
-    </li>
-  
-    <li class="browser browser-edge supported">
-      <span class="name">Edge</span>
-      
-      
-        <span class="version">≤80</span>
-        <span class="date">Released before 2020-02-07</span>
-      
-    </li>
-  
-    <li class="browser browser-firefox supported">
-      <span class="name">Firefox</span>
-      
-      
-        <span class="version">≤72</span>
-        <span class="date">Released before 2020-01-07</span>
-      
-    </li>
-  
-    <li class="browser browser-firefox_android supported">
-      <span class="name">Firefox for Android</span>
-      
-      
-        <span class="version">≤79</span>
-        <span class="date">Released before 2020-07-28</span>
-      
-    </li>
-  
-    <li class="browser browser-safari supported">
-      <span class="name">Safari</span>
-      
-      
-        <span class="version">≤13.1</span>
-        <span class="date">Released before 2020-03-24</span>
-      
-    </li>
-  
-    <li class="browser browser-safari_ios supported">
-      <span class="name">Safari on iOS</span>
-      
-      
-        <span class="version">≤13.4</span>
-        <span class="date">Released before 2020-03-24</span>
-      
-    </li>
-  
-</ul>
-
-  
-
-  
-  <div class="specs" data-pagefind-body="">
+  <div class="specs feature-box" data-pagefind-body="">
     <h3>Specifications</h3>
-    <ul>
+    <ul data-pagefind-body="">
       
         <li>
           
@@ -186,17 +116,100 @@
     </ul>
   </div>
 
+  
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
+  
+    <li class="browser browser-chrome supported">
+      <span class="name">Chrome</span>
+      
+      
+        <span class="version">1</span>
+        <span class="date">Released on 2008-12-11</span>
+      
+    </li>
+  
+    <li class="browser browser-chrome_android supported">
+      <span class="name">Chrome Android</span>
+      
+      
+        <span class="version">18</span>
+        <span class="date">Released on 2012-06-27</span>
+      
+    </li>
+  
+    <li class="browser browser-edge supported">
+      <span class="name">Edge</span>
+      
+      
+        <span class="version">79</span>
+        <span class="date">Released on 2020-01-15</span>
+      
+    </li>
+  
+    <li class="browser browser-firefox supported">
+      <span class="name">Firefox</span>
+      
+      
+        <span class="version">1</span>
+        <span class="date">Released on 2004-11-09</span>
+      
+    </li>
+  
+    <li class="browser browser-firefox_android supported">
+      <span class="name">Firefox for Android</span>
+      
+      
+        <span class="version">4</span>
+        <span class="date">Released on 2011-03-29</span>
+      
+    </li>
+  
+    <li class="browser browser-safari supported">
+      <span class="name">Safari</span>
+      
+      
+        <span class="version">1.3</span>
+        <span class="date">Released on 2005-04-15</span>
+      
+    </li>
+  
+    <li class="browser browser-safari_ios supported">
+      <span class="name">Safari on iOS</span>
+      
+      
+        <span class="version">1</span>
+        <span class="date">Released on 2007-06-29</span>
+      
+    </li>
+  
+</ul>
+  </div>
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aclip">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clip.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/clip.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[clip] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../clip.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/clip.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[clip] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clip.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/clip.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

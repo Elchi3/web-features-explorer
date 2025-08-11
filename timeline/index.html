@@ -5,6 +5,7 @@
     <title>Web platform features explorer - Web features timeline</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,9 +31,58 @@
 
     
 <main>
-  <p>This page lists web platform features by years when they reached Baseline Newly Available status.
+  <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/apexcharts.css">
+  <h1>Timeline</h1>
 
-  </p><div id="timeline"></div>
+  <p>This page visualizes the evolution of web platform features over time.</p>
+
+  <section>
+    <h2>Number of web features</h2>
+    <p>The following chart plots the number of web features over time per Baseline type. Keep in mind that support data in web-features only covers browsers in the core browser set (Chrome, Edge, Firefox, Safari). For example, the graph contains no information about feature support in Internet Explorer (started in 1995).</p>
+
+    <p>Several dates are highlighted in the chart to ease reading:</p>
+    <ul>
+      <li><b>23 June 2003</b>: First version of Safari and first date in the graph.</li>
+      <li><b>9 November 2004</b>: First version of Firefox.</li>
+      <li><b>11 December 2009</b>: First version of Chrome.</li>
+      <li><b>29 July 2015</b>: First version of Edge (actual version number is 12). By definition, there can be no Baseline Newly Available features <i>before</i> that date.</li>
+      <li><b>29 January 2018</b>: 30 months later. Also by definition, there can be no Baseline Widely Available features <i>before</i> that date.</li>
+      <li><b>15 January 2020</b>: Edge switches to Chromium, creating a surge of Baseline Newly Available features.</li>
+      <li><b>15 July 2022</b>: 30 months later, a corresponding surge of Baseline Widely Available features appears.</li>
+    </ul>
+
+    <div id="timeline-number"></div>
+
+    <p>The underlying data is available in a <a href="/web-features-explorer/assets/timeline-number.json"><code>timeline-number.json</code></a> JSON file.</p>
+
+    <p><b>Note</b>: Features that have not shipped anywhere are not associated with any date in web-features and do not appear in the chart. As of January 2025, ~30 features (out of 1000+ features) are in that category.</p>
+
+    <p>Replacing the values with percentages yields the following chart. It shows the evolution of the distribution of features between Baseline Widely Available, Baseline Newly Available, and features available somewhere. how interoperability progresses over time and how the web platform grows. The graph starts on 29 January 2018, when first Baseline Widely Available features appear.</p>
+
+    <div id="timeline-percent"></div>
+  </section>
+
+  <section>
+    <h2>Duration from first implementation to Baseline Newly Available</h2>
+    <p>The following chart shows the evolution of the duration needed for a feature to go from first implementation available to Baseline Newly Available, from year to year.</p>
+
+    <p>The chart is a box plot. For each year, it showcases the first quartile, the median and the last quartile (the <i>box</i>), along with the minimum and maximum durations (the <i>whiskers</i>).</p>
+
+    <div id="timeline-durations"></div>
+
+    <p>The underlying data is available in a <a href="/web-features-explorer/assets/timeline-durations.json"><code>timeline-durations.json</code></a> JSON file.</p>
+
+    <p><b>Note</b>: ~50 features in web-features have support dates that start with <code>≤</code> to indicate that support started before these dates (all of these dates are before mid-2020). This nuance is dropped to compute statistics. This makes features appear later than they should when looking at the evolution of the number of web features, and reduces the duration from first implementation to newly available. Impact should remain minimal.</p>
+
+    <p><b>Note</b>: What about going from first implementation to Baseline Widely Available? Given the current definition of widely available, this would yield the same chart with additional ~910 days (30 months) to the durations.</p>
+  </section>
+
+  <section>
+    <h2>Web platform features per year</h2>
+    <p>The following table lists web platform features by years when they reached Baseline Newly Available status.
+
+    </p><div id="timeline"></div>
+  </section>
 
   <script>
   const baselineLowDateFeatures = [
@@ -40,7 +90,7 @@
       
         {
           feature: "a",
-          name: "&lt;a&gt;",
+          name: "<a>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -48,7 +98,7 @@
       
         {
           feature: "abbr",
-          name: "&lt;abbr&gt;",
+          name: "<abbr>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -78,6 +128,12 @@
       
     
       
+        {
+          feature: "abs-sign",
+          name: "abs() and sign()",
+          baseline_low_date: "2025-06-26"
+        },
+      
     
       
         {
@@ -94,7 +150,7 @@
       
         {
           feature: "accesskey",
-          name: "Accesskey",
+          name: "accesskey",
           baseline_low_date: "2015-07-29"
         },
       
@@ -102,9 +158,11 @@
       
     
       
+    
+      
         {
           feature: "address",
-          name: "&lt;address&gt;",
+          name: "<address>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -171,6 +229,8 @@
           name: "Animations (CSS)",
           baseline_low_date: "2015-09-30"
         },
+      
+    
       
     
       
@@ -338,7 +398,7 @@
       
         {
           feature: "article",
-          name: "&lt;article&gt;",
+          name: "<article>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -346,7 +406,7 @@
       
         {
           feature: "aside",
-          name: "&lt;aside&gt;",
+          name: "<aside>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -394,6 +454,12 @@
       
     
       
+        {
+          feature: "atomics-pause",
+          name: "Atomics.pause()",
+          baseline_low_date: "2025-04-01"
+        },
+      
     
       
     
@@ -412,7 +478,7 @@
       
         {
           feature: "audio",
-          name: "&lt;audio&gt;",
+          name: "<audio>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -444,7 +510,7 @@
       
         {
           feature: "autofocus",
-          name: "Autofocus",
+          name: "autofocus",
           baseline_low_date: "2015-07-29"
         },
       
@@ -468,7 +534,7 @@
       
         {
           feature: "b",
-          name: "&lt;b&gt;",
+          name: "<b>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -592,7 +658,7 @@
       
         {
           feature: "base",
-          name: "&lt;base&gt;",
+          name: "<base>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -614,7 +680,7 @@
       
         {
           feature: "bdi",
-          name: "&lt;bdi&gt;",
+          name: "<bdi>",
           baseline_low_date: "2020-01-15"
         },
       
@@ -622,7 +688,7 @@
       
         {
           feature: "bdo",
-          name: "&lt;bdo&gt;",
+          name: "<bdo>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -645,12 +711,6 @@
     
       
     
-      
-        {
-          feature: "beforeunload",
-          name: "Beforeunload",
-          baseline_low_date: "2015-07-29"
-        },
       
     
       
@@ -676,7 +736,7 @@
       
         {
           feature: "blockquote",
-          name: "&lt;blockquote&gt;",
+          name: "<blockquote>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -684,7 +744,7 @@
       
         {
           feature: "body",
-          name: "&lt;body&gt;",
+          name: "<body>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -734,7 +794,7 @@
       
         {
           feature: "br",
-          name: "&lt;br&gt;",
+          name: "<br>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -758,7 +818,7 @@
       
         {
           feature: "button",
-          name: "&lt;button&gt;",
+          name: "<button>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -784,7 +844,7 @@
       
         {
           feature: "canvas",
-          name: "&lt;canvas&gt;",
+          name: "<canvas>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -850,7 +910,7 @@
       
         {
           feature: "capture-stream-canvas",
-          name: "captureStream() for &lt;canvas&gt;",
+          name: "captureStream() for <canvas>",
           baseline_low_date: "2020-01-15"
         },
       
@@ -924,7 +984,7 @@
       
         {
           feature: "cite",
-          name: "&lt;cite&gt;",
+          name: "<cite>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -956,6 +1016,12 @@
       
     
       
+        {
+          feature: "clip-path-animatable",
+          name: "Animatable clipping paths",
+          baseline_low_date: "2020-01-15"
+        },
+      
     
       
         {
@@ -976,6 +1042,12 @@
       
     
       
+        {
+          feature: "clipboard-supports",
+          name: "ClipboardItem.supports()",
+          baseline_low_date: "2025-03-31"
+        },
+      
     
       
     
@@ -986,7 +1058,7 @@
       
         {
           feature: "code",
-          name: "&lt;code&gt;",
+          name: "<code>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1056,6 +1128,8 @@
       
     
       
+    
+      
         {
           feature: "column-span",
           name: "column-span",
@@ -1071,6 +1145,8 @@
           name: "Composition events",
           baseline_low_date: "2017-04-19"
         },
+      
+    
       
     
       
@@ -1200,11 +1276,17 @@
       
         {
           feature: "contenteditable",
-          name: "Contenteditable",
+          name: "contenteditable",
           baseline_low_date: "2015-07-29"
         },
       
     
+      
+        {
+          feature: "contenteditable-plaintextonly",
+          name: "contenteditable=\"plaintext-only\"",
+          baseline_low_date: "2025-03-04"
+        },
       
     
       
@@ -1265,6 +1347,12 @@
         },
       
     
+      
+        {
+          feature: "createimagebitmap",
+          name: "createImageBitmap",
+          baseline_low_date: "2021-09-20"
+        },
       
     
       
@@ -1354,7 +1442,7 @@
       
         {
           feature: "data",
-          name: "&lt;data&gt;",
+          name: "<data>",
           baseline_low_date: "2017-10-24"
         },
       
@@ -1386,10 +1474,22 @@
       
     
       
+    
+      
+    
+      
         {
           feature: "declarative-shadow-dom",
           name: "Declarative shadow DOM",
           baseline_low_date: "2024-02-20"
+        },
+      
+    
+      
+        {
+          feature: "dedicated-workers",
+          name: "Dedicated workers",
+          baseline_low_date: "2015-07-29"
         },
       
     
@@ -1404,7 +1504,7 @@
       
         {
           feature: "del",
-          name: "&lt;del&gt;",
+          name: "<del>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1428,7 +1528,7 @@
       
         {
           feature: "details",
-          name: "&lt;details&gt;",
+          name: "<details>",
           baseline_low_date: "2020-01-15"
         },
       
@@ -1438,7 +1538,7 @@
       
         {
           feature: "details-name",
-          name: "Mutually exclusive &lt;details&gt; elements",
+          name: "Mutually exclusive <details> elements",
           baseline_low_date: "2024-09-03"
         },
       
@@ -1462,7 +1562,7 @@
       
         {
           feature: "dfn",
-          name: "&lt;dfn&gt;",
+          name: "<dfn>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1470,9 +1570,11 @@
       
         {
           feature: "dialog",
-          name: "&lt;dialog&gt;",
+          name: "<dialog>",
           baseline_low_date: "2022-03-14"
         },
+      
+    
       
     
       
@@ -1529,14 +1631,14 @@
         {
           feature: "display-table",
           name: "display: table",
-          baseline_low_date: "≤2020-03-24"
+          baseline_low_date: "≤2017-04-05"
         },
       
     
       
         {
           feature: "div",
-          name: "&lt;div&gt;",
+          name: "<div>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1569,7 +1671,7 @@
         {
           feature: "dominant-baseline",
           name: "dominant-baseline",
-          baseline_low_date: "≤2020-03-24"
+          baseline_low_date: "2020-01-15"
         },
       
     
@@ -1626,7 +1728,7 @@
       
         {
           feature: "em",
-          name: "&lt;em&gt;",
+          name: "<em>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1642,7 +1744,7 @@
       
         {
           feature: "embed",
-          name: "&lt;embed&gt;",
+          name: "<embed>",
           baseline_low_date: "2020-01-15"
         },
       
@@ -1666,7 +1768,7 @@
       
         {
           feature: "enterkeyhint",
-          name: "Enterkeyhint",
+          name: "enterkeyhint",
           baseline_low_date: "2021-11-02"
         },
       
@@ -1677,6 +1779,8 @@
           name: "Error cause",
           baseline_low_date: "2021-09-20"
         },
+      
+    
       
     
       
@@ -1810,9 +1914,11 @@
       
     
       
+    
+      
         {
           feature: "fieldset",
-          name: "&lt;fieldset&gt; and &lt;legend&gt;",
+          name: "<fieldset> and <legend>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1820,7 +1926,7 @@
       
         {
           feature: "figure",
-          name: "&lt;figure&gt; and &lt;figcaption&gt;",
+          name: "<figure> and <figcaption>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -1909,6 +2015,12 @@
         },
       
     
+      
+        {
+          feature: "float16array",
+          name: "Float16Array",
+          baseline_low_date: "2025-04-04"
+        },
       
     
       
@@ -2042,12 +2154,6 @@
       
     
       
-        {
-          feature: "font-stretch",
-          name: "font-stretch",
-          baseline_low_date: "2017-09-19"
-        },
-      
     
       
         {
@@ -2160,6 +2266,8 @@
       
     
       
+    
+      
         {
           feature: "forced-colors",
           name: "Forced colors",
@@ -2170,7 +2278,7 @@
       
         {
           feature: "form",
-          name: "&lt;form&gt;",
+          name: "<form>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2194,6 +2302,8 @@
       
     
       
+    
+      
         {
           feature: "functions",
           name: "Functions",
@@ -2209,6 +2319,8 @@
           name: "Gamepad",
           baseline_low_date: "2017-03-27"
         },
+      
+    
       
     
       
@@ -2336,7 +2448,7 @@
       
         {
           feature: "head",
-          name: "&lt;head&gt;",
+          name: "<head>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2344,7 +2456,7 @@
       
         {
           feature: "header-footer",
-          name: "&lt;header&gt; and &lt;footer&gt;",
+          name: "<header> and <footer>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2352,7 +2464,7 @@
       
         {
           feature: "headings",
-          name: "&lt;h1&gt; through &lt;h6&gt;",
+          name: "<h1> through <h6>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2360,7 +2472,7 @@
       
         {
           feature: "hgroup",
-          name: "&lt;hgroup&gt;",
+          name: "<hgroup>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2390,7 +2502,7 @@
       
         {
           feature: "hr",
-          name: "&lt;hr&gt;",
+          name: "<hr>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2414,9 +2526,11 @@
       
         {
           feature: "html",
-          name: "&lt;html&gt;",
+          name: "<html>",
           baseline_low_date: "2015-07-29"
         },
+      
+    
       
     
       
@@ -2482,7 +2596,7 @@
       
         {
           feature: "i",
-          name: "&lt;i&gt;",
+          name: "<i>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2498,9 +2612,11 @@
       
     
       
+    
+      
         {
           feature: "iframe",
-          name: "&lt;iframe&gt;",
+          name: "<iframe>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2558,11 +2674,19 @@
       
     
       
+        {
+          feature: "imagebitmaprenderingcontext",
+          name: "ImageBitmapRenderingContext",
+          baseline_low_date: "2020-01-15"
+        },
+      
+    
+      
     
       
         {
           feature: "img",
-          name: "&lt;img&gt;",
+          name: "<img>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2610,6 +2734,12 @@
       
     
       
+        {
+          feature: "inert",
+          name: "inert",
+          baseline_low_date: "2023-04-11"
+        },
+      
     
       
         {
@@ -2634,7 +2764,7 @@
       
         {
           feature: "input",
-          name: "&lt;input&gt;",
+          name: "<input>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2642,7 +2772,7 @@
       
         {
           feature: "input-button",
-          name: "&lt;input type="button"&gt;",
+          name: "<input type=\"button\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2650,7 +2780,7 @@
       
         {
           feature: "input-checkbox",
-          name: "&lt;input type="checkbox"&gt;",
+          name: "<input type=\"checkbox\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2660,7 +2790,7 @@
       
         {
           feature: "input-date-time",
-          name: "Date and time &lt;input&gt; types",
+          name: "Date and time <input> types",
           baseline_low_date: "2021-04-26"
         },
       
@@ -2668,7 +2798,7 @@
       
         {
           feature: "input-email-tel-url",
-          name: "Email, telephone, and URL &lt;input&gt; types",
+          name: "Email, telephone, and URL <input> types",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2684,7 +2814,7 @@
       
         {
           feature: "input-file",
-          name: "&lt;input type="file"&gt;",
+          name: "<input type=\"file\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2692,7 +2822,7 @@
       
         {
           feature: "input-hidden",
-          name: "&lt;input type="hidden"&gt;",
+          name: "<input type=\"hidden\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2700,7 +2830,7 @@
       
         {
           feature: "input-image",
-          name: "&lt;input type="image"&gt;",
+          name: "<input type=\"image\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2708,7 +2838,7 @@
       
         {
           feature: "input-number",
-          name: "&lt;input type="number"&gt;",
+          name: "<input type=\"number\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2716,7 +2846,7 @@
       
         {
           feature: "input-password",
-          name: "&lt;input type="password"&gt;",
+          name: "<input type=\"password\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2724,7 +2854,7 @@
       
         {
           feature: "input-radio",
-          name: "&lt;input type="radio"&gt;",
+          name: "<input type=\"radio\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2732,7 +2862,7 @@
       
         {
           feature: "input-range",
-          name: "&lt;input type="range"&gt;",
+          name: "<input type=\"range\">",
           baseline_low_date: "2017-03-16"
         },
       
@@ -2740,7 +2870,7 @@
       
         {
           feature: "input-reset",
-          name: "&lt;input type="reset"&gt;",
+          name: "<input type=\"reset\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2756,7 +2886,7 @@
       
         {
           feature: "input-submit",
-          name: "&lt;input type="submit"&gt;",
+          name: "<input type=\"submit\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2772,7 +2902,7 @@
       
         {
           feature: "ins",
-          name: "&lt;ins&gt;",
+          name: "<ins>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2817,6 +2947,12 @@
         },
       
     
+      
+        {
+          feature: "intl-duration-format",
+          name: "Intl.DurationFormat",
+          baseline_low_date: "2025-03-04"
+        },
       
     
       
@@ -2892,6 +3028,12 @@
       
     
       
+        {
+          feature: "iterator-methods",
+          name: "Iterator methods",
+          baseline_low_date: "2025-03-31"
+        },
+      
     
       
         {
@@ -2940,13 +3082,19 @@
       
     
       
+        {
+          feature: "json-modules",
+          name: "JSON import attributes",
+          baseline_low_date: "2025-04-29"
+        },
+      
     
       
     
       
         {
           feature: "kbd",
-          name: "&lt;kbd&gt;",
+          name: "<kbd>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2976,7 +3124,7 @@
       
         {
           feature: "label",
-          name: "&lt;label&gt;",
+          name: "<label>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -2992,7 +3140,7 @@
       
         {
           feature: "lang-attr",
-          name: "Lang",
+          name: "lang",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3078,17 +3226,11 @@
       
         {
           feature: "link",
-          name: "&lt;link&gt;",
+          name: "<link>",
           baseline_low_date: "2015-07-29"
         },
       
     
-      
-        {
-          feature: "link-rel-dns-prefetch",
-          name: "&lt;link rel="dns-prefetch"&gt;",
-          baseline_low_date: "2024-06-11"
-        },
       
     
       
@@ -3096,7 +3238,7 @@
       
         {
           feature: "link-rel-preconnect",
-          name: "&lt;link rel="preconnect"&gt;",
+          name: "<link rel=\"preconnect\">",
           baseline_low_date: "2020-01-15"
         },
       
@@ -3106,7 +3248,7 @@
       
         {
           feature: "link-rel-preload",
-          name: "&lt;link rel="preload"&gt;",
+          name: "<link rel=\"preload\">",
           baseline_low_date: "2021-01-26"
         },
       
@@ -3122,7 +3264,7 @@
       
         {
           feature: "list-elements",
-          name: "&lt;ol&gt;, &lt;ul&gt;, and &lt;li&gt;",
+          name: "<ol>, <ul>, and <li>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3186,7 +3328,7 @@
       
         {
           feature: "main",
-          name: "&lt;main&gt;",
+          name: "<main>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3216,7 +3358,7 @@
       
         {
           feature: "mark",
-          name: "&lt;mark&gt;",
+          name: "<mark>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3249,6 +3391,8 @@
           name: "matchMedia",
           baseline_low_date: "2015-07-29"
         },
+      
+    
       
     
       
@@ -3310,9 +3454,11 @@
       
     
       
+    
+      
         {
           feature: "menu",
-          name: "&lt;menu&gt;",
+          name: "<menu>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3328,7 +3474,7 @@
       
         {
           feature: "meta",
-          name: "&lt;meta&gt;",
+          name: "<meta>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3340,7 +3486,7 @@
       
         {
           feature: "meter",
-          name: "&lt;meter&gt;",
+          name: "<meter>",
           baseline_low_date: "2018-10-02"
         },
       
@@ -3396,7 +3542,7 @@
       
         {
           feature: "modulepreload",
-          name: "&lt;link rel="modulepreload"&gt;",
+          name: "<link rel=\"modulepreload\">",
           baseline_low_date: "2023-09-18"
         },
       
@@ -3415,6 +3561,8 @@
           name: "Mouse events",
           baseline_low_date: "2015-07-29"
         },
+      
+    
       
     
       
@@ -3454,7 +3602,7 @@
       
         {
           feature: "nav",
-          name: "&lt;nav&gt;",
+          name: "<nav>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3518,7 +3666,7 @@
       
         {
           feature: "nth-child-of",
-          name: ":nth-child() of &lt;selector&gt;",
+          name: ":nth-child() of <selector>",
           baseline_low_date: "2023-05-09"
         },
       
@@ -3560,7 +3708,7 @@
       
         {
           feature: "object",
-          name: "&lt;object&gt;",
+          name: "<object>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3587,6 +3735,8 @@
           name: "object-position",
           baseline_low_date: "2020-01-15"
         },
+      
+    
       
     
       
@@ -3736,7 +3886,7 @@
       
         {
           feature: "output",
-          name: "&lt;output&gt;",
+          name: "<output>",
           baseline_low_date: "≤2018-10-02"
         },
       
@@ -3752,6 +3902,14 @@
       
     
       
+        {
+          feature: "overflow-clip",
+          name: "overflow: clip",
+          baseline_low_date: "2022-09-12"
+        },
+      
+    
+      
     
       
     
@@ -3759,7 +3917,7 @@
         {
           feature: "overflow-shorthand",
           name: "overflow",
-          baseline_low_date: "2022-09-12"
+          baseline_low_date: "2020-03-24"
         },
       
     
@@ -3786,7 +3944,7 @@
       
         {
           feature: "p",
-          name: "&lt;p&gt;",
+          name: "<p>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -3848,12 +4006,6 @@
       
     
       
-        {
-          feature: "parse-html-unsafe",
-          name: "Unsanitized HTML parsing methods",
-          baseline_low_date: "2024-07-09"
-        },
-      
     
       
     
@@ -3902,7 +4054,7 @@
       
         {
           feature: "picture",
-          name: "&lt;picture&gt;",
+          name: "<picture>",
           baseline_low_date: "2016-03-21"
         },
       
@@ -3976,7 +4128,7 @@
       
         {
           feature: "pre",
-          name: "&lt;pre&gt;",
+          name: "<pre>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4036,6 +4188,12 @@
       
     
       
+        {
+          feature: "print-color-adjust",
+          name: "print-color-adjust",
+          baseline_low_date: "2025-05-01"
+        },
+      
     
       
         {
@@ -4054,7 +4212,7 @@
       
         {
           feature: "progress",
-          name: "&lt;progress&gt;",
+          name: "<progress>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4108,6 +4266,8 @@
       
     
       
+    
+      
         {
           feature: "proxy-reflect",
           name: "Proxy and Reflect",
@@ -4126,7 +4286,7 @@
       
         {
           feature: "q",
-          name: "&lt;q&gt;",
+          name: "<q>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4162,6 +4322,10 @@
       
     
       
+    
+      
+    
+      
         {
           feature: "referrer-policy",
           name: "Referrer policy",
@@ -4177,6 +4341,14 @@
         },
       
     
+      
+    
+      
+        {
+          feature: "regexp-escape",
+          name: "RegExp.escape()",
+          baseline_low_date: "2025-05-01"
+        },
       
     
       
@@ -4242,6 +4414,14 @@
           feature: "request-video-frame-callback",
           name: "requestVideoFrameCallback()",
           baseline_low_date: "2024-10-29"
+        },
+      
+    
+      
+        {
+          feature: "requestclose",
+          name: "dialog.requestClose()",
+          baseline_low_date: "2025-05-27"
         },
       
     
@@ -4346,7 +4526,7 @@
       
         {
           feature: "ruby",
-          name: "&lt;ruby&gt;",
+          name: "<ruby>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4372,7 +4552,7 @@
       
         {
           feature: "s",
-          name: "&lt;s&gt;",
+          name: "<s>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4388,9 +4568,11 @@
       
         {
           feature: "samp",
-          name: "&lt;samp&gt;",
+          name: "<samp>",
           baseline_low_date: "2015-07-29"
         },
+      
+    
       
     
       
@@ -4405,6 +4587,8 @@
           name: ":scope (pseudo-class)",
           baseline_low_date: "2020-01-15"
         },
+      
+    
       
     
       
@@ -4428,11 +4612,17 @@
       
     
       
+        {
+          feature: "screen-wake-lock",
+          name: "Screen wake lock",
+          baseline_low_date: "2025-03-31"
+        },
+      
     
       
         {
           feature: "script",
-          name: "&lt;script&gt; and &lt;noscript&gt;",
+          name: "<script> and <noscript>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4456,6 +4646,8 @@
       
     
       
+    
+      
         {
           feature: "scroll-elements",
           name: "Scroll methods on elements",
@@ -4464,11 +4656,15 @@
       
     
       
+    
+      
         {
           feature: "scroll-into-view",
           name: "scrollIntoView()",
           baseline_low_date: "2020-09-16"
         },
+      
+    
       
     
       
@@ -4512,7 +4708,7 @@
       
         {
           feature: "search",
-          name: "&lt;search&gt;",
+          name: "<search>",
           baseline_low_date: "2023-10-13"
         },
       
@@ -4520,7 +4716,7 @@
       
         {
           feature: "search-input-type",
-          name: "&lt;input type="search"&gt;",
+          name: "<input type=\"search\">",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4528,7 +4724,7 @@
       
         {
           feature: "section",
-          name: "&lt;section&gt;",
+          name: "<section>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4536,7 +4732,7 @@
       
         {
           feature: "select",
-          name: "&lt;select&gt;",
+          name: "<select>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4614,7 +4810,7 @@
       
         {
           feature: "settimeout",
-          name: "setTimeout",
+          name: "setTimeout()",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4670,9 +4866,23 @@
       
     
       
+    
+      
+    
+      
+        {
+          feature: "single-color-gradients",
+          name: "Single color stop gradients",
+          baseline_low_date: "2025-04-04"
+        },
+      
+    
+      
+    
+      
         {
           feature: "slot",
-          name: "&lt;slot&gt;",
+          name: "<slot>",
           baseline_low_date: "2020-01-15"
         },
       
@@ -4688,7 +4898,7 @@
       
         {
           feature: "small",
-          name: "&lt;small&gt;",
+          name: "<small>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4706,7 +4916,7 @@
       
         {
           feature: "source",
-          name: "&lt;source&gt;",
+          name: "<source>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4715,16 +4925,18 @@
         {
           feature: "sourcemap-header",
           name: "Sourcemap header",
-          baseline_low_date: "≤2020-01-15"
+          baseline_low_date: "2020-01-15"
         },
       
     
       
         {
           feature: "span",
-          name: "&lt;span&gt;",
+          name: "<span>",
           baseline_low_date: "2015-07-29"
         },
+      
+    
       
     
       
@@ -4746,7 +4958,7 @@
       
         {
           feature: "spellcheck",
-          name: "Spellcheck",
+          name: "spellcheck",
           baseline_low_date: "2017-11-28"
         },
       
@@ -4777,6 +4989,12 @@
         },
       
     
+      
+        {
+          feature: "starting-style",
+          name: "@starting-style",
+          baseline_low_date: "2024-08-06"
+        },
       
     
       
@@ -4829,6 +5047,12 @@
         },
       
     
+      
+        {
+          feature: "streams",
+          name: "Streams",
+          baseline_low_date: "2022-06-28"
+        },
       
     
       
@@ -4940,7 +5164,7 @@
       
         {
           feature: "strong",
-          name: "&lt;strong&gt;",
+          name: "<strong>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4956,7 +5180,7 @@
       
         {
           feature: "style",
-          name: "&lt;style&gt;",
+          name: "<style>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4972,7 +5196,7 @@
       
         {
           feature: "sub-sup",
-          name: "&lt;sub&gt; and &lt;sup&gt;",
+          name: "<sub> and <sup>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -4983,6 +5207,8 @@
           name: "Subgrid",
           baseline_low_date: "2023-09-15"
         },
+      
+    
       
     
       
@@ -5060,6 +5286,8 @@
       
     
       
+    
+      
         {
           feature: "target",
           name: ":target",
@@ -5080,7 +5308,7 @@
       
         {
           feature: "template",
-          name: "&lt;template&gt;",
+          name: "<template>",
           baseline_low_date: "2015-11-12"
         },
       
@@ -5280,7 +5508,7 @@
       
         {
           feature: "textarea",
-          name: "&lt;textarea&gt;",
+          name: "<textarea>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5288,7 +5516,7 @@
       
         {
           feature: "time",
-          name: "&lt;time&gt;",
+          name: "<time>",
           baseline_low_date: "2017-10-24"
         },
       
@@ -5298,7 +5526,7 @@
       
         {
           feature: "title",
-          name: "&lt;title&gt;",
+          name: "<title>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5338,6 +5566,8 @@
       
     
       
+    
+      
         {
           feature: "transform-box",
           name: "transform-box",
@@ -5362,6 +5592,8 @@
       
     
       
+    
+      
         {
           feature: "transition-behavior",
           name: "transition-behavior",
@@ -5380,7 +5612,7 @@
       
         {
           feature: "translate",
-          name: "translate attribute",
+          name: "translate",
           baseline_low_date: "2023-03-14"
         },
       
@@ -5430,7 +5662,7 @@
       
         {
           feature: "u",
-          name: "&lt;u&gt;",
+          name: "<u>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5526,7 +5758,7 @@
       
         {
           feature: "var",
-          name: "&lt;var&gt;",
+          name: "<var>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5552,7 +5784,7 @@
       
         {
           feature: "video",
-          name: "&lt;video&gt;",
+          name: "<video>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5667,7 +5899,7 @@
         {
           feature: "wasm-mutable-globals",
           name: "Import and export of mutable globals (WebAssembly)",
-          baseline_low_date: "≤2020-03-24"
+          baseline_low_date: "2020-03-24"
         },
       
     
@@ -5734,7 +5966,7 @@
       
         {
           feature: "wbr",
-          name: "&lt;wbr&gt;",
+          name: "<wbr>",
           baseline_low_date: "2015-07-29"
         },
       
@@ -5767,7 +5999,7 @@
         {
           feature: "web-animations",
           name: "Web animations",
-          baseline_low_date: "2020-03-24"
+          baseline_low_date: "2020-09-16"
         },
       
     
@@ -6219,6 +6451,203 @@
   });
 
   console.log(perYear);
+  </script>
+  <script src="/web-features-explorer/assets/apexcharts.js"></script>
+  <script>
+    async function renderCharts() {
+      // Retrieve timeline stats
+      const timelineResponse = await fetch("../assets/timeline-number.json");
+      const timeline = await timelineResponse.json();
+
+      // Render first timeline chart
+      const timelineOptions = {
+        chart: {
+          type: "area",
+          stacked: true,
+          width: "80%",
+          height: 350
+        },
+        dataLabels: {
+          enabled: false
+        },
+        colors: ["#1EA446", "#1B6CF3", "#F09409"],
+        fill: {
+          type: "gradient",
+          gradient: {
+            opacityFrom: 0.6,
+            opacityTo: 0.8,
+          }
+        },
+        xaxis: {
+          type: "datetime",
+          categories: timeline.map(t => t.date)
+        },
+        yaxis: {
+          title: {
+            text: "Number of features"
+          }
+        },
+        series: [
+          {
+            name: "Widely available",
+            data: timeline.map(t => t.high)
+          },
+          {
+            name: "Newly available",
+            data: timeline.map(t => t.low)
+          },
+          {
+            name: "Implemented somewhere",
+            data: timeline.map(t => t.first)
+          }
+        ],
+        annotations: {
+          xaxis: [
+            {
+              x: new Date("2003-06-23").getTime(),
+              borderColor: "#775DD0",
+              label: {
+                style: {
+                  color: "#fff",
+                  background: "#775DD0"
+                },
+                text: "Safari v1"
+              }
+            },
+            {
+              x: new Date("2004-11-09").getTime(),
+              borderColor: "#775DD0",
+              label: {
+                style: {
+                  color: "#fff",
+                  background: "#775DD0"
+                },
+                text: "Firefox v1"
+              }
+            },
+            {
+              x: new Date("2008-12-11").getTime(),
+              borderColor: "#775DD0",
+              label: {
+                style: {
+                  color: "#fff",
+                  background: "#775DD0"
+                },
+                text: "Chrome v1"
+              }
+            },
+            {
+              x: new Date("2015-07-29").getTime(),
+              borderColor: "#775DD0",
+              label: {
+                style: {
+                  color: "#fff",
+                  background: "#775DD0"
+                },
+                text: "Edge v12"
+              }
+            },
+            {
+              x: new Date("2018-01-29").getTime(),
+              borderColor: "#775DD0"
+            },
+            {
+              x: new Date("2020-01-15").getTime(),
+              borderColor: "#775DD0",
+              label: {
+                style: {
+                  color: "#fff",
+                  background: "#775DD0"
+                },
+                text: "Edge > Chromium"
+              }
+            },
+            {
+              x: new Date("2022-07-15").getTime(),
+              borderColor: "#775DD0"
+            }
+          ]
+        }
+      };
+      const chartTimeline = new ApexCharts(
+        document.querySelector("#timeline-number"),
+        timelineOptions
+      );
+      chartTimeline.render();
+
+      // Percentage chart is the same chart, except values are percentages
+      // ... and there's no point starting before 2018-01-29 when first
+      // widely available features start to appear
+      timelineOptions.yaxis = {
+        min: 0,
+        max: 100,
+        title: {
+          text: "Percentage (%)"
+        }
+      },
+      timelineOptions.xaxis.categories = [];
+      timelineOptions.series[0].data = [];
+      timelineOptions.series[1].data = [];
+      timelineOptions.series[2].data = [];
+      for (const t of timeline) {
+        if (t.date < "2018-01-29") {
+          continue;
+        }
+        timelineOptions.xaxis.categories.push(t.date);
+        const total = t.first + t.low + t.high;
+        const high = Math.round(t.high / total * 100);
+        const low = Math.round(t.low / total * 100);
+        timelineOptions.series[0].data.push(high);
+        timelineOptions.series[1].data.push(low);
+        timelineOptions.series[2].data.push(100 - high - low);
+      }
+      const chartPercent = new ApexCharts(
+        document.querySelector("#timeline-percent"),
+        timelineOptions
+      );
+      chartPercent.render();
+
+      const durationsResponse = await fetch("../assets/timeline-durations.json");
+      const durations = await durationsResponse.json();
+      const durationsOptions = {
+        chart: {
+          type: "boxPlot",
+          width: "80%",
+          height: 350
+        },
+        dataLabels: {
+          enabled: false
+        },
+        plotOptions: {
+          boxPlot: {
+            colors: {
+              upper: '#1EA446',
+              lower: '#F09409'
+            }
+          }
+        },
+        yaxis: {
+          title: {
+            text: "Duration (days)"
+          }
+        },
+        series: [
+          {
+            data: durations.map(d => Object.assign({
+              x: d.year,
+              y: [d.min, d.q1, d.median, d.q3, d.max]
+            }))
+          }
+        ]
+      };
+      const chartDurations = new ApexCharts(
+        document.querySelector("#timeline-durations"),
+        durationsOptions
+      );
+      chartDurations.render();
+    }
+
+    renderCharts();
   </script>
 </main>
 

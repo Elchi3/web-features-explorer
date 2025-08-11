@@ -1,0 +1,1613 @@
+{
+ "compat_features": [
+  "javascript.builtins.Iterator.Iterator",
+  "javascript.builtins.Iterator.drop",
+  "javascript.builtins.Iterator.every",
+  "javascript.builtins.Iterator.filter",
+  "javascript.builtins.Iterator.find",
+  "javascript.builtins.Iterator.flatMap",
+  "javascript.builtins.Iterator.forEach",
+  "javascript.builtins.Iterator.from",
+  "javascript.builtins.Iterator.map",
+  "javascript.builtins.Iterator.reduce",
+  "javascript.builtins.Iterator.some",
+  "javascript.builtins.Iterator.take",
+  "javascript.builtins.Iterator.toArray"
+ ],
+ "description": "The Iterator object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as filter(), find(), map(), and reduce(). You can also use the static method Iterator.from() to convert an existing iterable into an Iterator.",
+ "description_html": "The <code>Iterator</code> object is an abstract base for objects that implement the iterator protocol. It provides methods common to built-in iterators, such as <code>filter()</code>, <code>find()</code>, <code>map()</code>, and <code>reduce()</code>. You can also use the static method <code>Iterator.from()</code> to convert an existing iterable into an <code>Iterator</code>.",
+ "group": "iterators",
+ "name": "Iterator methods",
+ "spec": [
+  {
+   "url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator-helper-objects",
+   "seriesComposition": "full",
+   "shortname": "ecmascript",
+   "series": {
+    "shortname": "ecmascript",
+    "currentSpecification": "ecmascript",
+    "title": "ECMAScript® 2026 Language Specification",
+    "shortTitle": "ECMAScript",
+    "nightlyUrl": "https://tc39.es/ecma262/multipage/"
+   },
+   "shortTitle": "ECMAScript",
+   "tests": {
+    "repository": "https://github.com/tc39/test262",
+    "testPaths": [
+     "test"
+    ],
+    "excludePaths": [
+     "test/intl402"
+    ]
+   },
+   "organization": "Ecma International",
+   "groups": [
+    {
+     "name": "TC39",
+     "url": "https://tc39.es/"
+    }
+   ],
+   "nightly": {
+    "url": "https://tc39.es/ecma262/multipage/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/tc39/ecma262",
+    "sourcePath": "spec.html",
+    "pages": [
+     "https://tc39.es/ecma262/multipage/scope.html",
+     "https://tc39.es/ecma262/multipage/conformance.html",
+     "https://tc39.es/ecma262/multipage/normative-references.html",
+     "https://tc39.es/ecma262/multipage/overview.html",
+     "https://tc39.es/ecma262/multipage/notational-conventions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+     "https://tc39.es/ecma262/multipage/abstract-operations.html",
+     "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+     "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+     "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+     "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+     "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+     "https://tc39.es/ecma262/multipage/global-object.html",
+     "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+     "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+     "https://tc39.es/ecma262/multipage/text-processing.html",
+     "https://tc39.es/ecma262/multipage/indexed-collections.html",
+     "https://tc39.es/ecma262/multipage/keyed-collections.html",
+     "https://tc39.es/ecma262/multipage/structured-data.html",
+     "https://tc39.es/ecma262/multipage/managing-memory.html",
+     "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+     "https://tc39.es/ecma262/multipage/reflection.html",
+     "https://tc39.es/ecma262/multipage/memory-model.html",
+     "https://tc39.es/ecma262/multipage/grammar-summary.html",
+     "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+     "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+     "https://tc39.es/ecma262/multipage/host-layering-points.html",
+     "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+     "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+     "https://tc39.es/ecma262/multipage/bibliography.html",
+     "https://tc39.es/ecma262/multipage/colophon.html",
+     "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+    ],
+    "filename": "index.html"
+   },
+   "title": "ECMAScript® 2026 Language Specification",
+   "source": "spec",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "sec-iterator-helper-objects"
+  }
+ ],
+ "status": {
+  "baseline": "low",
+  "baseline_low_date": "2025-03-31",
+  "support": {
+   "chrome": "122",
+   "chrome_android": "122",
+   "edge": "122",
+   "firefox": "131",
+   "firefox_android": "131",
+   "safari": "18.4",
+   "safari_ios": "18.4"
+  }
+ },
+ "id": "iterator-methods",
+ "groups": [
+  "iterators"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript",
+   "Iterators"
+  ]
+ ],
+ "mdnUrls": [
+  {
+   "title": "Iterator",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator"
+  }
+ ],
+ "standardPositions": {
+  "mozilla": {},
+  "webkit": {}
+ },
+ "hasNegativeStandardPosition": false,
+ "originTrials": [],
+ "useCounters": {
+  "percentageOfPageLoad": 0.02307489,
+  "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/225"
+ },
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "javascript.builtins.Iterator.Iterator",
+   "compat": {
+    "description": "<code>Iterator()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Iterator",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator-constructor",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "122"
+     },
+     "chrome_android": {
+      "version_added": "122"
+     },
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": {
+      "version_added": "122"
+     },
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "108"
+     },
+     "opera_android": {
+      "version_added": "81"
+     },
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": {
+      "version_added": "26.0"
+     },
+     "webview_android": {
+      "version_added": "122"
+     },
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.drop",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/drop",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.drop",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.every",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/every",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.every",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.filter",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/filter",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.filter",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.find",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/find",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.find",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.flatMap",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/flatMap",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.flatmap",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.forEach",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/forEach",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.foreach",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.from",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/from",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.from",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.map",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/map",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.map",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.reduce",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/reduce",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.reduce",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.some",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/some",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.some",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.take",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/take",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.take",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  },
+  {
+   "key": "javascript.builtins.Iterator.toArray",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/toArray",
+    "source_file": "javascript/builtins/Iterator.json",
+    "spec_url": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.toarray",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "deno": {
+      "version_added": "1.39"
+     },
+     "edge": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "firefox": {
+      "version_added": "131"
+     },
+     "firefox_android": {
+      "version_added": "131"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": "22.0.0"
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": [
+      {
+       "version_added": "108"
+      },
+      {
+       "version_added": "103",
+       "version_last": "104",
+       "version_removed": "105"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "81"
+      },
+      {
+       "version_added": "78",
+       "version_last": "78",
+       "version_removed": "79"
+      }
+     ],
+     "safari": {
+      "version_added": "18.4"
+     },
+     "safari_ios": {
+      "version_added": "18.4"
+     },
+     "samsunginternet_android": [
+      {
+       "version_added": "26.0"
+      },
+      {
+       "version_added": "24.0",
+       "version_last": "24.0",
+       "version_removed": "25.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "122"
+      },
+      {
+       "version_added": "117",
+       "version_last": "118",
+       "version_removed": "119"
+      }
+     ],
+     "webview_ios": {
+      "version_added": "18.4"
+     }
+    },
+    "tags": [
+     "web-features:iterator-methods"
+    ]
+   }
+  }
+ ],
+ "bcdTags": [
+  "javascript"
+ ],
+ "baselineLowDateAsObject": "2025-03-31T00:00:00.000Z",
+ "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2027-10-01",
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

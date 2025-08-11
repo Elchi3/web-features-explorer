@@ -5,6 +5,7 @@
     <title>Web platform features explorer - RegExp.escape()</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -30,101 +31,104 @@
 
     
 <main class="feature-page">
-  <div id="regexp-escape" class="feature baseline-false">
+  <div id="regexp-escape" class="feature full baseline-low">
   <div class="header">
     <h1 data-pagefind-body="">RegExp.escape()</h1>
-    <div class="availability">
-  
-    Limited availability
-    
-    
-  
-</div>
+    <span class="feature-copyable-id"><input id="feature-id" type="text" value="regexp-escape" data-len="13"><button id="copy-feature-id">Copy ID</button></span>
+    <script>
+      (function() {
+        const button = document.querySelector("#copy-feature-id");
+        const field = document.querySelector("#feature-id");
+        button.addEventListener("click", async () => {
+          await navigator.clipboard.writeText(field.value);
+          button.textContent = "Copied!";
+        });
+      })();
+    </script>
   </div>
-  <div class="tags">
-  
-    Tags:
-    
-      <span class="tag">javascript</span>
-    
-  
-  
-</div>
-
 
   
 
-  <p data-pagefind-body="">
+  <p class="description" data-pagefind-body="">
     The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape("[abc]")</code> returns <code>"\\[abc\\]"</code>.
   </p>
 
-  <h3>Learning resources on MDN</h3>
-
-
-  <ul data-pagefind-body="">
+  <div class="baseline feature-box">
+    <h3>Status</h3>
+    <div class="availability">
+  
     
-      <li>
-        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/escape">
-          
-            RegExp.escape()
-          
-        </a>
-      </li>
+    Baseline Newly Available (since 2025-05-01)
     
-  </ul>
+  
+</div>
+    
+      <p>This feature is expected to reach Baseline Widely Available status on: 2027-11-01
+    
+    
+  </p></div>
+
+  <div class="docs feature-box">
+  <h3>MDN documentation</h3>
+  
+    <ul data-pagefind-body="">
+      
+        <li>
+          <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/escape">
+            
+              RegExp.escape()
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</div>
 
   
-  <h3>Browser support</h3>
-  <ul class="compat compat-full">
+  <div class="specs feature-box" data-pagefind-body="">
+    <h3>Specifications</h3>
+    <ul data-pagefind-body="">
+      
+        <li>
+          
+            <a href="https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.escape">ECMAScript® 2026 Language Specification (#sec-regexp.escape)</a>,
+            from <a href="https://tc39.es/">TC39</a> (Ecma International).
+          
+        </li>
+      
+    </ul>
+  </div>
+
   
-    <li class="browser browser-chrome">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
+  
+    <li class="browser browser-chrome supported">
       <span class="name">Chrome</span>
       
       
-        <span class="version">❌</span>
-        
-          <span class="bug">
-            See
-            
-              <a href="https://crbug.com/353856236">crbug.com/353856236</a>
-            
-          </span>
-        
-        
+        <span class="version">136</span>
+        <span class="date">Released on 2025-04-29</span>
       
     </li>
   
-    <li class="browser browser-chrome_android">
+    <li class="browser browser-chrome_android supported">
       <span class="name">Chrome Android</span>
       
       
-        <span class="version">❌</span>
-        
-          <span class="bug">
-            See
-            
-              <a href="https://crbug.com/353856236">crbug.com/353856236</a>
-            
-          </span>
-        
-        
+        <span class="version">136</span>
+        <span class="date">Released on 2025-04-29</span>
       
     </li>
   
-    <li class="browser browser-edge">
+    <li class="browser browser-edge supported">
       <span class="name">Edge</span>
       
       
-        <span class="version">❌</span>
-        
-          <span class="bug">
-            See
-            
-              <a href="https://crbug.com/353856236">crbug.com/353856236</a>
-            
-          </span>
-        
-        
+        <span class="version">136</span>
+        <span class="date">Released on 2025-05-01</span>
       
     </li>
   
@@ -165,35 +169,36 @@
     </li>
   
 </ul>
+  </div>
 
   
 
   
-  <div class="specs" data-pagefind-body="">
-    <h3>Specifications</h3>
-    <ul>
-      
-        <li>
-          
-            <a href="https://tc39.es/proposal-regex-escaping/">RegExp.escape</a>,
-            from <a href="https://tc39.es/">TC39</a> (Ecma International).
-          
-        </li>
-      
-    </ul>
+
+  
+  <div class="use-counters feature-box">
+    <h3>Usage <span class="subtext">(according to <a href="https://chromestatus.com/metrics/webfeature/popularity">Chrome Platform Status</a>)</span></h3>
+    <p>~0.957% of page loads. <a href="https://chromestatus.com/metrics/webfeature/timeline/popularity/297">More data at chromestatus</a>.</p>
   </div>
 
 
-  <p class="edit-link">
-    <a href="https://wpt.fyi/results/?q=feature%3Aregexp-escape">View web-platform-tests results for this feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/regexp-escape.yml">View the feature source file</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/regexp-escape.yml">Edit the feature</a>
-    -
-    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[regexp-escape] Issue title&body=Please describe the issue here...">Report an issue about this feature</a>
+  
+
+  
+
+  <p class="edit-links">
+    <a href="../regexp-escape.json">View as JSON</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/edit/main/features/regexp-escape.yml">Edit this feature</a>
+    |
+    <a href="https://github.com/web-platform-dx/web-features/issues/new?title=[regexp-escape] Issue title&body=Please describe the issue here...">Report an issue</a>
+    |    
+    Web-features entry:
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/regexp-escape.yml">source</a>,
+    <a href="https://github.com/web-platform-dx/web-features/blob/main/features/regexp-escape.yml.dist">dist</a>
   </p>
 </div>
+
 </main>
     
     <script src="/web-features-explorer/assets/search.js" defer=""></script>

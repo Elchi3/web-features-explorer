@@ -5,6 +5,7 @@
     <title>Web platform features explorer - June 2009 release notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
@@ -14,7 +15,7 @@
 
       <nav>
         <ul>
-          <li><a href="/web-features-explorer/release-notes/february-2025">Release notes</a></li>
+          <li><a href="/web-features-explorer/release-notes/august-2025">Release notes</a></li>
           <li><a href="/web-features-explorer/features">Explore all features</a></li>
           <li><a href="/web-features-explorer/about">About</a></li>
         </ul>
@@ -101,7 +102,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/settimeout/">setTimeout</a></strong>:
+                <strong><a href="/web-features-explorer/features/settimeout/">setTimeout()</a></strong>:
                 The <code>setTimeout()</code> global function executes provided code after a given duration of time, and the accompanying <code>clearTimeout()</code> cancels the timer.
               </li>
             
@@ -117,7 +118,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/user-agent-sniffing/">User agent sniffing</a></strong>:
-                The <code>navigator.userAgent</code> read-only property returns the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
+                The <code>navigator.userAgent</code> property is the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
               </li>
             
               <li>
@@ -148,8 +149,13 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/autofocus/">Autofocus</a></strong>:
+                <strong><a href="/web-features-explorer/features/autofocus/">autofocus</a></strong>:
                 The <code>autofocus</code> HTML attribute gives focus to an element on page load.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/baseline-shift/">baseline-shift</a></strong>:
+                The <code>baseline-shift</code> CSS property sets the position of an element relative to its dominant baseline.
               </li>
             
               <li>
@@ -173,8 +179,23 @@
               </li>
             
               <li>
+                <strong><a href="/web-features-explorer/features/dedicated-workers/">Dedicated workers</a></strong>:
+                The <code>Worker()</code> constructor runs a script in its own thread, which can send and receive messages with the script that created it. Also known as web workers.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/dominant-baseline/">dominant-baseline</a></strong>:
+                The <code>dominant-baseline</code> CSS property sets the specific baseline used to align an elements's text and inline-level contents.
+              </li>
+            
+              <li>
                 <strong><a href="/web-features-explorer/features/draganddrop/">Drag and Drop</a></strong>:
                 The Drag and Drop API lets users drag and drop elements and external files such as images onto web pages. Developers can customize which elements can become draggable, the type of feedback the draggable elements produce, and the droppable elements.
+              </li>
+            
+              <li>
+                <strong><a href="/web-features-explorer/features/glyph-orientation-vertical/">glyph-orientation-vertical</a></strong>:
+                The <code>glyph-orientation-vertical</code> CSS property sets the orientation of glyphs in text rendered in a vertical writing mode.
               </li>
             
               <li>
@@ -194,7 +215,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/online/">Online status</a></strong>:
-                The <code>navigator.onLine</code> property returns a Boolean for whether the browser is connected to some network (though not necessarily the internet). The <code>online</code> and <code>offline</code> events fire when the connection state changes.
+                The <code>navigator.onLine</code> property is a boolean for whether the browser is connected to some network (though not necessarily the internet). The <code>online</code> and <code>offline</code> events fire when the connection state changes.
               </li>
             
               <li>
@@ -223,7 +244,7 @@
               </li>
             
               <li>
-                <strong><a href="/web-features-explorer/features/settimeout/">setTimeout</a></strong>:
+                <strong><a href="/web-features-explorer/features/settimeout/">setTimeout()</a></strong>:
                 The <code>setTimeout()</code> global function executes provided code after a given duration of time, and the accompanying <code>clearTimeout()</code> cancels the timer.
               </li>
             
@@ -234,7 +255,7 @@
             
               <li>
                 <strong><a href="/web-features-explorer/features/user-agent-sniffing/">User agent sniffing</a></strong>:
-                The <code>navigator.userAgent</code> read-only property returns the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
+                The <code>navigator.userAgent</code> property is the user agent string for the current browser. Selectively showing content based on the user agent string is unreliable. Consider using feature detection instead.
               </li>
             
               <li>
@@ -291,6 +312,42 @@
   <aside>
     <h2>Other release notes</h2>
     <ul>
+      
+        
+          <li class="month-entry">
+            <a href="../august-2025">August 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../july-2025">July 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../june-2025">June 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../may-2025">May 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../april-2025">April 2025</a>
+          </li>
+        
+      
+        
+          <li class="month-entry">
+            <a href="../march-2025">March 2025</a>
+          </li>
+        
       
         
           <li class="month-entry">
@@ -377,43 +434,19 @@
         
       
         
-          <li class="month-entry">
-            <a href="../december-2023">December 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../november-2023">November 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../october-2023">October 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../september-2023">September 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../august-2023">August 2023</a>
-          </li>
-        
-      
-        
-          <li class="month-entry">
-            <a href="../july-2023">July 2023</a>
-          </li>
-        
-      
-        
           <li><a href="../">See all</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
