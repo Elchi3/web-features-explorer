@@ -111,11 +111,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.03431268,
+  "percentageOfPageLoad": 0.03433256,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/283"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.CookieChangeEvent",

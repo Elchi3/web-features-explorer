@@ -92,11 +92,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.01917596,
+  "percentageOfPageLoad": 0.02037339,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/247"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.CredentialsContainer.get.identity_option",

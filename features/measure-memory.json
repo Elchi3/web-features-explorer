@@ -80,11 +80,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00002601,
+  "percentageOfPageLoad": 0.00003596,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/288"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Performance.measureUserAgentSpecificMemory",

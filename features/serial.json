@@ -103,11 +103,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00000523,
+  "percentageOfPageLoad": 0.0000057,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/107"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Navigator.serial",
