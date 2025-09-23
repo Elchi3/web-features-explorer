@@ -9,6 +9,7 @@
  ],
  "description": "The CSSStyleSheet constructor creates a new stylesheet which can be shared between a document and multiple shadow roots using adoptedStyleSheets.",
  "description_html": "The <code>CSSStyleSheet</code> constructor creates a new stylesheet which can be shared between a document and multiple shadow roots using <code>adoptedStyleSheets</code>.",
+ "kind": "feature",
  "name": "Constructed stylesheets",
  "spec": [
   {
@@ -154,7 +155,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.09160988,
+  "percentageOfPageLoad": 0.09015361,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/18"
  },
  "interop": [

@@ -12,6 +12,7 @@
  ],
  "description": "The visible property of the window.locationbar, window.menubar, window.personalbar, window.scrollbars, window.statusbar, and window.toolbar APIs historically represented the visibility of a browser user interface. For privacy reasons, it now represents whether the window is a pop-up.",
  "description_html": "The <code>visible</code> property of the <code>window.locationbar</code>, <code>window.menubar</code>, <code>window.personalbar</code>, <code>window.scrollbars</code>, <code>window.statusbar</code>, and <code>window.toolbar</code> APIs historically represented the visibility of a browser user interface. For privacy reasons, it now represents whether the window is a pop-up.",
+ "kind": "feature",
  "name": "BarProp",
  "spec": [
   {
@@ -162,7 +163,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.13112321,
+  "percentageOfPageLoad": 0.12765794,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/274"
  },
  "interop": [],

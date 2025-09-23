@@ -5,7 +5,10 @@
  ],
  "description": "The createConicGradient() methods draw a conic gradient to a 2D canvas.",
  "description_html": "The <code>createConicGradient()</code> methods draw a conic gradient to a 2D canvas.",
- "group": "canvas",
+ "group": [
+  "canvas"
+ ],
+ "kind": "feature",
  "name": "Canvas createConicGradient()",
  "spec": [
   {
@@ -161,7 +164,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00001871,
+  "percentageOfPageLoad": 0.00001808,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/91"
  },
  "interop": [],

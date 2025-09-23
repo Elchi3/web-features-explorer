@@ -28,7 +28,10 @@
  ],
  "description": "The popover HTML attribute creates an overlay to display content on top of other page content. Popovers can be shown declaratively using HTML, or using the showPopover() method.",
  "description_html": "The <code>popover</code> HTML attribute creates an overlay to display content on top of other page content. Popovers can be shown declaratively using HTML, or using the <code>showPopover()</code> method.",
- "group": "html",
+ "group": [
+  "html"
+ ],
+ "kind": "feature",
  "name": "Popover",
  "spec": [
   {
@@ -274,7 +277,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.01147266,
+  "percentageOfPageLoad": 0.01774572,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/374"
  },
  "interop": [

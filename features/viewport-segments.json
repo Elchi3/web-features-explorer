@@ -14,6 +14,7 @@
  ],
  "description": "The viewport segment CSS environment variables and media features, and the viewport.segments API, allow you to adapt your layout to devices where the display is split, such as on foldable devices.",
  "description_html": "The viewport segment CSS environment variables and media features, and the <code>viewport.segments</code> API, allow you to adapt your layout to devices where the display is split, such as on foldable devices.",
+ "kind": "feature",
  "name": "Viewport segments",
  "spec": [
   {
@@ -228,7 +229,28 @@
  "id": "viewport-segments",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "Viewport",
+   "url": "https://developer.mozilla.org/docs/Web/API/Viewport"
+  },
+  {
+   "title": "Viewport: segments property",
+   "url": "https://developer.mozilla.org/docs/Web/API/Viewport/segments"
+  },
+  {
+   "title": "Window: viewport property",
+   "url": "https://developer.mozilla.org/docs/Web/API/Window/viewport"
+  },
+  {
+   "title": "horizontal-viewport-segments",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/horizontal-viewport-segments"
+  },
+  {
+   "title": "vertical-viewport-segments",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/vertical-viewport-segments"
+  }
+ ],
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {},
@@ -238,6 +260,7 @@
   {
    "key": "api.Viewport",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Viewport",
     "source_file": "api/Viewport.json",
     "spec_url": "https://drafts.csswg.org/css-viewport/#the-viewport-interface",
     "status": {
@@ -356,6 +379,7 @@
   {
    "key": "api.Window.viewport",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Window/viewport",
     "source_file": "api/Window.json",
     "spec_url": "https://drafts.csswg.org/css-viewport/#dom-window-viewport",
     "status": {
@@ -415,6 +439,7 @@
   {
    "key": "css.at-rules.media.horizontal-viewport-segments",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/horizontal-viewport-segments",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#mf-horizontal-viewport-segments",
     "status": {
@@ -474,6 +499,7 @@
   {
    "key": "css.at-rules.media.vertical-viewport-segments",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/vertical-viewport-segments",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#mf-vertical-viewport-segments",
     "status": {

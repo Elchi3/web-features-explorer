@@ -5,6 +5,7 @@
  ],
  "description": "The navigator.setAppBadge() method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
  "description_html": "The <code>navigator.setAppBadge()</code> method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
+ "kind": "feature",
  "name": "Badging",
  "spec": [
   {
@@ -81,7 +82,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00085063,
+  "percentageOfPageLoad": 0.00085177,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/301"
  },
  "interop": [],

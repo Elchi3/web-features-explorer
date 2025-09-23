@@ -4,6 +4,7 @@
  ],
  "description": "The navigator.pdfViewerEnabled property is a boolean for whether the browser navigates to and shows a PDF in the browser window or downloads the PDF.",
  "description_html": "The <code>navigator.pdfViewerEnabled</code> property is a boolean for whether the browser navigates to and shows a PDF in the browser window or downloads the PDF.",
+ "kind": "feature",
  "name": "pdfViewerEnabled",
  "spec": [
   {
@@ -153,7 +154,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.05599923,
+  "percentageOfPageLoad": 0.05549831,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/257"
  },
  "interop": [],

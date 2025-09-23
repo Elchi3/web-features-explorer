@@ -5,7 +5,10 @@
  ],
  "description": "The text-wrap CSS property sets how lines break in text that overflows the container. It is a shorthand for text-wrap-style and text-wrap-mode.",
  "description_html": "The <code>text-wrap</code> CSS property sets how lines break in text that overflows the container. It is a shorthand for <code>text-wrap-style</code> and <code>text-wrap-mode</code>.",
- "group": "text-wrap",
+ "group": [
+  "text-wrap"
+ ],
+ "kind": "feature",
  "name": "text-wrap",
  "spec": [
   {
@@ -98,7 +101,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.18407044,
+  "percentageOfPageLoad": 0.1858002,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/181"
  },
  "interop": [

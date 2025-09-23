@@ -1,7 +1,10 @@
 {
- "caniuse": "avif",
+ "caniuse": [
+  "avif"
+ ],
  "description": "AVIF (AV1 Image File Format) is an image format based on the AV1 video format.",
  "description_html": "AVIF (AV1 Image File Format) is an image format based on the AV1 video format.",
+ "kind": "feature",
  "name": "AVIF",
  "spec": [
   {
@@ -70,7 +73,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.086218,
+  "percentageOfPageLoad": 0.08421985,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/10"
  },
  "interop": [],

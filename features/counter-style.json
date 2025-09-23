@@ -1,5 +1,7 @@
 {
- "caniuse": "css-at-counter-style",
+ "caniuse": [
+  "css-at-counter-style"
+ ],
  "compat_features": [
   "api.CSSCounterStyleRule",
   "api.CSSCounterStyleRule.additiveSymbols",
@@ -27,7 +29,10 @@
  ],
  "description": "The @counter-style CSS at-rule sets custom counter styles for list items. For example, you can use a sequence of specific symbols instead of numbers for an ordered list.",
  "description_html": "The <code>@counter-style</code> CSS at-rule sets custom counter styles for list items. For example, you can use a sequence of specific symbols instead of numbers for an ordered list.",
- "group": "counters",
+ "group": [
+  "counters"
+ ],
+ "kind": "feature",
  "name": "@counter-style",
  "spec": [
   {
@@ -119,7 +124,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00398763,
+  "percentageOfPageLoad": 0.00384739,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/22"
  },
  "interop": [],

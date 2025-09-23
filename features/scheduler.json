@@ -17,6 +17,7 @@
  ],
  "description": "The scheduler API provides a way to prioritize all tasks belonging to an application.",
  "description_html": "The <code>scheduler</code> API provides a way to prioritize all tasks belonging to an application.",
+ "kind": "feature",
  "name": "Scheduler API",
  "spec": [
   {
@@ -92,7 +93,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.09876994,
+  "percentageOfPageLoad": 0.09774797,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/118"
  },
  "interop": [],

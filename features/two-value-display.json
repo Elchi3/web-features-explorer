@@ -4,7 +4,10 @@
  ],
  "description": "The display CSS property accepts multiple keyword values, such as inline flex or block flow, to explicitly set an element's inner and outer layout mode. Also known as 2-value, multi-keyword, or multiple value syntax.",
  "description_html": "The <code>display</code> CSS property accepts multiple keyword values, such as <code>inline flex</code> or <code>block flow</code>, to explicitly set an element's inner and outer layout mode. Also known as 2-value, multi-keyword, or multiple value syntax.",
- "group": "css",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
  "name": "Two-value display property",
  "spec": [
   {
@@ -90,7 +93,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00487417,
+  "percentageOfPageLoad": 0.00477441,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/111"
  },
  "interop": [],

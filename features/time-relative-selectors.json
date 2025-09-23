@@ -5,7 +5,10 @@
  ],
  "description": "The :past and :future CSS pseudo-classes match prior or upcoming text track cues during media playback.",
  "description_html": "The <code>:past</code> and <code>:future</code> CSS pseudo-classes match prior or upcoming text track cues during media playback.",
- "group": "selectors",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
  "name": "Time-relative pseudo-selectors",
  "spec": [
   {
@@ -96,7 +99,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00103371,
+  "percentageOfPageLoad": 0.0011685,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/355"
  },
  "interop": [],

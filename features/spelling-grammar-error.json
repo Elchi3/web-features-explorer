@@ -5,7 +5,10 @@
  ],
  "description": "The ::spelling-error and ::grammar-error CSS pseudo-elements match text that is highlighted as misspelled and grammatically incorrect, respectively.",
  "description_html": "The <code>::spelling-error</code> and <code>::grammar-error</code> CSS pseudo-elements match text that is highlighted as misspelled and grammatically incorrect, respectively.",
- "group": "selectors",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
  "name": "::spelling-error and ::grammar-error",
  "spec": [
   {
@@ -150,7 +153,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00113955,
+  "percentageOfPageLoad": 0.00642767,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/192"
  },
  "interop": [],

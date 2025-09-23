@@ -4,7 +4,10 @@
  ],
  "description": "The shortcuts web app manifest member registers common actions of an installed web app with the device. The device can present these actions to the user in contextually appropriate locations, such as jump lists on Windows or the app launcher on Android.",
  "description_html": "The <code>shortcuts</code> web app manifest member registers common actions of an installed web app with the device. The device can present these actions to the user in contextually appropriate locations, such as jump lists on Windows or the app launcher on Android.",
- "group": "progressive-web-app",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
  "name": "Application shortcuts",
  "spec": [
   {
@@ -85,7 +88,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.01885831,
+  "percentageOfPageLoad": 0.01934535,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/305"
  },
  "interop": [],

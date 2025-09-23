@@ -1,5 +1,7 @@
 {
- "caniuse": "speech-recognition",
+ "caniuse": [
+  "speech-recognition"
+ ],
  "compat_features": [
   "api.SpeechRecognition",
   "api.SpeechRecognition.SpeechRecognition",
@@ -42,7 +44,10 @@
  ],
  "description": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
  "description_html": "The <code>SpeechRecognition</code> API converts audio into text using the device's speech recognition service.",
- "group": "speech",
+ "group": [
+  "speech"
+ ],
+ "kind": "feature",
  "name": "Speech recognition",
  "spec": [
   {
@@ -116,7 +121,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00031683,
+  "percentageOfPageLoad": 0.00031457,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/63"
  },
  "interop": [],
@@ -164,9 +169,29 @@
        "version_added": "79"
       }
      ],
-     "firefox": {
-      "version_added": false
-     },
+     "firefox": [
+      {
+       "flags": [
+        {
+         "name": "media.webspeech.recognition.enable",
+         "type": "preference",
+         "value_to_set": "true"
+        }
+       ],
+       "version_added": "142"
+      },
+      {
+       "flags": [
+        {
+         "name": "media.webspeech.recognition.enable",
+         "type": "preference",
+         "value_to_set": "true"
+        }
+       ],
+       "prefix": "webkit",
+       "version_added": "142"
+      }
+     ],
      "firefox_android": {
       "version_added": false
      },
@@ -271,9 +296,29 @@
        "version_added": "79"
       }
      ],
-     "firefox": {
-      "version_added": false
-     },
+     "firefox": [
+      {
+       "flags": [
+        {
+         "name": "media.webspeech.recognition.enable",
+         "type": "preference",
+         "value_to_set": "true"
+        }
+       ],
+       "version_added": "142"
+      },
+      {
+       "flags": [
+        {
+         "name": "media.webspeech.recognition.enable",
+         "type": "preference",
+         "value_to_set": "true"
+        }
+       ],
+       "prefix": "webkit",
+       "version_added": "142"
+      }
+     ],
      "firefox_android": {
       "version_added": false
      },
@@ -338,7 +383,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -402,7 +454,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -466,7 +525,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -528,7 +594,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -600,7 +673,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -664,7 +744,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -724,7 +811,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -784,7 +878,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -844,7 +945,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -908,7 +1016,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -972,7 +1087,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1036,7 +1158,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1100,7 +1229,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1164,7 +1300,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1228,7 +1371,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1288,7 +1438,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1352,7 +1509,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false
@@ -1412,7 +1576,14 @@
       "version_added": "79"
      },
      "firefox": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "media.webspeech.recognition.enable",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "143"
      },
      "firefox_android": {
       "version_added": false

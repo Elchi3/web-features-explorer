@@ -4,7 +4,10 @@
  ],
  "description": "Tail call optimization discards a caller frame and replaces the call with a jump instruction.",
  "description_html": "Tail call optimization discards a caller frame and replaces the call with a jump instruction.",
- "group": "webassembly",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
  "name": "Tail call optimization (WebAssembly)",
  "spec": [
   {
@@ -41,7 +44,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 2.5e-7,
+  "percentageOfPageLoad": 1.6e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/362"
  },
  "interop": [],

@@ -21,6 +21,7 @@
   "view-transitions",
   "selectors"
  ],
+ "kind": "feature",
  "name": "Active view transition",
  "spec": [
   {
@@ -116,7 +117,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00073667,
+  "percentageOfPageLoad": 0.0007219,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/217"
  },
  "interop": [],

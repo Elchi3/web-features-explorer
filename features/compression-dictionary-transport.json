@@ -11,6 +11,7 @@
  ],
  "description": "Compression Dictionary Transport is a mechanism for using designated HTTP responses as an external dictionary for future HTTP responses for compression schemes that support using external dictionaries (e.g., Brotli and Zstandard)",
  "description_html": "Compression Dictionary Transport is a mechanism for using designated HTTP responses as an external dictionary for future HTTP responses for compression schemes that support using external dictionaries (e.g., Brotli and Zstandard)",
+ "kind": "feature",
  "name": "Compression Dictionary Transport",
  "spec": [
   {
@@ -74,7 +75,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.05691373,
+  "percentageOfPageLoad": 0.05368329,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/315"
  },
  "interop": [],

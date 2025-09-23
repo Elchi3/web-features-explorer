@@ -5,6 +5,7 @@
  ],
  "description": "The screen.orientation.lock() method prevents changes to the screen orientation, typically in fullscreen applications such as games. For example, while locked, rotating a phone to the side won't change the screen orientation from landscape to portrait.",
  "description_html": "The <code>screen.orientation.lock()</code> method prevents changes to the screen orientation, typically in fullscreen applications such as games. For example, while locked, rotating a phone to the side won't change the screen orientation from landscape to portrait.",
+ "kind": "feature",
  "name": "Screen orientation lock",
  "spec": [
   {
@@ -113,31 +114,26 @@
      },
      "firefox": [
       {
-       "version_added": "preview"
+       "version_added": "144"
       },
       {
        "notes": "Always throws <code>NotSupportedError</code>.",
        "partial_implementation": true,
-       "version_added": "43"
-      },
-      {
-       "flags": [
-        {
-         "name": "dom.screenorientation.allow-lock",
-         "type": "preference",
-         "value_to_set": "true"
-        }
-       ],
-       "version_added": "97"
+       "version_added": "43",
+       "version_last": "143",
+       "version_removed": "144"
       }
      ],
      "firefox_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "The API exists but returns <code>NS_ERROR_UNEXPECTED</code>.",
        "partial_implementation": true,
        "version_added": "79",
-       "version_last": "96",
-       "version_removed": "97"
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "version_added": "43",
@@ -205,18 +201,28 @@
       "partial_implementation": true,
       "version_added": "79"
      },
-     "firefox": {
-      "notes": "Always throws <code>NotSupportedError</code>.",
-      "partial_implementation": true,
-      "version_added": "43"
-     },
+     "firefox": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "Always throws <code>NotSupportedError</code>.",
+       "partial_implementation": true,
+       "version_added": "43",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "firefox_android": [
+      {
+       "version_added": "144"
+      },
       {
        "notes": "The API exists but returns <code>NS_ERROR_UNEXPECTED</code>.",
        "partial_implementation": true,
        "version_added": "79",
-       "version_last": "96",
-       "version_removed": "97"
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "version_added": "43",

@@ -4,7 +4,10 @@
  ],
  "description": "The image/svg+xml data type (also known as the MIME type) for ClipboardItem objects represents SVG data written to or read from the clipboard.",
  "description_html": "The <code>image/svg+xml</code> data type (also known as the MIME type) for <code>ClipboardItem</code> objects represents SVG data written to or read from the clipboard.",
- "group": "clipboard",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
  "name": "SVG clipboard items",
  "spec": [
   {
@@ -90,7 +93,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 9.2e-7,
+  "percentageOfPageLoad": 9.6e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/272"
  },
  "interop": [],

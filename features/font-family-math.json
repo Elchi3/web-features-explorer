@@ -4,6 +4,7 @@
  ],
  "description": "The font-family: math CSS declaration uses the browser default font face for displaying mathematical expressions.",
  "description_html": "The <code>font-family: math</code> CSS declaration uses the browser default font face for displaying mathematical expressions.",
+ "kind": "feature",
  "name": "Math font family",
  "spec": [
   {
@@ -84,7 +85,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00064083,
+  "percentageOfPageLoad": 0.00063184,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/351"
  },
  "interop": [],

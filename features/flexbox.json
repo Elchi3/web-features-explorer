@@ -1,5 +1,7 @@
 {
- "caniuse": "flexbox",
+ "caniuse": [
+  "flexbox"
+ ],
  "compat_features": [
   "css.properties.align-content",
   "css.properties.align-content.flex_context",
@@ -78,7 +80,10 @@
  ],
  "description": "Flexbox is a one-dimensional layout system, which places content either horizontally or vertically, with optional wrapping.",
  "description_html": "Flexbox is a one-dimensional layout system, which places content either horizontally or vertically, with optional wrapping.",
- "group": "flexbox",
+ "group": [
+  "flexbox"
+ ],
+ "kind": "feature",
  "name": "Flexbox",
  "spec": [
   {
@@ -172,7 +177,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.83086476,
+  "percentageOfPageLoad": 0.83024251,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/28"
  },
  "interop": [

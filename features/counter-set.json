@@ -6,7 +6,10 @@
  ],
  "description": "The counter-set CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
  "description_html": "The <code>counter-set</code> CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
- "group": "counters",
+ "group": [
+  "counters"
+ ],
+ "kind": "feature",
  "name": "counter-set",
  "spec": [
   {
@@ -98,7 +101,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00335576,
+  "percentageOfPageLoad": 0.00380519,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/149"
  },
  "interop": [],

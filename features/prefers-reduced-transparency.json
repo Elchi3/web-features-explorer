@@ -5,7 +5,10 @@
  ],
  "description": "The prefers-reduced-transparency CSS media query sets styles based on whether the user prefers to reduce the amount of transparent effects on their device, for example to improve contrast and legibility.",
  "description_html": "The <code>prefers-reduced-transparency</code> CSS media query sets styles based on whether the user prefers to reduce the amount of transparent effects on their device, for example to improve contrast and legibility.",
- "group": "media-queries",
+ "group": [
+  "media-queries"
+ ],
+ "kind": "feature",
  "name": "prefers-reduced-transparency media query",
  "spec": [
   {
@@ -98,7 +101,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.02453432,
+  "percentageOfPageLoad": 0.02450348,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/175"
  },
  "interop": [],

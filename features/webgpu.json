@@ -1,5 +1,7 @@
 {
- "caniuse": "webgpu",
+ "caniuse": [
+  "webgpu"
+ ],
  "compat_features": [
   "api.GPU",
   "api.GPU.getPreferredCanvasFormat",
@@ -304,6 +306,7 @@
  ],
  "description": "The navigator.gpu API performs operations such as rendering and computation on dedicated graphics hardware (also known as a Graphics Processing Unit).",
  "description_html": "The <code>navigator.gpu</code> API performs operations such as rendering and computation on dedicated graphics hardware (also known as a Graphics Processing Unit).",
+ "kind": "feature",
  "name": "WebGPU",
  "spec": [
   {
@@ -359,7 +362,9 @@
   "support": {
    "chrome": "113",
    "chrome_android": "121",
-   "edge": "113"
+   "edge": "113",
+   "safari": "26",
+   "safari_ios": "26"
   }
  },
  "id": "webgpu",
@@ -383,7 +388,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.01677463,
+  "percentageOfPageLoad": 0.01660519,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
  },
  "interop": [],
@@ -12108,7 +12113,7 @@
      "firefox": {
       "notes": "Currently supported on Windows only, in all contexts except for service workers.",
       "partial_implementation": true,
-      "version_added": "144"
+      "version_added": "141"
      },
      "firefox_android": {
       "version_added": false
@@ -23146,5 +23151,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Firefox",
+ "monthsBlocked": 0,
+ "blockedSince": "September 2025"
 }

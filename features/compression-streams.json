@@ -17,6 +17,7 @@
  ],
  "description": "The CompressionStream and DecompressionStream APIs compress and decompress data using the gzip or deflate formats.",
  "description_html": "The <code>CompressionStream</code> and <code>DecompressionStream</code> APIs compress and decompress data using the gzip or deflate formats.",
+ "kind": "feature",
  "name": "Compression streams",
  "spec": [
   {
@@ -85,7 +86,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.16781017,
+  "percentageOfPageLoad": 0.17279423,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/1"
  },
  "interop": [],

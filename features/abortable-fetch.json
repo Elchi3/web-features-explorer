@@ -5,6 +5,7 @@
  ],
  "description": "If you construct a fetch request with an AbortSignal, you can cancel the request.",
  "description_html": "If you construct a fetch request with an <code>AbortSignal</code>, you can cancel the request.",
+ "kind": "feature",
  "name": "Abortable fetch",
  "spec": [
   {
@@ -47,7 +48,6 @@
      "fetch"
     ],
     "excludePaths": [
-     "fetch/fetch-later",
      "fetch/local-network-access",
      "fetch/metadata"
     ]

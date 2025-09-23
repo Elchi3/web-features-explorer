@@ -15,7 +15,10 @@
  ],
  "description": "The Accelerometer, LinearAccelerationSensor and GravitySensor APIs read the acceleration applied to a device in three dimensions, either including the effect of gravity, without its effect, or only its effect, respectively.",
  "description_html": "The <code>Accelerometer</code>, <code>LinearAccelerationSensor</code> and <code>GravitySensor</code> APIs read the acceleration applied to a device in three dimensions, either including the effect of gravity, without its effect, or only its effect, respectively.",
- "group": "sensors",
+ "group": [
+  "sensors"
+ ],
+ "kind": "feature",
  "name": "Accelerometer",
  "spec": [
   {
@@ -108,7 +111,7 @@
  "hasNegativeStandardPosition": true,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00193473,
+  "percentageOfPageLoad": 0.00175395,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/147"
  },
  "interop": [],

@@ -11,6 +11,7 @@
   "js-modules",
   "workers"
  ],
+ "kind": "feature",
  "name": "JavaScript modules in workers",
  "spec": [
   {
@@ -170,7 +171,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.0067735,
+  "percentageOfPageLoad": 0.00712337,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/110"
  },
  "interop": [

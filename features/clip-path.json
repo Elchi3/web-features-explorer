@@ -15,7 +15,10 @@
  ],
  "description": "The clip-path CSS property and SVG attribute set the visible area of an element. Everything outside the area will be hidden.",
  "description_html": "The <code>clip-path</code> CSS property and SVG attribute set the visible area of an element. Everything outside the area will be hidden.",
- "group": "clipping-shapes-masking",
+ "group": [
+  "clipping-shapes-masking"
+ ],
+ "kind": "feature",
  "name": "clip-path",
  "spec": [
   {
@@ -104,7 +107,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.39100902,
+  "percentageOfPageLoad": 0.38946576,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/216"
  },
  "interop": [

@@ -6,7 +6,10 @@
  ],
  "description": "The scrollbar-gutter CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.",
  "description_html": "The <code>scrollbar-gutter</code> CSS property reserves space for the scrollbar, preventing unwanted layout changes as the scrollbar appears and disappears.",
- "group": "scrolling",
+ "group": [
+  "scrolling"
+ ],
+ "kind": "feature",
  "name": "scrollbar-gutter",
  "spec": [
   {
@@ -136,7 +139,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.10199999,
+  "percentageOfPageLoad": 0.10127181,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/56"
  },
  "interop": [

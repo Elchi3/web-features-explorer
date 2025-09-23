@@ -4,7 +4,10 @@
  ],
  "description": "The <search> HTML element is a container that represents the parts of the web page with search functionality.",
  "description_html": "The <code>&#x3C;search></code> HTML element is a container that represents the parts of the web page with search functionality.",
- "group": "html-elements",
+ "group": [
+  "html-elements"
+ ],
+ "kind": "feature",
  "name": "<search>",
  "spec": [
   {
@@ -209,7 +212,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00193731,
+  "percentageOfPageLoad": 0.00195674,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/120"
  },
  "interop": [],

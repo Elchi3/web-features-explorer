@@ -1,11 +1,16 @@
 {
- "caniuse": "wasm-mutable-globals",
+ "caniuse": [
+  "wasm-mutable-globals"
+ ],
  "compat_features": [
   "webassembly.mutable-globals"
  ],
  "description": "Mutable global variables are importable and exportable.",
  "description_html": "Mutable global variables are importable and exportable.",
- "group": "webassembly",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
  "name": "Import and export of mutable globals (WebAssembly)",
  "spec": [
   {
@@ -97,7 +102,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00011029,
+  "percentageOfPageLoad": 0.00012168,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/370"
  },
  "interop": [],

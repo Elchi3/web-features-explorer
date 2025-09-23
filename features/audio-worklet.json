@@ -26,6 +26,7 @@
   "web-audio",
   "worklets"
  ],
+ "kind": "feature",
  "name": "AudioWorklet",
  "spec": [
   {
@@ -122,7 +123,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00085962,
+  "percentageOfPageLoad": 0.00082469,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/152"
  },
  "interop": [],

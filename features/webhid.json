@@ -1,5 +1,7 @@
 {
- "caniuse": "webhid",
+ "caniuse": [
+  "webhid"
+ ],
  "compat_features": [
   "api.HID",
   "api.HID.connect_event",
@@ -37,6 +39,7 @@
  ],
  "description": "The WebHID API provides access to Human Interface Devices (HID) that are connected to the user's device.",
  "description_html": "The WebHID API provides access to Human Interface Devices (HID) that are connected to the user's device.",
+ "kind": "feature",
  "name": "WebHID",
  "spec": [
   {
@@ -109,7 +112,7 @@
  "hasNegativeStandardPosition": true,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00000601,
+  "percentageOfPageLoad": 0.00000625,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/77"
  },
  "interop": [],

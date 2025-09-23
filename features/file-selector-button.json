@@ -4,7 +4,10 @@
  ],
  "description": "The ::file-selector-button CSS pseudo-element selects the button of a <input type=\"file\"> element.",
  "description_html": "The <code>::file-selector-button</code> CSS pseudo-element selects the button of a <code>&#x3C;input type=\"file\"></code> element.",
- "group": "selectors",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
  "name": "::file-selector-button",
  "spec": [
   {
@@ -97,7 +100,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.05572012,
+  "percentageOfPageLoad": 0.05801158,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/185"
  },
  "interop": [],

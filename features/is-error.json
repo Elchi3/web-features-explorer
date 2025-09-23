@@ -4,6 +4,7 @@
  ],
  "description": "The Error.isError() static method checks whether a value is an Error object.",
  "description_html": "The <code>Error.isError()</code> static method checks whether a value is an <code>Error</code> object.",
+ "kind": "feature",
  "name": "Error.isError()",
  "spec": [
   {
@@ -118,7 +119,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00705258,
+  "percentageOfPageLoad": 0.00782728,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/270"
  },
  "interop": [],

@@ -8,6 +8,7 @@
   "selection",
   "web-components"
  ],
+ "kind": "feature",
  "name": "Selection composed ranges",
  "spec": [
   {
@@ -106,7 +107,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00000512,
+  "percentageOfPageLoad": 0.00000634,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/314"
  },
  "interop": [],

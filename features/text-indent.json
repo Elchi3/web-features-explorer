@@ -1,11 +1,16 @@
 {
- "caniuse": "css-text-indent",
+ "caniuse": [
+  "css-text-indent"
+ ],
  "compat_features": [
   "css.properties.text-indent"
  ],
  "description": "The text-indent CSS property sets the size of the empty space (indentation) at the beginning of lines in a text.",
  "description_html": "The <code>text-indent</code> CSS property sets the size of the empty space (indentation) at the beginning of lines in a text.",
- "group": "css",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
  "name": "text-indent",
  "spec": [
   {
@@ -98,7 +103,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.35908538,
+  "percentageOfPageLoad": 0.36059887,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/69"
  },
  "interop": [],

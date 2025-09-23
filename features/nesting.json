@@ -1,5 +1,7 @@
 {
- "caniuse": "css-nesting",
+ "caniuse": [
+  "css-nesting"
+ ],
  "compat_features": [
   "api.CSSNestedDeclarations",
   "api.CSSNestedDeclarations.style",
@@ -10,7 +12,10 @@
  ],
  "description": "CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.",
  "description_html": "CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.",
- "group": "css",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
  "name": "Nesting",
  "spec": [
   {
@@ -188,7 +193,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.08463912,
+  "percentageOfPageLoad": 0.08461532,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/163"
  },
  "interop": [

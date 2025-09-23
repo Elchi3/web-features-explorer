@@ -106,6 +106,7 @@
  ],
  "description": "WAI-ARIA attributes have corresponding properties on Element and ElementInternals objects.",
  "description_html": "WAI-ARIA attributes have corresponding properties on <code>Element</code> and <code>ElementInternals</code> objects.",
+ "kind": "feature",
  "name": "ARIA attribute reflection",
  "spec": [
   {
@@ -193,7 +194,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.13622026,
+  "percentageOfPageLoad": 0.14128315,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/96"
  },
  "interop": [],

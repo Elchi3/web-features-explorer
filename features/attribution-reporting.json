@@ -21,6 +21,7 @@
  ],
  "description": "The Attribution Reporting API measures when an ad click or view leads to a conversion, such as a purchase on an advertiser site.",
  "description_html": "The Attribution Reporting API measures when an ad click or view leads to a conversion, such as a purchase on an advertiser site.",
+ "kind": "feature",
  "name": "Attribution reporting",
  "spec": [
   {
@@ -95,7 +96,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.24751249,
+  "percentageOfPageLoad": 0.24113289,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/282"
  },
  "interop": [],

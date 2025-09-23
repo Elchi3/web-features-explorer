@@ -5,7 +5,10 @@
  ],
  "description": "The reset() method clears a canvas to its initial state.",
  "description_html": "The <code>reset()</code> method clears a canvas to its initial state.",
- "group": "canvas",
+ "group": [
+  "canvas"
+ ],
+ "kind": "feature",
  "name": "Canvas reset()",
  "spec": [
   {
@@ -161,7 +164,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00010532,
+  "percentageOfPageLoad": 0.00009984,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/92"
  },
  "interop": [],

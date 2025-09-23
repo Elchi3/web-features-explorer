@@ -5,7 +5,10 @@
  ],
  "description": "Asynchronous iteration of a stream allows you to use for await … of loops to iterate through a stream's incoming data.",
  "description_html": "Asynchronous iteration of a stream allows you to use <code>for await … of</code> loops to iterate through a stream's incoming data.",
- "group": "streams",
+ "group": [
+  "streams"
+ ],
+ "kind": "feature",
  "name": "Asynchronously iterable streams",
  "spec": [
   {
@@ -87,7 +90,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.0001981,
+  "percentageOfPageLoad": 0.00182671,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/279"
  },
  "interop": [],

@@ -5,7 +5,10 @@
  ],
  "description": "The hwb() CSS function picks colors using hue, whiteness, and blackness channels.",
  "description_html": "The <code>hwb()</code> CSS function picks colors using hue, whiteness, and blackness channels.",
- "group": "color-types",
+ "group": [
+  "color-types"
+ ],
+ "kind": "feature",
  "name": "HWB",
  "spec": [
   {
@@ -100,7 +103,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00208352,
+  "percentageOfPageLoad": 0.00217055,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/172"
  },
  "interop": [

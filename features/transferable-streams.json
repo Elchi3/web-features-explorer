@@ -6,7 +6,10 @@
  ],
  "description": "Streams are transferable objects, which can be moved between contexts such as windows and workers.",
  "description_html": "Streams are transferable objects, which can be moved between contexts such as windows and workers.",
- "group": "streams",
+ "group": [
+  "streams"
+ ],
+ "kind": "feature",
  "name": "Transferable streams",
  "spec": [
   {
@@ -78,7 +81,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.001956,
+  "percentageOfPageLoad": 0.002223,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/399"
  },
  "interop": [],

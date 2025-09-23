@@ -6,7 +6,10 @@
  ],
  "description": "The quotes CSS property sets the quotation marks inserted via the content CSS property or <q> element.",
  "description_html": "The <code>quotes</code> CSS property sets the quotation marks inserted via the <code>content</code> CSS property or <code>&#x3C;q></code> element.",
- "group": "css",
+ "group": [
+  "css"
+ ],
+ "kind": "feature",
  "name": "Quotes",
  "spec": [
   {
@@ -98,7 +101,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.09331574,
+  "percentageOfPageLoad": 0.09008416,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/213"
  },
  "interop": [],

@@ -1,5 +1,7 @@
 {
- "caniuse": "picture-in-picture",
+ "caniuse": [
+  "picture-in-picture"
+ ],
  "compat_features": [
   "api.Document.exitPictureInPicture",
   "api.Document.pictureInPictureElement",
@@ -23,6 +25,7 @@
  ],
  "description": "The picture-in-picture API allow websites to create a floating, always-on-top video window. Also known as PiP or pop-out video.",
  "description_html": "The picture-in-picture API allow websites to create a floating, always-on-top video window. Also known as PiP or pop-out video.",
+ "kind": "feature",
  "name": "Picture-in-picture (video)",
  "spec": [
   {
@@ -104,7 +107,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00017557,
+  "percentageOfPageLoad": 0.00017514,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/51"
  },
  "interop": [],

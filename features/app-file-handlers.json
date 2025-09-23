@@ -5,7 +5,10 @@
  ],
  "description": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
  "description_html": "The <code>file_handlers</code> web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
- "group": "progressive-web-app",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
  "name": "File handlers",
  "spec": [
   {
@@ -84,7 +87,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 3.7e-7,
+  "percentageOfPageLoad": 3.9e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/299"
  },
  "interop": [],

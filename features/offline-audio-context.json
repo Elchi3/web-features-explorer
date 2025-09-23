@@ -15,7 +15,10 @@
  ],
  "description": "The OfflineAudioContext API represents an audio processing graph that writes to an AudioBuffer instead of an output device.",
  "description_html": "The <code>OfflineAudioContext</code> API represents an audio processing graph that writes to an <code>AudioBuffer</code> instead of an output device.",
- "group": "web-audio",
+ "group": [
+  "web-audio"
+ ],
+ "kind": "feature",
  "name": "OfflineAudioContext",
  "spec": [
   {
@@ -108,7 +111,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.05674324,
+  "percentageOfPageLoad": 0.05700962,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/151"
  },
  "interop": [],

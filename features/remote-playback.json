@@ -15,6 +15,7 @@
  ],
  "description": "The Remote Playback API initiates and controls playback of media on connected remote devices, such as smart TVs with AirPlay or Chromecast capabilities.",
  "description_html": "The Remote Playback API initiates and controls playback of media on connected remote devices, such as smart TVs with AirPlay or Chromecast capabilities.",
+ "kind": "feature",
  "name": "Remote playback",
  "spec": [
   {
@@ -92,7 +93,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00269713,
+  "percentageOfPageLoad": 0.00260657,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/255"
  },
  "interop": [],

@@ -5,7 +5,10 @@
  ],
  "description": "The :where() CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
  "description_html": "The <code>:where()</code> CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
- "group": "selectors",
+ "group": [
+  "selectors"
+ ],
+ "kind": "feature",
  "name": ":where()",
  "spec": [
   {
@@ -144,7 +147,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.26430481,
+  "percentageOfPageLoad": 0.26429741,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/83"
  },
  "interop": [],

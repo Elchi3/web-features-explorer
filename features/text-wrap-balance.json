@@ -4,7 +4,10 @@
  ],
  "description": "The text-wrap: balance CSS declaration balances the length of each line when text is broken into multiple lines. Also known as headline balancing.",
  "description_html": "The <code>text-wrap: balance</code> CSS declaration balances the length of each line when text is broken into multiple lines. Also known as headline balancing.",
- "group": "text-wrap",
+ "group": [
+  "text-wrap"
+ ],
+ "kind": "feature",
  "name": "text-wrap: balance",
  "spec": [
   {
@@ -135,7 +138,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.01885133,
+  "percentageOfPageLoad": 0.01873251,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/71"
  },
  "interop": [

@@ -4,7 +4,10 @@
  ],
  "description": "The ClipboardItem.supports() static method checks if the browser supports writing data types such as \"image/svg+xml\" or other custom formats to the system clipboard.",
  "description_html": "The <code>ClipboardItem.supports()</code> static method checks if the browser supports writing data types such as \"image/svg+xml\" or other custom formats to the system clipboard.",
- "group": "clipboard",
+ "group": [
+  "clipboard"
+ ],
+ "kind": "feature",
  "name": "ClipboardItem.supports()",
  "spec": [
   {
@@ -91,7 +94,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00063569,
+  "percentageOfPageLoad": 0.00069999,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/273"
  },
  "interop": [],

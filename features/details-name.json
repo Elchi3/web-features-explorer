@@ -5,7 +5,10 @@
  ],
  "description": "Multiple <details> elements which use the same name attribute are mutually exclusive. When one member of the group is opened, all other members are closed.",
  "description_html": "Multiple <code>&#x3C;details></code> elements which use the same <code>name</code> attribute are mutually exclusive. When one member of the group is opened, all other members are closed.",
- "group": "html-elements",
+ "group": [
+  "html-elements"
+ ],
+ "kind": "feature",
  "name": "Mutually exclusive <details> elements",
  "spec": [
   {
@@ -228,7 +231,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00048522,
+  "percentageOfPageLoad": 0.00054506,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/114"
  },
  "interop": [],

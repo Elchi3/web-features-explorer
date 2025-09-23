@@ -6,6 +6,7 @@
  ],
  "description": "The restrictTo() method on screen capture media tracks limits capture to a specific element, excluding content which might occlude the element itself, such as video conferencing controls.",
  "description_html": "The <code>restrictTo()</code> method on screen capture media tracks limits capture to a specific element, excluding content which might occlude the element itself, such as video conferencing controls.",
+ "kind": "feature",
  "name": "Element capture",
  "spec": [
   {
@@ -72,7 +73,7 @@
  "hasNegativeStandardPosition": true,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 9e-8,
+  "percentageOfPageLoad": 1.1e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/321"
  },
  "interop": [],

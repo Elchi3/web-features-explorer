@@ -1,5 +1,7 @@
 {
- "caniuse": "webvtt",
+ "caniuse": [
+  "webvtt"
+ ],
  "compat_features": [
   "api.VTTCue",
   "api.VTTCue.VTTCue",
@@ -11,6 +13,7 @@
  ],
  "description": "WebVTT is a captions and subtitles format. WebVTT files are loaded using the <track> element, and the VTTCue API can be used to create or update cues dynamically.",
  "description_html": "WebVTT is a captions and subtitles format. WebVTT files are loaded using the <code>&#x3C;track></code> element, and the <code>VTTCue</code> API can be used to create or update cues dynamically.",
+ "kind": "feature",
  "name": "WebVTT",
  "spec": [
   {
@@ -93,7 +96,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.06711517,
+  "percentageOfPageLoad": 0.06648502,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/82"
  },
  "interop": [],

@@ -5,7 +5,10 @@
  ],
  "description": "The logical AND assignment (&&=) and the logical OR assignment (||=) operators short-circuit the respective binary logical operators.",
  "description_html": "The logical AND assignment (<code>&#x26;&#x26;=</code>) and the logical OR assignment (<code>||=</code>) operators short-circuit the respective binary logical operators.",
- "group": "javascript",
+ "group": [
+  "javascript"
+ ],
+ "kind": "feature",
  "name": "Logical assignments",
  "spec": [
   {
@@ -135,7 +138,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.093182,
+  "percentageOfPageLoad": 0.095054,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/378"
  },
  "interop": [],

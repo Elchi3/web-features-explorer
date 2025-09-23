@@ -33,6 +33,7 @@
  ],
  "description": "The when() method on a event target returns an Observable object, which provides a declarative API for subscribing to and operating on events. It's an alternative to addEventListener() callbacks.",
  "description_html": "The <code>when()</code> method on a event target returns an <code>Observable</code> object, which provides a declarative API for subscribing to and operating on events. It's an alternative to <code>addEventListener()</code> callbacks.",
+ "kind": "feature",
  "name": "Observable",
  "spec": [
   {
@@ -103,7 +104,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00001381,
+  "percentageOfPageLoad": 6.8e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/348"
  },
  "interop": [],

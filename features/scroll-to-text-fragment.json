@@ -1,5 +1,7 @@
 {
- "caniuse": "url-scroll-to-text-fragment",
+ "caniuse": [
+  "url-scroll-to-text-fragment"
+ ],
  "compat_features": [
   "api.Document.fragmentDirective",
   "api.FragmentDirective",
@@ -11,6 +13,7 @@
   "text-fragments",
   "scrolling"
  ],
+ "kind": "feature",
  "name": "Scroll to text fragment",
  "spec": [
   {
@@ -93,7 +96,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00100866,
+  "percentageOfPageLoad": 0.00094869,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/60"
  },
  "interop": [],

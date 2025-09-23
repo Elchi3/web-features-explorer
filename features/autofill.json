@@ -4,7 +4,10 @@
  ],
  "description": "The :autofill pseudo-class matches <input> elements that have been filled in automatically by the browser.",
  "description_html": "The <code>:autofill</code> pseudo-class matches <code>&#x3C;input></code> elements that have been filled in automatically by the browser.",
- "group": "forms",
+ "group": [
+  "forms"
+ ],
+ "kind": "feature",
  "name": ":autofill",
  "spec": [
   {
@@ -161,7 +164,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.02300827,
+  "percentageOfPageLoad": 0.02287011,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/352"
  },
  "interop": [],

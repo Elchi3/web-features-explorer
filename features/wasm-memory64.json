@@ -4,7 +4,10 @@
  ],
  "description": "Instructions accept 64-bit memory indexes.",
  "description_html": "Instructions accept 64-bit memory indexes.",
- "group": "webassembly",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
  "name": "Memory64 (WebAssembly)",
  "spec": [
   {
@@ -38,7 +41,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 3.7e-7,
+  "percentageOfPageLoad": 6.1e-7,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/366"
  },
  "interop": [],

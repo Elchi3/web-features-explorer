@@ -14,7 +14,10 @@
  ],
  "description": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page.",
  "description_html": "The <code>layout-shift</code> performance entry and <code>LayoutShift</code> API measures the layout stability of web pages based on movements of the elements on the page.",
- "group": "performance",
+ "group": [
+  "performance"
+ ],
+ "kind": "feature",
  "name": "Layout instability",
  "spec": [
   {
@@ -94,7 +97,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.38284125,
+  "percentageOfPageLoad": 0.38206305,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/277"
  },
  "interop": [],

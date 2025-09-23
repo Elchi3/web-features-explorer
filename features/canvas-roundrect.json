@@ -5,7 +5,10 @@
  ],
  "description": "The roundRect() methods draw a rounded rectangle to a 2D canvas.",
  "description_html": "The <code>roundRect()</code> methods draw a rounded rectangle to a 2D canvas.",
- "group": "canvas",
+ "group": [
+  "canvas"
+ ],
+ "kind": "feature",
  "name": "Canvas roundRect()",
  "spec": [
   {
@@ -161,7 +164,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00048463,
+  "percentageOfPageLoad": 0.00050338,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/93"
  },
  "interop": [],
