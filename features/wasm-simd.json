@@ -107,11 +107,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00111226,
+  "percentageOfPageLoad": 0.00214783,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/347"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "webassembly.fixed-width-SIMD",
