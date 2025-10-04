@@ -1903,6 +1903,7 @@
    "key": "api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent",
    "compat": {
     "description": "<code>SpeechRecognitionErrorEvent()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionErrorEvent/SpeechRecognitionErrorEvent",
     "source_file": "api/SpeechRecognitionErrorEvent.json",
     "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognitionerrorevent-speechrecognitionerrorevent",
     "status": {
@@ -2207,6 +2208,7 @@
    "key": "api.SpeechRecognitionEvent.SpeechRecognitionEvent",
    "compat": {
     "description": "<code>SpeechRecognitionEvent()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionEvent/SpeechRecognitionEvent",
     "source_file": "api/SpeechRecognitionEvent.json",
     "spec_url": "https://webaudio.github.io/web-speech-api/#dom-speechrecognition-speechrecognition",
     "status": {

@@ -58,9 +58,9 @@
   <h1>Mapping of the BCD keys in web-features</h1>
 
   <ul>
-    <li>All BCD keys: 15921</li>
+    <li>All BCD keys: 15966</li>
     <li>Keys mapped in web-features: 14093</li>
-    <li>Percentage mapped: 89%</li>
+    <li>Percentage mapped: 88%</li>
   </ul>
 
   <h2>Unmapped BCD keys</h2>
@@ -187,6 +187,8 @@
     
       <li class="">api.CSSStyleProperties.cssFloat</li>
     
+      <li class="group-start">api.CSSStyleRule.style.returns_CSSStyleProperties</li>
+    
       <li class="deprecated group-start">api.CSSStyleSheet.addRule</li>
     
       <li class="deprecated ">api.CSSStyleSheet.removeRule</li>
@@ -297,7 +299,9 @@
     
       <li class="deprecated group-start">api.DirectoryReaderSync</li>
     
-      <li class="group-start">api.Document.adoptedStyleSheets.mutable</li>
+      <li class="group-start">api.Document.activeViewTransition</li>
+    
+      <li class="">api.Document.adoptedStyleSheets.mutable</li>
     
       <li class="deprecated ">api.Document.afterscriptexecute_event</li>
     
@@ -695,6 +699,8 @@
     
       <li class="">api.HTMLElement.error_event</li>
     
+      <li class="">api.HTMLElement.style.returns_CSSStyleProperties</li>
+    
       <li class="">api.HTMLElement.togglePopover.force_parameter</li>
     
       <li class="">api.HTMLElement.togglePopover.options_force_parameter</li>
@@ -1087,6 +1093,8 @@
     
       <li class="">api.LargestContentfulPaint.renderTime.cross-origin</li>
     
+      <li class="group-start">api.MathMLElement.style.returns_CSSStyleProperties</li>
+    
       <li class="group-start">api.MediaDevices.getDisplayMedia.preferCurrentTab_option</li>
     
       <li class="">api.MediaDevices.selectAudioOutput</li>
@@ -1182,6 +1190,12 @@
       <li class="deprecated group-start">api.MouseScrollEvent</li>
     
       <li class="group-start">api.NavigateEvent.sourceElement</li>
+    
+      <li class="group-start">api.NavigationPrecommitController</li>
+    
+      <li class="">api.NavigationPrecommitController.redirect</li>
+    
+      <li class="group-start">api.NavigationTransition.committed</li>
     
       <li class="group-start">api.Navigator.adAuctionComponents</li>
     
@@ -1511,6 +1525,8 @@
     
       <li class="deprecated group-start">api.SVGDiscardElement</li>
     
+      <li class="group-start">api.SVGElement.style.returns_CSSStyleProperties</li>
+    
       <li class="group-start">api.SVGPathElement.getPathData</li>
     
       <li class="">api.SVGPathElement.getPathSegmentAtLength</li>
@@ -1738,6 +1754,8 @@
       <li class="">api.Window.find</li>
     
       <li class="">api.Window.fullScreen</li>
+    
+      <li class="">api.Window.getComputedStyle.returns_CSSStyleProperties</li>
     
       <li class="">api.Window.getDefaultComputedStyle</li>
     
@@ -2095,6 +2113,18 @@
     
       <li class="deprecated ">css.properties.image-rendering.optimizeSpeed</li>
     
+      <li class="">css.properties.interest-delay</li>
+    
+      <li class="">css.properties.interest-delay.normal</li>
+    
+      <li class="">css.properties.interest-delay-end</li>
+    
+      <li class="">css.properties.interest-delay-end.normal</li>
+    
+      <li class="">css.properties.interest-delay-start</li>
+    
+      <li class="">css.properties.interest-delay-start.normal</li>
+    
       <li class="">css.properties.list-style-type.afar</li>
     
       <li class="">css.properties.list-style-type.amharic</li>
@@ -2295,7 +2325,15 @@
     
       <li class="deprecated ">css.selectors.closed</li>
     
+      <li class="">css.selectors.interest-source</li>
+    
+      <li class="">css.selectors.interest-target</li>
+    
       <li class="">css.selectors.nesting.at-scope</li>
+    
+      <li class="">css.selectors.target-after</li>
+    
+      <li class="">css.selectors.target-before</li>
     
       <li class="">css.selectors.target-current</li>
     
@@ -2305,7 +2343,13 @@
     
       <li class="">css.types.gradient.repeating-conic-gradient.single_color_stop</li>
     
+      <li class="">css.types.mod.mixed_type_parameters</li>
+    
       <li class="">css.types.progress</li>
+    
+      <li class="">css.types.rem.mixed_type_parameters</li>
+    
+      <li class="">css.types.round.mixed_type_parameters</li>
     
       <li class="deprecated group-start">html.elements.a.charset</li>
     
@@ -2432,6 +2476,8 @@
       <li class="">html.elements.iframe.allow.wildcards</li>
     
       <li class="deprecated ">html.elements.iframe.allowpaymentrequest</li>
+    
+      <li class="">html.elements.iframe.cross-origin-top-navigation-by-user-activation</li>
     
       <li class="deprecated ">html.elements.iframe.frameborder</li>
     
@@ -2965,9 +3011,37 @@
     
       <li class="">svg.global_attributes.transform.svg_root</li>
     
+      <li class="group-start">webassembly.api.JSTag_static</li>
+    
       <li class="group-start">webassembly.jspi</li>
     
-      <li class="group-start">webdriver.bidi.browser</li>
+      <li class="group-start">webdriver.bidi.bluetooth</li>
+    
+      <li class="">webdriver.bidi.bluetooth.disableSimulation</li>
+    
+      <li class="">webdriver.bidi.bluetooth.handleRequestDevicePrompt</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateAdapter</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateAdvertisement</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateCharacteristic</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateCharacteristicResponse</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateDescriptor</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateDescriptorResponse</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateGattConnectionResponse</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateGattDisconnection</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulatePreconnectedPeripheral</li>
+    
+      <li class="">webdriver.bidi.bluetooth.simulateService</li>
+    
+      <li class="">webdriver.bidi.browser</li>
     
       <li class="">webdriver.bidi.browser.close</li>
     
@@ -2990,6 +3064,12 @@
       <li class="">webdriver.bidi.browser.setClientWindowState</li>
     
       <li class="">webdriver.bidi.browser.setClientWindowState.clientWindow_parameter</li>
+    
+      <li class="">webdriver.bidi.browser.setDownloadBehavior</li>
+    
+      <li class="">webdriver.bidi.browser.setDownloadBehavior.downloadBehavior_parameter</li>
+    
+      <li class="">webdriver.bidi.browser.setDownloadBehavior.userContexts_parameter</li>
     
       <li class="">webdriver.bidi.browsingContext</li>
     
@@ -3283,6 +3363,8 @@
     
       <li class="">webdriver.bidi.emulation.setLocaleOverride.locale_parameter</li>
     
+      <li class="">webdriver.bidi.emulation.setLocaleOverride.locale_parameter.sets_navigator_language</li>
+    
       <li class="">webdriver.bidi.emulation.setLocaleOverride.updates_existing_sandboxes</li>
     
       <li class="">webdriver.bidi.emulation.setLocaleOverride.userContexts_parameter</li>
@@ -3310,6 +3392,14 @@
       <li class="">webdriver.bidi.emulation.setTimezoneOverride.timezone_parameter</li>
     
       <li class="">webdriver.bidi.emulation.setTimezoneOverride.userContexts_parameter</li>
+    
+      <li class="">webdriver.bidi.emulation.setUserAgentOverride</li>
+    
+      <li class="">webdriver.bidi.emulation.setUserAgentOverride.contexts_parameter</li>
+    
+      <li class="">webdriver.bidi.emulation.setUserAgentOverride.userAgent_parameter</li>
+    
+      <li class="">webdriver.bidi.emulation.setUserAgentOverride.userContexts_parameter</li>
     
       <li class="">webdriver.bidi.input</li>
     

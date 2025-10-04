@@ -2695,7 +2695,7 @@
     "source_file": "api/CSSStyleDeclaration.json",
     "spec_url": "https://drafts.csswg.org/cssom/#dom-cssstyleproperties-cssfloat",
     "status": {
-     "deprecated": false,
+     "deprecated": true,
      "experimental": false,
      "standard_track": true
     },
@@ -2732,10 +2732,14 @@
       "version_added": "≤12.1"
      },
      "safari": {
-      "version_added": "1"
+      "version_added": "1",
+      "version_last": "18.6",
+      "version_removed": "26"
      },
      "safari_ios": {
-      "version_added": "1"
+      "version_added": "1",
+      "version_last": "18.6",
+      "version_removed": "26"
      },
      "samsunginternet_android": {
       "version_added": "1.0"
@@ -2744,7 +2748,9 @@
       "version_added": "4.4"
      },
      "webview_ios": {
-      "version_added": "1"
+      "version_added": "1",
+      "version_last": "18.6",
+      "version_removed": "26"
      }
     },
     "tags": [

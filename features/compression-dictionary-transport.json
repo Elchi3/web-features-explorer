@@ -15,39 +15,7 @@
  "name": "Compression Dictionary Transport",
  "spec": [
   {
-   "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html",
-   "seriesComposition": "full",
-   "shortname": "compression-dictionary",
-   "series": {
-    "shortname": "compression-dictionary",
-    "currentSpecification": "compression-dictionary",
-    "title": "Compression Dictionary Transport",
-    "shortTitle": "Compression Dictionary Transport",
-    "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html"
-   },
-   "organization": "IETF",
-   "groups": [
-    {
-     "name": "HTTP Working Group",
-     "url": "https://datatracker.ietf.org/wg/httpbis/"
-    }
-   ],
-   "nightly": {
-    "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/httpwg/http-extensions",
-    "sourcePath": "draft-ietf-httpbis-compression-dictionary.md",
-    "filename": "draft-ietf-httpbis-compression-dictionary.html"
-   },
-   "title": "Compression Dictionary Transport",
-   "source": "ietf",
-   "shortTitle": "Compression Dictionary Transport",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "fragment": null
+   "url": "https://www.rfc-editor.org/rfc/rfc9842"
   }
  ],
  "status": {
@@ -87,7 +55,7 @@
     "description": "rel=compression-dictionary",
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel#compression-dictionary",
     "source_file": "html/elements/link.json",
-    "spec_url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html#name-link-relation-registration",
+    "spec_url": "https://www.rfc-editor.org/rfc/rfc9842#name-link-relation-registration",
     "status": {
      "deprecated": false,
      "experimental": true,
@@ -271,7 +239,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
     "source_file": "http/headers/Available-Dictionary.json",
-    "spec_url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html#name-available-dictionary",
+    "spec_url": "https://www.rfc-editor.org/rfc/rfc9842#name-available-dictionary",
     "status": {
      "deprecated": false,
      "experimental": true,
@@ -455,7 +423,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Dictionary-ID",
     "source_file": "http/headers/Dictionary-ID.json",
-    "spec_url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html#name-dictionary-id",
+    "spec_url": "https://www.rfc-editor.org/rfc/rfc9842#name-dictionary-id",
     "status": {
      "deprecated": false,
      "experimental": true,
@@ -517,7 +485,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Use-As-Dictionary",
     "source_file": "http/headers/Use-As-Dictionary.json",
-    "spec_url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html#name-use-as-dictionary",
+    "spec_url": "https://www.rfc-editor.org/rfc/rfc9842#name-use-as-dictionary",
     "status": {
      "deprecated": false,
      "experimental": true,
