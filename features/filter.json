@@ -4,6 +4,16 @@
  ],
  "compat_features": [
   "css.properties.filter",
+  "css.properties.filter.blur",
+  "css.properties.filter.brightness",
+  "css.properties.filter.contrast",
+  "css.properties.filter.drop-shadow",
+  "css.properties.filter.grayscale",
+  "css.properties.filter.hue-rotate",
+  "css.properties.filter.invert",
+  "css.properties.filter.opacity",
+  "css.properties.filter.saturate",
+  "css.properties.filter.sepia",
   "css.types.filter-function",
   "css.types.filter-function.blur",
   "css.types.filter-function.brightness",
@@ -229,6 +239,597 @@
        "version_added": "6"
       }
      ]
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.blur",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.brightness",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.contrast",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.drop-shadow",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.grayscale",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.hue-rotate",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.invert",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.opacity",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.saturate",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": "In Chrome 18 to 19, the <code>saturate()</code> function only takes integers instead of decimal or percentage values. From Chrome 20, this bug is fixed.",
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
+    },
+    "tags": [
+     "web-features:filter"
+    ]
+   }
+  },
+  {
+   "key": "css.properties.filter.sepia",
+   "compat": {
+    "source_file": "css/properties/filter.json",
+    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "18"
+     },
+     "chrome_android": {
+      "version_added": "53"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "35"
+     },
+     "firefox_android": {
+      "version_added": "35"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "40"
+     },
+     "opera_android": {
+      "version_added": "41"
+     },
+     "safari": {
+      "version_added": "6"
+     },
+     "safari_ios": {
+      "version_added": "6"
+     },
+     "samsunginternet_android": {
+      "version_added": "6.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "6"
+     }
     },
     "tags": [
      "web-features:filter"

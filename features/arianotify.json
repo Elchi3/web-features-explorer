@@ -1,0 +1,205 @@
+{
+ "compat_features": [
+  "api.Document.ariaNotify",
+  "api.Element.ariaNotify"
+ ],
+ "description": "The ariaNotify() method of Element and Document requests assistive technology software, if activated, to announce a message to the user. This can help make dynamic content changes more accessible to users.",
+ "description_html": "The <code>ariaNotify()</code> method of <code>Element</code> and <code>Document</code> requests assistive technology software, if activated, to announce a message to the user. This can help make dynamic content changes more accessible to users.",
+ "kind": "feature",
+ "name": "ariaNotify()",
+ "spec": [
+  {
+   "url": "https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Accessibility/AriaNotify/explainer.md"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "support": {}
+ },
+ "id": "arianotify",
+ "groups": [],
+ "groupPaths": [],
+ "mdnUrls": [
+  {
+   "title": "Document: ariaNotify() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/Document/ariaNotify"
+  },
+  {
+   "title": "Element: ariaNotify() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/Element/ariaNotify"
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "api.Document.ariaNotify",
+   "compat": {
+    "description": "<code>ariaNotify() method</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Document/ariaNotify",
+    "source_file": "api/Document.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": false
+    },
+    "support": {
+     "chrome": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "chrome_android": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "edge": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.Element.ariaNotify",
+   "compat": {
+    "description": "<code>ariaNotify() method</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/ariaNotify",
+    "source_file": "api/Element.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": false
+    },
+    "support": {
+     "chrome": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "chrome_android": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "edge": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "notes": [
+       "Fully supported on Windows and Linux, no support on ChromeOS.",
+       "Method exposed on macOS, but notifications are not reliably spoken."
+      ],
+      "partial_implementation": true,
+      "version_added": "141"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "api"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}
