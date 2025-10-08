@@ -132,10 +132,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",
@@ -741,62 +744,149 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "chrome_android": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "edge": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "firefox": {
-      "version_added": "141"
-     },
-     "firefox_android": {
-      "version_added": "141"
-     },
+     "chrome": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://bugzil.la/1984004\">bug 1984004</a>.",
+       "partial_implementation": true,
+       "version_added": "141",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://bugzil.la/1984004\">bug 1984004</a>.",
+       "partial_implementation": true,
+       "version_added": "141",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "ie": {
       "version_added": false
      },
      "oculus": {
       "version_added": false
      },
-     "opera": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "118"
-     },
-     "opera_android": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "88"
-     },
-     "safari": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
-      "partial_implementation": true,
-      "version_added": "preview"
-     },
-     "safari_ios": {
-      "version_added": false
-     },
+     "opera": [
+      {
+       "version_added": "121"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "118",
+       "version_last": "120",
+       "version_removed": "121"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "88",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
+     "safari": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ],
      "samsunginternet_android": {
-      "version_added": false
-     },
-     "webview_android": {
       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
       "partial_implementation": true,
-      "version_added": "133"
+      "version_added": "29.0"
      },
-     "webview_ios": {
-      "version_added": false
-     }
+     "webview_android": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "webview_ios": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:popover"
@@ -875,62 +965,149 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "chrome_android": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "edge": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "133"
-     },
-     "firefox": {
-      "version_added": "141"
-     },
-     "firefox_android": {
-      "version_added": "141"
-     },
+     "chrome": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://bugzil.la/1984004\">bug 1984004</a>.",
+       "partial_implementation": true,
+       "version_added": "141",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://bugzil.la/1984004\">bug 1984004</a>.",
+       "partial_implementation": true,
+       "version_added": "141",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "ie": {
       "version_added": false
      },
      "oculus": {
       "version_added": false
      },
-     "opera": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "118"
-     },
-     "opera_android": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
-      "partial_implementation": true,
-      "version_added": "88"
-     },
-     "safari": {
-      "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
-      "partial_implementation": true,
-      "version_added": "preview"
-     },
-     "safari_ios": {
-      "version_added": false
-     },
+     "opera": [
+      {
+       "version_added": "121"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "118",
+       "version_last": "120",
+       "version_removed": "121"
+      }
+     ],
+     "opera_android": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "88",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
+     "safari": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ],
      "samsunginternet_android": {
-      "version_added": false
-     },
-     "webview_android": {
       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
       "partial_implementation": true,
-      "version_added": "133"
+      "version_added": "29.0"
      },
-     "webview_ios": {
-      "version_added": false
-     }
+     "webview_android": [
+      {
+       "version_added": "137"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://crbug.com/383343310\">bug 383343310</a>.",
+       "partial_implementation": true,
+       "version_added": "133",
+       "version_last": "136",
+       "version_removed": "137"
+      }
+     ],
+     "webview_ios": [
+      {
+       "version_added": "26"
+      },
+      {
+       "notes": "When using this option, the focus order doesn't change, so the popover does not become the next focus element. See <a href=\"https://webkit.org/b/286575\">bug 286575</a>.",
+       "partial_implementation": true,
+       "version_added": "18.4",
+       "version_last": "18.6",
+       "version_removed": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:popover"

@@ -111,10 +111,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",
@@ -227,10 +230,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",
@@ -343,10 +349,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",

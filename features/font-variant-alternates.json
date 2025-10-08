@@ -954,11 +954,18 @@
      "safari_ios": {
       "version_added": "16.2"
      },
-     "samsunginternet_android": {
-      "notes": "Not exposed on <code>Window</code>. See <a href=\"https://crbug.com/385925149\">bug 385925149</a>.",
-      "partial_implementation": true,
-      "version_added": "22.0"
-     },
+     "samsunginternet_android": [
+      {
+       "version_added": "29.0"
+      },
+      {
+       "notes": "Not exposed on <code>Window</code>. See <a href=\"https://crbug.com/385925149\">bug 385925149</a>.",
+       "partial_implementation": true,
+       "version_added": "22.0",
+       "version_last": "28.0",
+       "version_removed": "29.0"
+      }
+     ],
      "webview_android": [
       {
        "version_added": "134"

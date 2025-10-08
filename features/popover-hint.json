@@ -109,10 +109,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",
@@ -213,7 +216,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "133"
@@ -275,7 +278,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "133"

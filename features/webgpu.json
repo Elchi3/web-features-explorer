@@ -1568,7 +1568,8 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
+      "version_added": "29.0"
      },
      "webview_android": {
       "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
@@ -1636,7 +1637,8 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
+      "version_added": "29.0"
      },
      "webview_android": {
       "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
@@ -3117,7 +3119,8 @@
       "version_added": "26"
      },
      "samsunginternet_android": {
-      "version_added": false
+      "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
+      "version_added": "29.0"
      },
      "webview_android": {
       "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
@@ -6686,7 +6689,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "132"
@@ -8162,7 +8165,8 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
+      "version_added": "29.0"
      },
      "webview_android": {
       "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
@@ -8643,7 +8647,8 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
+      "version_added": "29.0"
      },
      "webview_android": {
       "notes": "Currently supported on ChromeOS, macOS, and Windows only.",
@@ -16717,7 +16722,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "131"
@@ -16969,7 +16974,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "132"
@@ -20689,7 +20694,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "132"

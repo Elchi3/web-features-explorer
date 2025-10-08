@@ -15,7 +15,43 @@
  "name": "Compression Dictionary Transport",
  "spec": [
   {
-   "url": "https://www.rfc-editor.org/rfc/rfc9842"
+   "url": "https://www.rfc-editor.org/rfc/rfc9842",
+   "seriesComposition": "full",
+   "shortname": "rfc9842",
+   "series": {
+    "shortname": "rfc9842",
+    "currentSpecification": "rfc9842",
+    "title": "Compression Dictionary Transport",
+    "shortTitle": "Compression Dictionary Transport",
+    "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9842"
+   },
+   "formerNames": [
+    "compression-dictionary"
+   ],
+   "organization": "IETF",
+   "groups": [
+    {
+     "name": "HTTP Working Group",
+     "url": "https://datatracker.ietf.org/wg/httpbis/"
+    }
+   ],
+   "nightly": {
+    "url": "https://www.rfc-editor.org/rfc/rfc9842",
+    "status": "Proposed Standard",
+    "alternateUrls": [
+     "https://datatracker.ietf.org/doc/html/rfc9842",
+     "https://tools.ietf.org/html/rfc9842"
+    ],
+    "filename": "rfc9842.html"
+   },
+   "title": "Compression Dictionary Transport",
+   "source": "ietf",
+   "shortTitle": "Compression Dictionary Transport",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": null
   }
  ],
  "status": {

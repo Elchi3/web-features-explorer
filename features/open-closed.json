@@ -203,13 +203,18 @@
      "safari_ios": {
       "version_added": false
      },
-     "samsunginternet_android": {
-      "notes": "The selector is recognized, but has no effect.",
-      "partial_implementation": true,
-      "version_added": "23.0",
-      "version_last": "25.0",
-      "version_removed": "26.0"
-     },
+     "samsunginternet_android": [
+      {
+       "version_added": "29.0"
+      },
+      {
+       "notes": "The selector is recognized, but has no effect.",
+       "partial_implementation": true,
+       "version_added": "23.0",
+       "version_last": "25.0",
+       "version_removed": "26.0"
+      }
+     ],
      "webview_android": [
       {
        "version_added": "133"

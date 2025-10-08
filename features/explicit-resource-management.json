@@ -255,7 +255,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -320,7 +320,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -386,7 +386,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -452,7 +452,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -518,7 +518,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -584,7 +584,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -650,7 +650,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -716,7 +716,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -782,7 +782,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -847,7 +847,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -913,7 +913,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -978,7 +978,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1044,7 +1044,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1110,7 +1110,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1176,7 +1176,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1242,7 +1242,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1308,7 +1308,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1374,7 +1374,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1440,7 +1440,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1505,7 +1505,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1574,7 +1574,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1643,7 +1643,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1709,7 +1709,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -1775,7 +1775,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -2015,7 +2015,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"
@@ -2085,7 +2085,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "134"

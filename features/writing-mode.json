@@ -374,7 +374,7 @@
       "version_added": "18.4"
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "132"
@@ -432,7 +432,7 @@
       "version_added": "18.4"
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
       "version_added": "132"

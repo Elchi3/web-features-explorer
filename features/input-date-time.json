@@ -117,10 +117,13 @@
    "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
+     "close-watcher",
      "custom-elements",
      "eventsource",
      "html",
      "imagebitmap-renderingcontext",
+     "import-maps",
+     "navigation-api",
      "webmessaging",
      "webstorage",
      "workers",
@@ -345,7 +348,7 @@
       "version_added": "12"
      },
      "firefox": {
-      "notes": "Before Firefox 144, only displays a date picker without a time picker, see <a href=\"https://bugzil.la/1726108\">bug 1726108</a>.",
+      "notes": "Before Firefox 144, only displays a date picker without a time picker, see <a href=\"https://bugzil.la/1726107\">bug 1726107</a> and <a href=\"https://bugzil.la/1726108\">bug 1726108</a>.",
       "version_added": "93"
      },
      "firefox_android": {
