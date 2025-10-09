@@ -1,8 +1,11 @@
 {
  "compat_features": [
   "css.types.mod",
+  "css.types.mod.mixed_type_parameters",
   "css.types.rem",
-  "css.types.round"
+  "css.types.rem.mixed_type_parameters",
+  "css.types.round",
+  "css.types.round.mixed_type_parameters"
  ],
  "description": "The round(), mod(), and rem() CSS functions compute rounded values and the remainder after division.",
  "description_html": "The <code>round()</code>, <code>mod()</code>, and <code>rem()</code> CSS functions compute rounded values and the remainder after division.",
@@ -75,8 +78,8 @@
    "edge": "125",
    "firefox": "118",
    "firefox_android": "118",
-   "safari": "15.4",
-   "safari_ios": "15.4"
+   "safari": "17.2",
+   "safari_ios": "17.2"
   }
  },
  "id": "round-mod-rem",
@@ -128,7 +131,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00603379,
+  "percentageOfPageLoad": 0.00578905,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/176"
  },
  "interop": [],
@@ -188,6 +191,66 @@
      },
      "webview_ios": {
       "version_added": "15.4"
+     }
+    },
+    "tags": [
+     "web-features:round-mod-rem"
+    ]
+   }
+  },
+  {
+   "key": "css.types.mod.mixed_type_parameters",
+   "compat": {
+    "description": "Mix <code>&lt;percentage&gt;</code> with <code>&lt;length&gt;</code> and <code>&lt;number&gt;</code> parameters",
+    "source_file": "css/types/mod.json",
+    "spec_url": "https://drafts.csswg.org/css-values/#funcdef-mod",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "118"
+     },
+     "firefox_android": {
+      "version_added": "118"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "17.2"
+     },
+     "safari_ios": {
+      "version_added": "17.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "17.2"
      }
     },
     "tags": [
@@ -257,6 +320,66 @@
    }
   },
   {
+   "key": "css.types.rem.mixed_type_parameters",
+   "compat": {
+    "description": "Mix <code>&lt;percentage&gt;</code> with <code>&lt;length&gt;</code> and <code>&lt;number&gt;</code> parameters",
+    "source_file": "css/types/rem.json",
+    "spec_url": "https://drafts.csswg.org/css-values/#funcdef-rem",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "118"
+     },
+     "firefox_android": {
+      "version_added": "118"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "17.2"
+     },
+     "safari_ios": {
+      "version_added": "17.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "17.2"
+     }
+    },
+    "tags": [
+     "web-features:round-mod-rem"
+    ]
+   }
+  },
+  {
    "key": "css.types.round",
    "compat": {
     "description": "<code>round()</code>",
@@ -310,6 +433,66 @@
      },
      "webview_ios": {
       "version_added": "15.4"
+     }
+    },
+    "tags": [
+     "web-features:round-mod-rem"
+    ]
+   }
+  },
+  {
+   "key": "css.types.round.mixed_type_parameters",
+   "compat": {
+    "description": "Mix <code>&lt;percentage&gt;</code> with <code>&lt;length&gt;</code> and <code>&lt;number&gt;</code> parameters",
+    "source_file": "css/types/round.json",
+    "spec_url": "https://drafts.csswg.org/css-values/#funcdef-round",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "118"
+     },
+     "firefox_android": {
+      "version_added": "118"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "17.2"
+     },
+     "safari_ios": {
+      "version_added": "17.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "17.2"
      }
     },
     "tags": [
