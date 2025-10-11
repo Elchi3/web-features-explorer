@@ -55,6 +55,9 @@
  ],
  "description": "The RegExp object represents a regular expression, a notation for matching text patterns.",
  "description_html": "The <code>RegExp</code> object represents a regular expression, a notation for matching text patterns.",
+ "group": [
+  "regexps"
+ ],
  "kind": "feature",
  "name": "Regular expressions",
  "spec": [
@@ -158,8 +161,15 @@
   }
  },
  "id": "regexp",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "regexps"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript",
+   "Regular Expressions"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "RegExp",

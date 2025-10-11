@@ -4,6 +4,9 @@
  ],
  "description": "The RegExp.escape() static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, RegExp.escape(\"[abc]\") returns \"\\\\[abc\\\\]\".",
  "description_html": "The <code>RegExp.escape()</code> static method takes a string and replaces any characters that are potentially special characters of a regular expression with equivalent escape sequences. For example, <code>RegExp.escape(\"[abc]\")</code> returns <code>\"\\\\[abc\\\\]\"</code>.",
+ "group": [
+  "regexps"
+ ],
  "kind": "feature",
  "name": "RegExp.escape()",
  "spec": [
@@ -106,8 +109,15 @@
   }
  },
  "id": "regexp-escape",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "regexps"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript",
+   "Regular Expressions"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "RegExp.escape()",

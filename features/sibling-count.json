@@ -167,11 +167,10 @@
       "version_added": "91"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/294895",
-      "version_added": false
+      "impl_url": "https://webkit.org/b/290698",
+      "version_added": "preview"
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/294895",
       "version_added": false
      },
      "samsunginternet_android": {
@@ -181,7 +180,6 @@
       "version_added": "138"
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/294895",
       "version_added": false
      }
     },
@@ -233,11 +231,10 @@
       "version_added": "91"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/294895",
-      "version_added": false
+      "impl_url": "https://webkit.org/b/290698",
+      "version_added": "preview"
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/294895",
       "version_added": false
      },
      "samsunginternet_android": {
@@ -247,7 +244,6 @@
       "version_added": "138"
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/294895",
       "version_added": false
      }
     },
@@ -272,11 +268,7 @@
   "firefox_android": [
    "https://bugzil.la/1953973"
   ],
-  "safari": [
-   "https://webkit.org/b/294895"
-  ],
-  "safari_ios": [
-   "https://webkit.org/b/294895"
-  ]
+  "safari": [],
+  "safari_ios": []
  }
 }

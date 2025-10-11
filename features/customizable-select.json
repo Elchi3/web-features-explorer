@@ -99,10 +99,11 @@
    "key": "css.properties.appearance.base-select",
    "compat": {
     "source_file": "css/properties/appearance.json",
+    "spec_url": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-base-select",
     "status": {
      "deprecated": false,
      "experimental": true,
-     "standard_track": false
+     "standard_track": true
     },
     "support": {
      "chrome": {

@@ -824,11 +824,11 @@
       }
      ],
      "safari": {
-      "impl_url": "https://webkit.org/b/201556",
+      "impl_url": "https://webkit.org/b/300493",
       "version_added": false
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/201556",
+      "impl_url": "https://webkit.org/b/300493",
       "version_added": false
      },
      "samsunginternet_android": [
@@ -856,7 +856,7 @@
       }
      ],
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/201556",
+      "impl_url": "https://webkit.org/b/300493",
       "version_added": false
      }
     },
@@ -1005,10 +1005,10 @@
    "https://bugzil.la/1801658"
   ],
   "safari": [
-   "https://webkit.org/b/201556"
+   "https://webkit.org/b/300493"
   ],
   "safari_ios": [
-   "https://webkit.org/b/201556"
+   "https://webkit.org/b/300493"
   ]
  }
 }

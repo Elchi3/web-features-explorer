@@ -950,7 +950,7 @@
       "version_added": "124"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "92"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/264731",

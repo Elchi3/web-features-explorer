@@ -6,6 +6,9 @@
  ],
  "description": "The transfer() and transferToFixedLength() methods of ArrayBuffer move a buffer from one context to another (for example, to a worker).",
  "description_html": "The <code>transfer()</code> and <code>transferToFixedLength()</code> methods of <code>ArrayBuffer</code> move a buffer from one context to another (for example, to a worker).",
+ "group": [
+  "javascript"
+ ],
  "kind": "feature",
  "name": "Transferable ArrayBuffer",
  "spec": [
@@ -108,8 +111,14 @@
   }
  },
  "id": "transferable-arraybuffer",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "javascript"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "ArrayBuffer.prototype.transfer()",

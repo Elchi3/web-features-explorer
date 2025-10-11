@@ -9,6 +9,9 @@
    "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-additional-ecmascript-features-for-web-browsers"
   ]
  },
+ "group": [
+  "regexps"
+ ],
  "kind": "feature",
  "name": "RegExp compile()",
  "spec": [
@@ -110,8 +113,15 @@
   }
  },
  "id": "regexp-compile",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "regexps"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript",
+   "Regular Expressions"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "RegExp.prototype.compile()",

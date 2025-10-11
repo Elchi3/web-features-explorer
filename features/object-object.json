@@ -40,6 +40,9 @@
  ],
  "description": "Objects in JavaScript are collections of key-value pairs.",
  "description_html": "Objects in JavaScript are collections of key-value pairs.",
+ "group": [
+  "javascript"
+ ],
  "kind": "feature",
  "name": "Object",
  "spec": [
@@ -143,8 +146,14 @@
   }
  },
  "id": "object-object",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "javascript"
+ ],
+ "groupPaths": [
+  [
+   "JavaScript"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "Object",
