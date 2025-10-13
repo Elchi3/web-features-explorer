@@ -32,8 +32,8 @@
  "groupPaths": [],
  "mdnUrls": [
   {
-   "title": "Topics API",
-   "url": "https://developer.mozilla.org/docs/Web/API/Topics_API"
+   "title": "Document: browsingTopics() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/Document/browsingTopics"
   },
   {
    "title": "HTMLIFrameElement: browsingTopics property",
