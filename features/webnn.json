@@ -191,7 +191,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -274,7 +281,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -357,7 +371,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -440,7 +461,14 @@
       "version_added": "128"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "128"
      },
      "deno": {
       "version_added": false
@@ -523,7 +551,14 @@
       "version_added": "128"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "128"
      },
      "deno": {
       "version_added": false
@@ -606,7 +641,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -689,7 +731,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -773,7 +822,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -864,7 +920,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -971,7 +1042,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 122 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -1078,7 +1164,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 128 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -1185,7 +1286,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 128 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -1292,7 +1408,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -1399,7 +1530,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -1498,7 +1644,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -1589,7 +1742,22 @@
       "version_added": "124"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "124"
      },
      "deno": {
       "version_added": false
@@ -1696,7 +1864,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -1803,7 +1986,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -1910,7 +2108,22 @@
       "version_added": "113"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 113 (CPUs)",
+       "Supports ChromeOS since Chrome Android 113 (CPUs)",
+       "Supports Linux since Chrome Android 113 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 113 (CPUs, GPUs)"
+      ],
+      "version_added": "113"
      },
      "deno": {
       "version_added": false
@@ -2009,7 +2222,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -2100,7 +2320,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -2207,7 +2442,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -2314,7 +2564,22 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 123 (CPUs)",
+       "Supports ChromeOS since Chrome Android 123 (CPUs)",
+       "Supports Linux since Chrome Android 123 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 123 (CPUs, GPUs)"
+      ],
+      "version_added": "123"
      },
      "deno": {
       "version_added": false
@@ -2421,7 +2686,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -2528,7 +2808,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 133 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -2635,7 +2930,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -2742,7 +3052,22 @@
       "version_added": "115"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 115 (CPUs)",
+       "Supports ChromeOS since Chrome Android 115 (CPUs)",
+       "Supports Linux since Chrome Android 115 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 115 (CPUs, GPUs)"
+      ],
+      "version_added": "115"
      },
      "deno": {
       "version_added": false
@@ -2849,7 +3174,22 @@
       "version_added": "125"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "125"
      },
      "deno": {
       "version_added": false
@@ -2956,7 +3296,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -3063,7 +3418,22 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 123 (CPUs)",
+       "Supports ChromeOS since Chrome Android 123 (CPUs)",
+       "Supports Linux since Chrome Android 123 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 123 (CPUs, GPUs)"
+      ],
+      "version_added": "123"
      },
      "deno": {
       "version_added": false
@@ -3170,7 +3540,22 @@
       "version_added": "128"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 128 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "128"
      },
      "deno": {
       "version_added": false
@@ -3277,7 +3662,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -3384,7 +3784,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -3491,7 +3906,22 @@
       "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 133 (CPUs)",
+       "Supports ChromeOS since Chrome Android 133 (CPUs)",
+       "Supports Linux since Chrome Android 133 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 133 (CPUs, GPUs)"
+      ],
+      "version_added": "133"
      },
      "deno": {
       "version_added": false
@@ -3598,7 +4028,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -3705,7 +4150,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -3812,7 +4272,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -3919,7 +4394,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -4026,7 +4516,22 @@
       "version_added": "129"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 129 (CPUs)",
+       "Supports ChromeOS since Chrome Android 129 (CPUs)",
+       "Supports Linux since Chrome Android 129 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 133 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 129 (CPUs, GPUs)"
+      ],
+      "version_added": "129"
      },
      "deno": {
       "version_added": false
@@ -4133,7 +4638,22 @@
       "version_added": "129"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 129 (CPUs)",
+       "Supports ChromeOS since Chrome Android 129 (CPUs)",
+       "Supports Linux since Chrome Android 129 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 133 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 129 (CPUs, GPUs)"
+      ],
+      "version_added": "129"
      },
      "deno": {
       "version_added": false
@@ -4240,7 +4760,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -4347,7 +4882,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -4454,7 +5004,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -4561,7 +5126,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -4668,7 +5248,22 @@
       "version_added": "127"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "127"
      },
      "deno": {
       "version_added": false
@@ -4771,7 +5366,18 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -4870,7 +5476,22 @@
       "version_added": "127"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 129 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "127"
      },
      "deno": {
       "version_added": false
@@ -4977,7 +5598,22 @@
       "version_added": "113"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 113 (CPUs)",
+       "Supports ChromeOS since Chrome Android 113 (CPUs)",
+       "Supports Linux since Chrome Android 113 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 113 (CPUs, GPUs)"
+      ],
+      "version_added": "113"
      },
      "deno": {
       "version_added": false
@@ -5084,7 +5720,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -5191,7 +5842,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -5298,7 +5964,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -5405,7 +6086,22 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 123 (CPUs)",
+       "Supports ChromeOS since Chrome Android 123 (CPUs)",
+       "Supports Linux since Chrome Android 123 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 123 (CPUs, GPUs)"
+      ],
+      "version_added": "123"
      },
      "deno": {
       "version_added": false
@@ -5512,7 +6208,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -5619,7 +6330,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 128 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -5726,7 +6452,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -5833,7 +6574,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -5940,7 +6696,22 @@
       "version_added": "129"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 129 (CPUs)",
+       "Supports ChromeOS since Chrome Android 129 (CPUs)",
+       "Supports Linux since Chrome Android 129 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 133 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 129 (CPUs, GPUs)"
+      ],
+      "version_added": "129"
      },
      "deno": {
       "version_added": false
@@ -6047,7 +6818,22 @@
       "version_added": "129"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 129 (CPUs)",
+       "Supports ChromeOS since Chrome Android 129 (CPUs)",
+       "Supports Linux since Chrome Android 129 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 133 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 129 (CPUs, GPUs)"
+      ],
+      "version_added": "129"
      },
      "deno": {
       "version_added": false
@@ -6154,7 +6940,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -6261,7 +7062,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -6368,7 +7184,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -6475,7 +7306,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -6582,7 +7428,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -6689,7 +7550,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 127 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -6796,7 +7672,22 @@
       "version_added": "114"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 114 (CPUs)",
+       "Supports ChromeOS since Chrome Android 114 (CPUs)",
+       "Supports Linux since Chrome Android 114 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 129 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 114 (CPUs, GPUs)"
+      ],
+      "version_added": "114"
      },
      "deno": {
       "version_added": false
@@ -6903,7 +7794,22 @@
       "version_added": "122"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 122 (CPUs)",
+       "Supports ChromeOS since Chrome Android 122 (CPUs)",
+       "Supports Linux since Chrome Android 122 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 122 (CPUs, GPUs)"
+      ],
+      "version_added": "122"
      },
      "deno": {
       "version_added": false
@@ -7010,7 +7916,22 @@
       "version_added": "115"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 115 (CPUs)",
+       "Supports ChromeOS since Chrome Android 115 (CPUs)",
+       "Supports Linux since Chrome Android 115 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 136 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 115 (CPUs, GPUs)"
+      ],
+      "version_added": "115"
      },
      "deno": {
       "version_added": false
@@ -7117,7 +8038,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 134 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -7224,7 +8160,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7331,7 +8282,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7438,7 +8404,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7545,7 +8526,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7652,7 +8648,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7759,7 +8770,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -7866,7 +8892,22 @@
       "version_added": "120"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 120 (CPUs)",
+       "Supports ChromeOS since Chrome Android 120 (CPUs)",
+       "Supports Linux since Chrome Android 120 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 120 (CPUs, GPUs)"
+      ],
+      "version_added": "120"
      },
      "deno": {
       "version_added": false
@@ -7973,7 +9014,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -8080,7 +9136,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -8187,7 +9258,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -8294,7 +9380,22 @@
       "version_added": "127"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "127"
      },
      "deno": {
       "version_added": false
@@ -8401,7 +9502,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -8508,7 +9624,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -8615,7 +9746,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -8722,7 +9868,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 133 (CPUs)",
+       "Supports ChromeOS since Chrome Android 133 (CPUs)",
+       "Supports Linux since Chrome Android 133 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 133 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -8829,7 +9990,22 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 132 (CPUs)",
+       "Supports ChromeOS since Chrome Android 132 (CPUs)",
+       "Supports Linux since Chrome Android 132 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 132 (CPUs, GPUs)"
+      ],
+      "version_added": "132"
      },
      "deno": {
       "version_added": false
@@ -8936,7 +10112,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -9043,7 +10234,22 @@
       "version_added": "130"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 130 (CPUs)",
+       "Supports ChromeOS since Chrome Android 130 (CPUs)",
+       "Supports Linux since Chrome Android 130 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 139 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 130 (CPUs, GPUs)"
+      ],
+      "version_added": "130"
      },
      "deno": {
       "version_added": false
@@ -9150,7 +10356,22 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 123 (CPUs)",
+       "Supports ChromeOS since Chrome Android 123 (CPUs)",
+       "Supports Linux since Chrome Android 123 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 123 (CPUs, GPUs)"
+      ],
+      "version_added": "123"
      },
      "deno": {
       "version_added": false
@@ -9257,7 +10478,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -9364,7 +10600,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 127 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -9471,7 +10722,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -9578,7 +10844,22 @@
       "version_added": "125"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 127 (CPUs)",
+       "Supports ChromeOS since Chrome Android 127 (CPUs)",
+       "Supports Linux since Chrome Android 127 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 127 (CPUs, GPUs)"
+      ],
+      "version_added": "125"
      },
      "deno": {
       "version_added": false
@@ -9685,7 +10966,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 130 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -9792,7 +11088,22 @@
       "version_added": "122"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 122 (CPUs)",
+       "Supports ChromeOS since Chrome Android 122 (CPUs)",
+       "Supports Linux since Chrome Android 122 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 122 (CPUs, GPUs)"
+      ],
+      "version_added": "122"
      },
      "deno": {
       "version_added": false
@@ -9899,7 +11210,22 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 112 (CPUs)",
+       "Supports ChromeOS since Chrome Android 112 (CPUs)",
+       "Supports Linux since Chrome Android 112 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 124 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 112 (CPUs, GPUs)"
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -10006,7 +11332,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -10113,7 +11454,22 @@
       "version_added": "116"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 116 (CPUs)",
+       "Supports ChromeOS since Chrome Android 116 (CPUs)",
+       "Supports Linux since Chrome Android 116 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 139 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 126 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 116 (CPUs, GPUs)"
+      ],
+      "version_added": "116"
      },
      "deno": {
       "version_added": false
@@ -10220,7 +11576,22 @@
       "version_added": "131"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 131 (CPUs)",
+       "Supports ChromeOS since Chrome Android 131 (CPUs)",
+       "Supports Linux since Chrome Android 131 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 131 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 131 (CPUs, GPUs)"
+      ],
+      "version_added": "131"
      },
      "deno": {
       "version_added": false
@@ -10327,7 +11698,22 @@
       "version_added": "113"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 113 (CPUs)",
+       "Supports ChromeOS since Chrome Android 113 (CPUs)",
+       "Supports Linux since Chrome Android 113 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 125 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 113 (CPUs, GPUs)"
+      ],
+      "version_added": "113"
      },
      "deno": {
       "version_added": false
@@ -10434,7 +11820,22 @@
       "version_added": "128"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 128 (CPUs)",
+       "Supports ChromeOS since Chrome Android 128 (CPUs)",
+       "Supports Linux since Chrome Android 128 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 132 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 128 (CPUs, GPUs)"
+      ],
+      "version_added": "128"
      },
      "deno": {
       "version_added": false
@@ -10541,7 +11942,22 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "notes": [
+       "Supports Android since Chrome Android 126 (CPUs)",
+       "Supports ChromeOS since Chrome Android 126 (CPUs)",
+       "Supports Linux since Chrome Android 126 (CPUs, GPUs)",
+       "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
+       "Supports Windows 11 24H2+ since Chrome Android 140 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 126 (CPUs, GPUs)"
+      ],
+      "version_added": "126"
      },
      "deno": {
       "version_added": false
@@ -10640,7 +12056,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -10723,7 +12146,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false
@@ -10809,7 +12239,14 @@
       "version_added": "112"
      },
      "chrome_android": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "#web-machine-learning-neural-network",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "112"
      },
      "deno": {
       "version_added": false

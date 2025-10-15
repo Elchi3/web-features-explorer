@@ -143,15 +143,11 @@
       "version_added": "87"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/283446",
-      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>.",
-      "partial_implementation": true,
+      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>. See <a href=\"https://webkit.org/b/283446\">bug 283446</a>.",
       "version_added": "18.4"
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/283446",
-      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>.",
-      "partial_implementation": true,
+      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>. See <a href=\"https://webkit.org/b/283446\">bug 283446</a>.",
       "version_added": "18.4"
      },
      "samsunginternet_android": {
@@ -161,9 +157,7 @@
       "version_added": "131"
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/283446",
-      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>.",
-      "partial_implementation": true,
+      "notes": "Does not support chaining pseudo-elements after <code>::details-content</code>. See <a href=\"https://webkit.org/b/283446\">bug 283446</a>.",
       "version_added": "18.4"
      }
     },
