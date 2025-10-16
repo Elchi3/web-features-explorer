@@ -360,9 +360,7 @@
  "status": {
   "baseline": false,
   "support": {
-   "chrome": "113",
    "chrome_android": "121",
-   "edge": "113",
    "safari": "26",
    "safari_ios": "26"
   }
@@ -388,7 +386,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.01480994,
+  "percentageOfPageLoad": 0.0176283,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
  },
  "interop": [],
@@ -24152,8 +24150,5 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- },
- "blockedOn": "Firefox",
- "monthsBlocked": 1,
- "blockedSince": "September 2025"
+ }
 }

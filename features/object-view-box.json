@@ -75,7 +75,12 @@
    "CSS"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "object-view-box",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/object-view-box"
+  }
+ ],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -83,7 +88,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00027237,
+  "percentageOfPageLoad": 0.00031255,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/156"
  },
  "interop": [],
