@@ -90,7 +90,52 @@
    "CSS"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "CSSFunctionDeclarations",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDeclarations"
+  },
+  {
+   "title": "CSSFunctionDeclarations: style property",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDeclarations/style"
+  },
+  {
+   "title": "CSSFunctionDescriptors",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDescriptors"
+  },
+  {
+   "title": "CSSFunctionDescriptors: result property",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDescriptors/result"
+  },
+  {
+   "title": "CSSFunctionRule",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule"
+  },
+  {
+   "title": "CSSFunctionRule: getParameters() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/getParameters"
+  },
+  {
+   "title": "CSSFunctionRule: name property",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/name"
+  },
+  {
+   "title": "CSSFunctionRule: returnType property",
+   "url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/returnType"
+  },
+  {
+   "title": "@function",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/@function"
+  },
+  {
+   "title": "<dashed-function>: CSS custom functions",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/dashed-function"
+  },
+  {
+   "title": "type()",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/type"
+  }
+ ],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
