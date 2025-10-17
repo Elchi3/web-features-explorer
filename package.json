@@ -5,13 +5,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@ddbeck/mdn-content-inventory": "^0.2.20251015",
+    "@ddbeck/mdn-content-inventory": "^0.2.20251016",
     "@mdn/browser-compat-data": "^7.1.13",
     "apexcharts": "^5.3.5",
     "browser-specs": "^4.59.1",
     "glob": "^11.0.3",
     "pagefind": "^1.4.0",
-    "playwright": "^1.56.0",
+    "playwright": "^1.56.1",
     "web-features": "next",
     "yaml": "^2.8.1"
   },
