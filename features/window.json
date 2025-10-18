@@ -416,9 +416,11 @@
     },
     "support": {
      "chrome": {
+      "notes": "Before Chrome 95, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "1"
      },
      "chrome_android": {
+      "notes": "Before Chrome Android 95, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "18"
      },
      "deno": {
@@ -427,21 +429,21 @@
       "version_added": "1.0"
      },
      "edge": {
-      "notes": "Before Edge 79, scripts can close windows that weren't opened by the same script.",
       "version_added": "12"
      },
      "firefox": {
-      "notes": "Before Firefox 46, scripts can close windows that weren't opened by the same script.",
+      "notes": "Before Firefox 128, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "1"
      },
      "firefox_android": {
-      "notes": "Before Firefox for Android 46, scripts can close windows that weren't opened by the same script.",
+      "notes": "Before Firefox for Android 128, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "4"
      },
      "ie": {
       "version_added": "4"
      },
      "oculus": {
+      "notes": "Before Quest Browser 18.0, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "5.0"
      },
      "opera": {
@@ -457,9 +459,11 @@
       "version_added": "1"
      },
      "samsunginternet_android": {
+      "notes": "Before Samsung Internet 17.0, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "1.0"
      },
      "webview_android": {
+      "notes": "Before WebView Android 95, script-closeability depended on having an opener, not on being created by web content.",
       "version_added": "4.4"
      },
      "webview_ios": {

@@ -3115,7 +3115,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "chrome_android": {
@@ -3126,7 +3126,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "edge": {
@@ -3137,7 +3137,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "firefox": {
@@ -3160,7 +3160,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "94"
      },
      "opera_android": {
@@ -4896,7 +4896,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "chrome_android": {
@@ -4907,7 +4907,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "edge": {
@@ -4918,7 +4918,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "108"
      },
      "firefox": {
@@ -4941,7 +4941,7 @@
         "value_to_set": "Enabled"
        }
       ],
-      "notes": "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
+      "notes": "Broken, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a href=\"https://crbug.com/40417861#comment25\">bug 487288</a>).",
       "version_added": "94"
      },
      "opera_android": {

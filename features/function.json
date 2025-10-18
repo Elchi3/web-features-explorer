@@ -168,6 +168,7 @@
   {
    "key": "api.CSSFunctionDeclarations",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDeclarations",
     "source_file": "api/CSSFunctionDeclarations.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#the-function-declarations-interface",
     "status": {
@@ -224,6 +225,7 @@
   {
    "key": "api.CSSFunctionDeclarations.style",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDeclarations/style",
     "source_file": "api/CSSFunctionDeclarations.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#dom-cssfunctiondeclarations-style",
     "status": {
@@ -280,6 +282,7 @@
   {
    "key": "api.CSSFunctionDescriptors",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDescriptors",
     "source_file": "api/CSSFunctionDescriptors.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#cssfunctiondescriptors",
     "status": {
@@ -336,6 +339,7 @@
   {
    "key": "api.CSSFunctionDescriptors.result",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionDescriptors/result",
     "source_file": "api/CSSFunctionDescriptors.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#dom-cssfunctiondescriptors-result",
     "status": {
@@ -392,6 +396,7 @@
   {
    "key": "api.CSSFunctionRule",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule",
     "source_file": "api/CSSFunctionRule.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#the-function-interface",
     "status": {
@@ -448,6 +453,7 @@
   {
    "key": "api.CSSFunctionRule.getParameters",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/getParameters",
     "source_file": "api/CSSFunctionRule.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#dom-cssfunctionrule-getparameters",
     "status": {
@@ -504,6 +510,7 @@
   {
    "key": "api.CSSFunctionRule.name",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/name",
     "source_file": "api/CSSFunctionRule.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#dom-cssfunctionrule-name",
     "status": {
@@ -560,6 +567,7 @@
   {
    "key": "api.CSSFunctionRule.returnType",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSFunctionRule/returnType",
     "source_file": "api/CSSFunctionRule.json",
     "spec_url": "https://drafts.csswg.org/css-mixins/#dom-cssfunctionrule-returntype",
     "status": {
@@ -617,6 +625,7 @@
    "key": "css.at-rules.function",
    "compat": {
     "description": "<code>@function</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@function",
     "source_file": "css/at-rules/function.json",
     "spec_url": "https://drafts.csswg.org/css-mixins-1/#function-rule",
     "status": {
@@ -731,6 +740,7 @@
    "key": "css.types.dashed-function",
    "compat": {
     "description": "<code>&lt;dashed-function&gt;</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dashed-function",
     "source_file": "css/types/dashed-function.json",
     "spec_url": "https://drafts.csswg.org/css-mixins-1/#using-custom-functions",
     "status": {
@@ -788,6 +798,7 @@
    "key": "css.types.type",
    "compat": {
     "description": "<code>type()</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/type",
     "source_file": "css/types/type.json",
     "spec_url": "https://drafts.csswg.org/css-mixins-1/#funcdef-function-type",
     "status": {

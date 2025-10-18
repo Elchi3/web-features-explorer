@@ -435,7 +435,7 @@
       "version_added": "43"
      },
      "deno": {
-      "notes": "Currently doesn't support query options",
+      "notes": "Doesn't support query options",
       "version_added": "1.26"
      },
      "edge": {
@@ -562,7 +562,7 @@
       "version_added": "43"
      },
      "deno": {
-      "notes": "Currently doesn't support query options",
+      "notes": "Doesn't support query options",
       "version_added": "1.26"
      },
      "edge": {

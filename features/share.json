@@ -527,6 +527,13 @@
       "version_added": "81"
      },
      "firefox": {
+      "flags": [
+       {
+        "name": "dom.webshare.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
       "version_added": "71"
      },
      "firefox_android": {

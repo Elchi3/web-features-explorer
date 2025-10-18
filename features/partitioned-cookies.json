@@ -317,9 +317,23 @@
       "version_added": "76"
      },
      "safari": {
+      "flags": [
+       {
+        "name": "Cookie Store API CookieStoreManager",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
       "version_added": "18.4"
      },
      "safari_ios": {
+      "flags": [
+       {
+        "name": "Cookie Store API CookieStoreManager",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
       "version_added": "18.4"
      },
      "samsunginternet_android": {
@@ -329,7 +343,7 @@
       "version_added": "114"
      },
      "webview_ios": {
-      "version_added": "18.4"
+      "version_added": false
      }
     },
     "tags": [
@@ -377,9 +391,23 @@
       "version_added": "76"
      },
      "safari": {
+      "flags": [
+       {
+        "name": "Cookie Store API CookieStoreManager",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
       "version_added": "18.4"
      },
      "safari_ios": {
+      "flags": [
+       {
+        "name": "Cookie Store API CookieStoreManager",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
       "version_added": "18.4"
      },
      "samsunginternet_android": {
@@ -389,7 +417,7 @@
       "version_added": "114"
      },
      "webview_ios": {
-      "version_added": "18.4"
+      "version_added": false
      }
     },
     "tags": [

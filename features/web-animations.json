@@ -1597,11 +1597,11 @@
       "version_added": "84"
      },
      "firefox": {
-      "notes": "Currently only the getter is supported",
+      "notes": "Only the getter is supported",
       "version_added": "75"
      },
      "firefox_android": {
-      "notes": "Currently only the getter is supported",
+      "notes": "Only the getter is supported",
       "version_added": "79"
      },
      "ie": {
@@ -1617,11 +1617,11 @@
       "version_added": "60"
      },
      "safari": {
-      "notes": "Currently only the getter is supported",
+      "notes": "Only the getter is supported",
       "version_added": "13.1"
      },
      "safari_ios": {
-      "notes": "Currently only the getter is supported",
+      "notes": "Only the getter is supported",
       "version_added": "13.4"
      },
      "samsunginternet_android": {
@@ -1631,7 +1631,7 @@
       "version_added": "84"
      },
      "webview_ios": {
-      "notes": "Currently only the getter is supported",
+      "notes": "Only the getter is supported",
       "version_added": "13.4"
      }
     },

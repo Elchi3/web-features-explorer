@@ -166,18 +166,10 @@
       "version_added": "87"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "javascript.options.atomics_wait_async",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "impl_url": "https://bugzil.la/1467846",
-      "version_added": "140"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false

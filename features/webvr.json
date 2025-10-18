@@ -134,7 +134,7 @@
       "version_added": false
      },
      "chrome_android": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "55",
       "version_last": "79",
       "version_removed": "80"
@@ -177,7 +177,7 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "5.0",
       "version_last": "8.1",
       "version_removed": "9.0"
@@ -186,7 +186,7 @@
       "version_added": false
      },
      "opera_android": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "42",
       "version_last": "56",
       "version_removed": "57"
@@ -198,7 +198,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "6.0",
       "version_last": "12.1",
       "version_removed": "13.0"
@@ -398,7 +398,7 @@
       "version_added": false
      },
      "chrome_android": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "79",
       "version_last": "79",
       "version_removed": "80"
@@ -444,7 +444,7 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "8.0",
       "version_last": "8.1",
       "version_removed": "9.0"
@@ -462,7 +462,7 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Currently supported only by Google Daydream.",
+      "notes": "Supported only by Google Daydream.",
       "version_added": "12.0",
       "version_last": "12.1",
       "version_removed": "13.0"
