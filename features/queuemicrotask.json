@@ -146,8 +146,8 @@
  "groupPaths": [],
  "mdnUrls": [
   {
-   "title": "Window: queueMicrotask() method",
-   "url": "https://developer.mozilla.org/docs/Web/API/Window/queueMicrotask"
+   "title": "WorkerGlobalScope: queueMicrotask() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/queueMicrotask"
   }
  ],
  "hasNegativeStandardPosition": false,

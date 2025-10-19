@@ -52,7 +52,7 @@
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/369"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "webassembly.bulk-memory-operations",
