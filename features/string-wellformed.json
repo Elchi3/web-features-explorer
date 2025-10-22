@@ -99,6 +99,34 @@
  "status": {
   "baseline": "low",
   "baseline_low_date": "2023-10-24",
+  "by_compat_key": {
+   "javascript.builtins.String.isWellFormed": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   },
+   "javascript.builtins.String.toWellFormed": {
+    "baseline": "low",
+    "baseline_low_date": "2023-10-24",
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "119",
+     "firefox_android": "119",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
   "support": {
    "chrome": "111",
    "chrome_android": "111",

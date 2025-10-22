@@ -132,6 +132,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.HTMLSelectElement.showPicker": {
+    "baseline": false,
+    "support": {
+     "chrome": "121",
+     "chrome_android": "121",
+     "edge": "121",
+     "firefox": "122",
+     "firefox_android": "122"
+    }
+   }
+  },
   "support": {
    "chrome": "121",
    "chrome_android": "121",

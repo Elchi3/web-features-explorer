@@ -64,6 +64,29 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.interactivity": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.interactivity.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.interactivity.inert": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   }
+  },
   "support": {
    "chrome": "135",
    "edge": "135"

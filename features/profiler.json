@@ -55,6 +55,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.Profiler": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.Profiler": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.sampleInterval": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.stop": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Profiler.stopped": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   }
+  },
   "support": {
    "chrome": "94",
    "chrome_android": "94",

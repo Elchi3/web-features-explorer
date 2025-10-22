@@ -64,6 +64,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.baseline-source": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.first": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   },
+   "css.properties.baseline-source.last": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "firefox": "115",
+     "firefox_android": "115"
+    }
+   }
+  },
   "support": {
    "chrome": "111",
    "chrome_android": "111",

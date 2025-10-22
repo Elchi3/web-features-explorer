@@ -60,6 +60,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.selectors.heading": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.selectors.headingfunction": {
+    "baseline": false,
+    "support": {}
+   }
+  },
   "support": {}
  },
  "id": "heading-selectors",

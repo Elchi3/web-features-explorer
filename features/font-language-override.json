@@ -65,6 +65,15 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-language-override": {
+    "baseline": false,
+    "support": {
+     "firefox": "34",
+     "firefox_android": "34"
+    }
+   }
+  },
   "support": {
    "firefox": "34",
    "firefox_android": "34"

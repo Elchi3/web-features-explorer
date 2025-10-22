@@ -64,6 +64,12 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.media.prefers-reduced-data": {
+    "baseline": false,
+    "support": {}
+   }
+  },
   "support": {}
  },
  "id": "prefers-reduced-data",

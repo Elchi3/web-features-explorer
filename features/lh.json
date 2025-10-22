@@ -67,6 +67,21 @@
  "status": {
   "baseline": "low",
   "baseline_low_date": "2023-11-21",
+  "by_compat_key": {
+   "css.types.length.lh": {
+    "baseline": "low",
+    "baseline_low_date": "2023-11-21",
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "120",
+     "firefox_android": "120",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
   "support": {
    "chrome": "109",
    "chrome_android": "109",

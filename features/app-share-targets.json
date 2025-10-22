@@ -48,6 +48,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "manifests.webapp.share_target": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "76",
+     "edge": "89"
+    }
+   }
+  },
   "support": {
    "chrome": "89",
    "chrome_android": "76",

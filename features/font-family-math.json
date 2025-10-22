@@ -62,6 +62,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-family.math": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109"
+    }
+   }
+  },
   "support": {
    "chrome": "109",
    "chrome_android": "109",

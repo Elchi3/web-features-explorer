@@ -64,6 +64,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.text-wrap.pretty": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117",
+     "safari": "26",
+     "safari_ios": "26"
+    }
+   }
+  },
   "support": {
    "chrome": "117",
    "chrome_android": "117",

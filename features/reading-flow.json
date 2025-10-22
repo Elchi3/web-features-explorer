@@ -72,6 +72,80 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.reading-flow": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.flex-flow": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.flex-visual": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-columns": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.grid-rows": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-flow.source-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   },
+   "css.properties.reading-order": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   }
+  },
   "support": {
    "chrome": "137",
    "chrome_android": "137",

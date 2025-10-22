@@ -132,6 +132,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "html.elements.img.sizes.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126"
+    }
+   }
+  },
   "support": {
    "chrome": "126",
    "chrome_android": "126",

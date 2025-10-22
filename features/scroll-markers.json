@@ -69,6 +69,51 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.scroll-marker-group": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.after": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.before": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.properties.scroll-marker-group.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-marker": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-marker-group": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "edge": "135"
+    }
+   }
+  },
   "support": {
    "chrome": "135",
    "edge": "135"

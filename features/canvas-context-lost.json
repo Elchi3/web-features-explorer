@@ -137,6 +137,68 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CanvasRenderingContext2D.isContextLost": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.HTMLCanvasElement.contextlost_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.HTMLCanvasElement.contextrestored_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.OffscreenCanvas.contextlost_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.OffscreenCanvas.contextrestored_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   },
+   "api.OffscreenCanvasRenderingContext2D.isContextLost": {
+    "baseline": false,
+    "support": {
+     "chrome": "99",
+     "chrome_android": "99",
+     "edge": "99",
+     "firefox": "125",
+     "firefox_android": "125"
+    }
+   }
+  },
   "support": {
    "chrome": "99",
    "chrome_android": "99",

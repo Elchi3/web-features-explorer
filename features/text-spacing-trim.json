@@ -68,6 +68,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.text-spacing-trim": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "css.properties.text-spacing-trim.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "css.properties.text-spacing-trim.space-all": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "css.properties.text-spacing-trim.space-first": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   },
+   "css.properties.text-spacing-trim.trim-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "123",
+     "chrome_android": "123",
+     "edge": "123"
+    }
+   }
+  },
   "support": {
    "chrome": "123",
    "chrome_android": "123",

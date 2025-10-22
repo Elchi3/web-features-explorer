@@ -54,6 +54,17 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.EXT_texture_compression_rgtc": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "83",
+     "edge": "93",
+     "safari": "14.1"
+    }
+   }
+  },
   "support": {
    "chrome": "93",
    "chrome_android": "83",

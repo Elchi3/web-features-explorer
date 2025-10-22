@@ -64,6 +64,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.word-break.auto-phrase": {
+    "baseline": false,
+    "support": {
+     "chrome": "119",
+     "chrome_android": "119",
+     "edge": "119"
+    }
+   }
+  },
   "support": {
    "chrome": "119",
    "chrome_android": "119",

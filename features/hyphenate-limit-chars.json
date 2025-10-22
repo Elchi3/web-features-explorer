@@ -65,6 +65,28 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.hyphenate-limit-chars": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "137",
+     "firefox_android": "137"
+    }
+   },
+   "css.properties.hyphenate-limit-chars.auto": {
+    "baseline": false,
+    "support": {
+     "chrome": "109",
+     "chrome_android": "109",
+     "edge": "109",
+     "firefox": "137",
+     "firefox_android": "137"
+    }
+   }
+  },
   "support": {
    "chrome": "109",
    "chrome_android": "109",

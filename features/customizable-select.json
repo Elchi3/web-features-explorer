@@ -21,6 +21,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.appearance.base-select": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.checkmark": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.picker": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.picker-icon": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "html.elements.selectedcontent": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
   "support": {
    "chrome": "135",
    "chrome_android": "135",

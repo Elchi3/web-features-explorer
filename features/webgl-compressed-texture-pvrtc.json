@@ -54,6 +54,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.WEBGL_compressed_texture_pvrtc": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "28",
+     "safari": "7",
+     "safari_ios": "7"
+    }
+   }
+  },
   "support": {
    "chrome_android": "28",
    "safari": "7",

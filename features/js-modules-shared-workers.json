@@ -134,6 +134,30 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.SharedWorker.SharedWorker.ecmascript_modules": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "edge": "80",
+     "firefox": "114",
+     "firefox_android": "114",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   },
+   "api.SharedWorker.SharedWorker.options_type_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "80",
+     "edge": "80",
+     "firefox": "114",
+     "firefox_android": "114",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
   "support": {
    "chrome": "80",
    "edge": "80",

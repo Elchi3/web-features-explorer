@@ -117,6 +117,34 @@
  "status": {
   "baseline": "low",
   "baseline_low_date": "2023-09-18",
+  "by_compat_key": {
+   "css.at-rules.media.overflow-block": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   },
+   "css.at-rules.media.overflow-inline": {
+    "baseline": "low",
+    "baseline_low_date": "2023-09-18",
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113",
+     "firefox": "66",
+     "firefox_android": "66",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
   "support": {
    "chrome": "113",
    "chrome_android": "113",

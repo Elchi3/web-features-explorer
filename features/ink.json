@@ -50,6 +50,56 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.DelegatedInkTrailPresenter": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   },
+   "api.DelegatedInkTrailPresenter.presentationArea": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   },
+   "api.DelegatedInkTrailPresenter.updateInkTrailStartPoint": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   },
+   "api.Ink": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   },
+   "api.Ink.requestPresenter": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   },
+   "api.Navigator.ink": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "93"
+    }
+   }
+  },
   "support": {
    "chrome": "94",
    "chrome_android": "94",

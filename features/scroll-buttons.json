@@ -75,6 +75,96 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.selectors.scroll-button": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.block-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.block-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.down": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.inline-end": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.inline-start": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.left": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.next": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.selectors.scroll-button.prev": {
+    "baseline": false,
+    "support": {}
+   },
+   "css.selectors.scroll-button.right": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.star": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "css.selectors.scroll-button.up": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
   "support": {}
  },
  "id": "scroll-buttons",

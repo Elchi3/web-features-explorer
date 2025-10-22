@@ -64,6 +64,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.types.if": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137"
+    }
+   }
+  },
   "support": {
    "chrome": "137",
    "chrome_android": "137",

@@ -67,6 +67,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.at-rules.container.style_queries_for_custom_properties": {
+    "baseline": false,
+    "support": {
+     "chrome": "111",
+     "chrome_android": "111",
+     "edge": "111",
+     "safari": "18",
+     "safari_ios": "18"
+    }
+   }
+  },
   "support": {
    "chrome": "111",
    "chrome_android": "111",

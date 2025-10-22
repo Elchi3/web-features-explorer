@@ -75,6 +75,104 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CSSFunctionDeclarations": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionDeclarations.style": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionDescriptors": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionDescriptors.result": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionRule": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionRule.getParameters": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionRule.name": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "api.CSSFunctionRule.returnType": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "css.at-rules.function": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "css.at-rules.function.result": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "css.types.dashed-function": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   },
+   "css.types.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "139",
+     "chrome_android": "139",
+     "edge": "139"
+    }
+   }
+  },
   "support": {
    "chrome": "139",
    "chrome_android": "139",

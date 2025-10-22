@@ -133,6 +133,28 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.HTMLDialogElement.closedBy": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "html.elements.dialog.closedby": {
+    "baseline": false,
+    "support": {
+     "chrome": "134",
+     "chrome_android": "134",
+     "edge": "134",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   }
+  },
   "support": {
    "chrome": "134",
    "chrome_android": "134",

@@ -67,6 +67,32 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.interpolate-size": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   },
+   "css.properties.interpolate-size.allow-keywords": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   },
+   "css.properties.interpolate-size.numeric-only": {
+    "baseline": false,
+    "support": {
+     "chrome": "129",
+     "chrome_android": "129",
+     "edge": "129"
+    }
+   }
+  },
   "support": {
    "chrome": "129",
    "chrome_android": "129",

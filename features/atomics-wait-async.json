@@ -97,6 +97,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "javascript.builtins.Atomics.waitAsync": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "89",
+     "edge": "87",
+     "safari": "16.4",
+     "safari_ios": "16.4"
+    }
+   }
+  },
   "support": {
    "chrome": "87",
    "chrome_android": "89",

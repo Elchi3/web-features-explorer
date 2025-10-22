@@ -70,6 +70,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CSSScopeRule": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   },
+   "api.CSSScopeRule.end": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   },
+   "api.CSSScopeRule.start": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   },
+   "css.at-rules.scope": {
+    "baseline": false,
+    "support": {
+     "chrome": "118",
+     "chrome_android": "118",
+     "edge": "118",
+     "safari": "17.4",
+     "safari_ios": "17.4"
+    }
+   }
+  },
   "support": {
    "chrome": "118",
    "chrome_android": "118",

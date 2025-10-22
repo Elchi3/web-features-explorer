@@ -62,6 +62,21 @@
  "status": {
   "baseline": "low",
   "baseline_low_date": "2025-08-19",
+  "by_compat_key": {
+   "api.Selection.getComposedRanges": {
+    "baseline": "low",
+    "baseline_low_date": "2025-08-19",
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "17",
+     "safari_ios": "17"
+    }
+   }
+  },
   "support": {
    "chrome": "137",
    "chrome_android": "137",

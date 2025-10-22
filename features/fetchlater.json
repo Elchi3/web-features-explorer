@@ -60,6 +60,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.FetchLaterResult": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.FetchLaterResult.activated": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "api.Window.fetchLater": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Permissions-Policy.deferred-fetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Permissions-Policy.deferred-fetch-minimal": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
   "support": {
    "chrome": "135",
    "chrome_android": "135",

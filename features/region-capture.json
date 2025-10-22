@@ -55,6 +55,43 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.BrowserCaptureMediaStreamTrack": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.BrowserCaptureMediaStreamTrack.clone": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.BrowserCaptureMediaStreamTrack.cropTo": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.CropTarget": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   },
+   "api.CropTarget.fromElement_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "edge": "104"
+    }
+   }
+  },
   "support": {
    "chrome": "104",
    "edge": "104"

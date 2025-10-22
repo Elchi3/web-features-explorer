@@ -56,6 +56,72 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "html.elements.link.rel.compression-dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Accept-Encoding.dcb": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Accept-Encoding.dcz": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Available-Dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Content-Encoding.dcb": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Content-Encoding.dcz": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Dictionary-ID": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   },
+   "http.headers.Use-As-Dictionary": {
+    "baseline": false,
+    "support": {
+     "chrome": "130",
+     "chrome_android": "130",
+     "edge": "130"
+    }
+   }
+  },
   "support": {
    "chrome": "130",
    "chrome_android": "130",

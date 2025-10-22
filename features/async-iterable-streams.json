@@ -55,6 +55,28 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.ReadableStream.@@asyncIterator": {
+    "baseline": false,
+    "support": {
+     "chrome": "124",
+     "chrome_android": "124",
+     "edge": "124",
+     "firefox": "110",
+     "firefox_android": "110"
+    }
+   },
+   "api.ReadableStream.values": {
+    "baseline": false,
+    "support": {
+     "chrome": "124",
+     "chrome_android": "124",
+     "edge": "124",
+     "firefox": "110",
+     "firefox_android": "110"
+    }
+   }
+  },
   "support": {
    "chrome": "124",
    "chrome_android": "124",

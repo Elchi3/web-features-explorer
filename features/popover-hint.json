@@ -133,6 +133,24 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.HTMLElement.popover.hint": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   },
+   "html.global_attributes.popover.hint": {
+    "baseline": false,
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
+   }
+  },
   "support": {
    "chrome": "133",
    "chrome_android": "133",

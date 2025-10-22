@@ -60,6 +60,17 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "manifests.webapp.shortcuts": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "chrome_android": "84",
+     "edge": "96",
+     "safari": "17.4"
+    }
+   }
+  },
   "support": {
    "chrome": "96",
    "chrome_android": "84",

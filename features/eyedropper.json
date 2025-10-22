@@ -48,6 +48,36 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.EyeDropper": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.EyeDropper": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.open": {
+    "baseline": false,
+    "support": {
+     "chrome": "95",
+     "edge": "95"
+    }
+   },
+   "api.EyeDropper.secure_context_required": {
+    "baseline": false,
+    "support": {
+     "chrome": "96",
+     "edge": "96"
+    }
+   }
+  },
   "support": {
    "chrome": "96",
    "edge": "96"

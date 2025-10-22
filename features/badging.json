@@ -58,6 +58,27 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.clearAppBadge": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "chrome_android": "81",
+     "edge": "81",
+     "safari": "17",
+     "safari_ios": "16.4"
+    }
+   },
+   "api.Navigator.setAppBadge": {
+    "baseline": false,
+    "support": {
+     "chrome": "81",
+     "edge": "81",
+     "safari": "17",
+     "safari_ios": "16.4"
+    }
+   }
+  },
   "support": {
    "chrome": "81",
    "edge": "81",

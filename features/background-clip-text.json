@@ -59,6 +59,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.background-clip.text": {
+    "baseline": false,
+    "support": {
+     "chrome": "120",
+     "chrome_android": "120",
+     "edge": "120",
+     "safari": "14",
+     "safari_ios": "14"
+    }
+   }
+  },
   "support": {
    "chrome": "120",
    "chrome_android": "120",

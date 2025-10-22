@@ -60,6 +60,24 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.object-view-box": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   },
+   "css.properties.object-view-box.none": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   }
+  },
   "support": {
    "chrome": "104",
    "chrome_android": "104",

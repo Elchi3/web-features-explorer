@@ -65,6 +65,24 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.initial-letter": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   },
+   "css.properties.initial-letter.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   }
+  },
   "support": {
    "chrome": "110",
    "chrome_android": "110",

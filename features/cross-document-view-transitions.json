@@ -70,6 +70,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CSSViewTransitionRule": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.CSSViewTransitionRule.navigation": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.CSSViewTransitionRule.types": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "css.at-rules.view-transition": {
+    "baseline": false,
+    "support": {
+     "chrome": "126",
+     "chrome_android": "126",
+     "edge": "126",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   }
+  },
   "support": {
    "chrome": "126",
    "chrome_android": "126",

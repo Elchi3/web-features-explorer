@@ -131,6 +131,22 @@
   "baseline": "high",
   "baseline_high_date": "2024-09-14",
   "baseline_low_date": "2022-03-14",
+  "by_compat_key": {
+   "api.structuredClone": {
+    "baseline": "high",
+    "baseline_high_date": "2024-09-14",
+    "baseline_low_date": "2022-03-14",
+    "support": {
+     "chrome": "98",
+     "chrome_android": "98",
+     "edge": "98",
+     "firefox": "94",
+     "firefox_android": "94",
+     "safari": "15.4",
+     "safari_ios": "15.4"
+    }
+   }
+  },
   "support": {
    "chrome": "98",
    "chrome_android": "98",

@@ -62,6 +62,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CredentialsContainer.get.identity_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.CredentialsContainer.get.identity_option.context_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116"
+    }
+   },
+   "api.CredentialsContainer.get.identity_option.providers_option_loginHint": {
+    "baseline": false,
+    "support": {
+     "chrome": "116",
+     "chrome_android": "116",
+     "edge": "116"
+    }
+   },
+   "api.IdentityCredential": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "api.IdentityCredential.token": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   }
+  },
   "support": {
    "chrome": "116",
    "chrome_android": "116",

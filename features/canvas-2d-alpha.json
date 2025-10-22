@@ -132,6 +132,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.HTMLCanvasElement.getContext.2d_context.options_alpha_parameter": {
+    "baseline": false,
+    "support": {
+     "chrome": "32",
+     "chrome_android": "32",
+     "edge": "79",
+     "firefox": "30",
+     "firefox_android": "30"
+    }
+   }
+  },
   "support": {
    "chrome": "32",
    "chrome_android": "32",

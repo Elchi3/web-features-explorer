@@ -61,6 +61,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.DevicePosture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.DevicePosture.change_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.DevicePosture.type": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "api.Navigator.devicePosture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   },
+   "css.at-rules.media.device-posture": {
+    "baseline": false,
+    "support": {
+     "chrome": "132",
+     "chrome_android": "132",
+     "edge": "132"
+    }
+   }
+  },
   "support": {
    "chrome": "132",
    "chrome_android": "132",

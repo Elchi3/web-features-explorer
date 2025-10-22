@@ -64,6 +64,47 @@
  "status": {
   "baseline": "low",
   "baseline_low_date": "2023-11-02",
+  "by_compat_key": {
+   "css.properties.clip-path.fill-box": {
+    "baseline": "low",
+    "baseline_low_date": "2023-11-02",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "119",
+     "edge": "119",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.clip-path.stroke-box": {
+    "baseline": "low",
+    "baseline_low_date": "2023-11-02",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "119",
+     "edge": "119",
+     "firefox": "51",
+     "firefox_android": "51",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.clip-path.view-box": {
+    "baseline": "low",
+    "baseline_low_date": "2023-11-02",
+    "support": {
+     "chrome": "119",
+     "chrome_android": "119",
+     "edge": "119",
+     "firefox": "54",
+     "firefox_android": "54",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   }
+  },
   "support": {
    "chrome": "119",
    "chrome_android": "119",

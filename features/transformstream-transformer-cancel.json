@@ -54,6 +54,12 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.TransformStream.TransformStream.transformer_cancel": {
+    "baseline": false,
+    "support": {}
+   }
+  },
   "support": {}
  },
  "id": "transformstream-transformer-cancel",

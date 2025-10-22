@@ -64,6 +64,58 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.IdleDeadline": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.IdleDeadline.didTimeout": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.IdleDeadline.timeRemaining": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Window.cancelIdleCallback": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   },
+   "api.Window.requestIdleCallback": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "chrome_android": "47",
+     "edge": "79",
+     "firefox": "55",
+     "firefox_android": "55"
+    }
+   }
+  },
   "support": {
    "chrome": "47",
    "chrome_android": "47",

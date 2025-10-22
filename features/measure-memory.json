@@ -54,6 +54,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.Performance.measureUserAgentSpecificMemory": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   }
+  },
   "support": {
    "chrome": "89",
    "chrome_android": "89",

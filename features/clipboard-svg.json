@@ -60,6 +60,16 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.ClipboardItem.type_image_svg_xml": {
+    "baseline": false,
+    "support": {
+     "chrome": "124",
+     "chrome_android": "124",
+     "edge": "124"
+    }
+   }
+  },
   "support": {
    "chrome": "124",
    "chrome_android": "124",

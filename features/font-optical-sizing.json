@@ -69,6 +69,50 @@
   "baseline": "high",
   "baseline_high_date": "2022-09-24",
   "baseline_low_date": "2020-03-24",
+  "by_compat_key": {
+   "css.properties.font-optical-sizing": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "17",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.font-optical-sizing.auto": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "17",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   },
+   "css.properties.font-optical-sizing.none": {
+    "baseline": "high",
+    "baseline_high_date": "2022-09-24",
+    "baseline_low_date": "2020-03-24",
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "17",
+     "firefox": "62",
+     "firefox_android": "62",
+     "safari": "13.1",
+     "safari_ios": "13.4"
+    }
+   }
+  },
   "support": {
    "chrome": "79",
    "chrome_android": "79",

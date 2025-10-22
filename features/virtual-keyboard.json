@@ -59,6 +59,80 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.HTMLElement.virtualKeyboardPolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.Navigator.virtualKeyboard": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.boundingRect": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.geometrychange_event": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.hide": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.overlaysContent": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "api.VirtualKeyboard.show": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "html.global_attributes.virtualkeyboardpolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   }
+  },
   "support": {
    "chrome": "94",
    "chrome_android": "94",

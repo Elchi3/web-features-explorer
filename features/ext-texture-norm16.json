@@ -54,6 +54,18 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.EXT_texture_norm16": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
   "support": {
    "chrome": "87",
    "chrome_android": "87",

@@ -69,6 +69,58 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "css.properties.font-variant-emoji": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "css.properties.font-variant-emoji.emoji": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "css.properties.font-variant-emoji.normal": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "css.properties.font-variant-emoji.text": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   },
+   "css.properties.font-variant-emoji.unicode": {
+    "baseline": false,
+    "support": {
+     "chrome": "131",
+     "chrome_android": "131",
+     "edge": "131",
+     "firefox": "141",
+     "firefox_android": "141"
+    }
+   }
+  },
   "support": {
    "chrome": "131",
    "chrome_android": "131",

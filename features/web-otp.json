@@ -58,6 +58,48 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.CredentialsContainer.get.otp_option": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "84",
+     "edge": "93"
+    }
+   },
+   "api.OTPCredential": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "84",
+     "edge": "93"
+    }
+   },
+   "api.OTPCredential.code": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "84",
+     "edge": "93"
+    }
+   },
+   "html.elements.iframe.allow.otp-credentials": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "84",
+     "edge": "93"
+    }
+   },
+   "http.headers.Permissions-Policy.otp-credentials": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "88",
+     "edge": "93"
+    }
+   }
+  },
   "support": {
    "chrome": "93",
    "chrome_android": "84",
