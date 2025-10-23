@@ -2637,7 +2637,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.0176283,
+  "percentageOfPageLoad": 0.01684421,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
  },
  "interop": [],
@@ -9558,7 +9558,10 @@
     },
     "support": {
      "chrome": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before version 138, this method does not throw a <code>RangeError</code> exception when <code>mappedAtCreation</code> is true but <code>size</code> is not a multiple of 4; it generates a validation error instead."
+      ],
       "partial_implementation": true,
       "version_added": "113"
      },
@@ -9582,7 +9585,10 @@
       }
      ],
      "edge": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before version 138, this method does not throw a <code>RangeError</code> exception when <code>mappedAtCreation</code> is true but <code>size</code> is not a multiple of 4; it generates a validation error instead."
+      ],
       "partial_implementation": true,
       "version_added": "113"
      },
@@ -9601,7 +9607,10 @@
       "version_added": false
      },
      "opera": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before version 122, this method does not throw a <code>RangeError</code> exception when <code>mappedAtCreation</code> is true but <code>size</code> is not a multiple of 4; it generates a validation error instead."
+      ],
       "partial_implementation": true,
       "version_added": "99"
      },

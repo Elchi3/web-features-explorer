@@ -888,6 +888,7 @@
   {
    "key": "svg.global_attributes.white-space",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/white-space",
     "source_file": "svg/global_attributes.json",
     "spec_url": [
      "https://drafts.csswg.org/css-text-4/#white-space-property",

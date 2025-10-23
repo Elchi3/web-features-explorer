@@ -144,7 +144,16 @@
    "IndexedDB"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "IDBIndex: getAllRecords() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getAllRecords"
+  },
+  {
+   "title": "IDBObjectStore: getAllRecords() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllRecords"
+  }
+ ],
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {},
@@ -154,6 +163,7 @@
   {
    "key": "api.IDBIndex.getAllRecords",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getAllRecords",
     "source_file": "api/IDBIndex.json",
     "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallrecords①",
     "status": {
@@ -210,6 +220,7 @@
   {
    "key": "api.IDBObjectStore.getAllRecords",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllRecords",
     "source_file": "api/IDBObjectStore.json",
     "spec_url": "https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallrecords",
     "status": {

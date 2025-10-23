@@ -9095,6 +9095,7 @@
   {
    "key": "api.SVGAElement.hreflang",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAElement/hreflang",
     "source_file": "api/SVGAElement.json",
     "spec_url": "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__hreflang",
     "status": {
@@ -9393,6 +9394,7 @@
   {
    "key": "api.SVGAElement.type",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAElement/type",
     "source_file": "api/SVGAElement.json",
     "spec_url": "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__type",
     "status": {
@@ -43997,6 +43999,7 @@
   {
    "key": "svg.global_attributes.requiredExtensions",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/requiredExtensions",
     "source_file": "svg/global_attributes.json",
     "status": {
      "deprecated": false,
