@@ -95,7 +95,12 @@
  "id": "interactivity",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "interactivity",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/interactivity"
+  }
+ ],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
