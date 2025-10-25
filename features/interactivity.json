@@ -117,6 +117,7 @@
   {
    "key": "css.properties.interactivity",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interactivity",
     "source_file": "css/properties/interactivity.json",
     "spec_url": "https://drafts.csswg.org/css-ui-4/#propdef-interactivity",
     "status": {

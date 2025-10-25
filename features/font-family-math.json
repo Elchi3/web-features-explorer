@@ -108,7 +108,7 @@
     "source_file": "css/properties/font-family.json",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -122,10 +122,10 @@
       "version_added": "109"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false

@@ -2433,15 +2433,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2501,15 +2494,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2569,15 +2555,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2637,15 +2616,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2705,15 +2677,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2773,15 +2738,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2841,15 +2799,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2909,15 +2860,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2977,15 +2921,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3045,15 +2982,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3113,15 +3043,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3181,15 +3104,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3249,15 +3165,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3317,15 +3226,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3385,15 +3287,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3453,15 +3348,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3521,15 +3409,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3589,15 +3470,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3657,15 +3531,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3725,15 +3592,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3793,15 +3653,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3861,15 +3714,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3929,15 +3775,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3997,15 +3836,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4065,15 +3897,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4133,15 +3958,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4201,15 +4019,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4269,15 +4080,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4337,15 +4141,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4405,15 +4202,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4473,15 +4263,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4541,15 +4324,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4609,15 +4385,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4677,15 +4446,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4745,15 +4507,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4813,15 +4568,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4881,15 +4629,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -4949,15 +4690,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5017,15 +4751,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5085,15 +4812,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5153,15 +4873,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5221,15 +4934,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5289,15 +4995,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5357,15 +5056,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5425,15 +5117,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5493,15 +5178,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5561,15 +5239,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5629,15 +5300,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5697,15 +5361,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5765,15 +5422,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5833,15 +5483,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5901,15 +5544,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -5969,15 +5605,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6037,15 +5666,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6105,15 +5727,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6173,15 +5788,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6241,15 +5849,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6309,15 +5910,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6377,15 +5971,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6445,15 +6032,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6513,15 +6093,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6581,15 +6154,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6649,15 +6215,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6717,15 +6276,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6785,15 +6337,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6871,15 +6416,8 @@
       }
      ],
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -6963,15 +6501,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7049,15 +6580,8 @@
       }
      ],
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7141,15 +6665,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7209,15 +6726,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7277,15 +6787,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7345,15 +6848,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7413,15 +6909,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7481,15 +6970,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1909346",
-      "version_added": "131"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7548,7 +7030,8 @@
       "version_added": "133"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7669,10 +7152,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -7729,7 +7211,8 @@
       "version_added": "133"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -7791,10 +7274,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -7851,11 +7333,11 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "ie": {
@@ -7912,11 +7394,11 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "ie": {
@@ -7975,10 +7457,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8036,10 +7517,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8096,7 +7576,8 @@
       "version_added": "131"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8155,7 +7636,8 @@
       "version_added": "131"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8214,7 +7696,8 @@
       "version_added": "131"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8275,10 +7758,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8337,10 +7819,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8398,7 +7879,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8459,10 +7941,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8521,10 +8002,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8583,10 +8063,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8644,7 +8123,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8705,10 +8185,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8766,7 +8245,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8827,10 +8307,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -8888,7 +8367,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -8949,10 +8429,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -9010,7 +8489,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9071,10 +8551,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -9132,7 +8611,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9193,10 +8673,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -9254,7 +8733,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9315,10 +8795,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -9376,7 +8855,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9435,11 +8915,11 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "ie": {
@@ -9496,11 +8976,11 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1909339",
       "version_added": false
      },
      "ie": {
@@ -9559,10 +9039,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -9620,7 +9099,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9680,7 +9160,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9740,7 +9221,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9800,7 +9282,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9860,7 +9343,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9920,7 +9404,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -9980,7 +9465,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10040,7 +9526,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10100,7 +9587,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10160,7 +9648,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10220,7 +9709,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10280,7 +9770,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10341,10 +9832,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10403,10 +9893,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10465,10 +9954,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10527,10 +10015,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10589,10 +10076,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10651,10 +10137,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10713,10 +10198,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10775,10 +10259,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -10835,7 +10318,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1972610",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10894,7 +10378,8 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -10955,10 +10440,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11023,10 +10507,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11116,11 +10599,13 @@
       }
      ],
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "impl_url": [
+       "https://bugzil.la/1838746",
+       "https://bugzil.la/1924090"
+      ],
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11216,10 +10701,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11291,10 +10775,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11366,10 +10849,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11435,10 +10917,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11502,10 +10983,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11577,10 +11057,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11652,10 +11131,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11727,10 +11205,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11796,10 +11273,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11863,10 +11339,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -11937,7 +11412,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -11977,7 +11453,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12007,7 +11486,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12047,7 +11527,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12078,10 +11561,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12152,7 +11634,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12192,7 +11675,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12222,7 +11708,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12262,7 +11749,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12293,10 +11783,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12368,10 +11857,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12437,10 +11925,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12498,10 +11985,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12559,10 +12045,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12620,10 +12105,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12681,10 +12165,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12742,10 +12225,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -12802,7 +12284,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12834,7 +12317,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12858,7 +12344,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12890,7 +12377,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12914,7 +12404,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -12946,7 +12437,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -12970,7 +12464,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -13002,7 +12497,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -13026,7 +12524,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -13058,7 +12557,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -13082,7 +12584,8 @@
       "version_added": "129"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -13114,7 +12617,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:anchor-positioning"
+    ]
    }
   },
   {
@@ -13139,10 +12645,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13200,10 +12705,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13261,10 +12765,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13301,118 +12804,6 @@
    }
   },
   {
-   "key": "css.properties.position-area.span-x-self-end",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-span-x-self-end",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "version_added": "129"
-     },
-     "edge": {
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "115"
-     },
-     "opera_android": {
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    }
-   }
-  },
-  {
-   "key": "css.properties.position-area.span-x-self-start",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-span-x-self-start",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "version_added": "129"
-     },
-     "edge": {
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "115"
-     },
-     "opera_android": {
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    }
-   }
-  },
-  {
    "key": "css.properties.position-area.span-x-start",
    "compat": {
     "source_file": "css/properties/position-area.json",
@@ -13434,10 +12825,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13495,10 +12885,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13535,118 +12924,6 @@
    }
   },
   {
-   "key": "css.properties.position-area.span-y-self-end",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-span-y-self-end",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "version_added": "129"
-     },
-     "edge": {
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "115"
-     },
-     "opera_android": {
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    }
-   }
-  },
-  {
-   "key": "css.properties.position-area.span-y-self-start",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-span-y-self-start",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "version_added": "129"
-     },
-     "edge": {
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "115"
-     },
-     "opera_android": {
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    }
-   }
-  },
-  {
    "key": "css.properties.position-area.span-y-start",
    "compat": {
     "source_file": "css/properties/position-area.json",
@@ -13668,10 +12945,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13729,10 +13005,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13796,10 +13071,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13871,10 +13145,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -13906,156 +13179,6 @@
      },
      "webview_android": {
       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    },
-    "tags": [
-     "web-features:anchor-positioning"
-    ]
-   }
-  },
-  {
-   "key": "css.properties.position-area.x-self-end",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-x-self-end",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "115"
-     },
-     "opera_android": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    },
-    "tags": [
-     "web-features:anchor-positioning"
-    ]
-   }
-  },
-  {
-   "key": "css.properties.position-area.x-self-start",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-x-self-start",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "115"
-     },
-     "opera_android": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
       "partial_implementation": true,
       "version_added": "129"
      },
@@ -14096,10 +13219,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14171,10 +13293,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14206,156 +13327,6 @@
      },
      "webview_android": {
       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    },
-    "tags": [
-     "web-features:anchor-positioning"
-    ]
-   }
-  },
-  {
-   "key": "css.properties.position-area.y-self-end",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-y-self-end",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "115"
-     },
-     "opera_android": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "webview_ios": {
-      "version_added": "26"
-     }
-    },
-    "tags": [
-     "web-features:anchor-positioning"
-    ]
-   }
-  },
-  {
-   "key": "css.properties.position-area.y-self-start",
-   "compat": {
-    "source_file": "css/properties/position-area.json",
-    "spec_url": "https://drafts.csswg.org/css-anchor-position/#valdef-position-area-y-self-start",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "115"
-     },
-     "opera_android": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
-     "safari": {
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "version_added": "26"
-     },
-     "samsunginternet_android": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "28.0"
-     },
-     "webview_android": {
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
       "partial_implementation": true,
       "version_added": "129"
      },
@@ -14396,10 +13367,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14466,10 +13436,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14552,10 +13521,9 @@
      ],
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14645,10 +13613,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14706,10 +13673,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14767,10 +13733,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14828,10 +13793,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -14913,7 +13877,8 @@
       }
      ],
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -15373,10 +14338,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15434,10 +14398,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15494,11 +14457,11 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1924231",
       "version_added": false
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
+      "impl_url": "https://bugzil.la/1924231",
       "version_added": false
      },
      "ie": {
@@ -15556,10 +14519,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15618,10 +14580,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15679,7 +14640,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -15740,10 +14702,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15801,7 +14762,8 @@
       "version_added": "132"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -15862,10 +14824,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15925,10 +14886,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
       "version_added": false
      },
      "ie": {
@@ -15987,13 +14947,6 @@
       "version_added": "125"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1972610",
       "version_added": "preview"
      },
@@ -16054,13 +15007,6 @@
       "version_added": "132"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.anchor-positioning.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1972610",
       "version_added": "preview"
      },
@@ -16121,7 +15067,8 @@
       "version_added": "133"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -16180,7 +15127,8 @@
       "version_added": "133"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1838746",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -16231,10 +15179,14 @@
   "chrome_android": [],
   "edge": [],
   "firefox": [
-   "https://bugzil.la/1838746"
+   "https://bugzil.la/1909339",
+   "https://bugzil.la/1838746",
+   "https://bugzil.la/1924231"
   ],
   "firefox_android": [
-   "https://bugzil.la/1838746"
+   "https://bugzil.la/1909339",
+   "https://bugzil.la/1838746",
+   "https://bugzil.la/1924231"
   ],
   "safari": [],
   "safari_ios": []

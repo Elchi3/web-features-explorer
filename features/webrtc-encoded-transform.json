@@ -526,6 +526,7 @@
    "key": "api.RTCEncodedAudioFrame.RTCEncodedAudioFrame",
    "compat": {
     "description": "<code>RTCEncodedAudioFrame()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedAudioFrame/RTCEncodedAudioFrame",
     "source_file": "api/RTCEncodedAudioFrame.json",
     "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor",
     "status": {
@@ -766,6 +767,7 @@
    "key": "api.RTCEncodedVideoFrame.RTCEncodedVideoFrame",
    "compat": {
     "description": "<code>RTCEncodedVideoFrame()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame/RTCEncodedVideoFrame",
     "source_file": "api/RTCEncodedVideoFrame.json",
     "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor",
     "status": {

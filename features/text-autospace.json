@@ -177,20 +177,12 @@
       "version_added": "140"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "layout.css.text-autospace.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
       "impl_url": "https://bugzil.la/1869577",
-      "notes": "The property parses, but has no effect.",
-      "partial_implementation": true,
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1869577",
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -232,7 +224,7 @@
     "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-autospace-auto",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -246,10 +238,10 @@
       "version_added": false
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -291,7 +283,7 @@
     "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-autospace-ideograph-alpha",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -305,10 +297,10 @@
       "version_added": false
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -350,7 +342,7 @@
     "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-autospace-ideograph-numeric",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -364,10 +356,10 @@
       "version_added": false
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -423,10 +415,10 @@
       "version_added": false
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -482,10 +474,10 @@
       "version_added": "140"
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -541,10 +533,10 @@
       "version_added": "140"
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -600,9 +592,11 @@
       "version_added": false
      },
      "firefox": {
-      "version_added": "preview"
+      "impl_url": "https://bugzil.la/1986500",
+      "version_added": false
      },
      "firefox_android": {
+      "impl_url": "https://bugzil.la/1986500",
       "version_added": false
      },
      "ie": {
@@ -659,9 +653,11 @@
       "version_added": false
      },
      "firefox": {
+      "impl_url": "https://bugzil.la/1980111",
       "version_added": false
      },
      "firefox_android": {
+      "impl_url": "https://bugzil.la/1980111",
       "version_added": false
      },
      "ie": {
@@ -707,8 +703,14 @@
   "chrome": [],
   "chrome_android": [],
   "edge": [],
-  "firefox": [],
-  "firefox_android": [],
+  "firefox": [
+   "https://bugzil.la/1986500",
+   "https://bugzil.la/1980111"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1986500",
+   "https://bugzil.la/1980111"
+  ],
   "safari": [],
   "safari_ios": []
  }

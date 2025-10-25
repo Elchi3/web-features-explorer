@@ -96,9 +96,7 @@
   }
  ],
  "status": {
-  "baseline": "high",
-  "baseline_high_date": "2024-03-20",
-  "baseline_low_date": "2021-09-20",
+  "baseline": false,
   "by_compat_key": {
    "javascript.operators.await.top_level": {
     "baseline": false,
@@ -116,9 +114,7 @@
    "chrome_android": "89",
    "edge": "89",
    "firefox": "89",
-   "firefox_android": "89",
-   "safari": "15",
-   "safari_ios": "15"
+   "firefox_android": "89"
   }
  },
  "id": "top-level-await",
@@ -231,8 +227,8 @@
  "bcdTags": [
   "javascript"
  ],
- "baselineLowDateAsObject": "2021-09-20T00:00:00.000Z",
- "baselineHighDateAsObject": "2024-03-20T00:00:00.000Z",
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
  "implUrls": {
   "chrome": [],
   "chrome_android": [],
@@ -241,5 +237,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Safari",
+ "monthsBlocked": 52,
+ "blockedSince": "June 2021"
 }
