@@ -135,7 +135,7 @@
    "label": "interop-2025-remove-mutation-events"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.MutationEvent",

@@ -514,14 +514,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -581,14 +574,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -648,14 +634,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -715,14 +694,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -782,14 +754,7 @@
       "version_added": false
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -849,14 +814,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1764,15 +1722,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "impl_url": "https://bugzil.la/1508286",
-      "version_added": "133"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2072,14 +2022,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "133"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2139,14 +2082,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "133"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2386,14 +2322,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2453,14 +2382,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2520,15 +2442,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "impl_url": "https://bugzil.la/1508286",
-      "version_added": "135"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2588,17 +2502,10 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "135"
+      "version_added": "145"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -2655,14 +2562,7 @@
       "version_added": "83"
      },
      "firefox": {
-      "flags": [
-       {
-        "name": "dom.security.trusted_types.enabled",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "138"
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false

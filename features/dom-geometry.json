@@ -2970,6 +2970,7 @@
    "key": "api.DOMMatrix.fromFloat32Array_static",
    "compat": {
     "description": "<code>fromFloat32Array()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/fromFloat32Array_static",
     "source_file": "api/DOMMatrix.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrix-fromfloat32array",
     "status": {
@@ -3030,6 +3031,7 @@
    "key": "api.DOMMatrix.fromFloat64Array_static",
    "compat": {
     "description": "<code>fromFloat64Array()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/fromFloat64Array_static",
     "source_file": "api/DOMMatrix.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrix-fromfloat64array",
     "status": {
@@ -3090,6 +3092,7 @@
    "key": "api.DOMMatrix.fromMatrix_static",
    "compat": {
     "description": "<code>fromMatrix()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/fromMatrix_static",
     "source_file": "api/DOMMatrix.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrix-frommatrix",
     "status": {
@@ -5498,6 +5501,7 @@
    "key": "api.DOMMatrixReadOnly.fromFloat32Array_static",
    "compat": {
     "description": "<code>fromFloat32Array()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/fromFloat32Array_static",
     "source_file": "api/DOMMatrixReadOnly.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat32array",
     "status": {
@@ -5558,6 +5562,7 @@
    "key": "api.DOMMatrixReadOnly.fromFloat64Array_static",
    "compat": {
     "description": "<code>fromFloat64Array()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/fromFloat64Array_static",
     "source_file": "api/DOMMatrixReadOnly.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat64array",
     "status": {
@@ -5618,6 +5623,7 @@
    "key": "api.DOMMatrixReadOnly.fromMatrix_static",
    "compat": {
     "description": "<code>fromMatrix()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/fromMatrix_static",
     "source_file": "api/DOMMatrixReadOnly.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-frommatrix",
     "status": {
@@ -8944,6 +8950,7 @@
    "key": "api.DOMQuad.fromQuad_static",
    "compat": {
     "description": "<code>fromQuad()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMQuad/fromQuad_static",
     "source_file": "api/DOMQuad.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-domquad-fromquad",
     "status": {
@@ -9004,6 +9011,7 @@
    "key": "api.DOMQuad.fromRect_static",
    "compat": {
     "description": "<code>fromRect()</code> static method",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMQuad/fromRect_static",
     "source_file": "api/DOMQuad.json",
     "spec_url": "https://drafts.fxtf.org/geometry/#dom-domquad-fromrect",
     "status": {
