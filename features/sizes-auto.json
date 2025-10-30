@@ -2,8 +2,8 @@
  "compat_features": [
   "html.elements.img.sizes.auto"
  ],
- "description": "The sizes=\"auto\" attribute for the <img> HTML element determines the layout size for the image based on computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
- "description_html": "The <code>sizes=\"auto\"</code> attribute for the <code>&#x3C;img></code> HTML element determines the layout size for the image based on computed layout size when choosing a source from the <code>srcset</code>. This attribute only applies to images with the <code>loading=\"lazy\"</code> attribute.",
+ "description": "The sizes=\"auto\" attribute for the <img> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
+ "description_html": "The <code>sizes=\"auto\"</code> attribute for the <code>&#x3C;img></code> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the <code>srcset</code>. This attribute only applies to images with the <code>loading=\"lazy\"</code> attribute.",
  "group": [
   "images"
  ],
@@ -171,7 +171,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00731277,
+  "percentageOfPageLoad": 0.00694822,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/346"
  },
  "interop": [],
