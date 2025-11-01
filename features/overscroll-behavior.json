@@ -389,13 +389,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overscroll-behavior",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -448,7 +442,7 @@
   {
    "key": "css.properties.overscroll-behavior",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior",
     "source_file": "css/properties/overscroll-behavior.json",
     "spec_url": "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-properties",
     "status": {
@@ -508,7 +502,7 @@
   {
    "key": "css.properties.overscroll-behavior-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-block",
     "source_file": "css/properties/overscroll-behavior-block.json",
     "spec_url": "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-logical",
     "status": {
@@ -745,7 +739,7 @@
   {
    "key": "css.properties.overscroll-behavior-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline",
     "source_file": "css/properties/overscroll-behavior-inline.json",
     "spec_url": "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-logical",
     "status": {
@@ -982,7 +976,7 @@
   {
    "key": "css.properties.overscroll-behavior-x",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-x",
     "source_file": "css/properties/overscroll-behavior-x.json",
     "spec_url": "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-physical",
     "status": {
@@ -1228,7 +1222,7 @@
   {
    "key": "css.properties.overscroll-behavior-y",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-y",
     "source_file": "css/properties/overscroll-behavior-y.json",
     "spec_url": "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-physical",
     "status": {

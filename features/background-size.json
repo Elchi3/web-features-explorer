@@ -163,13 +163,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-size",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -183,7 +177,7 @@
   {
    "key": "css.properties.background-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-size",
     "source_file": "css/properties/background-size.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-size",
     "status": {

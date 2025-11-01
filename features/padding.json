@@ -162,13 +162,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "padding",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/padding"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -182,7 +176,7 @@
   {
    "key": "css.properties.padding",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding",
     "source_file": "css/properties/padding.json",
     "spec_url": "https://drafts.csswg.org/css-box/#padding-shorthand",
     "status": {
@@ -242,7 +236,7 @@
   {
    "key": "css.properties.padding-bottom",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-bottom",
     "source_file": "css/properties/padding-bottom.json",
     "spec_url": "https://drafts.csswg.org/css-box/#padding-physical",
     "status": {
@@ -302,7 +296,7 @@
   {
    "key": "css.properties.padding-left",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-left",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-left",
     "source_file": "css/properties/padding-left.json",
     "spec_url": "https://drafts.csswg.org/css-box/#padding-physical",
     "status": {
@@ -362,7 +356,7 @@
   {
    "key": "css.properties.padding-right",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-right",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-right",
     "source_file": "css/properties/padding-right.json",
     "spec_url": "https://drafts.csswg.org/css-box/#padding-physical",
     "status": {
@@ -422,7 +416,7 @@
   {
    "key": "css.properties.padding-top",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-top",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-top",
     "source_file": "css/properties/padding-top.json",
     "spec_url": "https://drafts.csswg.org/css-box/#padding-physical",
     "status": {

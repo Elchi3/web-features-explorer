@@ -124,13 +124,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "mask-border",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -144,7 +138,7 @@
   {
    "key": "css.properties.mask-border",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border",
     "source_file": "css/properties/mask-border.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border",
     "status": {
@@ -232,7 +226,7 @@
   {
    "key": "css.properties.mask-border-outset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-outset",
     "source_file": "css/properties/mask-border-outset.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-outset",
     "status": {
@@ -320,7 +314,7 @@
   {
    "key": "css.properties.mask-border-repeat",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-repeat",
     "source_file": "css/properties/mask-border-repeat.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-repeat",
     "status": {
@@ -408,7 +402,7 @@
   {
    "key": "css.properties.mask-border-slice",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-slice",
     "source_file": "css/properties/mask-border-slice.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-slice",
     "status": {
@@ -496,7 +490,7 @@
   {
    "key": "css.properties.mask-border-source",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-source",
     "source_file": "css/properties/mask-border-source.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-source",
     "status": {
@@ -584,7 +578,7 @@
   {
    "key": "css.properties.mask-border-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-width",
     "source_file": "css/properties/mask-border-width.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-width",
     "status": {

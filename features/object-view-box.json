@@ -96,7 +96,7 @@
  "mdnUrls": [
   {
    "title": "object-view-box",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/object-view-box"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box"
   }
  ],
  "standardPositions": {
@@ -115,7 +115,7 @@
   {
    "key": "css.properties.object-view-box",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-view-box",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-view-box",
     "source_file": "css/properties/object-view-box.json",
     "spec_url": "https://drafts.csswg.org/css-images-5/#propdef-object-view-box",
     "status": {

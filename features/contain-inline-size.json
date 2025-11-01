@@ -102,13 +102,7 @@
    "Containment"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "contain",
-   "anchor": "inline-size",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/contain#inline-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -125,7 +119,7 @@
   {
    "key": "css.properties.contain.inline-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain#inline-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain",
     "source_file": "css/properties/contain.json",
     "spec_url": "https://drafts.csswg.org/css-contain-2/#valdef-contain-inline-size",
     "status": {

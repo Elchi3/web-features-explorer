@@ -105,13 +105,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "display",
-   "anchor": "flow-root",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display#flow-root"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

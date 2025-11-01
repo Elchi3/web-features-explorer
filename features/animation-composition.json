@@ -99,13 +99,7 @@
    "Animation"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "animation-composition",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -122,7 +116,7 @@
   {
    "key": "css.properties.animation-composition",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-composition",
     "source_file": "css/properties/animation-composition.json",
     "spec_url": "https://drafts.csswg.org/css-animations-2/#animation-composition",
     "status": {

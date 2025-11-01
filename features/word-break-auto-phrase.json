@@ -91,13 +91,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "word-break",
-   "anchor": "auto-phrase",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/word-break#auto-phrase"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/877",

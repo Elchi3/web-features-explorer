@@ -17195,7 +17195,7 @@
   {
    "key": "css.properties.color-interpolation-filters",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color-interpolation-filters",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation-filters",
     "source_file": "css/properties/color-interpolation-filters.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty",
     "status": {
@@ -17494,7 +17494,7 @@
   {
    "key": "css.properties.flood-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-color",
     "source_file": "css/properties/flood-color.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodColorProperty",
     "status": {
@@ -17554,7 +17554,7 @@
   {
    "key": "css.properties.flood-opacity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-opacity",
     "source_file": "css/properties/flood-opacity.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty",
     "status": {
@@ -17614,7 +17614,7 @@
   {
    "key": "css.properties.lighting-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/lighting-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/lighting-color",
     "source_file": "css/properties/lighting-color.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#LightingColorProperty",
     "status": {

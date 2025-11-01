@@ -207,13 +207,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "content",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/content"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -227,7 +221,7 @@
   {
    "key": "css.properties.content",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content",
     "source_file": "css/properties/content.json",
     "spec_url": "https://drafts.csswg.org/css-content/#content-property",
     "status": {

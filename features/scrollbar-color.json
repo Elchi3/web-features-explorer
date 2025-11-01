@@ -104,13 +104,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "scrollbar-color",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -131,7 +125,7 @@
   {
    "key": "css.properties.scrollbar-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color",
     "source_file": "css/properties/scrollbar-color.json",
     "spec_url": "https://drafts.csswg.org/css-scrollbars/#scrollbar-color",
     "status": {
@@ -270,6 +264,6 @@
   ]
  },
  "blockedOn": "Safari",
- "monthsBlocked": 21,
+ "monthsBlocked": 22,
  "blockedSince": "January 2024"
 }

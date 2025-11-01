@@ -151,13 +151,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "word-break",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/word-break"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -171,7 +165,7 @@
   {
    "key": "css.properties.word-break",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/word-break",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-break",
     "source_file": "css/properties/word-break.json",
     "spec_url": "https://drafts.csswg.org/css-text/#word-break-property",
     "status": {

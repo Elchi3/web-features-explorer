@@ -106,13 +106,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "word-break",
-   "anchor": "break-word",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/word-break#break-word"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -120,13 +120,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-align-last",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -140,7 +134,7 @@
   {
    "key": "css.properties.text-align-last",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align-last",
     "source_file": "css/properties/text-align-last.json",
     "spec_url": "https://drafts.csswg.org/css-text/#text-align-last-property",
     "status": {

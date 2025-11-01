@@ -526,13 +526,7 @@
    "Transforms"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "transform",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transform"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -559,7 +553,7 @@
   {
    "key": "css.properties.transform",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform",
     "source_file": "css/properties/transform.json",
     "spec_url": [
      "https://drafts.csswg.org/css-transforms-2/#transform-functions",
@@ -744,7 +738,7 @@
   {
    "key": "css.properties.transform-origin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-origin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-origin",
     "source_file": "css/properties/transform-origin.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#transform-origin-property",
     "status": {

@@ -591,13 +591,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "offset",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/offset"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/802",
@@ -657,7 +651,7 @@
   {
    "key": "css.properties.offset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset",
     "source_file": "css/properties/offset.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-shorthand",
     "status": {
@@ -765,7 +759,7 @@
   {
    "key": "css.properties.offset-anchor",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-anchor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-anchor",
     "source_file": "css/properties/offset-anchor.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-anchor-property",
     "status": {
@@ -1179,7 +1173,7 @@
   {
    "key": "css.properties.offset-distance",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance",
     "source_file": "css/properties/offset-distance.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-distance-property",
     "status": {
@@ -1287,7 +1281,7 @@
   {
    "key": "css.properties.offset-path",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path",
     "source_file": "css/properties/offset-path.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-path-property",
     "status": {
@@ -2107,7 +2101,7 @@
   {
    "key": "css.properties.offset-position",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-position",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-position",
     "source_file": "css/properties/offset-position.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-position-property",
     "status": {
@@ -2580,7 +2574,7 @@
   {
    "key": "css.properties.offset-rotate",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate",
     "source_file": "css/properties/offset-rotate.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-rotate-property",
     "status": {

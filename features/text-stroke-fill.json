@@ -139,18 +139,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "-webkit-text-stroke",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke"
-  },
-  {
-   "title": "-webkit-text-fill-color",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -164,7 +153,7 @@
   {
    "key": "css.properties.-webkit-text-fill-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
     "source_file": "css/properties/-webkit-text-fill-color.json",
     "spec_url": "https://compat.spec.whatwg.org/#the-webkit-text-fill-color",
     "status": {
@@ -224,7 +213,7 @@
   {
    "key": "css.properties.-webkit-text-stroke",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
     "source_file": "css/properties/-webkit-text-stroke.json",
     "spec_url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
     "status": {
@@ -284,7 +273,7 @@
   {
    "key": "css.properties.-webkit-text-stroke-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
     "source_file": "css/properties/-webkit-text-stroke-color.json",
     "spec_url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-color",
     "status": {
@@ -344,7 +333,7 @@
   {
    "key": "css.properties.-webkit-text-stroke-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
     "source_file": "css/properties/-webkit-text-stroke-width.json",
     "spec_url": "https://compat.spec.whatwg.org/#the-webkit-text-stroke-width",
     "status": {

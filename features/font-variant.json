@@ -249,13 +249,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variant",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -332,7 +326,7 @@
   {
    "key": "css.properties.font-variant",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant",
     "source_file": "css/properties/font-variant.json",
     "spec_url": [
      "https://drafts.csswg.org/css-fonts/#font-variant-prop",

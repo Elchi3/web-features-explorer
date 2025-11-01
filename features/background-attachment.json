@@ -166,13 +166,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-attachment",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -186,7 +180,7 @@
   {
    "key": "css.properties.background-attachment",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-attachment",
     "source_file": "css/properties/background-attachment.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-attachment",
     "status": {

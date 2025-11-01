@@ -177,13 +177,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "z-index",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/z-index"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -197,7 +191,7 @@
   {
    "key": "css.properties.z-index",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/z-index",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/z-index",
     "source_file": "css/properties/z-index.json",
     "spec_url": "https://drafts.csswg.org/css2/#z-index",
     "status": {

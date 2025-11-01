@@ -136,13 +136,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-feature-settings",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-feature-settings"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -232,7 +226,7 @@
   {
    "key": "css.properties.font-feature-settings",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-feature-settings",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-feature-settings",
     "source_file": "css/properties/font-feature-settings.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-feature-settings-prop",
     "status": {

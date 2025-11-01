@@ -135,13 +135,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-wrap-mode",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-mode"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -155,7 +149,7 @@
   {
    "key": "css.properties.text-wrap-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap-mode",
     "source_file": "css/properties/text-wrap-mode.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#text-wrap-mode",
     "status": {

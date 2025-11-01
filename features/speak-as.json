@@ -152,7 +152,7 @@
   {
    "key": "css.properties.speak-as",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/speak-as",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/speak-as",
     "source_file": "css/properties/speak-as.json",
     "spec_url": "https://drafts.csswg.org/css-speech-1/#speaking-props-speak-as",
     "status": {

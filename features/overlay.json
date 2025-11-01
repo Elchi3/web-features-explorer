@@ -107,13 +107,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overlay",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overlay"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/777",
@@ -138,7 +132,7 @@
   {
    "key": "css.properties.overlay",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overlay",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overlay",
     "source_file": "css/properties/overlay.json",
     "spec_url": "https://drafts.csswg.org/css-position-4/#overlay",
     "status": {

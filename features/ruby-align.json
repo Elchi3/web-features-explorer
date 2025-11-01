@@ -155,13 +155,7 @@
    "Ruby"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "ruby-align",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -178,7 +172,7 @@
   {
    "key": "css.properties.ruby-align",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-align",
     "source_file": "css/properties/ruby-align.json",
     "spec_url": "https://drafts.csswg.org/css-ruby/#ruby-align-property",
     "status": {

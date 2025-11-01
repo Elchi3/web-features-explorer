@@ -109,18 +109,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "writing-mode",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode"
-  },
-  {
-   "title": "direction",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/direction"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

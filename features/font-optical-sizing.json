@@ -133,13 +133,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-optical-sizing",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -156,7 +150,7 @@
   {
    "key": "css.properties.font-optical-sizing",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-optical-sizing",
     "source_file": "css/properties/font-optical-sizing.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-optical-sizing-def",
     "status": {

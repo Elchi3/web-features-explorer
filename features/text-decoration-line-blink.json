@@ -111,13 +111,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-decoration",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

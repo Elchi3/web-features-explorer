@@ -208,13 +208,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-weight",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -288,7 +282,7 @@
   {
    "key": "css.properties.font-weight",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-weight",
     "source_file": "css/properties/font-weight.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-weight-prop",
     "status": {

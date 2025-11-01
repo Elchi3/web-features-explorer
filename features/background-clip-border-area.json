@@ -83,13 +83,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-clip",
-   "anchor": "border-area",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip#border-area"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {

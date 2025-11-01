@@ -105,13 +105,7 @@
    "Explicit defaults"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "all",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/all"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -125,7 +119,7 @@
   {
    "key": "css.properties.all",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/all",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/all",
     "source_file": "css/properties/all.json",
     "spec_url": "https://drafts.csswg.org/css-cascade/#all-shorthand",
     "status": {

@@ -133,13 +133,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-combine-upright",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-combine-upright"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -153,7 +147,7 @@
   {
    "key": "css.properties.text-combine-upright",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-combine-upright",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-combine-upright",
     "source_file": "css/properties/text-combine-upright.json",
     "spec_url": "https://drafts.csswg.org/css-writing-modes/#text-combine-upright",
     "status": {

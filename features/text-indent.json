@@ -105,13 +105,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-indent",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -128,7 +122,7 @@
   {
    "key": "css.properties.text-indent",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-indent",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-indent",
     "source_file": "css/properties/text-indent.json",
     "spec_url": "https://drafts.csswg.org/css-text/#text-indent-property",
     "status": {

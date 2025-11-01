@@ -240,13 +240,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-box",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-box"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -267,7 +261,7 @@
   {
    "key": "css.properties.text-box",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-box",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box",
     "source_file": "css/properties/text-box.json",
     "spec_url": "https://drafts.csswg.org/css-inline-3/#text-box-shorthand",
     "status": {
@@ -327,7 +321,7 @@
   {
    "key": "css.properties.text-box-edge",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-box-edge",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-edge",
     "source_file": "css/properties/text-box-edge.json",
     "spec_url": "https://drafts.csswg.org/css-inline-3/#text-box-edge",
     "status": {
@@ -446,7 +440,7 @@
   {
    "key": "css.properties.text-box-trim",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-box-trim",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim",
     "source_file": "css/properties/text-box-trim.json",
     "spec_url": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
     "status": {
@@ -1111,6 +1105,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 8,
+ "monthsBlocked": 9,
  "blockedSince": "February 2025"
 }

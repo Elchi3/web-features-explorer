@@ -120,18 +120,7 @@
    "Grid"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "grid-template-columns",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns"
-  },
-  {
-   "title": "grid-template-rows",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

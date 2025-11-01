@@ -73,13 +73,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "line-height-step",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

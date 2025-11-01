@@ -98,13 +98,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "clip-path",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/clip-path"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

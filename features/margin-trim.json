@@ -143,13 +143,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "margin-trim",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/994",
@@ -167,7 +161,7 @@
   {
    "key": "css.properties.margin-trim",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-trim",
     "source_file": "css/properties/margin-trim.json",
     "spec_url": "https://drafts.csswg.org/css-box-4/#margin-trim",
     "status": {

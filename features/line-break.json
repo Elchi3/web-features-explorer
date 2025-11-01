@@ -178,13 +178,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "line-break",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/line-break"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -201,7 +195,7 @@
   {
    "key": "css.properties.line-break",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-break",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-break",
     "source_file": "css/properties/line-break.json",
     "spec_url": "https://drafts.csswg.org/css-text/#line-break-property",
     "status": {

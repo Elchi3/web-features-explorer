@@ -137,13 +137,7 @@
    "Positioning"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "position",
-   "anchor": "absolute",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/position#absolute"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

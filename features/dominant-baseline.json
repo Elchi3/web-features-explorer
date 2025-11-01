@@ -207,13 +207,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "dominant-baseline",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/dominant-baseline"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -227,7 +221,7 @@
   {
    "key": "css.properties.dominant-baseline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dominant-baseline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dominant-baseline",
     "source_file": "css/properties/dominant-baseline.json",
     "spec_url": [
      "https://drafts.csswg.org/css-inline/#dominant-baseline-property",

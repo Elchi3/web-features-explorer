@@ -79,13 +79,7 @@
  "id": "custom-ellipses",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "text-overflow",
-   "anchor": "string",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-overflow#string"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

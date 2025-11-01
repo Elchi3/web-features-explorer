@@ -27847,7 +27847,7 @@
   {
    "key": "css.properties.clip-rule",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-rule",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-rule",
     "source_file": "css/properties/clip-rule.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-clip-rule",
     "status": {
@@ -28025,7 +28025,7 @@
   {
    "key": "css.properties.color-interpolation",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color-interpolation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation",
     "source_file": "css/properties/color-interpolation.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty",
     "status": {
@@ -28146,6 +28146,7 @@
    "compat": {
     "description": "<code>sRGB</code> value",
     "source_file": "css/properties/color-interpolation.json",
+    "spec_url": "https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty:~:text=sRGB",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28203,7 +28204,7 @@
   {
    "key": "css.properties.cx",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cx",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cx",
     "source_file": "css/properties/cx.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#CX",
     "status": {
@@ -28263,7 +28264,7 @@
   {
    "key": "css.properties.cy",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cy",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cy",
     "source_file": "css/properties/cy.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#CY",
     "status": {
@@ -28323,7 +28324,7 @@
   {
    "key": "css.properties.d",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/d",
     "source_file": "css/properties/d.json",
     "spec_url": "https://svgwg.org/svg2-draft/paths.html#TheDProperty",
     "status": {
@@ -28386,9 +28387,9 @@
   {
    "key": "css.properties.fill",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill",
     "source_file": "css/properties/fill.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#fill-shorthand",
+    "spec_url": "https://svgwg.org/svg2-draft/painting.html#FillProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28446,7 +28447,7 @@
   {
    "key": "css.properties.fill-rule",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-rule",
     "source_file": "css/properties/fill-rule.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#fill-rule",
     "status": {
@@ -28683,7 +28684,7 @@
   {
    "key": "css.properties.marker",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker",
     "source_file": "css/properties/marker.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#MarkerShorthand",
     "status": {
@@ -28743,7 +28744,7 @@
   {
    "key": "css.properties.marker-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-end",
     "source_file": "css/properties/marker-end.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#MarkerEndProperty",
     "status": {
@@ -28803,7 +28804,7 @@
   {
    "key": "css.properties.marker-mid",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-mid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-mid",
     "source_file": "css/properties/marker-mid.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#MarkerMidProperty",
     "status": {
@@ -28863,7 +28864,7 @@
   {
    "key": "css.properties.marker-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/marker-start",
     "source_file": "css/properties/marker-start.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#MarkerStartProperty",
     "status": {
@@ -28923,7 +28924,7 @@
   {
    "key": "css.properties.r",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/r",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/r",
     "source_file": "css/properties/r.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#R",
     "status": {
@@ -28983,7 +28984,7 @@
   {
    "key": "css.properties.rx",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rx",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/rx",
     "source_file": "css/properties/rx.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#RX",
     "status": {
@@ -29046,7 +29047,7 @@
   {
    "key": "css.properties.ry",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ry",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ry",
     "source_file": "css/properties/ry.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#RY",
     "status": {
@@ -29109,7 +29110,7 @@
   {
    "key": "css.properties.shape-rendering",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-rendering",
     "source_file": "css/properties/shape-rendering.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#ShapeRendering",
     "status": {
@@ -29169,7 +29170,7 @@
   {
    "key": "css.properties.stop-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-color",
     "source_file": "css/properties/stop-color.json",
     "spec_url": "https://svgwg.org/svg2-draft/pservers.html#StopColorProperty",
     "status": {
@@ -29229,7 +29230,7 @@
   {
    "key": "css.properties.stop-opacity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stop-opacity",
     "source_file": "css/properties/stop-opacity.json",
     "spec_url": "https://svgwg.org/svg2-draft/pservers.html#StopOpacityProperty",
     "status": {
@@ -29289,9 +29290,9 @@
   {
    "key": "css.properties.stroke",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke",
     "source_file": "css/properties/stroke.json",
-    "spec_url": "https://svgwg.org/svg2-draft/painting.html#SpecifyingStrokePaint",
+    "spec_url": "https://svgwg.org/svg2-draft/painting.html#StrokeProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -29408,7 +29409,7 @@
   {
    "key": "css.properties.stroke-dasharray",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-dasharray",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dasharray",
     "source_file": "css/properties/stroke-dasharray.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-dasharray",
     "status": {
@@ -29527,7 +29528,7 @@
   {
    "key": "css.properties.stroke-dashoffset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-dashoffset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dashoffset",
     "source_file": "css/properties/stroke-dashoffset.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-dashoffset",
     "status": {
@@ -29587,7 +29588,7 @@
   {
    "key": "css.properties.stroke-linecap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-linecap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linecap",
     "source_file": "css/properties/stroke-linecap.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-linecap",
     "status": {
@@ -29824,7 +29825,7 @@
   {
    "key": "css.properties.stroke-linejoin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-linejoin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linejoin",
     "source_file": "css/properties/stroke-linejoin.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-linejoin",
     "status": {
@@ -30061,7 +30062,7 @@
   {
    "key": "css.properties.stroke-miterlimit",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-miterlimit",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-miterlimit",
     "source_file": "css/properties/stroke-miterlimit.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-miterlimit",
     "status": {
@@ -30121,7 +30122,7 @@
   {
    "key": "css.properties.stroke-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-width",
     "source_file": "css/properties/stroke-width.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-width",
     "status": {
@@ -30181,7 +30182,7 @@
   {
    "key": "css.properties.text-anchor",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-anchor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-anchor",
     "source_file": "css/properties/text-anchor.json",
     "spec_url": "https://svgwg.org/svg2-draft/text.html#TextAnchorProperty",
     "status": {
@@ -30241,7 +30242,7 @@
   {
    "key": "css.properties.text-rendering",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-rendering",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-rendering",
     "source_file": "css/properties/text-rendering.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#TextRenderingProperty",
     "status": {
@@ -30526,7 +30527,7 @@
   {
    "key": "css.properties.vector-effect",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vector-effect",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vector-effect",
     "source_file": "css/properties/vector-effect.json",
     "spec_url": "https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty",
     "status": {
@@ -30645,7 +30646,7 @@
   {
    "key": "css.properties.x",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/x",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/x",
     "source_file": "css/properties/x.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#X",
     "status": {
@@ -30705,7 +30706,7 @@
   {
    "key": "css.properties.y",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/y",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/y",
     "source_file": "css/properties/y.json",
     "spec_url": "https://svgwg.org/svg2-draft/geometry.html#Y",
     "status": {

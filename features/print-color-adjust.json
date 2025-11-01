@@ -127,13 +127,7 @@
    "Print media"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "print-color-adjust",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -150,7 +144,7 @@
   {
    "key": "css.properties.print-color-adjust",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/print-color-adjust",
     "source_file": "css/properties/print-color-adjust.json",
     "spec_url": "https://drafts.csswg.org/css-color-adjust/#propdef-print-color-adjust",
     "status": {

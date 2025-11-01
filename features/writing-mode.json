@@ -193,13 +193,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "writing-mode",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -234,7 +228,7 @@
   {
    "key": "css.properties.writing-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode",
     "source_file": "css/properties/writing-mode.json",
     "spec_url": [
      "https://drafts.csswg.org/css-writing-modes/#block-flow",

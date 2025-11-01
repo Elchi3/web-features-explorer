@@ -137,13 +137,7 @@
    "Ruby"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "display",
-   "anchor": "ruby",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display#ruby"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

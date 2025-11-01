@@ -171,13 +171,7 @@
  "id": "object-fit",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "object-fit",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/object-fit"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -191,7 +185,7 @@
   {
    "key": "css.properties.object-fit",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-fit",
     "source_file": "css/properties/object-fit.json",
     "spec_url": "https://drafts.csswg.org/css-images/#the-object-fit",
     "status": {

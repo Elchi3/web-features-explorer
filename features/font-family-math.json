@@ -81,13 +81,7 @@
  "id": "font-family-math",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "font-family",
-   "anchor": "math",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-family#math"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -104,7 +98,6 @@
   {
    "key": "css.properties.font-family.math",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-family#math",
     "source_file": "css/properties/font-family.json",
     "status": {
      "deprecated": false,

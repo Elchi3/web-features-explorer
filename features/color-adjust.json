@@ -99,13 +99,7 @@
    "Print media"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "print-color-adjust",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

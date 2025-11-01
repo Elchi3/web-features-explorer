@@ -141,13 +141,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "scrollbar-width",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -173,7 +167,7 @@
   {
    "key": "css.properties.scrollbar-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-width",
     "source_file": "css/properties/scrollbar-width.json",
     "spec_url": "https://drafts.csswg.org/css-scrollbars/#scrollbar-width",
     "status": {

@@ -338,13 +338,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-palette",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-palette"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/617",
@@ -911,7 +905,7 @@
   {
    "key": "css.properties.font-palette",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-palette",
     "source_file": "css/properties/font-palette.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-palette-prop",
     "status": {

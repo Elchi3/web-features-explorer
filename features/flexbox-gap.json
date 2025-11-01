@@ -136,13 +136,7 @@
    "Flexbox"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "gap",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/gap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

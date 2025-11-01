@@ -141,13 +141,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "user-select",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/user-select"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -161,7 +155,7 @@
   {
    "key": "css.properties.user-select",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/user-select",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-select",
     "source_file": "css/properties/user-select.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#content-selection",
     "status": {
@@ -568,6 +562,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari",
- "monthsBlocked": 63,
+ "monthsBlocked": 64,
  "blockedSince": "July 2020"
 }

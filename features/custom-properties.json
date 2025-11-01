@@ -120,13 +120,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Custom properties (--*): CSS variables",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/--*"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -141,7 +135,7 @@
    "key": "css.properties.custom-property",
    "compat": {
     "description": "--*",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/--*",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/--*",
     "source_file": "css/properties/custom-property.json",
     "spec_url": "https://drafts.csswg.org/css-variables/#defining-variables",
     "status": {

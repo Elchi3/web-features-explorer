@@ -103,13 +103,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-color",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -123,7 +117,7 @@
   {
    "key": "css.properties.background-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-color",
     "source_file": "css/properties/background-color.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-color",
     "status": {

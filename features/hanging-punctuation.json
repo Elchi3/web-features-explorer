@@ -95,13 +95,7 @@
  "id": "hanging-punctuation",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "hanging-punctuation",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -145,7 +139,7 @@
   {
    "key": "css.properties.hanging-punctuation",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hanging-punctuation",
     "source_file": "css/properties/hanging-punctuation.json",
     "spec_url": "https://drafts.csswg.org/css-text/#hanging-punctuation-property",
     "status": {

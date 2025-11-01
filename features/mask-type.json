@@ -128,13 +128,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "mask-type",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/mask-type"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -148,7 +142,7 @@
   {
    "key": "css.properties.mask-type",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-type",
     "source_file": "css/properties/mask-type.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-type",
     "status": {

@@ -99,13 +99,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "content",
-   "anchor": "alternative_text",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/content#alternative_text"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

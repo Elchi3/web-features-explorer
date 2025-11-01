@@ -193,13 +193,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -213,7 +207,7 @@
   {
    "key": "css.properties.font",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font",
     "source_file": "css/properties/font.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop",
     "status": {

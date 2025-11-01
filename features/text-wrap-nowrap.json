@@ -101,13 +101,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-wrap",
-   "anchor": "nowrap",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap#nowrap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -121,7 +115,7 @@
   {
    "key": "css.properties.text-wrap.nowrap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap#nowrap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap",
     "source_file": "css/properties/text-wrap.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-nowrap",
     "status": {

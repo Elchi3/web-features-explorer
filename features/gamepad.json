@@ -1727,24 +1727,45 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "35"
-     },
-     "chrome_android": {
-      "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "37"
-     },
+     "chrome": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "35",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "37",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "deno": {
       "version_added": false
      },
-     "edge": {
-      "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "≤18"
-     },
+     "edge": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "≤18",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "firefox": [
       {
        "version_added": "89"
@@ -1816,11 +1837,18 @@
       "partial_implementation": true,
       "version_added": "3.0"
      },
-     "webview_android": {
-      "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "37"
-     },
+     "webview_android": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepadconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "37",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "webview_ios": [
       {
        "version_added": "16"
@@ -1852,24 +1880,45 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "35"
-     },
-     "chrome_android": {
-      "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "37"
-     },
+     "chrome": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "35",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "37",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "deno": {
       "version_added": false
      },
-     "edge": {
-      "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "≤18"
-     },
+     "edge": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "≤18",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "firefox": [
       {
        "version_added": "89"
@@ -1941,11 +1990,18 @@
       "partial_implementation": true,
       "version_added": "3.0"
      },
-     "webview_android": {
-      "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
-      "partial_implementation": true,
-      "version_added": "37"
-     },
+     "webview_android": [
+      {
+       "version_added": "143"
+      },
+      {
+       "notes": "The <code>ongamepaddisconnected</code> event handler property is not supported. See <a href=\"https://crbug.com/40175074\">bug 40175074</a>.",
+       "partial_implementation": true,
+       "version_added": "37",
+       "version_last": "142",
+       "version_removed": "143"
+      }
+     ],
      "webview_ios": [
       {
        "version_added": "16"

@@ -207,28 +207,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "top",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/top"
-  },
-  {
-   "title": "right",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/right"
-  },
-  {
-   "title": "bottom",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/bottom"
-  },
-  {
-   "title": "left",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/left"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -242,7 +221,7 @@
   {
    "key": "css.properties.bottom",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/bottom",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/bottom",
     "source_file": "css/properties/bottom.json",
     "spec_url": "https://drafts.csswg.org/css-position/#insets",
     "status": {
@@ -362,7 +341,7 @@
   {
    "key": "css.properties.left",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/left",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/left",
     "source_file": "css/properties/left.json",
     "spec_url": "https://drafts.csswg.org/css-position/#insets",
     "status": {
@@ -481,7 +460,7 @@
   {
    "key": "css.properties.right",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/right",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/right",
     "source_file": "css/properties/right.json",
     "spec_url": "https://drafts.csswg.org/css-position/#insets",
     "status": {
@@ -600,7 +579,7 @@
   {
    "key": "css.properties.top",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/top",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/top",
     "source_file": "css/properties/top.json",
     "spec_url": "https://drafts.csswg.org/css-position/#insets",
     "status": {

@@ -124,13 +124,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "clip-path",
-   "anchor": "geometry-box",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/clip-path#geometry-box"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

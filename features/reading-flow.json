@@ -161,13 +161,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "reading-flow",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/reading-flow"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1056",
@@ -192,7 +186,7 @@
   {
    "key": "css.properties.reading-flow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/reading-flow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/reading-flow",
     "source_file": "css/properties/reading-flow.json",
     "spec_url": "https://drafts.csswg.org/css-display-4/#reading-flow",
     "status": {
@@ -665,7 +659,7 @@
   {
    "key": "css.properties.reading-order",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/reading-order",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/reading-order",
     "source_file": "css/properties/reading-order.json",
     "spec_url": "https://drafts.csswg.org/css-display-4/#propdef-reading-order",
     "status": {

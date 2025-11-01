@@ -104,13 +104,7 @@
    "Containment"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "contain",
-   "anchor": "style",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/contain#style"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -124,7 +118,7 @@
   {
    "key": "css.properties.contain.style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain#style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain",
     "source_file": "css/properties/contain.json",
     "spec_url": "https://drafts.csswg.org/css-contain/#valdef-contain-style",
     "status": {

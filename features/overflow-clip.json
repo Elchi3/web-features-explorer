@@ -147,13 +147,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow",
-   "anchor": "clip",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow#clip"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

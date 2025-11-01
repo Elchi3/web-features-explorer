@@ -117,13 +117,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variation-settings",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -213,7 +207,7 @@
   {
    "key": "css.properties.font-variation-settings",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variation-settings",
     "source_file": "css/properties/font-variation-settings.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variation-settings-def",
     "status": {

@@ -7437,7 +7437,7 @@
   {
    "key": "css.properties.anchor-name",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-name",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/anchor-name",
     "source_file": "css/properties/anchor-name.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#name",
     "status": {
@@ -10420,7 +10420,7 @@
   {
    "key": "css.properties.position-anchor",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-anchor",
     "source_file": "css/properties/position-anchor.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
     "status": {
@@ -10556,7 +10556,7 @@
   {
    "key": "css.properties.position-area",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-area",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-area",
     "source_file": "css/properties/position-area.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position/#position-area",
     "status": {
@@ -13416,7 +13416,7 @@
   {
    "key": "css.properties.position-try",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try",
     "source_file": "css/properties/position-try.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-try-prop",
     "status": {
@@ -13477,7 +13477,7 @@
   {
    "key": "css.properties.position-try-fallbacks",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-fallbacks",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-fallbacks",
     "source_file": "css/properties/position-try-fallbacks.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
     "status": {
@@ -13951,7 +13951,7 @@
   {
    "key": "css.properties.position-try-order",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-order",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-try-order",
     "source_file": "css/properties/position-try-order.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-try-order-property",
     "status": {
@@ -14318,7 +14318,7 @@
   {
    "key": "css.properties.position-visibility",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-visibility",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-visibility",
     "source_file": "css/properties/position-visibility.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
     "status": {
@@ -15192,6 +15192,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 1,
+ "monthsBlocked": 2,
  "blockedSince": "September 2025"
 }

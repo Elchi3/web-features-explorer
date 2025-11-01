@@ -553,13 +553,7 @@
    "Borders and outlines"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "border",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/border"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -573,7 +567,7 @@
   {
    "key": "css.properties.border",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border",
     "source_file": "css/properties/border.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#propdef-border",
     "status": {
@@ -633,7 +627,7 @@
   {
    "key": "css.properties.border-bottom",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom",
     "source_file": "css/properties/border-bottom.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-shorthands",
     "status": {
@@ -693,7 +687,7 @@
   {
    "key": "css.properties.border-bottom-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-color",
     "source_file": "css/properties/border-bottom-color.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-color",
     "status": {
@@ -753,7 +747,7 @@
   {
    "key": "css.properties.border-bottom-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-style",
     "source_file": "css/properties/border-bottom-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-style",
     "status": {
@@ -815,7 +809,7 @@
   {
    "key": "css.properties.border-bottom-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-width",
     "source_file": "css/properties/border-bottom-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-width",
     "status": {
@@ -875,7 +869,7 @@
   {
    "key": "css.properties.border-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-color",
     "source_file": "css/properties/border-color.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#logical-shorthand-keyword",
@@ -938,7 +932,7 @@
   {
    "key": "css.properties.border-left",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left",
     "source_file": "css/properties/border-left.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-shorthands",
     "status": {
@@ -998,7 +992,7 @@
   {
    "key": "css.properties.border-left-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-color",
     "source_file": "css/properties/border-left-color.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-color",
     "status": {
@@ -1058,7 +1052,7 @@
   {
    "key": "css.properties.border-left-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-style",
     "source_file": "css/properties/border-left-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-style",
     "status": {
@@ -1120,7 +1114,7 @@
   {
    "key": "css.properties.border-left-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-width",
     "source_file": "css/properties/border-left-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-width",
     "status": {
@@ -1180,7 +1174,7 @@
   {
    "key": "css.properties.border-right",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right",
     "source_file": "css/properties/border-right.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-shorthands",
     "status": {
@@ -1240,7 +1234,7 @@
   {
    "key": "css.properties.border-right-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-color",
     "source_file": "css/properties/border-right-color.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-color",
     "status": {
@@ -1300,7 +1294,7 @@
   {
    "key": "css.properties.border-right-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-style",
     "source_file": "css/properties/border-right-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-style",
     "status": {
@@ -1362,7 +1356,7 @@
   {
    "key": "css.properties.border-right-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right-width",
     "source_file": "css/properties/border-right-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-width",
     "status": {
@@ -1422,7 +1416,7 @@
   {
    "key": "css.properties.border-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-style",
     "source_file": "css/properties/border-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-style",
     "status": {
@@ -2074,7 +2068,7 @@
   {
    "key": "css.properties.border-top",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top",
     "source_file": "css/properties/border-top.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-shorthands",
     "status": {
@@ -2134,7 +2128,7 @@
   {
    "key": "css.properties.border-top-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-color",
     "source_file": "css/properties/border-top-color.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-color",
     "status": {
@@ -2194,7 +2188,7 @@
   {
    "key": "css.properties.border-top-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-style",
     "source_file": "css/properties/border-top-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-style",
     "status": {
@@ -2256,7 +2250,7 @@
   {
    "key": "css.properties.border-top-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-width",
     "source_file": "css/properties/border-top-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-width",
     "status": {
@@ -2316,7 +2310,7 @@
   {
    "key": "css.properties.border-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-width",
     "source_file": "css/properties/border-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-width",
     "status": {

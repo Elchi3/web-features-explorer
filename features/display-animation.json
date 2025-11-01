@@ -199,18 +199,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "display",
-   "anchor": "animating_display",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display#animating_display"
-  },
-  {
-   "title": "content-visibility",
-   "anchor": "animating_and_transitioning_content-visibility",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility#animating_and_transitioning_content-visibility"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/762",
@@ -620,6 +609,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 13,
+ "monthsBlocked": 14,
  "blockedSince": "September 2024"
 }

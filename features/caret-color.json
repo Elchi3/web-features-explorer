@@ -105,13 +105,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "caret-color",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/caret-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -125,7 +119,7 @@
   {
    "key": "css.properties.caret-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caret-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-color",
     "source_file": "css/properties/caret-color.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#caret-color",
     "status": {

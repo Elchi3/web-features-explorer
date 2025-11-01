@@ -163,13 +163,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-origin",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-origin"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -183,7 +177,7 @@
   {
    "key": "css.properties.background-origin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-origin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-origin",
     "source_file": "css/properties/background-origin.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-origin",
     "status": {

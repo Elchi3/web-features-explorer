@@ -123,13 +123,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-justify",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-justify"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -143,7 +137,7 @@
   {
    "key": "css.properties.text-justify",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-justify",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-justify",
     "source_file": "css/properties/text-justify.json",
     "spec_url": "https://drafts.csswg.org/css-text/#text-justify-property",
     "status": {

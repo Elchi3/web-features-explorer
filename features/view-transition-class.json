@@ -113,13 +113,7 @@
    "View Transitions"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "view-transition-class",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-class"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/988",
@@ -149,7 +143,7 @@
   {
    "key": "css.properties.view-transition-class",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-class",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-transition-class",
     "source_file": "css/properties/view-transition-class.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop",
     "status": {

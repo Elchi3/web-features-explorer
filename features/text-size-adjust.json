@@ -104,13 +104,7 @@
  "id": "text-size-adjust",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "text-size-adjust",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -124,7 +118,7 @@
   {
    "key": "css.properties.text-size-adjust",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-size-adjust",
     "source_file": "css/properties/text-size-adjust.json",
     "spec_url": "https://drafts.csswg.org/css-size-adjust/#adjustment-control",
     "status": {

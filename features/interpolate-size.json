@@ -113,13 +113,7 @@
    "Animation"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "interpolate-size",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1022",
@@ -144,7 +138,7 @@
   {
    "key": "css.properties.interpolate-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interpolate-size",
     "source_file": "css/properties/interpolate-size.json",
     "spec_url": "https://drafts.csswg.org/css-values-5/#interpolate-size",
     "status": {

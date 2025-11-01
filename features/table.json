@@ -3478,7 +3478,7 @@
   {
    "key": "css.properties.border-collapse",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-collapse",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-collapse",
     "source_file": "css/properties/border-collapse.json",
     "spec_url": "https://drafts.csswg.org/css2/#propdef-border-collapse",
     "status": {
@@ -3654,7 +3654,7 @@
   {
    "key": "css.properties.border-spacing",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-spacing",
     "source_file": "css/properties/border-spacing.json",
     "spec_url": "https://drafts.csswg.org/css2/#separated-borders",
     "status": {
@@ -3714,7 +3714,7 @@
   {
    "key": "css.properties.caption-side",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caption-side",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caption-side",
     "source_file": "css/properties/caption-side.json",
     "spec_url": [
      "https://drafts.csswg.org/css2/#propdef-caption-side",
@@ -4076,7 +4076,7 @@
   {
    "key": "css.properties.empty-cells",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/empty-cells",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/empty-cells",
     "source_file": "css/properties/empty-cells.json",
     "spec_url": "https://drafts.csswg.org/css2/#empty-cells",
     "status": {
@@ -4254,7 +4254,7 @@
   {
    "key": "css.properties.table-layout",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/table-layout",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/table-layout",
     "source_file": "css/properties/table-layout.json",
     "spec_url": "https://drafts.csswg.org/css2/#width-layout",
     "status": {

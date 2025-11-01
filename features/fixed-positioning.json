@@ -107,13 +107,7 @@
    "Positioning"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "position",
-   "anchor": "fixed",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/position#fixed"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

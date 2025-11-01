@@ -164,13 +164,7 @@
  "id": "transform-box",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "transform-box",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transform-box"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -187,7 +181,7 @@
   {
    "key": "css.properties.transform-box",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-box",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-box",
     "source_file": "css/properties/transform-box.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#transform-box",
     "status": {

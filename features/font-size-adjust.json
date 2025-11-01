@@ -173,13 +173,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-size-adjust",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -261,7 +255,7 @@
   {
    "key": "css.properties.font-size-adjust",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size-adjust",
     "source_file": "css/properties/font-size-adjust.json",
     "spec_url": "https://drafts.csswg.org/css-fonts-5/#font-size-adjust-prop",
     "status": {

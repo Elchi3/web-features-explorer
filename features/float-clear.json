@@ -319,18 +319,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "float",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/float"
-  },
-  {
-   "title": "clear",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/clear"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -344,7 +333,7 @@
   {
    "key": "css.properties.clear",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clear",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clear",
     "source_file": "css/properties/clear.json",
     "spec_url": [
      "https://drafts.csswg.org/css2/#propdef-clear",
@@ -584,7 +573,7 @@
   {
    "key": "css.properties.float",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/float",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/float",
     "source_file": "css/properties/float.json",
     "spec_url": [
      "https://drafts.csswg.org/css2/#propdef-float",

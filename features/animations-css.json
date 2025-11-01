@@ -745,13 +745,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "animation",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/animation"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -2487,7 +2481,7 @@
   {
    "key": "css.properties.animation",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation",
     "source_file": "css/properties/animation.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation",
     "status": {
@@ -2656,7 +2650,7 @@
   {
    "key": "css.properties.animation-delay",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-delay",
     "source_file": "css/properties/animation-delay.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-delay",
     "status": {
@@ -2825,7 +2819,7 @@
   {
    "key": "css.properties.animation-direction",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-direction",
     "source_file": "css/properties/animation-direction.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-direction",
     "status": {
@@ -3229,7 +3223,7 @@
   {
    "key": "css.properties.animation-duration",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-duration",
     "source_file": "css/properties/animation-duration.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-duration",
     "status": {
@@ -3400,7 +3394,7 @@
    "key": "css.properties.animation-duration.auto",
    "compat": {
     "description": "<code>auto</code> value",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration#values",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-duration",
     "source_file": "css/properties/animation-duration.json",
     "spec_url": "https://drafts.csswg.org/css-animations-2/#valdef-animation-duration-auto",
     "status": {
@@ -3462,7 +3456,7 @@
   {
    "key": "css.properties.animation-fill-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-fill-mode",
     "source_file": "css/properties/animation-fill-mode.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-fill-mode",
     "status": {
@@ -3866,7 +3860,7 @@
   {
    "key": "css.properties.animation-iteration-count",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-iteration-count",
     "source_file": "css/properties/animation-iteration-count.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-iteration-count",
     "status": {
@@ -4093,7 +4087,7 @@
   {
    "key": "css.properties.animation-name",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-name",
     "source_file": "css/properties/animation-name.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-name",
     "status": {
@@ -4320,7 +4314,7 @@
   {
    "key": "css.properties.animation-play-state",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-play-state",
     "source_file": "css/properties/animation-play-state.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-play-state",
     "status": {
@@ -4606,7 +4600,7 @@
   {
    "key": "css.properties.animation-timing-function",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timing-function",
     "source_file": "css/properties/animation-timing-function.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#animation-timing-function",
     "status": {

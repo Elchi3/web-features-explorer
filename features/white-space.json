@@ -235,13 +235,7 @@
    "White space"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "white-space",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/white-space"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -255,7 +249,7 @@
   {
    "key": "css.properties.white-space",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space",
     "source_file": "css/properties/white-space.json",
     "spec_url": [
      "https://drafts.csswg.org/css-text-4/#white-space-property",

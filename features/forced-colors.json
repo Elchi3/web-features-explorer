@@ -199,11 +199,6 @@
    "title": "forced-colors",
    "anchor": null,
    "url": "https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors"
-  },
-  {
-   "title": "forced-color-adjust",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust"
   }
  ],
  "standardPositions": {
@@ -310,7 +305,7 @@
   {
    "key": "css.properties.forced-color-adjust",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust",
     "source_file": "css/properties/forced-color-adjust.json",
     "spec_url": "https://drafts.csswg.org/css-color-adjust/#forced-color-adjust-prop",
     "status": {

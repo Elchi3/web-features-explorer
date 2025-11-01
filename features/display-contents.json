@@ -111,13 +111,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "display",
-   "anchor": "contents",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display#contents"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/772",

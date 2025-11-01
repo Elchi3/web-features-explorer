@@ -134,13 +134,7 @@
    "Font synthesis"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-synthesis-small-caps",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -157,7 +151,7 @@
   {
    "key": "css.properties.font-synthesis-small-caps",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps",
     "source_file": "css/properties/font-synthesis-small-caps.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-synthesis-small-caps",
     "status": {

@@ -587,13 +587,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "cursor",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/cursor"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -607,7 +601,7 @@
   {
    "key": "css.properties.cursor",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cursor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/cursor",
     "source_file": "css/properties/cursor.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#cursor",
     "status": {
@@ -3309,6 +3303,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari on iOS",
- "monthsBlocked": 46,
+ "monthsBlocked": 47,
  "blockedSince": "December 2021"
 }

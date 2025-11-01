@@ -196,7 +196,7 @@
   {
    "key": "css.properties.alignment-baseline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/alignment-baseline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline",
     "source_file": "css/properties/alignment-baseline.json",
     "spec_url": [
      "https://drafts.csswg.org/css-inline/#alignment-baseline-property",
@@ -736,6 +736,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 69,
+ "monthsBlocked": 70,
  "blockedSince": "January 2020"
 }

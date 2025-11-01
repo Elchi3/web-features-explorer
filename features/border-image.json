@@ -301,13 +301,7 @@
    "Borders and outlines"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "border-image",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/border-image"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -329,7 +323,7 @@
   {
    "key": "css.properties.border-image",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image",
     "source_file": "css/properties/border-image.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image",
     "status": {
@@ -452,7 +446,7 @@
       },
       {
        "prefix": "-webkit-",
-       "version_added": "3.2"
+       "version_added": "2"
       }
      ],
      "samsunginternet_android": [
@@ -481,7 +475,7 @@
       },
       {
        "prefix": "-webkit-",
-       "version_added": "3.2"
+       "version_added": "2"
       }
      ]
     },
@@ -493,7 +487,7 @@
   {
    "key": "css.properties.border-image-outset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-outset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-outset",
     "source_file": "css/properties/border-image-outset.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image-outset",
     "status": {
@@ -553,7 +547,7 @@
   {
    "key": "css.properties.border-image-repeat",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-repeat",
     "source_file": "css/properties/border-image-repeat.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image-repeat",
     "status": {
@@ -849,7 +843,7 @@
   {
    "key": "css.properties.border-image-slice",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-slice",
     "source_file": "css/properties/border-image-slice.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image-slice",
     "status": {
@@ -927,7 +921,7 @@
   {
    "key": "css.properties.border-image-source",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-source",
     "source_file": "css/properties/border-image-source.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image-source",
     "status": {
@@ -987,7 +981,7 @@
   {
    "key": "css.properties.border-image-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-width",
     "source_file": "css/properties/border-image-width.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#border-image-width",
     "status": {

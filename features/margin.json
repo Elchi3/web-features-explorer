@@ -237,13 +237,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "margin",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/margin"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -257,7 +251,7 @@
   {
    "key": "css.properties.margin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin",
     "source_file": "css/properties/margin.json",
     "spec_url": "https://drafts.csswg.org/css-box/#margin",
     "status": {
@@ -317,7 +311,7 @@
   {
    "key": "css.properties.margin-bottom",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-bottom",
     "source_file": "css/properties/margin-bottom.json",
     "spec_url": "https://drafts.csswg.org/css-box/#margin-physical",
     "status": {
@@ -378,6 +372,7 @@
    "key": "css.properties.margin-bottom.auto",
    "compat": {
     "source_file": "css/properties/margin-bottom.json",
+    "spec_url": "https://drafts.csswg.org/css-box-4/#propdef-margin-top:~:text=length%2Dpercentage%3E%20%7C-,auto,-Initial%3A",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -437,7 +432,7 @@
   {
    "key": "css.properties.margin-left",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-left",
     "source_file": "css/properties/margin-left.json",
     "spec_url": "https://drafts.csswg.org/css-box/#margin-physical",
     "status": {
@@ -557,7 +552,7 @@
   {
    "key": "css.properties.margin-right",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-right",
     "source_file": "css/properties/margin-right.json",
     "spec_url": "https://drafts.csswg.org/css-box/#margin-physical",
     "status": {
@@ -677,7 +672,7 @@
   {
    "key": "css.properties.margin-top",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-top",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-top",
     "source_file": "css/properties/margin-top.json",
     "spec_url": "https://drafts.csswg.org/css-box/#margin-physical",
     "status": {

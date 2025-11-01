@@ -135,13 +135,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "height",
-   "anchor": "stretch",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/height#stretch"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1054",
@@ -201,12 +195,12 @@
      "firefox": {
       "alternative_name": "-webkit-fill-available",
       "impl_url": "https://bugzil.la/1789477",
-      "version_added": "145"
+      "version_added": "146"
      },
      "firefox_android": {
       "alternative_name": "-webkit-fill-available",
       "impl_url": "https://bugzil.la/1789477",
-      "version_added": "145"
+      "version_added": "146"
      },
      "ie": {
       "version_added": false
@@ -703,12 +697,12 @@
      "firefox": {
       "alternative_name": "-webkit-fill-available",
       "impl_url": "https://bugzil.la/1789477",
-      "version_added": "145"
+      "version_added": "146"
      },
      "firefox_android": {
       "alternative_name": "-webkit-fill-available",
       "impl_url": "https://bugzil.la/1789477",
-      "version_added": "145"
+      "version_added": "146"
      },
      "ie": {
       "version_added": false

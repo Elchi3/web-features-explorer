@@ -1141,7 +1141,7 @@
   {
    "key": "css.properties.animation-range",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range",
     "source_file": "css/properties/animation-range.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#animation-range",
     "status": {
@@ -1203,7 +1203,7 @@
   {
    "key": "css.properties.animation-range-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-end",
     "source_file": "css/properties/animation-range-end.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#animation-range-end",
     "status": {
@@ -1326,7 +1326,7 @@
   {
    "key": "css.properties.animation-range-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-start",
     "source_file": "css/properties/animation-range-start.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#animation-range-start",
     "status": {
@@ -1449,7 +1449,7 @@
   {
    "key": "css.properties.animation-timeline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline",
     "source_file": "css/properties/animation-timeline.json",
     "spec_url": "https://drafts.csswg.org/css-animations-2/#animation-timeline",
     "status": {
@@ -1517,7 +1517,7 @@
    "key": "css.properties.animation-timeline.scroll",
    "compat": {
     "description": "<code>scroll()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline/scroll",
     "source_file": "css/properties/animation-timeline.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#scroll-notation",
     "status": {
@@ -1589,7 +1589,7 @@
    "key": "css.properties.animation-timeline.view",
    "compat": {
     "description": "<code>view()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline/view",
     "source_file": "css/properties/animation-timeline.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#view-notation",
     "status": {
@@ -1729,7 +1729,7 @@
   {
    "key": "css.properties.scroll-timeline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline",
     "source_file": "css/properties/scroll-timeline.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#scroll-timeline-shorthand",
     "status": {
@@ -1801,7 +1801,7 @@
   {
    "key": "css.properties.scroll-timeline-axis",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-axis",
     "source_file": "css/properties/scroll-timeline-axis.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#propdef-scroll-timeline-axis",
     "status": {
@@ -2115,7 +2115,7 @@
   {
    "key": "css.properties.scroll-timeline-name",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-timeline-name",
     "source_file": "css/properties/scroll-timeline-name.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#scroll-timeline-name",
     "status": {
@@ -2186,7 +2186,7 @@
   {
    "key": "css.properties.timeline-scope",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-scope",
     "source_file": "css/properties/timeline-scope.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#propdef-timeline-scope",
     "status": {
@@ -2382,7 +2382,7 @@
   {
    "key": "css.properties.view-timeline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline",
     "source_file": "css/properties/view-timeline.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#view-timeline-shorthand",
     "status": {
@@ -2450,7 +2450,7 @@
   {
    "key": "css.properties.view-timeline-axis",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-axis",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-axis",
     "source_file": "css/properties/view-timeline-axis.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#view-timeline-axis",
     "status": {
@@ -2762,7 +2762,7 @@
   {
    "key": "css.properties.view-timeline-inset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-inset",
     "source_file": "css/properties/view-timeline-inset.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#view-timeline-inset",
     "status": {
@@ -2885,7 +2885,7 @@
   {
    "key": "css.properties.view-timeline-name",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-name",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/view-timeline-name",
     "source_file": "css/properties/view-timeline-name.json",
     "spec_url": "https://drafts.csswg.org/scroll-animations/#view-timeline-name",
     "status": {
@@ -2970,6 +2970,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 1,
+ "monthsBlocked": 2,
  "blockedSince": "September 2025"
 }

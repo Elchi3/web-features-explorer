@@ -128,13 +128,7 @@
    "Counters"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "counter-set",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/counter-set"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -151,7 +145,7 @@
   {
    "key": "css.properties.counter-set",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counter-set",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-set",
     "source_file": "css/properties/counter-set.json",
     "spec_url": "https://drafts.csswg.org/css-lists/#propdef-counter-set",
     "status": {

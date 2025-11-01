@@ -1230,7 +1230,7 @@
   {
    "key": "css.properties.align-content",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-content",
     "source_file": "css/properties/align-content.json",
     "spec_url": [
      "https://drafts.csswg.org/css-align/#align-justify-content",
@@ -1922,7 +1922,7 @@
   {
    "key": "css.properties.align-items",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-items",
     "source_file": "css/properties/align-items.json",
     "spec_url": [
      "https://drafts.csswg.org/css-align/#align-items-property",
@@ -2484,7 +2484,7 @@
   {
    "key": "css.properties.align-self",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-self",
     "source_file": "css/properties/align-self.json",
     "spec_url": [
      "https://drafts.csswg.org/css-align/#align-self-property",
@@ -3525,7 +3525,7 @@
   {
    "key": "css.properties.flex",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex",
     "source_file": "css/properties/flex.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-property",
     "status": {
@@ -3675,7 +3675,7 @@
   {
    "key": "css.properties.flex-basis",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-basis",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-basis",
     "source_file": "css/properties/flex-basis.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-basis-property",
     "status": {
@@ -4167,7 +4167,7 @@
   {
    "key": "css.properties.flex-direction",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-direction",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-direction",
     "source_file": "css/properties/flex-direction.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-direction-property",
     "status": {
@@ -4585,7 +4585,7 @@
   {
    "key": "css.properties.flex-flow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-flow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-flow",
     "source_file": "css/properties/flex-flow.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-flow-property",
     "status": {
@@ -4717,7 +4717,7 @@
   {
    "key": "css.properties.flex-grow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-grow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-grow",
     "source_file": "css/properties/flex-grow.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-grow-property",
     "status": {
@@ -4912,7 +4912,7 @@
   {
    "key": "css.properties.flex-shrink",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-shrink",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-shrink",
     "source_file": "css/properties/flex-shrink.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-shrink-property",
     "status": {
@@ -5059,7 +5059,7 @@
   {
    "key": "css.properties.flex-wrap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-wrap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-wrap",
     "source_file": "css/properties/flex-wrap.json",
     "spec_url": "https://drafts.csswg.org/css-flexbox/#flex-wrap-property",
     "status": {
@@ -5417,7 +5417,7 @@
   {
    "key": "css.properties.justify-content",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-content",
     "source_file": "css/properties/justify-content.json",
     "spec_url": [
      "https://drafts.csswg.org/css-align/#align-justify-content",
@@ -6123,7 +6123,7 @@
   {
    "key": "css.properties.justify-items",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-items",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-items",
     "source_file": "css/properties/justify-items.json",
     "spec_url": "https://drafts.csswg.org/css-align/#justify-items-property",
     "status": {
@@ -6418,7 +6418,7 @@
   {
    "key": "css.properties.order",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/order",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/order",
     "source_file": "css/properties/order.json",
     "spec_url": "https://drafts.csswg.org/css-display/#order-property",
     "status": {
@@ -6552,7 +6552,7 @@
   {
    "key": "css.properties.place-content",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-content",
     "source_file": "css/properties/place-content.json",
     "spec_url": "https://drafts.csswg.org/css-align/#place-content",
     "status": {
@@ -6673,7 +6673,7 @@
   {
    "key": "css.properties.place-items",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-items",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-items",
     "source_file": "css/properties/place-items.json",
     "spec_url": "https://drafts.csswg.org/css-align/#place-items-property",
     "status": {
@@ -6792,7 +6792,7 @@
   {
    "key": "css.properties.place-self",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-self",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-self",
     "source_file": "css/properties/place-self.json",
     "spec_url": "https://drafts.csswg.org/css-align/#place-self-property",
     "status": {

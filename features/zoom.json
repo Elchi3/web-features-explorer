@@ -95,13 +95,7 @@
  "id": "zoom",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "zoom",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/zoom"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/977",
@@ -128,7 +122,7 @@
   {
    "key": "css.properties.zoom",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/zoom",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/zoom",
     "source_file": "css/properties/zoom.json",
     "spec_url": "https://drafts.csswg.org/css-viewport/#zoom-property",
     "status": {

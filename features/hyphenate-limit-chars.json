@@ -106,13 +106,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "hyphenate-limit-chars",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -129,7 +123,7 @@
   {
    "key": "css.properties.hyphenate-limit-chars",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars",
     "source_file": "css/properties/hyphenate-limit-chars.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars",
     "status": {
@@ -261,6 +255,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari",
- "monthsBlocked": 6,
+ "monthsBlocked": 7,
  "blockedSince": "April 2025"
 }

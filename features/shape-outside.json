@@ -238,13 +238,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "shape-outside",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -258,7 +252,7 @@
   {
    "key": "css.properties.shape-image-threshold",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-image-threshold",
     "source_file": "css/properties/shape-image-threshold.json",
     "spec_url": "https://drafts.csswg.org/css-shapes/#shape-image-threshold-property",
     "status": {
@@ -377,7 +371,7 @@
   {
    "key": "css.properties.shape-margin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-margin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-margin",
     "source_file": "css/properties/shape-margin.json",
     "spec_url": "https://drafts.csswg.org/css-shapes/#shape-margin-property",
     "status": {
@@ -443,7 +437,7 @@
   {
    "key": "css.properties.shape-outside",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-outside",
     "source_file": "css/properties/shape-outside.json",
     "spec_url": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
     "status": {

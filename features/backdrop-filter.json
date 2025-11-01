@@ -95,13 +95,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "backdrop-filter",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -139,7 +133,7 @@
   {
    "key": "css.properties.backdrop-filter",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backdrop-filter",
     "source_file": "css/properties/backdrop-filter.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects-2/#BackdropFilterProperty",
     "status": {

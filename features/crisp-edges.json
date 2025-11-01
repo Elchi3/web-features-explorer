@@ -93,13 +93,7 @@
    "Image scaling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "image-rendering",
-   "anchor": "crisp-edges",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering#crisp-edges"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

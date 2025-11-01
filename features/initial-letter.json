@@ -98,13 +98,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "initial-letter",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/711",
@@ -159,7 +153,7 @@
   {
    "key": "css.properties.initial-letter",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/initial-letter",
     "source_file": "css/properties/initial-letter.json",
     "spec_url": "https://drafts.csswg.org/css-inline/#sizing-drop-initials",
     "status": {

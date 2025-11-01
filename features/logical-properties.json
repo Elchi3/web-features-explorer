@@ -1425,7 +1425,7 @@
   {
    "key": "css.properties.block-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/block-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/block-size",
     "source_file": "css/properties/block-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#dimension-properties",
@@ -1518,9 +1518,15 @@
        "version_added": "5"
       }
      ],
-     "samsunginternet_android": {
-      "version_added": "5.0"
-     },
+     "samsunginternet_android": [
+      {
+       "version_added": "7.0"
+      },
+      {
+       "alternative_name": "-webkit-logical-height",
+       "version_added": "1.0"
+      }
+     ],
      "webview_android": [
       {
        "version_added": "57"
@@ -1549,6 +1555,7 @@
    "key": "css.properties.block-size.fit-content",
    "compat": {
     "source_file": "css/properties/block-size.json",
+    "spec_url": "https://drafts.csswg.org/css-sizing-4/#valdef-width-fit-content",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1758,7 +1765,7 @@
   {
    "key": "css.properties.border-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block",
     "source_file": "css/properties/border-block.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-block",
     "status": {
@@ -1818,7 +1825,7 @@
   {
    "key": "css.properties.border-block-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-color",
     "source_file": "css/properties/border-block-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-block-color",
     "status": {
@@ -1878,7 +1885,7 @@
   {
    "key": "css.properties.border-block-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end",
     "source_file": "css/properties/border-block-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-shorthands",
     "status": {
@@ -1938,7 +1945,7 @@
   {
    "key": "css.properties.border-block-end-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-color",
     "source_file": "css/properties/border-block-end-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-color",
     "status": {
@@ -1998,7 +2005,7 @@
   {
    "key": "css.properties.border-block-end-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-style",
     "source_file": "css/properties/border-block-end-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-style",
     "status": {
@@ -2058,7 +2065,7 @@
   {
    "key": "css.properties.border-block-end-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-width",
     "source_file": "css/properties/border-block-end-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-width",
     "status": {
@@ -2118,7 +2125,7 @@
   {
    "key": "css.properties.border-block-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start",
     "source_file": "css/properties/border-block-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-shorthands",
     "status": {
@@ -2178,7 +2185,7 @@
   {
    "key": "css.properties.border-block-start-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-color",
     "source_file": "css/properties/border-block-start-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-color",
     "status": {
@@ -2238,7 +2245,7 @@
   {
    "key": "css.properties.border-block-start-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-style",
     "source_file": "css/properties/border-block-start-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-style",
     "status": {
@@ -2298,7 +2305,7 @@
   {
    "key": "css.properties.border-block-start-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-width",
     "source_file": "css/properties/border-block-start-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-width",
     "status": {
@@ -2358,7 +2365,7 @@
   {
    "key": "css.properties.border-block-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-style",
     "source_file": "css/properties/border-block-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-block-style",
     "status": {
@@ -2418,7 +2425,7 @@
   {
    "key": "css.properties.border-block-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-width",
     "source_file": "css/properties/border-block-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-block-width",
     "status": {
@@ -2478,7 +2485,7 @@
   {
    "key": "css.properties.border-end-end-radius",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-end-radius",
     "source_file": "css/properties/border-end-end-radius.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-radius-properties",
     "status": {
@@ -2538,7 +2545,7 @@
   {
    "key": "css.properties.border-end-start-radius",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-start-radius",
     "source_file": "css/properties/border-end-start-radius.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-radius-properties",
     "status": {
@@ -2598,7 +2605,7 @@
   {
    "key": "css.properties.border-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline",
     "source_file": "css/properties/border-inline.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-inline",
     "status": {
@@ -2658,7 +2665,7 @@
   {
    "key": "css.properties.border-inline-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-color",
     "source_file": "css/properties/border-inline-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-inline-color",
     "status": {
@@ -2718,7 +2725,7 @@
   {
    "key": "css.properties.border-inline-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end",
     "source_file": "css/properties/border-inline-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-shorthands",
     "status": {
@@ -2778,7 +2785,7 @@
   {
    "key": "css.properties.border-inline-end-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-color",
     "source_file": "css/properties/border-inline-end-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-color",
     "status": {
@@ -2850,7 +2857,7 @@
   {
    "key": "css.properties.border-inline-end-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-style",
     "source_file": "css/properties/border-inline-end-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-style",
     "status": {
@@ -2922,7 +2929,7 @@
   {
    "key": "css.properties.border-inline-end-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end-width",
     "source_file": "css/properties/border-inline-end-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-width",
     "status": {
@@ -2994,7 +3001,7 @@
   {
    "key": "css.properties.border-inline-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start",
     "source_file": "css/properties/border-inline-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-shorthands",
     "status": {
@@ -3054,7 +3061,7 @@
   {
    "key": "css.properties.border-inline-start-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-color",
     "source_file": "css/properties/border-inline-start-color.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-color",
     "status": {
@@ -3126,7 +3133,7 @@
   {
    "key": "css.properties.border-inline-start-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-style",
     "source_file": "css/properties/border-inline-start-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-style",
     "status": {
@@ -3198,7 +3205,7 @@
   {
    "key": "css.properties.border-inline-start-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-width",
     "source_file": "css/properties/border-inline-start-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-width",
     "status": {
@@ -3258,7 +3265,7 @@
   {
    "key": "css.properties.border-inline-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-style",
     "source_file": "css/properties/border-inline-style.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-inline-style",
     "status": {
@@ -3318,7 +3325,7 @@
   {
    "key": "css.properties.border-inline-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-width",
     "source_file": "css/properties/border-inline-width.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-border-inline-width",
     "status": {
@@ -3378,7 +3385,7 @@
   {
    "key": "css.properties.border-start-end-radius",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-end-radius",
     "source_file": "css/properties/border-start-end-radius.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-radius-properties",
     "status": {
@@ -3438,7 +3445,7 @@
   {
    "key": "css.properties.border-start-start-radius",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-start-radius",
     "source_file": "css/properties/border-start-start-radius.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#border-radius-properties",
     "status": {
@@ -3734,7 +3741,7 @@
   {
    "key": "css.properties.inline-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inline-size",
     "source_file": "css/properties/inline-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#dimension-properties",
@@ -3827,9 +3834,15 @@
        "version_added": "5"
       }
      ],
-     "samsunginternet_android": {
-      "version_added": "5.0"
-     },
+     "samsunginternet_android": [
+      {
+       "version_added": "7.0"
+      },
+      {
+       "alternative_name": "-webkit-logical-width",
+       "version_added": "1.0"
+      }
+     ],
      "webview_android": [
       {
        "version_added": "57"
@@ -3858,6 +3871,7 @@
    "key": "css.properties.inline-size.fit-content",
    "compat": {
     "source_file": "css/properties/inline-size.json",
+    "spec_url": "https://drafts.csswg.org/css-sizing-4/#valdef-width-fit-content",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -4068,7 +4082,7 @@
   {
    "key": "css.properties.inset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset",
     "source_file": "css/properties/inset.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset",
@@ -4131,7 +4145,7 @@
   {
    "key": "css.properties.inset-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block",
     "source_file": "css/properties/inset-block.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-block",
@@ -4210,7 +4224,7 @@
   {
    "key": "css.properties.inset-block-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-end",
     "source_file": "css/properties/inset-block-end.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-block-end",
@@ -4348,7 +4362,7 @@
   {
    "key": "css.properties.inset-block-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-start",
     "source_file": "css/properties/inset-block-start.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-block-start",
@@ -4545,7 +4559,7 @@
   {
    "key": "css.properties.inset-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline",
     "source_file": "css/properties/inset-inline.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-inline",
@@ -4624,7 +4638,7 @@
   {
    "key": "css.properties.inset-inline-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-end",
     "source_file": "css/properties/inset-inline-end.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-inline-end",
@@ -4762,7 +4776,7 @@
   {
    "key": "css.properties.inset-inline-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-start",
     "source_file": "css/properties/inset-inline-start.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-inset-inline-start",
@@ -5018,7 +5032,7 @@
   {
    "key": "css.properties.margin-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block",
     "source_file": "css/properties/margin-block.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-margin-block",
     "status": {
@@ -5078,7 +5092,7 @@
   {
    "key": "css.properties.margin-block-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-end",
     "source_file": "css/properties/margin-block-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#margin-properties",
     "status": {
@@ -5138,7 +5152,7 @@
   {
    "key": "css.properties.margin-block-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-start",
     "source_file": "css/properties/margin-block-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#margin-properties",
     "status": {
@@ -5198,7 +5212,7 @@
   {
    "key": "css.properties.margin-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline",
     "source_file": "css/properties/margin-inline.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-margin-inline",
     "status": {
@@ -5258,7 +5272,7 @@
   {
    "key": "css.properties.margin-inline-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-end",
     "source_file": "css/properties/margin-inline-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#margin-properties",
     "status": {
@@ -5396,7 +5410,7 @@
   {
    "key": "css.properties.margin-inline-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-start",
     "source_file": "css/properties/margin-inline-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#margin-properties",
     "status": {
@@ -5534,7 +5548,7 @@
   {
    "key": "css.properties.max-block-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-block-size",
     "source_file": "css/properties/max-block-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-max-block-size",
@@ -5796,7 +5810,7 @@
   {
    "key": "css.properties.max-inline-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-inline-size",
     "source_file": "css/properties/max-inline-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-max-inline-size",
@@ -6088,7 +6102,7 @@
   {
    "key": "css.properties.min-block-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-block-size",
     "source_file": "css/properties/min-block-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-min-block-size",
@@ -6350,7 +6364,7 @@
   {
    "key": "css.properties.min-inline-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-inline-size",
     "source_file": "css/properties/min-inline-size.json",
     "spec_url": [
      "https://drafts.csswg.org/css-logical/#propdef-min-inline-size",
@@ -6624,7 +6638,7 @@
   {
    "key": "css.properties.overflow-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-block",
     "source_file": "css/properties/overflow-block.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#overflow-control",
     "status": {
@@ -6745,7 +6759,7 @@
   {
    "key": "css.properties.overflow-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-inline",
     "source_file": "css/properties/overflow-inline.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#overflow-control",
     "status": {
@@ -6806,6 +6820,7 @@
    "key": "css.properties.overflow-inline.overlay",
    "compat": {
     "source_file": "css/properties/overflow-inline.json",
+    "spec_url": "https://drafts.csswg.org/css-overflow/#valdef-overflow-overlay",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6866,7 +6881,7 @@
   {
    "key": "css.properties.padding-block",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block",
     "source_file": "css/properties/padding-block.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-padding-block",
     "status": {
@@ -6926,7 +6941,7 @@
   {
    "key": "css.properties.padding-block-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-end",
     "source_file": "css/properties/padding-block-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#padding-properties",
     "status": {
@@ -6986,7 +7001,7 @@
   {
    "key": "css.properties.padding-block-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-start",
     "source_file": "css/properties/padding-block-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#padding-properties",
     "status": {
@@ -7046,7 +7061,7 @@
   {
    "key": "css.properties.padding-inline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline",
     "source_file": "css/properties/padding-inline.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#propdef-padding-inline",
     "status": {
@@ -7106,7 +7121,7 @@
   {
    "key": "css.properties.padding-inline-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-end",
     "source_file": "css/properties/padding-inline-end.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#padding-properties",
     "status": {
@@ -7244,7 +7259,7 @@
   {
    "key": "css.properties.padding-inline-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-start",
     "source_file": "css/properties/padding-inline-start.json",
     "spec_url": "https://drafts.csswg.org/css-logical/#padding-properties",
     "status": {

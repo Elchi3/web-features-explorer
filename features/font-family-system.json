@@ -96,13 +96,7 @@
  "id": "font-family-system",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "font-family",
-   "anchor": "system-ui",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-family#system-ui"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -116,7 +110,6 @@
   {
    "key": "css.properties.font-family.system-ui",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-family#system-ui",
     "source_file": "css/properties/font-family.json",
     "status": {
      "deprecated": false,

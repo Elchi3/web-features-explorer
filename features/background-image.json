@@ -133,13 +133,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-image",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-image"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -153,7 +147,7 @@
   {
    "key": "css.properties.background-image",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-image",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-image",
     "source_file": "css/properties/background-image.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-image",
     "status": {

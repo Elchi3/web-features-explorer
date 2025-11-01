@@ -114,13 +114,7 @@
    "Transitions (CSS)"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "transition-behavior",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transition-behavior"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/763",
@@ -215,7 +209,7 @@
   {
    "key": "css.properties.transition-behavior",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-behavior",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-behavior",
     "source_file": "css/properties/transition-behavior.json",
     "spec_url": "https://drafts.csswg.org/css-transitions-2/#transition-behavior-property",
     "status": {

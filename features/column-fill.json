@@ -134,13 +134,7 @@
    "multi-column"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "column-fill",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/column-fill"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -177,7 +171,7 @@
   {
    "key": "css.properties.column-fill",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-fill",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-fill",
     "source_file": "css/properties/column-fill.json",
     "spec_url": "https://drafts.csswg.org/css-multicol/#cf",
     "status": {

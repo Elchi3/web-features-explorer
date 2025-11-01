@@ -98,7 +98,7 @@
  "mdnUrls": [
   {
    "title": "interactivity",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/interactivity"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interactivity"
   }
  ],
  "standardPositions": {
@@ -117,7 +117,7 @@
   {
    "key": "css.properties.interactivity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interactivity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interactivity",
     "source_file": "css/properties/interactivity.json",
     "spec_url": "https://drafts.csswg.org/css-ui-4/#propdef-interactivity",
     "status": {

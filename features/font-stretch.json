@@ -164,13 +164,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-stretch",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-stretch"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -244,7 +238,7 @@
   {
    "key": "css.properties.font-stretch",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-stretch",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-stretch",
     "source_file": "css/properties/font-stretch.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-stretch-prop",
     "status": {

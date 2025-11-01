@@ -216,7 +216,7 @@
   {
    "key": "css.properties.fill-opacity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-opacity",
     "source_file": "css/properties/fill-opacity.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#fill-opacity",
     "status": {
@@ -276,7 +276,7 @@
   {
    "key": "css.properties.stroke-opacity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-opacity",
     "source_file": "css/properties/stroke-opacity.json",
     "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-opacity",
     "status": {

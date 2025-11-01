@@ -101,13 +101,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "field-sizing",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/849",
@@ -148,7 +142,7 @@
   {
    "key": "css.properties.field-sizing",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/field-sizing",
     "source_file": "css/properties/field-sizing.json",
     "spec_url": "https://drafts.csswg.org/css-forms-1/#propdef-field-sizing",
     "status": {

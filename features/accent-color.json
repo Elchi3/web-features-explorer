@@ -102,13 +102,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "accent-color",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/accent-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/540",
@@ -145,7 +139,7 @@
   {
    "key": "css.properties.accent-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/accent-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/accent-color",
     "source_file": "css/properties/accent-color.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#widget-accent",
     "status": {

@@ -164,13 +164,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "opacity",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/opacity"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -184,7 +178,7 @@
   {
    "key": "css.properties.opacity",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/opacity",
     "source_file": "css/properties/opacity.json",
     "spec_url": [
      "https://drafts.csswg.org/css-color/#propdef-opacity",

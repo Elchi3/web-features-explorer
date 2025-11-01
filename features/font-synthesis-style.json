@@ -134,13 +134,7 @@
    "Font synthesis"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-synthesis-style",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-style"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -157,7 +151,7 @@
   {
    "key": "css.properties.font-synthesis-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-style",
     "source_file": "css/properties/font-synthesis-style.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-synthesis-style",
     "status": {

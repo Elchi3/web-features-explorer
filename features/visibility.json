@@ -147,13 +147,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "visibility",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -167,7 +161,7 @@
   {
    "key": "css.properties.visibility",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/visibility",
     "source_file": "css/properties/visibility.json",
     "spec_url": [
      "https://drafts.csswg.org/css-display/#visibility",

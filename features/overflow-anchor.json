@@ -123,11 +123,6 @@
    "title": "Overview of scroll anchoring",
    "anchor": null,
    "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_scroll_anchoring/Scroll_anchoring"
-  },
-  {
-   "title": "overflow-anchor",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-anchor"
   }
  ],
  "standardPositions": {
@@ -143,7 +138,7 @@
   {
    "key": "css.properties.overflow-anchor",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-anchor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor",
     "source_file": "css/properties/overflow-anchor.json",
     "spec_url": "https://drafts.csswg.org/css-scroll-anchoring/#exclusion-api",
     "status": {
@@ -345,6 +340,6 @@
   ]
  },
  "blockedOn": "Safari",
- "monthsBlocked": 69,
+ "monthsBlocked": 70,
  "blockedSince": "January 2020"
 }

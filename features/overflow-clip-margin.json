@@ -97,13 +97,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow-clip-margin",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1111",
@@ -125,7 +119,7 @@
   {
    "key": "css.properties.overflow-clip-margin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-clip-margin",
     "source_file": "css/properties/overflow-clip-margin.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#overflow-clip-margin",
     "status": {

@@ -149,13 +149,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "will-change",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/will-change"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -172,7 +166,7 @@
   {
    "key": "css.properties.will-change",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/will-change",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/will-change",
     "source_file": "css/properties/will-change.json",
     "spec_url": "https://drafts.csswg.org/css-will-change/#will-change",
     "status": {

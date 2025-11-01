@@ -538,11 +538,6 @@
  ],
  "mdnUrls": [
   {
-   "title": "font-variant-alternates",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates"
-  },
-  {
    "title": "@font-feature-values",
    "anchor": null,
    "url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
@@ -2294,7 +2289,7 @@
   {
    "key": "css.properties.font-variant-alternates",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-alternates-prop",
     "status": {
@@ -2355,7 +2350,7 @@
    "key": "css.properties.font-variant-alternates.annotation",
    "compat": {
     "description": "<code>annotation()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#annotation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#annotation",
     "status": {
@@ -2416,7 +2411,7 @@
    "key": "css.properties.font-variant-alternates.character_variant",
    "compat": {
     "description": "<code>character-variant()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#character-variant",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#character-variant",
     "status": {
@@ -2595,7 +2590,7 @@
    "key": "css.properties.font-variant-alternates.ornaments",
    "compat": {
     "description": "<code>ornaments()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#ornaments",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#ornaments",
     "status": {
@@ -2656,7 +2651,7 @@
    "key": "css.properties.font-variant-alternates.styleset",
    "compat": {
     "description": "<code>styleset()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#styleset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#styleset",
     "status": {
@@ -2717,7 +2712,7 @@
    "key": "css.properties.font-variant-alternates.stylistic",
    "compat": {
     "description": "<code>stylistic()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#stylistic",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#stylistic",
     "status": {
@@ -2778,7 +2773,7 @@
    "key": "css.properties.font-variant-alternates.swash",
    "compat": {
     "description": "<code>swash()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates#swash",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-alternates",
     "source_file": "css/properties/font-variant-alternates.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#swash",
     "status": {

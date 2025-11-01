@@ -202,13 +202,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "content-visibility",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/135",
@@ -494,7 +488,7 @@
   {
    "key": "css.properties.content-visibility",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content-visibility",
     "source_file": "css/properties/content-visibility.json",
     "spec_url": "https://drafts.csswg.org/css-contain/#content-visibility",
     "status": {

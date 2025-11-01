@@ -308,71 +308,71 @@
  "mdnUrls": [
   {
    "title": "corner-block-end-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-end-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-end-shape"
   },
   {
    "title": "corner-block-start-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-start-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-start-shape"
   },
   {
    "title": "corner-bottom-left-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-left-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape"
   },
   {
    "title": "corner-bottom-right-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-right-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape"
   },
   {
    "title": "corner-bottom-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-shape"
   },
   {
    "title": "corner-end-end-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-end-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-end-shape"
   },
   {
    "title": "corner-end-start-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-start-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-start-shape"
   },
   {
    "title": "corner-inline-end-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-end-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-end-shape"
   },
   {
    "title": "corner-inline-start-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-start-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-start-shape"
   },
   {
    "title": "corner-left-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-left-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-left-shape"
   },
   {
    "title": "corner-right-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-right-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-right-shape"
   },
   {
    "title": "corner-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-shape"
   },
   {
    "title": "corner-start-end-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-end-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-end-shape"
   },
   {
    "title": "corner-start-start-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-start-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-start-shape"
   },
   {
    "title": "corner-top-left-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-left-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-left-shape"
   },
   {
    "title": "corner-top-right-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-right-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-right-shape"
   },
   {
    "title": "corner-top-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-shape"
   },
   {
    "title": "<corner-shape-value>",
@@ -392,7 +392,7 @@
   {
    "key": "css.properties.corner-block-end-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-end-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-end-shape",
     "source_file": "css/properties/corner-block-end-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-block-end-shape",
     "status": {
@@ -452,7 +452,7 @@
   {
    "key": "css.properties.corner-block-start-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-start-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-start-shape",
     "source_file": "css/properties/corner-block-start-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-block-start-shape",
     "status": {
@@ -512,7 +512,7 @@
   {
    "key": "css.properties.corner-bottom-left-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-left-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape",
     "source_file": "css/properties/corner-bottom-left-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-bottom-left-shape",
     "status": {
@@ -572,7 +572,7 @@
   {
    "key": "css.properties.corner-bottom-right-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-right-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape",
     "source_file": "css/properties/corner-bottom-right-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-bottom-right-shape",
     "status": {
@@ -632,7 +632,7 @@
   {
    "key": "css.properties.corner-bottom-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-shape",
     "source_file": "css/properties/corner-bottom-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-bottom-shape",
     "status": {
@@ -692,7 +692,7 @@
   {
    "key": "css.properties.corner-end-end-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-end-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-end-shape",
     "source_file": "css/properties/corner-end-end-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-end-end-shape",
     "status": {
@@ -752,7 +752,7 @@
   {
    "key": "css.properties.corner-end-start-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-start-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-start-shape",
     "source_file": "css/properties/corner-end-start-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-end-start-shape",
     "status": {
@@ -812,7 +812,7 @@
   {
    "key": "css.properties.corner-inline-end-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-end-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-end-shape",
     "source_file": "css/properties/corner-inline-end-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-inline-end-shape",
     "status": {
@@ -872,7 +872,7 @@
   {
    "key": "css.properties.corner-inline-start-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-start-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-start-shape",
     "source_file": "css/properties/corner-inline-start-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-inline-start-shape",
     "status": {
@@ -932,7 +932,7 @@
   {
    "key": "css.properties.corner-left-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-left-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-left-shape",
     "source_file": "css/properties/corner-left-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-left-shape",
     "status": {
@@ -992,7 +992,7 @@
   {
    "key": "css.properties.corner-right-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-right-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-right-shape",
     "source_file": "css/properties/corner-right-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-right-shape",
     "status": {
@@ -1052,7 +1052,7 @@
   {
    "key": "css.properties.corner-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-shape",
     "source_file": "css/properties/corner-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-shape",
     "status": {
@@ -1112,7 +1112,7 @@
   {
    "key": "css.properties.corner-start-end-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-end-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-end-shape",
     "source_file": "css/properties/corner-start-end-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-start-end-shape",
     "status": {
@@ -1172,7 +1172,7 @@
   {
    "key": "css.properties.corner-start-start-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-start-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-start-shape",
     "source_file": "css/properties/corner-start-start-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-start-start-shape",
     "status": {
@@ -1232,7 +1232,7 @@
   {
    "key": "css.properties.corner-top-left-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-left-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-left-shape",
     "source_file": "css/properties/corner-top-left-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-top-left-shape",
     "status": {
@@ -1292,7 +1292,7 @@
   {
    "key": "css.properties.corner-top-right-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-right-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-right-shape",
     "source_file": "css/properties/corner-top-right-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-top-right-shape",
     "status": {
@@ -1352,7 +1352,7 @@
   {
    "key": "css.properties.corner-top-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-shape",
     "source_file": "css/properties/corner-top-shape.json",
     "spec_url": "https://drafts.csswg.org/css-borders/#propdef-corner-top-shape",
     "status": {

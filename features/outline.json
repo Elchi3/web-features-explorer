@@ -93,13 +93,7 @@
  "id": "outline",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "outline",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/outline"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -116,7 +110,7 @@
   {
    "key": "css.properties.outline",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline",
     "source_file": "css/properties/outline.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#outline",
     "status": {

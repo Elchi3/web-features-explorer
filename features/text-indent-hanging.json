@@ -92,13 +92,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-indent",
-   "anchor": "hanging",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent#hanging"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

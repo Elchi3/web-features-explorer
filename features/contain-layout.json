@@ -104,13 +104,7 @@
    "Containment"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "contain",
-   "anchor": "layout",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/contain#layout"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

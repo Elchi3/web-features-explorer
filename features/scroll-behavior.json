@@ -135,13 +135,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "scroll-behavior",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -180,7 +174,7 @@
   {
    "key": "css.properties.scroll-behavior",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-behavior",
     "source_file": "css/properties/scroll-behavior.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#smooth-scrolling",
     "status": {

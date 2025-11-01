@@ -225,7 +225,7 @@
   {
    "key": "css.properties.rotate",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rotate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/rotate",
     "source_file": "css/properties/rotate.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#individual-transforms",
     "status": {
@@ -403,7 +403,7 @@
   {
    "key": "css.properties.scale",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scale",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scale",
     "source_file": "css/properties/scale.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#individual-transforms",
     "status": {
@@ -522,7 +522,7 @@
   {
    "key": "css.properties.translate",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/translate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/translate",
     "source_file": "css/properties/translate.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#individual-transforms",
     "status": {

@@ -345,13 +345,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -368,7 +362,7 @@
   {
    "key": "css.properties.overflow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow",
     "source_file": "css/properties/overflow.json",
     "spec_url": [
      "https://drafts.csswg.org/css-overflow/#propdef-overflow",
@@ -433,7 +427,7 @@
   {
    "key": "css.properties.overflow-x",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-x",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-x",
     "source_file": "css/properties/overflow-x.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#overflow-properties",
     "status": {
@@ -810,7 +804,7 @@
   {
    "key": "css.properties.overflow-y",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-y",
     "source_file": "css/properties/overflow-y.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#overflow-properties",
     "status": {

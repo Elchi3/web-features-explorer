@@ -104,13 +104,7 @@
    "Containment"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "contain",
-   "anchor": "paint",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/contain#paint"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

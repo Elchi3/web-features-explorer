@@ -243,23 +243,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "break-after",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-after"
-  },
-  {
-   "title": "break-before",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-before"
-  },
-  {
-   "title": "break-inside",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

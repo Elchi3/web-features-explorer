@@ -209,13 +209,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variant-caps",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-caps"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -234,7 +228,7 @@
   {
    "key": "css.properties.font-variant-caps",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-caps",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-caps",
     "source_file": "css/properties/font-variant-caps.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-caps-prop",
     "status": {

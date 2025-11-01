@@ -141,13 +141,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "clip",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/clip"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -161,7 +155,7 @@
   {
    "key": "css.properties.clip",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip",
     "source_file": "css/properties/clip.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#clip-property",
     "status": {

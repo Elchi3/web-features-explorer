@@ -242,13 +242,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variant-numeric",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -267,7 +261,7 @@
   {
    "key": "css.properties.font-variant-numeric",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-numeric",
     "source_file": "css/properties/font-variant-numeric.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-numeric-prop",
     "status": {

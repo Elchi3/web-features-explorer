@@ -152,13 +152,7 @@
    "Containment"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "contain",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/contain"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -181,7 +175,7 @@
   {
    "key": "css.properties.contain",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain",
     "source_file": "css/properties/contain.json",
     "spec_url": "https://drafts.csswg.org/css-contain/#contain-property",
     "status": {

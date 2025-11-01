@@ -89,13 +89,7 @@
    "Image scaling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "image-rendering",
-   "anchor": "smooth",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering#smooth"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

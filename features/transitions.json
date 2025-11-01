@@ -1403,7 +1403,7 @@
   {
    "key": "css.properties.transition",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition",
     "source_file": "css/properties/transition.json",
     "spec_url": "https://drafts.csswg.org/css-transitions/#transition-shorthand-property",
     "status": {
@@ -1579,7 +1579,7 @@
   {
    "key": "css.properties.transition-delay",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-delay",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-delay",
     "source_file": "css/properties/transition-delay.json",
     "spec_url": "https://drafts.csswg.org/css-transitions/#transition-delay-property",
     "status": {
@@ -1747,7 +1747,7 @@
   {
    "key": "css.properties.transition-duration",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-duration",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-duration",
     "source_file": "css/properties/transition-duration.json",
     "spec_url": "https://drafts.csswg.org/css-transitions/#transition-duration-property",
     "status": {
@@ -1915,7 +1915,7 @@
   {
    "key": "css.properties.transition-property",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-property",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-property",
     "source_file": "css/properties/transition-property.json",
     "spec_url": "https://drafts.csswg.org/css-transitions/#transition-property-property",
     "status": {
@@ -2260,7 +2260,7 @@
   {
    "key": "css.properties.transition-timing-function",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-timing-function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-timing-function",
     "source_file": "css/properties/transition-timing-function.json",
     "spec_url": "https://drafts.csswg.org/css-transitions/#transition-timing-function-property",
     "status": {

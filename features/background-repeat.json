@@ -226,13 +226,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-repeat",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-repeat"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -246,7 +240,7 @@
   {
    "key": "css.properties.background-repeat",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-repeat",
     "source_file": "css/properties/background-repeat.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#background-repeat",
     "status": {

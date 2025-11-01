@@ -297,13 +297,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "appearance",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -325,7 +319,7 @@
   {
    "key": "css.properties.appearance",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/appearance",
     "source_file": "css/properties/appearance.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#appearance-switching",
     "status": {

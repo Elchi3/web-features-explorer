@@ -254,13 +254,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variant-east-asian",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -279,7 +273,7 @@
   {
    "key": "css.properties.font-variant-east-asian",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-east-asian",
     "source_file": "css/properties/font-variant-east-asian.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-east-asian-prop",
     "status": {

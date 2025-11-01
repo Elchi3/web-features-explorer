@@ -1649,7 +1649,7 @@
   {
    "key": "css.properties.gap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/gap",
     "source_file": "css/properties/gap.json",
     "spec_url": "https://drafts.csswg.org/css-align/#gap-shorthand",
     "status": {
@@ -2024,7 +2024,7 @@
   {
    "key": "css.properties.grid",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid",
     "source_file": "css/properties/grid.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#grid-shorthand",
     "status": {
@@ -2085,7 +2085,7 @@
   {
    "key": "css.properties.grid-area",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-area",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-area",
     "source_file": "css/properties/grid-area.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#propdef-grid-area",
     "status": {
@@ -2145,7 +2145,7 @@
   {
    "key": "css.properties.grid-auto-columns",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-columns",
     "source_file": "css/properties/grid-auto-columns.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#auto-tracks",
     "status": {
@@ -2232,7 +2232,7 @@
   {
    "key": "css.properties.grid-auto-flow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-flow",
     "source_file": "css/properties/grid-auto-flow.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#grid-auto-flow-property",
     "status": {
@@ -2469,7 +2469,7 @@
   {
    "key": "css.properties.grid-auto-rows",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-rows",
     "source_file": "css/properties/grid-auto-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#auto-tracks",
     "status": {
@@ -2556,7 +2556,7 @@
   {
    "key": "css.properties.grid-column",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-column",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column",
     "source_file": "css/properties/grid-column.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#placement-shorthands",
     "status": {
@@ -2616,7 +2616,7 @@
   {
    "key": "css.properties.grid-column-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-end",
     "source_file": "css/properties/grid-column-end.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#line-placement",
     "status": {
@@ -2676,7 +2676,7 @@
   {
    "key": "css.properties.grid-column-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-start",
     "source_file": "css/properties/grid-column-start.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#line-placement",
     "status": {
@@ -2736,7 +2736,7 @@
   {
    "key": "css.properties.grid-row",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-row",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row",
     "source_file": "css/properties/grid-row.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#placement-shorthands",
     "status": {
@@ -2796,7 +2796,7 @@
   {
    "key": "css.properties.grid-row-end",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-end",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-end",
     "source_file": "css/properties/grid-row-end.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#line-placement",
     "status": {
@@ -2856,7 +2856,7 @@
   {
    "key": "css.properties.grid-row-start",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-start",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-row-start",
     "source_file": "css/properties/grid-row-start.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#line-placement",
     "status": {
@@ -2916,7 +2916,7 @@
   {
    "key": "css.properties.grid-template",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template",
     "source_file": "css/properties/grid-template.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#explicit-grid-shorthand",
     "status": {
@@ -2976,7 +2976,7 @@
   {
    "key": "css.properties.grid-template-areas",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-areas",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-areas",
     "source_file": "css/properties/grid-template-areas.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#grid-template-areas-property",
     "status": {
@@ -3095,7 +3095,7 @@
   {
    "key": "css.properties.grid-template-columns",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-columns",
     "source_file": "css/properties/grid-template-columns.json",
     "spec_url": [
      "https://drafts.csswg.org/css-grid/#track-sizing",
@@ -3618,7 +3618,7 @@
   {
    "key": "css.properties.grid-template-rows",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-rows",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": [
      "https://drafts.csswg.org/css-grid/#track-sizing",
@@ -4323,7 +4323,7 @@
   {
    "key": "css.properties.justify-self",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-self",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-self",
     "source_file": "css/properties/justify-self.json",
     "spec_url": "https://drafts.csswg.org/css-align/#justify-self-property",
     "status": {
@@ -4915,7 +4915,7 @@
   {
    "key": "css.properties.row-gap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/row-gap",
     "source_file": "css/properties/row-gap.json",
     "spec_url": "https://drafts.csswg.org/css-align/#column-row-gap",
     "status": {

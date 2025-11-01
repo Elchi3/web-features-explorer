@@ -105,13 +105,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-shadow",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-shadow"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -125,7 +119,7 @@
   {
    "key": "css.properties.text-shadow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-shadow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-shadow",
     "source_file": "css/properties/text-shadow.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-shadow-property",
     "status": {
@@ -195,7 +189,7 @@
       "version_added": "1.0"
      },
      "webview_android": {
-      "version_added": "37"
+      "version_added": "4.4"
      },
      "webview_ios": {
       "notes": [

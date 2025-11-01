@@ -96,7 +96,7 @@
  "mdnUrls": [
   {
    "title": "caret-shape",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/caret-shape"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-shape"
   }
  ],
  "hasNegativeStandardPosition": false,
@@ -108,7 +108,7 @@
   {
    "key": "css.properties.caret-shape",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caret-shape",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-shape",
     "source_file": "css/properties/caret-shape.json",
     "spec_url": "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
     "status": {

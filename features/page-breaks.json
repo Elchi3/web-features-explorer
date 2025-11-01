@@ -504,23 +504,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "break-after",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-after"
-  },
-  {
-   "title": "break-before",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-before"
-  },
-  {
-   "title": "break-inside",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -534,7 +518,7 @@
   {
    "key": "css.properties.break-after",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-after",
     "source_file": "css/properties/break-after.json",
     "spec_url": [
      "https://drafts.csswg.org/css-break/#break-between",
@@ -1409,7 +1393,7 @@
   {
    "key": "css.properties.break-before",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-before",
     "source_file": "css/properties/break-before.json",
     "spec_url": [
      "https://drafts.csswg.org/css-break/#break-between",
@@ -2225,7 +2209,7 @@
   {
    "key": "css.properties.break-inside",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/break-inside",
     "source_file": "css/properties/break-inside.json",
     "spec_url": [
      "https://drafts.csswg.org/css-break/#break-within",

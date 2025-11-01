@@ -165,13 +165,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "paint-order",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/paint-order"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -188,7 +182,7 @@
   {
    "key": "css.properties.paint-order",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/paint-order",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/paint-order",
     "source_file": "css/properties/paint-order.json",
     "spec_url": "https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty",
     "status": {
@@ -414,6 +408,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari on iOS",
- "monthsBlocked": 19,
+ "monthsBlocked": 20,
  "blockedSince": "March 2024"
 }

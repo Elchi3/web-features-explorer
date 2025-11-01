@@ -289,18 +289,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "unicode-bidi",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi"
-  },
-  {
-   "title": "direction",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/direction"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -314,7 +303,7 @@
   {
    "key": "css.properties.direction",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/direction",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/direction",
     "source_file": "css/properties/direction.json",
     "spec_url": [
      "https://drafts.csswg.org/css-writing-modes/#direction",
@@ -495,7 +484,7 @@
   {
    "key": "css.properties.unicode-bidi",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/unicode-bidi",
     "source_file": "css/properties/unicode-bidi.json",
     "spec_url": "https://drafts.csswg.org/css-writing-modes/#unicode-bidi",
     "status": {

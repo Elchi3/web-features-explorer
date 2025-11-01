@@ -164,13 +164,7 @@
    "White space"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "white-space-collapse",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -187,7 +181,7 @@
   {
    "key": "css.properties.white-space-collapse",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space-collapse",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/white-space-collapse",
     "source_file": "css/properties/white-space-collapse.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#white-space-collapsing",
     "status": {

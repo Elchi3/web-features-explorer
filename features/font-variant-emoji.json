@@ -140,13 +140,7 @@
    "Typographic font features"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-variant-emoji",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-emoji"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -163,7 +157,7 @@
   {
    "key": "css.properties.font-variant-emoji",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-emoji",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-emoji",
     "source_file": "css/properties/font-variant-emoji.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-variant-emoji-prop",
     "status": {
@@ -486,6 +480,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari",
- "monthsBlocked": 3,
+ "monthsBlocked": 4,
  "blockedSince": "July 2025"
 }

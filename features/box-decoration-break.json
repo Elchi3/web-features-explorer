@@ -109,13 +109,7 @@
  "id": "box-decoration-break",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "box-decoration-break",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -132,7 +126,7 @@
   {
    "key": "css.properties.box-decoration-break",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-decoration-break",
     "source_file": "css/properties/box-decoration-break.json",
     "spec_url": "https://drafts.csswg.org/css-break/#break-decoration",
     "status": {
@@ -527,6 +521,6 @@
   "safari_ios": []
  },
  "blockedOn": "Safari",
- "monthsBlocked": 12,
+ "monthsBlocked": 13,
  "blockedSince": "October 2024"
 }

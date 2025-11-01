@@ -246,13 +246,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-transform",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-transform"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -266,7 +260,7 @@
   {
    "key": "css.properties.text-transform",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-transform",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-transform",
     "source_file": "css/properties/text-transform.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#text-transform-property",
     "status": {

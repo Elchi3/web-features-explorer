@@ -252,13 +252,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "vertical-align",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -272,7 +266,7 @@
   {
    "key": "css.properties.vertical-align",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vertical-align",
     "source_file": "css/properties/vertical-align.json",
     "spec_url": "https://drafts.csswg.org/css-inline/#propdef-vertical-align",
     "status": {

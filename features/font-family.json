@@ -118,13 +118,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-family",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-family"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -138,7 +132,7 @@
   {
    "key": "css.properties.font-family",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-family",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-family",
     "source_file": "css/properties/font-family.json",
     "spec_url": [
      "https://drafts.csswg.org/css-fonts/#generic-font-families",

@@ -229,7 +229,7 @@
    "key": "css.types.basic-shape.path.clip-path",
    "compat": {
     "description": "In <code>clip-path</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-path",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path",
     "source_file": "css/types/basic-shape.json",
     "spec_url": [
      "https://drafts.fxtf.org/css-masking/#the-clip-path",
@@ -372,7 +372,7 @@
    "key": "css.types.basic-shape.path.offset-path",
    "compat": {
     "description": "In <code>offset-path</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path",
     "source_file": "css/types/basic-shape.json",
     "spec_url": "https://drafts.fxtf.org/motion/#offset-path-property",
     "status": {
@@ -433,7 +433,7 @@
    "key": "css.types.basic-shape.path.shape-outside",
    "compat": {
     "description": "In <code>shape-outside</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-outside",
     "source_file": "css/types/basic-shape.json",
     "spec_url": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
     "status": {

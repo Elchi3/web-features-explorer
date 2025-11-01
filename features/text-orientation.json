@@ -151,13 +151,7 @@
    "Text"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-orientation",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-orientation"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -171,7 +165,7 @@
   {
    "key": "css.properties.text-orientation",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-orientation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-orientation",
     "source_file": "css/properties/text-orientation.json",
     "spec_url": "https://drafts.csswg.org/css-writing-modes/#text-orientation",
     "status": {

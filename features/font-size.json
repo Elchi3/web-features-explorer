@@ -148,13 +148,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-size",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/font-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -168,7 +162,7 @@
   {
    "key": "css.properties.font-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-size",
     "source_file": "css/properties/font-size.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-size-prop",
     "status": {

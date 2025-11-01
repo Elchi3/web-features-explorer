@@ -113,13 +113,7 @@
    "Blend mode"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-blend-mode",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -133,7 +127,7 @@
   {
    "key": "css.properties.background-blend-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-blend-mode",
     "source_file": "css/properties/background-blend-mode.json",
     "spec_url": "https://drafts.fxtf.org/compositing/#background-blend-mode",
     "status": {

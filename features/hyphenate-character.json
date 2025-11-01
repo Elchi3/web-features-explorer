@@ -115,13 +115,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "hyphenate-character",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -138,7 +132,7 @@
   {
    "key": "css.properties.hyphenate-character",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-character",
     "source_file": "css/properties/hyphenate-character.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character",
     "status": {

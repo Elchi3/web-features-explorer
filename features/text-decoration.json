@@ -397,13 +397,7 @@
  "id": "text-decoration",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "text-decoration",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -422,10 +416,10 @@
   {
    "key": "css.properties.text-decoration",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration",
     "source_file": "css/properties/text-decoration.json",
     "spec_url": [
-     "https://drafts.csswg.org/css-text-decor/#text-decoration-property",
+     "https://drafts.csswg.org/css-text-decor-4/#text-decoration-property",
      "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties"
     ],
     "status": {
@@ -485,7 +479,7 @@
   {
    "key": "css.properties.text-decoration-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-color",
     "source_file": "css/properties/text-decoration-color.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-decoration-color-property",
     "status": {
@@ -579,7 +573,7 @@
   {
    "key": "css.properties.text-decoration-line",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-line",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-line",
     "source_file": "css/properties/text-decoration-line.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-decoration-line-property",
     "status": {
@@ -1027,7 +1021,7 @@
   {
    "key": "css.properties.text-decoration-skip",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip",
     "source_file": "css/properties/text-decoration-skip.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skipping",
     "status": {
@@ -1123,7 +1117,7 @@
   {
    "key": "css.properties.text-decoration-skip-ink",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink",
     "source_file": "css/properties/text-decoration-skip-ink.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skip-ink-property",
     "status": {
@@ -1486,7 +1480,7 @@
   {
    "key": "css.properties.text-decoration-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-style",
     "source_file": "css/properties/text-decoration-style.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-decoration-style-property",
     "status": {
@@ -1581,6 +1575,7 @@
    "key": "css.properties.text-decoration-style.wavy",
    "compat": {
     "source_file": "css/properties/text-decoration-style.json",
+    "spec_url": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-style-wavy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1638,7 +1633,7 @@
   {
    "key": "css.properties.text-decoration-thickness",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-thickness",
     "source_file": "css/properties/text-decoration-thickness.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor-4/#text-decoration-thickness-property",
     "status": {

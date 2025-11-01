@@ -104,13 +104,7 @@
    "Positioning"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "position",
-   "anchor": "relative",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/position#relative"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

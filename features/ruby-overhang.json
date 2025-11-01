@@ -106,7 +106,7 @@
  "mdnUrls": [
   {
    "title": "ruby-overhang",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-overhang"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-overhang"
   }
  ],
  "standardPositions": {
@@ -122,7 +122,7 @@
   {
    "key": "css.properties.ruby-overhang",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-overhang",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-overhang",
     "source_file": "css/properties/ruby-overhang.json",
     "spec_url": "https://drafts.csswg.org/css-ruby/#propdef-ruby-overhang",
     "status": {

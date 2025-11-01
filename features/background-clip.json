@@ -163,13 +163,7 @@
    "Background"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "background-clip",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -183,7 +177,7 @@
   {
    "key": "css.properties.background-clip",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-clip",
     "source_file": "css/properties/background-clip.json",
     "spec_url": [
      "https://drafts.csswg.org/css-backgrounds/#background-clip",

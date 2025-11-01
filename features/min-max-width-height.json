@@ -253,28 +253,7 @@
  "id": "min-max-width-height",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "min-width",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/min-width"
-  },
-  {
-   "title": "max-width",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/max-width"
-  },
-  {
-   "title": "min-height",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/min-height"
-  },
-  {
-   "title": "max-height",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/max-height"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -288,7 +267,7 @@
   {
    "key": "css.properties.max-height",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-height",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-height",
     "source_file": "css/properties/max-height.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
     "status": {
@@ -409,7 +388,7 @@
   {
    "key": "css.properties.max-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-width",
     "source_file": "css/properties/max-width.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
     "status": {
@@ -531,7 +510,7 @@
   {
    "key": "css.properties.min-height",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-height",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height",
     "source_file": "css/properties/min-height.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
     "status": {
@@ -669,7 +648,7 @@
   {
    "key": "css.properties.min-width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-width",
     "source_file": "css/properties/min-width.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
     "status": {

@@ -131,7 +131,7 @@
  "mdnUrls": [
   {
    "title": "scroll-marker-group",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-marker-group"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-marker-group"
   },
   {
    "title": "::scroll-marker",
@@ -174,7 +174,7 @@
   {
    "key": "css.properties.scroll-marker-group",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-marker-group",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-marker-group",
     "source_file": "css/properties/scroll-marker-group.json",
     "spec_url": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
     "status": {

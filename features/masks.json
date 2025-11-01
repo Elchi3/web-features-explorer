@@ -426,13 +426,7 @@
    "Clipping, shapes and masking"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "mask",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/mask"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -449,7 +443,7 @@
   {
    "key": "css.properties.mask",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask",
     "source_file": "css/properties/mask.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask",
     "status": {
@@ -681,7 +675,7 @@
   {
    "key": "css.properties.mask-clip",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-clip",
     "source_file": "css/properties/mask-clip.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-clip",
     "status": {
@@ -1090,7 +1084,7 @@
   {
    "key": "css.properties.mask-composite",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-composite",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-composite",
     "source_file": "css/properties/mask-composite.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-composite",
     "status": {
@@ -1415,7 +1409,7 @@
   {
    "key": "css.properties.mask-image",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-image",
     "source_file": "css/properties/mask-image.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-image",
     "status": {
@@ -1662,7 +1656,7 @@
   {
    "key": "css.properties.mask-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-mode",
     "source_file": "css/properties/mask-mode.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-mode",
     "status": {
@@ -1899,7 +1893,7 @@
   {
    "key": "css.properties.mask-origin",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-origin",
     "source_file": "css/properties/mask-origin.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-origin",
     "status": {
@@ -2455,7 +2449,7 @@
   {
    "key": "css.properties.mask-position",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-position",
     "source_file": "css/properties/mask-position.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-position",
     "status": {
@@ -2581,7 +2575,7 @@
   {
    "key": "css.properties.mask-repeat",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-repeat",
     "source_file": "css/properties/mask-repeat.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-repeat",
     "status": {
@@ -2707,7 +2701,7 @@
   {
    "key": "css.properties.mask-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-size",
     "source_file": "css/properties/mask-size.json",
     "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-size",
     "status": {

@@ -131,13 +131,7 @@
    "Blend mode"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "mix-blend-mode",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -167,7 +161,7 @@
   {
    "key": "css.properties.mix-blend-mode",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mix-blend-mode",
     "source_file": "css/properties/mix-blend-mode.json",
     "spec_url": "https://drafts.fxtf.org/compositing/#mix-blend-mode",
     "status": {

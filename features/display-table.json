@@ -240,13 +240,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "display",
-   "anchor": "table",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display#table"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

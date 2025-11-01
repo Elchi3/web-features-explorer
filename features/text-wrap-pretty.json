@@ -95,13 +95,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "text-wrap",
-   "anchor": "pretty",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap#pretty"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/993",
@@ -155,7 +149,7 @@
   {
    "key": "css.properties.text-wrap.pretty",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap#pretty",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-wrap",
     "source_file": "css/properties/text-wrap.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-pretty",
     "status": {
@@ -228,6 +222,6 @@
   "safari_ios": []
  },
  "blockedOn": "Firefox",
- "monthsBlocked": 1,
+ "monthsBlocked": 2,
  "blockedSince": "September 2025"
 }

@@ -223,18 +223,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "width",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/width"
-  },
-  {
-   "title": "height",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/height"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -248,7 +237,7 @@
   {
    "key": "css.properties.height",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/height",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/height",
     "source_file": "css/properties/height.json",
     "spec_url": [
      "https://drafts.csswg.org/css-sizing/#preferred-size-properties",
@@ -370,7 +359,7 @@
   {
    "key": "css.properties.width",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/width",
     "source_file": "css/properties/width.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
     "status": {

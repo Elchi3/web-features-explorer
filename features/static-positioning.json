@@ -104,13 +104,7 @@
    "Positioning"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "position",
-   "anchor": "static",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/position#static"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -146,13 +146,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "aspect-ratio",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -229,7 +223,7 @@
   {
    "key": "css.properties.aspect-ratio",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/aspect-ratio",
     "source_file": "css/properties/aspect-ratio.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#aspect-ratio",
     "status": {

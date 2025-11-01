@@ -120,13 +120,7 @@
    "White space"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "tab-size",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/tab-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -140,7 +134,7 @@
   {
    "key": "css.properties.tab-size",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tab-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/tab-size",
     "source_file": "css/properties/tab-size.json",
     "spec_url": "https://drafts.csswg.org/css-text/#tab-size-property",
     "status": {

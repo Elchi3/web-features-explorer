@@ -151,13 +151,7 @@
    "Text wrap"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow-wrap",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -171,7 +165,7 @@
   {
    "key": "css.properties.overflow-wrap",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-wrap",
     "source_file": "css/properties/overflow-wrap.json",
     "spec_url": "https://drafts.csswg.org/css-text/#overflow-wrap-property",
     "status": {

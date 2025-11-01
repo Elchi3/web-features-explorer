@@ -128,13 +128,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "scrollbar-gutter",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/488",
@@ -194,7 +188,7 @@
   {
    "key": "css.properties.scrollbar-gutter",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter",
     "source_file": "css/properties/scrollbar-gutter.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#scrollbar-gutter-property",
     "status": {

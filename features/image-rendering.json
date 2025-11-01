@@ -136,13 +136,7 @@
    "Image scaling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "image-rendering",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -156,7 +150,7 @@
   {
    "key": "css.properties.image-rendering",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-rendering",
     "source_file": "css/properties/image-rendering.json",
     "spec_url": [
      "https://drafts.csswg.org/css-images/#the-image-rendering",

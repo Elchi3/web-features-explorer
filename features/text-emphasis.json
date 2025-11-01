@@ -313,13 +313,7 @@
  "id": "text-emphasis",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "text-emphasis",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -336,7 +330,7 @@
   {
    "key": "css.properties.text-emphasis",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis",
     "source_file": "css/properties/text-emphasis.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-emphasis-property",
     "status": {
@@ -462,7 +456,7 @@
   {
    "key": "css.properties.text-emphasis-color",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-color",
     "source_file": "css/properties/text-emphasis-color.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-emphasis-color-property",
     "status": {
@@ -588,7 +582,7 @@
   {
    "key": "css.properties.text-emphasis-position",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-position",
     "source_file": "css/properties/text-emphasis-position.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-emphasis-position-property",
     "status": {
@@ -1004,7 +998,7 @@
   {
    "key": "css.properties.text-emphasis-style",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-style",
     "source_file": "css/properties/text-emphasis-style.json",
     "spec_url": "https://drafts.csswg.org/css-text-decor/#text-emphasis-style-property",
     "status": {

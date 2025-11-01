@@ -142,7 +142,7 @@
  "mdnUrls": [
   {
    "title": "text-autospace",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/text-autospace"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace"
   }
  ],
  "standardPositions": {
@@ -158,7 +158,7 @@
   {
    "key": "css.properties.text-autospace",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-autospace",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace",
     "source_file": "css/properties/text-autospace.json",
     "spec_url": "https://drafts.csswg.org/css-text-4/#propdef-text-autospace",
     "status": {

@@ -109,13 +109,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow",
-   "anchor": "auto",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/overflow#auto"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
