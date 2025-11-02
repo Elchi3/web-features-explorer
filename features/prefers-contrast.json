@@ -121,6 +121,13 @@
  "originTrials": [],
  "stateOfSurveys": [
   {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/accessibility/#accessibility_techniques",
+   "question": "accessibility",
+   "subQuestion": "accessibility_techniques",
+   "path": "dataAPI.surveys.state_of_html.html2025.accessibility.accessibility_techniques.combined.allEditions.0.buckets.13.entity"
+  },
+  {
    "name": "State of HTML 2024",
    "link": "https://2024.stateofhtml.com/en-US/accessibility/#accessibility_techniques",
    "question": "accessibility",
@@ -143,7 +150,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.23509518,
+  "percentageOfPageLoad": 0.23320069,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/174"
  },
  "interop": [],

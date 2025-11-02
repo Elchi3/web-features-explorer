@@ -8850,6 +8850,22 @@
  },
  "hasNegativeStandardPosition": false,
  "originTrials": [],
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
+   "question": "usage",
+   "subQuestion": "html_styling_issues",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_styling_issues.combined.allEditions.0.buckets.12.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.17.entity"
+  }
+ ],
  "useCounters": {},
  "interop": [],
  "wpt": false,

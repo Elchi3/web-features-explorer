@@ -117,7 +117,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00029363,
+  "percentageOfPageLoad": 0.00028747,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/256"
  },
  "interop": [],

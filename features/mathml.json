@@ -1467,8 +1467,17 @@
  },
  "hasNegativeStandardPosition": false,
  "originTrials": [],
+ "stateOfSurveys": [
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.26.entity"
+  }
+ ],
  "useCounters": {
-  "percentageOfPageLoad": 0.0082589,
+  "percentageOfPageLoad": 0.00841877,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/90"
  },
  "interop": [],

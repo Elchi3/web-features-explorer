@@ -355,6 +355,34 @@
  "originTrials": [],
  "stateOfSurveys": [
   {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/usage/#html_styling_issues",
+   "question": "usage",
+   "subQuestion": "html_styling_issues",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_styling_issues.combined.allEditions.0.buckets.9.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/usage/#html_interoperability_features",
+   "question": "usage",
+   "subQuestion": "html_interoperability_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_interoperability_features.freeform.allEditions.0.buckets.3.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/usage/#html_functionality_features",
+   "question": "usage",
+   "subQuestion": "html_functionality_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.usage.html_functionality_features.freeform.allEditions.0.buckets.2.entity"
+  },
+  {
+   "name": "State of HTML 2025",
+   "link": "https://2025.stateofhtml.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_html.html2025.features.all_features.9.entity"
+  },
+  {
    "name": "State of HTML 2024",
    "link": "https://2024.stateofhtml.com/en-US/usage/#html_interoperability_features",
    "question": "usage",
@@ -433,7 +461,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.07392006,
+  "percentageOfPageLoad": 0.0734786,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/25"
  },
  "interop": [
