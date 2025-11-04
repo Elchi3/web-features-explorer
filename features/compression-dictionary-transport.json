@@ -15,7 +15,7 @@
  "name": "Compression Dictionary Transport",
  "spec": [
   {
-   "url": "https://www.rfc-editor.org/rfc/rfc9842",
+   "url": "https://httpwg.org/specs/rfc9842.html",
    "seriesComposition": "full",
    "shortname": "rfc9842",
    "series": {
