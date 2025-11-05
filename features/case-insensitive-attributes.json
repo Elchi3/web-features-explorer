@@ -107,13 +107,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Attribute selectors",
-   "anchor": "s",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors#s"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -107,13 +107,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":focus-visible",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

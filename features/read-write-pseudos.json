@@ -241,18 +241,7 @@
    "Forms"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":read-only",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:read-only"
-  },
-  {
-   "title": ":read-write",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:read-write"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

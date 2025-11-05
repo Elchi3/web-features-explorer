@@ -122,18 +122,7 @@
    "Web Components"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":host",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:host"
-  },
-  {
-   "title": ":host()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:host_function"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

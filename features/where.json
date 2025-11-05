@@ -119,13 +119,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":where()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:where"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

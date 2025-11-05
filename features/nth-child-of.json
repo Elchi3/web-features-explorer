@@ -172,18 +172,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":nth-child()",
-   "anchor": "the_of_selector_syntax",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child#the_of_selector_syntax"
-  },
-  {
-   "title": ":nth-last-child()",
-   "anchor": "the_of_selector_syntax",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child#the_of_selector_syntax"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

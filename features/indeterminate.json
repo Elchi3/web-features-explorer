@@ -271,13 +271,7 @@
    "Forms"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":indeterminate",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:indeterminate"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

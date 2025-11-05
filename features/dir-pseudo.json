@@ -105,13 +105,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":dir()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:dir"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

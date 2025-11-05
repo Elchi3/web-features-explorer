@@ -124,13 +124,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":lang()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:lang"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

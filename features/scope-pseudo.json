@@ -119,13 +119,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":scope",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:scope"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

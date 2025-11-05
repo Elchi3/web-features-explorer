@@ -109,13 +109,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":empty",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:empty"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

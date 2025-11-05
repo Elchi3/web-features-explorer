@@ -197,23 +197,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":link",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:link"
-  },
-  {
-   "title": ":visited",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:visited"
-  },
-  {
-   "title": ":any-link",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:any-link"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

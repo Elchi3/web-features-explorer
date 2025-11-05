@@ -85,11 +85,11 @@
  "mdnUrls": [
   {
    "title": ":heading",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:heading"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:heading"
   },
   {
    "title": ":heading()",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:heading_function"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:heading_function"
   }
  ],
  "hasNegativeStandardPosition": false,

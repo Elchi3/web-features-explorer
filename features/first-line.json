@@ -113,13 +113,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::first-line",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::first-line"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

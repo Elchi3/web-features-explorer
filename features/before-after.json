@@ -140,18 +140,7 @@
  "id": "before-after",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "::after",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::after"
-  },
-  {
-   "title": "::before",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::before"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

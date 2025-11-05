@@ -105,13 +105,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::placeholder",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::placeholder"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

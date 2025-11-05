@@ -95,13 +95,7 @@
    "Selection"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::selection",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

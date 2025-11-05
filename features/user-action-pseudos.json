@@ -285,23 +285,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":active",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:active"
-  },
-  {
-   "title": ":focus",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:focus"
-  },
-  {
-   "title": ":hover",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:hover"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

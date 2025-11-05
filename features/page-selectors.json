@@ -140,23 +140,7 @@
    "Print media"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":first",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:first"
-  },
-  {
-   "title": ":left",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:left"
-  },
-  {
-   "title": ":right",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:right"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

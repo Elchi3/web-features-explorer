@@ -156,18 +156,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::grammar-error",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::grammar-error"
-  },
-  {
-   "title": "::spelling-error",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

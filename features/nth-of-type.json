@@ -164,18 +164,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":nth-of-type()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-of-type"
-  },
-  {
-   "title": ":nth-last-of-type()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

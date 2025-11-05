@@ -336,13 +336,7 @@
    "Custom elements"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":state()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:state"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

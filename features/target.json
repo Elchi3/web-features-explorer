@@ -104,13 +104,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":target",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:target"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -213,38 +213,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":valid",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:valid"
-  },
-  {
-   "title": ":invalid",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:invalid"
-  },
-  {
-   "title": ":in-range",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:in-range"
-  },
-  {
-   "title": ":out-of-range",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:out-of-range"
-  },
-  {
-   "title": ":optional",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:optional"
-  },
-  {
-   "title": ":required",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:required"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

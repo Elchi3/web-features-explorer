@@ -268,18 +268,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":nth-child()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
-  },
-  {
-   "title": ":nth-last-child()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

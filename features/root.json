@@ -104,13 +104,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":root",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:root"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

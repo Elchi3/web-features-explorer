@@ -193,23 +193,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":checked",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:checked"
-  },
-  {
-   "title": ":disabled",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:disabled"
-  },
-  {
-   "title": ":enabled",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:enabled"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

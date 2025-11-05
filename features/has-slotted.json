@@ -93,13 +93,7 @@
    "Web Components"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":has-slotted",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1079",

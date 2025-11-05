@@ -121,13 +121,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::first-letter",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::first-letter"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

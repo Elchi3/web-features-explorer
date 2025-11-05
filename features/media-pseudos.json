@@ -257,18 +257,7 @@
    "Media elements"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":paused",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:paused"
-  },
-  {
-   "title": ":playing",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:playing"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

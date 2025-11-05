@@ -116,18 +116,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":user-invalid",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid"
-  },
-  {
-   "title": ":user-valid",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:user-valid"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

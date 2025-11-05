@@ -105,13 +105,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":has()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:has"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/528",

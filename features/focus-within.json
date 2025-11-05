@@ -107,13 +107,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":focus-within",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:focus-within"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

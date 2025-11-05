@@ -104,13 +104,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":modal",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:modal"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

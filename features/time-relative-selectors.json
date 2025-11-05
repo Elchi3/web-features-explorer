@@ -102,18 +102,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": ":future",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:future"
-  },
-  {
-   "title": ":past",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/:past"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

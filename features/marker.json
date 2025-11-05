@@ -108,13 +108,7 @@
    "Lists"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::marker",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::marker"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

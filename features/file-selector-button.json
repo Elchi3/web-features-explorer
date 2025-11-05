@@ -102,13 +102,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "::file-selector-button",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/::file-selector-button"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

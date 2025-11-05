@@ -172,13 +172,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "& nesting selector",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/Nesting_selector"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1048",
