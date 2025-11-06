@@ -1960,7 +1960,7 @@
    "key": "css.selectors.fullscreen",
    "compat": {
     "description": "<code>:fullscreen</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:fullscreen",
     "source_file": "css/selectors/fullscreen.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-fullscreen",

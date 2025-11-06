@@ -99,13 +99,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "prefers-reduced-transparency",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-transparency"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -129,7 +123,7 @@
    "key": "css.at-rules.media.prefers-reduced-transparency",
    "compat": {
     "description": "<code>prefers-reduced-transparency</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-transparency",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-transparency",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-transparency",
     "status": {

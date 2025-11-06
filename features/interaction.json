@@ -150,13 +150,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@media",
-   "anchor": "media_features",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media#media_features"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -171,7 +165,7 @@
    "key": "css.at-rules.media.any-hover",
    "compat": {
     "description": "<code>any-hover</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/any-hover",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/any-hover",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#any-input",
     "status": {
@@ -232,7 +226,7 @@
    "key": "css.at-rules.media.any-pointer",
    "compat": {
     "description": "<code>any-pointer</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/any-pointer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/any-pointer",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#any-input",
     "status": {
@@ -293,7 +287,7 @@
    "key": "css.at-rules.media.hover",
    "compat": {
     "description": "<code>hover</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/hover",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/hover",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#hover",
     "status": {
@@ -361,7 +355,7 @@
    "key": "css.at-rules.media.pointer",
    "compat": {
     "description": "<code>pointer</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/pointer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/pointer",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#pointer",
     "status": {

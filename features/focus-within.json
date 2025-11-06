@@ -122,7 +122,7 @@
    "key": "css.selectors.focus-within",
    "compat": {
     "description": "<code>:focus-within</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-within",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus-within",
     "source_file": "css/selectors/focus-within.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-focus-within-pseudo",
     "status": {

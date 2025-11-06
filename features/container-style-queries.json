@@ -97,13 +97,7 @@
    "Container queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@container",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@container"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/686",

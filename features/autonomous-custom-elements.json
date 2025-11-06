@@ -793,7 +793,7 @@
    "key": "css.selectors.defined",
    "compat": {
     "description": "<code>:defined</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:defined",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:defined",
     "source_file": "css/selectors/defined.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-defined",

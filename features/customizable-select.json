@@ -221,7 +221,7 @@
    "key": "css.selectors.checkmark",
    "compat": {
     "description": "<code>::checkmark</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::checkmark",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::checkmark",
     "source_file": "css/selectors/checkmark.json",
     "spec_url": "https://drafts.csswg.org/css-forms-1/#checkmark",
     "status": {
@@ -231,13 +231,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "edge": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "firefox": {
       "version_added": false
@@ -252,10 +252,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": "120"
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": "89"
+      "version_added": "88"
      },
      "safari": {
       "version_added": false
@@ -267,7 +267,7 @@
       "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "webview_ios": {
       "version_added": false
@@ -282,7 +282,7 @@
    "key": "css.selectors.picker",
    "compat": {
     "description": "<code>::picker()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::picker",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::picker",
     "source_file": "css/selectors/picker.json",
     "spec_url": "https://drafts.csswg.org/css-forms-1/#picker-pseudo",
     "status": {
@@ -343,7 +343,7 @@
    "key": "css.selectors.picker-icon",
    "compat": {
     "description": "<code>::picker-icon</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::picker-icon",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::picker-icon",
     "source_file": "css/selectors/picker-icon.json",
     "spec_url": "https://drafts.csswg.org/css-forms-1/#picker-icon",
     "status": {
@@ -353,13 +353,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "edge": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "firefox": {
       "version_added": false
@@ -374,10 +374,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": "120"
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": "89"
+      "version_added": "88"
      },
      "safari": {
       "version_added": false
@@ -389,7 +389,7 @@
       "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": "135"
+      "version_added": "133"
      },
      "webview_ios": {
       "version_added": false

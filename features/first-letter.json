@@ -136,7 +136,7 @@
    "key": "css.selectors.first-letter",
    "compat": {
     "description": "<code>::first-letter</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::first-letter",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::first-letter",
     "source_file": "css/selectors/first-letter.json",
     "spec_url": "https://drafts.csswg.org/css-pseudo/#first-letter-pseudo",
     "status": {

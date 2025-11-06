@@ -295,13 +295,7 @@
    "Print media"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@page",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@page"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -316,7 +310,7 @@
    "key": "css.at-rules.page",
    "compat": {
     "description": "<code>@page</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page",
     "source_file": "css/at-rules/page.json",
     "spec_url": [
      "https://drafts.csswg.org/css-page/#at-page-rule",
@@ -1043,7 +1037,7 @@
    "key": "css.at-rules.page.size",
    "compat": {
     "description": "<code>size</code> descriptor",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size",
     "source_file": "css/at-rules/page.json",
     "spec_url": "https://drafts.csswg.org/css-page/#page-size-prop",
     "status": {
@@ -1104,7 +1098,7 @@
    "key": "css.at-rules.page.size.jis-b4",
    "compat": {
     "description": "<code>jis-b4</code> page size",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size",
     "source_file": "css/at-rules/page.json",
     "spec_url": "https://drafts.csswg.org/css-page/#page-size-prop",
     "status": {
@@ -1165,7 +1159,7 @@
    "key": "css.at-rules.page.size.jis-b5",
    "compat": {
     "description": "<code>jis-b5</code> page size",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size",
     "source_file": "css/at-rules/page.json",
     "spec_url": "https://drafts.csswg.org/css-page/#page-size-prop",
     "status": {

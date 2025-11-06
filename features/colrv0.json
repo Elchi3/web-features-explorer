@@ -80,13 +80,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@font-face",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

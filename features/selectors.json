@@ -293,7 +293,7 @@
    "key": "css.selectors.attribute",
    "compat": {
     "description": "Attribute selector (<code>[attr=value]</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
     "source_file": "css/selectors/attribute.json",
     "spec_url": "https://drafts.csswg.org/selectors/#attribute-selectors",
     "status": {
@@ -354,7 +354,7 @@
    "key": "css.selectors.child",
    "compat": {
     "description": "Child combinator (<code>A &gt; B</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Child_combinator",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Child_combinator",
     "source_file": "css/selectors/child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#child-combinators",
     "status": {
@@ -416,7 +416,7 @@
    "key": "css.selectors.class",
    "compat": {
     "description": "Class selector (<code>.className</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Class_selectors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Class_selectors",
     "source_file": "css/selectors/class.json",
     "spec_url": "https://drafts.csswg.org/selectors/#class-html",
     "status": {
@@ -477,7 +477,7 @@
    "key": "css.selectors.descendant",
    "compat": {
     "description": "Descendant combinator (<code>A B</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Descendant_combinator",
     "source_file": "css/selectors/descendant.json",
     "spec_url": "https://drafts.csswg.org/selectors/#descendant-combinators",
     "status": {
@@ -538,7 +538,7 @@
    "key": "css.selectors.id",
    "compat": {
     "description": "ID selector (<code>#idName</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ID_selectors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/ID_selectors",
     "source_file": "css/selectors/id.json",
     "spec_url": "https://drafts.csswg.org/selectors/#id-selectors",
     "status": {
@@ -599,7 +599,7 @@
    "key": "css.selectors.list",
    "compat": {
     "description": "Selector list (<code>,</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Selector_list",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Selector_list",
     "source_file": "css/selectors/list.json",
     "spec_url": "https://drafts.csswg.org/selectors/#grouping",
     "status": {
@@ -660,7 +660,7 @@
    "key": "css.selectors.next-sibling",
    "compat": {
     "description": "Next-sibling combinator (<code>A + B</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Next-sibling_combinator",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator",
     "source_file": "css/selectors/next-sibling.json",
     "spec_url": "https://drafts.csswg.org/selectors/#adjacent-sibling-combinators",
     "status": {
@@ -726,7 +726,7 @@
    "key": "css.selectors.subsequent-sibling",
    "compat": {
     "description": "Subsequent-sibling combinator (<code>A ~ B</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Subsequent-sibling_combinator",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator",
     "source_file": "css/selectors/subsequent-sibling.json",
     "spec_url": "https://drafts.csswg.org/selectors/#general-sibling-combinators",
     "status": {
@@ -788,7 +788,7 @@
    "key": "css.selectors.type",
    "compat": {
     "description": "Type selector (<code>elementName</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Type_selectors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Type_selectors",
     "source_file": "css/selectors/type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#type-selectors",
     "status": {
@@ -908,7 +908,7 @@
    "key": "css.selectors.universal",
    "compat": {
     "description": "Universal selector (<code>*</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Universal_selectors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Universal_selectors",
     "source_file": "css/selectors/universal.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-universal-selector",
     "status": {

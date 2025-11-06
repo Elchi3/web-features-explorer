@@ -238,7 +238,7 @@
    "key": "css.selectors.part",
    "compat": {
     "description": "<code>::part</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::part",
     "source_file": "css/selectors/part.json",
     "spec_url": "https://drafts.csswg.org/css-shadow-parts/#part",
     "status": {

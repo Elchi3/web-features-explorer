@@ -100,13 +100,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "scripting",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/scripting"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -124,7 +118,7 @@
    "key": "css.at-rules.media.scripting",
    "compat": {
     "description": "<code>scripting</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/scripting",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/scripting",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#scripting",
     "status": {

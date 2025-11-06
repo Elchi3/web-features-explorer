@@ -129,13 +129,7 @@
    "View Transitions"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@view-transition",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@view-transition"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -422,7 +416,7 @@
    "key": "css.at-rules.view-transition",
    "compat": {
     "description": "<code>@view-transition</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@view-transition",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@view-transition",
     "source_file": "css/at-rules/view-transition.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-rule",
     "status": {

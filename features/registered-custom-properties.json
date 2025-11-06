@@ -218,11 +218,6 @@
    "title": "CSS: registerProperty() static method",
    "anchor": null,
    "url": "https://developer.mozilla.org/docs/Web/API/CSS/registerProperty_static"
-  },
-  {
-   "title": "@property",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@property"
   }
  ],
  "standardPositions": {
@@ -642,7 +637,7 @@
    "key": "css.at-rules.property",
    "compat": {
     "description": "<code>@property</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property",
     "source_file": "css/at-rules/property.json",
     "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule",
     "status": {
@@ -703,7 +698,7 @@
    "key": "css.at-rules.property.inherits",
    "compat": {
     "description": "<code>inherits</code> descriptor",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/inherits",
     "source_file": "css/at-rules/property.json",
     "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor",
     "status": {
@@ -764,7 +759,7 @@
    "key": "css.at-rules.property.initial-value",
    "compat": {
     "description": "<code>initial-value</code> descriptor",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/initial-value",
     "source_file": "css/at-rules/property.json",
     "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor",
     "status": {
@@ -825,7 +820,7 @@
    "key": "css.at-rules.property.syntax",
    "compat": {
     "description": "<code>syntax</code> descriptor",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/syntax",
     "source_file": "css/at-rules/property.json",
     "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor",
     "status": {

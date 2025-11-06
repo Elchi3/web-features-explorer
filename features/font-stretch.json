@@ -178,7 +178,7 @@
   {
    "key": "css.at-rules.font-face.font-stretch",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop-desc",
     "status": {

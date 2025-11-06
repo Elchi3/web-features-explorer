@@ -137,7 +137,7 @@
    "key": "css.selectors.host",
    "compat": {
     "description": "<code>:host</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host",
     "source_file": "css/selectors/host.json",
     "spec_url": "https://drafts.csswg.org/css-scoping/#host-selector",
     "status": {
@@ -198,7 +198,7 @@
    "key": "css.selectors.hostfunction",
    "compat": {
     "description": "<code>:host()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host_function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host_function",
     "source_file": "css/selectors/hostfunction.json",
     "spec_url": "https://drafts.csswg.org/css-scoping/#host-selector",
     "status": {

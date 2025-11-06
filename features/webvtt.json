@@ -501,7 +501,7 @@
    "key": "css.selectors.cue",
    "compat": {
     "description": "<code>::cue</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::cue",
     "source_file": "css/selectors/cue.json",
     "spec_url": "https://w3c.github.io/webvtt/#the-cue-pseudo-element",
     "status": {

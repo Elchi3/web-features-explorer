@@ -102,7 +102,7 @@
    "key": "css.selectors.heading",
    "compat": {
     "description": "<code>:heading</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:heading",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:heading",
     "source_file": "css/selectors/heading.json",
     "spec_url": "https://drafts.csswg.org/selectors-5/#headings",
     "status": {

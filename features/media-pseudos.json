@@ -272,7 +272,7 @@
    "key": "css.selectors.buffering",
    "compat": {
     "description": "<code>:buffering</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:buffering",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:buffering",
     "source_file": "css/selectors/buffering.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-buffering",
@@ -336,7 +336,7 @@
    "key": "css.selectors.muted",
    "compat": {
     "description": "<code>:muted</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:muted",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:muted",
     "source_file": "css/selectors/muted.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-muted",
@@ -400,7 +400,7 @@
    "key": "css.selectors.paused",
    "compat": {
     "description": "<code>:paused</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:paused",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:paused",
     "source_file": "css/selectors/paused.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-paused",
@@ -472,7 +472,7 @@
    "key": "css.selectors.playing",
    "compat": {
     "description": "<code>:playing</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:playing",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:playing",
     "source_file": "css/selectors/playing.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-playing",
@@ -544,7 +544,7 @@
    "key": "css.selectors.seeking",
    "compat": {
     "description": "<code>:seeking</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:seeking",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:seeking",
     "source_file": "css/selectors/seeking.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-seeking",
@@ -608,7 +608,7 @@
    "key": "css.selectors.stalled",
    "compat": {
     "description": "<code>:stalled</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:stalled",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:stalled",
     "source_file": "css/selectors/stalled.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-stalled",
@@ -672,7 +672,7 @@
    "key": "css.selectors.volume-locked",
    "compat": {
     "description": "<code>:volume-locked</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:volume-locked",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:volume-locked",
     "source_file": "css/selectors/volume-locked.json",
     "spec_url": [
      "https://drafts.csswg.org/selectors/#selectordef-volume-locked",

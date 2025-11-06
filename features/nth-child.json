@@ -283,7 +283,7 @@
    "key": "css.selectors.first-child",
    "compat": {
     "description": "<code>:first-child</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:first-child",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:first-child",
     "source_file": "css/selectors/first-child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#first-child-pseudo",
     "status": {
@@ -407,7 +407,7 @@
    "key": "css.selectors.last-child",
    "compat": {
     "description": "<code>:last-child</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:last-child",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:last-child",
     "source_file": "css/selectors/last-child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-last-child-pseudo",
     "status": {
@@ -527,7 +527,7 @@
    "key": "css.selectors.nth-child",
    "compat": {
     "description": "<code>:nth-child()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-child",
     "source_file": "css/selectors/nth-child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#nth-child-pseudo",
     "status": {
@@ -649,7 +649,7 @@
    "key": "css.selectors.nth-last-child",
    "compat": {
     "description": "<code>:nth-last-child()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-last-child",
     "source_file": "css/selectors/nth-last-child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#nth-last-child-pseudo",
     "status": {
@@ -769,7 +769,7 @@
    "key": "css.selectors.only-child",
    "compat": {
     "description": "<code>:only-child</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:only-child",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:only-child",
     "source_file": "css/selectors/only-child.json",
     "spec_url": "https://drafts.csswg.org/selectors/#only-child-pseudo",
     "status": {

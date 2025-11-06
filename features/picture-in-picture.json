@@ -1358,7 +1358,7 @@
    "key": "css.selectors.picture-in-picture",
    "compat": {
     "description": "<code>:picture-in-picture</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:picture-in-picture",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:picture-in-picture",
     "source_file": "css/selectors/picture-in-picture.json",
     "spec_url": "https://drafts.csswg.org/selectors/#pip-state",
     "status": {

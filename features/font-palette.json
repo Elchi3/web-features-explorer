@@ -665,7 +665,7 @@
    "key": "css.at-rules.font-palette-values",
    "compat": {
     "description": "<code>@font-palette-values</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values",
     "source_file": "css/at-rules/font-palette-values.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#at-ruledef-font-palette-values",
     "status": {
@@ -725,7 +725,7 @@
   {
    "key": "css.at-rules.font-palette-values.base-palette",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/base-palette",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/base-palette",
     "source_file": "css/at-rules/font-palette-values.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#base-palette-desc",
     "status": {
@@ -785,7 +785,7 @@
   {
    "key": "css.at-rules.font-palette-values.font-family",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/font-family",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/font-family",
     "source_file": "css/at-rules/font-palette-values.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-family-2-desc",
     "status": {
@@ -845,7 +845,7 @@
   {
    "key": "css.at-rules.font-palette-values.override-colors",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/override-colors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/override-colors",
     "source_file": "css/at-rules/font-palette-values.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#override-color",
     "status": {

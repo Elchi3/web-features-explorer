@@ -124,7 +124,7 @@
    "key": "css.selectors.empty",
    "compat": {
     "description": "<code>:empty</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:empty",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:empty",
     "source_file": "css/selectors/empty.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-empty-pseudo",
     "status": {

@@ -100,13 +100,7 @@
    "Print media"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "page-orientation",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/346",
@@ -128,7 +122,7 @@
    "key": "css.at-rules.page.page-orientation",
    "compat": {
     "description": "<code>page-orientation</code> descriptor",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/page-orientation",
     "source_file": "css/at-rules/page.json",
     "spec_url": "https://drafts.csswg.org/css-page/#page-orientation-prop",
     "status": {

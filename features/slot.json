@@ -898,7 +898,7 @@
    "key": "css.selectors.slotted",
    "compat": {
     "description": "<code>::slotted</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::slotted",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::slotted",
     "source_file": "css/selectors/slotted.json",
     "spec_url": "https://drafts.csswg.org/css-scoping/#slotted-pseudo",
     "status": {

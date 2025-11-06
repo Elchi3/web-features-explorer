@@ -106,13 +106,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "font-display",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -135,7 +129,7 @@
   {
    "key": "css.at-rules.font-face.font-display",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-display",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-display-desc",
     "status": {

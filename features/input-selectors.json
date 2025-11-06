@@ -208,7 +208,7 @@
    "key": "css.selectors.checked",
    "compat": {
     "description": "<code>:checked</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:checked",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:checked",
     "source_file": "css/selectors/checked.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-checked",
@@ -283,7 +283,7 @@
    "key": "css.selectors.disabled",
    "compat": {
     "description": "<code>:disabled</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:disabled",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:disabled",
     "source_file": "css/selectors/disabled.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-disabled",
@@ -349,7 +349,7 @@
    "key": "css.selectors.enabled",
    "compat": {
     "description": "<code>:enabled</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:enabled",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:enabled",
     "source_file": "css/selectors/enabled.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-enabled",

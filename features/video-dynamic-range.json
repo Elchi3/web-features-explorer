@@ -88,13 +88,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "video-dynamic-range",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -109,7 +103,7 @@
    "key": "css.at-rules.media.video-dynamic-range",
    "compat": {
     "description": "<code>video-dynamic-range</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/video-dynamic-range",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#video-dynamic-range",
     "status": {

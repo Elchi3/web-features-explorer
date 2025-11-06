@@ -181,7 +181,7 @@
    "key": "css.selectors.where",
    "compat": {
     "description": "<code>:where()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:where",
     "source_file": "css/selectors/where.json",
     "spec_url": "https://drafts.csswg.org/selectors/#zero-matches",
     "status": {
@@ -242,7 +242,7 @@
    "key": "css.selectors.where.forgiving_selector_list",
    "compat": {
     "description": "Support for forgiving selector list",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where#forgiving_selector_parsing",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:where",
     "source_file": "css/selectors/where.json",
     "status": {
      "deprecated": false,

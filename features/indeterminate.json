@@ -286,7 +286,7 @@
    "key": "css.selectors.indeterminate",
    "compat": {
     "description": "<code>:indeterminate</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:indeterminate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:indeterminate",
     "source_file": "css/selectors/indeterminate.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-indeterminate",

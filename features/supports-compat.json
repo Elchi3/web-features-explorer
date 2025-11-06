@@ -92,13 +92,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "-webkit-transform-3d",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-transform-3d"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -113,7 +107,7 @@
    "key": "css.at-rules.media.-webkit-transform-3d",
    "compat": {
     "description": "<code>-webkit-transform-3d</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-transform-3d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-3d",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://compat.spec.whatwg.org/#css-media-queries-webkit-transform-3d",
     "status": {

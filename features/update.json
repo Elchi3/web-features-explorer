@@ -100,13 +100,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "update",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/update"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -124,7 +118,7 @@
    "key": "css.at-rules.media.update",
    "compat": {
     "description": "<code>update</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/update",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/update",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#update",
     "status": {

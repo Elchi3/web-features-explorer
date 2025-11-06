@@ -102,13 +102,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "prefers-contrast",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/393",
@@ -160,7 +154,7 @@
    "key": "css.at-rules.media.prefers-contrast",
    "compat": {
     "description": "<code>prefers-contrast</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#prefers-contrast",
     "status": {

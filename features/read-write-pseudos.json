@@ -256,7 +256,7 @@
    "key": "css.selectors.read-only",
    "compat": {
     "description": "<code>:read-only</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:read-only",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:read-only",
     "source_file": "css/selectors/read-only.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-only",
@@ -332,7 +332,7 @@
    "key": "css.selectors.read-write",
    "compat": {
     "description": "<code>:read-write</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:read-write",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:read-write",
     "source_file": "css/selectors/read-write.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-write",

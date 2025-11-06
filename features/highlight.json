@@ -2125,7 +2125,7 @@
    "key": "css.selectors.highlight",
    "compat": {
     "description": "<code>::highlight()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::highlight",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::highlight",
     "source_file": "css/selectors/highlight.json",
     "spec_url": [
      "https://drafts.csswg.org/css-highlight-api/#custom-highlight-pseudo",

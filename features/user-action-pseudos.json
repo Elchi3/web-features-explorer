@@ -300,7 +300,7 @@
    "key": "css.selectors.active",
    "compat": {
     "description": "<code>:active</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:active",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active",
     "source_file": "css/selectors/active.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active",
@@ -425,7 +425,7 @@
    "key": "css.selectors.focus",
    "compat": {
     "description": "<code>:focus</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus",
     "source_file": "css/selectors/focus.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-focus",
@@ -489,7 +489,7 @@
    "key": "css.selectors.hover",
    "compat": {
     "description": "<code>:hover</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:hover",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:hover",
     "source_file": "css/selectors/hover.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-hover",

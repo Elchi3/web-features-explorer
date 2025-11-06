@@ -114,13 +114,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "prefers-reduced-motion",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/393",
@@ -169,7 +163,7 @@
    "key": "css.at-rules.media.prefers-reduced-motion",
    "compat": {
     "description": "<code>prefers-reduced-motion</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion",
     "status": {

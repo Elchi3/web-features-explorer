@@ -536,13 +536,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@font-feature-values",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -1810,7 +1804,7 @@
    "key": "css.at-rules.font-feature-values",
    "compat": {
     "description": "<code>@font-feature-values</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-feature-values",
     "status": {
@@ -1871,7 +1865,7 @@
    "key": "css.at-rules.font-feature-values.annotation",
    "compat": {
     "description": "<code>@annotation</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#annotation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,
@@ -1931,7 +1925,7 @@
    "key": "css.at-rules.font-feature-values.character-variant",
    "compat": {
     "description": "<code>@character-variant</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#character-variant",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,
@@ -2050,7 +2044,7 @@
    "key": "css.at-rules.font-feature-values.ornaments",
    "compat": {
     "description": "<code>@ornaments</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#ornaments",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,
@@ -2110,7 +2104,7 @@
    "key": "css.at-rules.font-feature-values.styleset",
    "compat": {
     "description": "<code>@styleset</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#styleset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,
@@ -2170,7 +2164,7 @@
    "key": "css.at-rules.font-feature-values.stylistic",
    "compat": {
     "description": "<code>@stylistic</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#stylistic",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,
@@ -2230,7 +2224,7 @@
    "key": "css.at-rules.font-feature-values.swash",
    "compat": {
     "description": "<code>@swash</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#swash",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values",
     "source_file": "css/at-rules/font-feature-values.json",
     "status": {
      "deprecated": false,

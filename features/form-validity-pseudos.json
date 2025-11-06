@@ -228,7 +228,7 @@
    "key": "css.selectors.in-range",
    "compat": {
     "description": "<code>:in-range</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:in-range",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:in-range",
     "source_file": "css/selectors/in-range.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-in-range",
@@ -303,7 +303,7 @@
    "key": "css.selectors.invalid",
    "compat": {
     "description": "<code>:invalid</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:invalid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:invalid",
     "source_file": "css/selectors/invalid.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-invalid",
@@ -426,7 +426,7 @@
    "key": "css.selectors.optional",
    "compat": {
     "description": "<code>:optional</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:optional",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:optional",
     "source_file": "css/selectors/optional.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-optional",
@@ -490,7 +490,7 @@
    "key": "css.selectors.out-of-range",
    "compat": {
     "description": "<code>:out-of-range</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:out-of-range",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:out-of-range",
     "source_file": "css/selectors/out-of-range.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-out-of-range",
@@ -554,7 +554,7 @@
    "key": "css.selectors.required",
    "compat": {
     "description": "<code>:required</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:required",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:required",
     "source_file": "css/selectors/required.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-required",
@@ -618,7 +618,7 @@
    "key": "css.selectors.valid",
    "compat": {
     "description": "<code>:valid</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:valid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:valid",
     "source_file": "css/selectors/valid.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-valid",

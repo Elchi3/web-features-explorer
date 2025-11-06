@@ -294,13 +294,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@font-face",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -435,7 +429,7 @@
    "key": "css.at-rules.font-face",
    "compat": {
     "description": "<code>@font-face</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-face-rule",
     "status": {
@@ -736,7 +730,7 @@
   {
    "key": "css.at-rules.font-face.font-family",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-family",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-family",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-family-desc",
     "status": {
@@ -796,7 +790,7 @@
   {
    "key": "css.at-rules.font-face.src",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/src",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#src-desc",
     "status": {
@@ -1106,7 +1100,7 @@
   {
    "key": "css.at-rules.font-face.unicode-range",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#unicode-range-desc",
     "status": {

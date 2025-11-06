@@ -194,13 +194,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "forced-colors",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/463",
@@ -245,7 +239,7 @@
    "key": "css.at-rules.media.forced-colors",
    "compat": {
     "description": "<code>forced-colors</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/forced-colors",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#forced-colors",
     "status": {

@@ -134,7 +134,7 @@
    "key": "css.selectors.scope",
    "compat": {
     "description": "<code>:scope</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:scope",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:scope",
     "source_file": "css/selectors/scope.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-scope-pseudo",
     "status": {

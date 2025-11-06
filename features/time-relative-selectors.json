@@ -120,7 +120,7 @@
    "key": "css.selectors.future",
    "compat": {
     "description": "<code>:future</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:future",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:future",
     "source_file": "css/selectors/future.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-future-pseudo",
     "status": {
@@ -181,7 +181,7 @@
    "key": "css.selectors.past",
    "compat": {
     "description": "<code>:past</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:past",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:past",
     "source_file": "css/selectors/past.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-past-pseudo",
     "status": {

@@ -120,7 +120,7 @@
    "key": "css.selectors.file-selector-button",
    "compat": {
     "description": "<code>::file-selector-button</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::file-selector-button",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::file-selector-button",
     "source_file": "css/selectors/file-selector-button.json",
     "spec_url": "https://drafts.csswg.org/css-pseudo/#file-selector-button-pseudo",
     "status": {

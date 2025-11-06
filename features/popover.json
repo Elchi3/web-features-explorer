@@ -2020,7 +2020,7 @@
    "key": "css.selectors.popover-open",
    "compat": {
     "description": "<code>:popover-open</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:popover-open",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:popover-open",
     "source_file": "css/selectors/popover-open.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-popover-open",

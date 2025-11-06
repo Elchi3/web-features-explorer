@@ -412,7 +412,7 @@
    "key": "css.selectors.scroll-marker",
    "compat": {
     "description": "<code>::scroll-marker</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-marker",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker",
     "source_file": "css/selectors/scroll-marker.json",
     "spec_url": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-pseudo",
     "status": {
@@ -473,7 +473,7 @@
    "key": "css.selectors.scroll-marker-group",
    "compat": {
     "description": "<code>::scroll-marker-group</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::scroll-marker-group",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::scroll-marker-group",
     "source_file": "css/selectors/scroll-marker-group.json",
     "spec_url": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-pseudo",
     "status": {

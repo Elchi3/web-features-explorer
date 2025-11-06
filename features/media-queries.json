@@ -315,13 +315,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@media",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -341,7 +335,7 @@
    "key": "css.at-rules.media",
    "compat": {
     "description": "<code>@media</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media",
     "source_file": "css/at-rules/media.json",
     "spec_url": [
      "https://drafts.csswg.org/mediaqueries/#media-descriptor-table",
@@ -405,7 +399,7 @@
    "key": "css.at-rules.media.aspect-ratio",
    "compat": {
     "description": "<code>aspect-ratio</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/aspect-ratio",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#aspect-ratio",
     "status": {
@@ -527,7 +521,7 @@
    "key": "css.at-rules.media.color",
    "compat": {
     "description": "<code>color</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#color",
     "status": {
@@ -588,7 +582,7 @@
    "key": "css.at-rules.media.color-index",
    "compat": {
     "description": "<code>color-index</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/color-index",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-index",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#color-index",
     "status": {
@@ -649,7 +643,7 @@
    "key": "css.at-rules.media.grid",
    "compat": {
     "description": "<code>grid</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/grid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/grid",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#grid",
     "status": {
@@ -710,7 +704,7 @@
    "key": "css.at-rules.media.height",
    "compat": {
     "description": "<code>height</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/height",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/height",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#height",
     "status": {
@@ -889,7 +883,7 @@
    "key": "css.at-rules.media.monochrome",
    "compat": {
     "description": "<code>monochrome</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/monochrome",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/monochrome",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#monochrome",
     "status": {
@@ -1069,7 +1063,7 @@
    "key": "css.at-rules.media.orientation",
    "compat": {
     "description": "<code>orientation</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/orientation",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/orientation",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#orientation",
     "status": {
@@ -1130,7 +1124,7 @@
    "key": "css.at-rules.media.width",
    "compat": {
     "description": "<code>width</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/width",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#width",
     "status": {

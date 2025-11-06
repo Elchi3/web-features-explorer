@@ -128,7 +128,7 @@
    "key": "css.selectors.column",
    "compat": {
     "description": "<code>::column</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::column",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::column",
     "source_file": "css/selectors/column.json",
     "spec_url": "https://drafts.csswg.org/css-multicol-2/#column-pseudo",
     "status": {

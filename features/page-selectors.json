@@ -215,7 +215,7 @@
    "key": "css.selectors.first",
    "compat": {
     "description": "First page pseudo-class (<code>:first</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:first",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:first",
     "source_file": "css/selectors/first.json",
     "spec_url": "https://drafts.csswg.org/css-page/#first-pseudo",
     "status": {
@@ -276,7 +276,7 @@
    "key": "css.selectors.left",
    "compat": {
     "description": "Left-hand page pseudo-class (<code>:left</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:left",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:left",
     "source_file": "css/selectors/left.json",
     "spec_url": "https://drafts.csswg.org/css-page/#spread-pseudos",
     "status": {
@@ -337,7 +337,7 @@
    "key": "css.selectors.right",
    "compat": {
     "description": "Right-hand page pseudo-class (<code>:right</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:right",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:right",
     "source_file": "css/selectors/right.json",
     "spec_url": "https://drafts.csswg.org/css-page/#spread-pseudos",
     "status": {

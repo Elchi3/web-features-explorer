@@ -101,13 +101,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "color-gamut",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/color-gamut"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -122,7 +116,7 @@
    "key": "css.at-rules.media.color-gamut",
    "compat": {
     "description": "<code>color-gamut</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/color-gamut",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-gamut",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#color-gamut",
     "status": {

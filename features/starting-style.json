@@ -113,13 +113,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@starting-style",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/833",
@@ -210,7 +204,7 @@
    "key": "css.at-rules.starting-style",
    "compat": {
     "description": "<code>@starting-style</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@starting-style",
     "source_file": "css/at-rules/starting-style.json",
     "spec_url": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style",
     "status": {

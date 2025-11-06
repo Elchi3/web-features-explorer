@@ -150,13 +150,7 @@
    "Fonts"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@font-face",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -353,7 +347,7 @@
   {
    "key": "css.at-rules.font-face.ascent-override",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/ascent-override",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
     "status": {
@@ -413,7 +407,7 @@
   {
    "key": "css.at-rules.font-face.descent-override",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/descent-override",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
     "status": {
@@ -473,7 +467,7 @@
   {
    "key": "css.at-rules.font-face.line-gap-override",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/line-gap-override",
     "source_file": "css/at-rules/font-face.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc",
     "status": {

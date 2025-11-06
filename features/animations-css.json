@@ -2195,7 +2195,7 @@
    "key": "css.at-rules.keyframes",
    "compat": {
     "description": "<code>@keyframes</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@keyframes",
     "source_file": "css/at-rules/keyframes.json",
     "spec_url": "https://drafts.csswg.org/css-animations/#keyframes",
     "status": {

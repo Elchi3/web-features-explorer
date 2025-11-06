@@ -139,7 +139,7 @@
    "key": "css.selectors.lang",
    "compat": {
     "description": "<code>:lang()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:lang",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:lang",
     "source_file": "css/selectors/lang.json",
     "spec_url": "https://drafts.csswg.org/selectors/#lang-pseudo",
     "status": {

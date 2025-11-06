@@ -128,7 +128,7 @@
    "key": "css.selectors.first-line",
    "compat": {
     "description": "<code>::first-line</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::first-line",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::first-line",
     "source_file": "css/selectors/first-line.json",
     "spec_url": "https://drafts.csswg.org/css-pseudo/#first-line-pseudo",
     "status": {

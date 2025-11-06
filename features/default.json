@@ -122,7 +122,7 @@
    "key": "css.selectors.default",
    "compat": {
     "description": "<code>:default</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:default",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:default",
     "source_file": "css/selectors/default.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-default",

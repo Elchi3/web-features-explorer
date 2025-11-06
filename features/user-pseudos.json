@@ -139,7 +139,7 @@
    "key": "css.selectors.user-invalid",
    "compat": {
     "description": "<code>:user-invalid</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:user-invalid",
     "source_file": "css/selectors/user-invalid.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-user-invalid",
@@ -215,7 +215,7 @@
    "key": "css.selectors.user-valid",
    "compat": {
     "description": "<code>:user-valid</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-valid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:user-valid",
     "source_file": "css/selectors/user-valid.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-user-valid",

@@ -129,13 +129,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@scope",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@scope"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/472",
@@ -400,7 +394,7 @@
    "key": "css.at-rules.scope",
    "compat": {
     "description": "<code>@scope</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@scope",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@scope",
     "source_file": "css/at-rules/scope.json",
     "spec_url": "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
     "status": {

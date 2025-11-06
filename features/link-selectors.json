@@ -212,7 +212,7 @@
    "key": "css.selectors.any-link",
    "compat": {
     "description": "<code>:any-link</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:any-link",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:any-link",
     "source_file": "css/selectors/any-link.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-any-link-pseudo",
     "status": {
@@ -420,7 +420,7 @@
    "key": "css.selectors.link",
    "compat": {
     "description": "<code>:link</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:link",
     "source_file": "css/selectors/link.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-link",
@@ -543,7 +543,7 @@
    "key": "css.selectors.visited",
    "compat": {
     "description": "<code>:visited</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:visited",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:visited",
     "source_file": "css/selectors/visited.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-visited",

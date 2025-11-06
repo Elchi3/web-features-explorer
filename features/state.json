@@ -1074,7 +1074,7 @@
    "key": "css.selectors.state",
    "compat": {
     "description": "Custom state pseudo-class selector (<code>:state()</code>)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:state",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:state",
     "source_file": "css/selectors/state.json",
     "spec_url": "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-custom",
     "status": {

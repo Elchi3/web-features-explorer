@@ -7232,7 +7232,7 @@
    "key": "css.at-rules.position-try",
    "compat": {
     "description": "<code>@position-try</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@position-try",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@position-try",
     "source_file": "css/at-rules/position-try.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#at-ruledef-position-try",
     "status": {

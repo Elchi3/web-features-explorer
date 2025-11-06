@@ -134,7 +134,7 @@
    "key": "css.selectors.focus-visible",
    "compat": {
     "description": "<code>:focus-visible</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus-visible",
     "source_file": "css/selectors/focus-visible.json",
     "spec_url": "https://drafts.csswg.org/selectors/#the-focus-visible-pseudo",
     "status": {

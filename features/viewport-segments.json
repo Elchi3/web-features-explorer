@@ -340,11 +340,11 @@
   },
   {
    "title": "horizontal-viewport-segments",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/horizontal-viewport-segments"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/horizontal-viewport-segments"
   },
   {
    "title": "vertical-viewport-segments",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/vertical-viewport-segments"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/vertical-viewport-segments"
   }
  ],
  "hasNegativeStandardPosition": false,
@@ -535,7 +535,7 @@
   {
    "key": "css.at-rules.media.horizontal-viewport-segments",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/horizontal-viewport-segments",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/horizontal-viewport-segments",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#mf-horizontal-viewport-segments",
     "status": {
@@ -595,7 +595,7 @@
   {
    "key": "css.at-rules.media.vertical-viewport-segments",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/vertical-viewport-segments",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/vertical-viewport-segments",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#mf-vertical-viewport-segments",
     "status": {

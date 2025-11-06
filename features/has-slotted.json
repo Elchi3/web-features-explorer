@@ -125,7 +125,7 @@
    "key": "css.selectors.has-slotted",
    "compat": {
     "description": "<code>:has-slotted</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:has-slotted",
     "source_file": "css/selectors/has-slotted.json",
     "spec_url": "https://drafts.csswg.org/css-scoping/#the-has-slotted-pseudo",
     "status": {

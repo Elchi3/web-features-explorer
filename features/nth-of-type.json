@@ -179,7 +179,7 @@
    "key": "css.selectors.first-of-type",
    "compat": {
     "description": "<code>:first-of-type</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:first-of-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:first-of-type",
     "source_file": "css/selectors/first-of-type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#first-of-type-pseudo",
     "status": {
@@ -242,7 +242,7 @@
    "key": "css.selectors.last-of-type",
    "compat": {
     "description": "<code>:last-of-type</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:last-of-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:last-of-type",
     "source_file": "css/selectors/last-of-type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#last-of-type-pseudo",
     "status": {
@@ -305,7 +305,7 @@
    "key": "css.selectors.nth-last-of-type",
    "compat": {
     "description": "<code>:nth-last-of-type()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-last-of-type",
     "source_file": "css/selectors/nth-last-of-type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#nth-last-of-type-pseudo",
     "status": {
@@ -368,7 +368,7 @@
    "key": "css.selectors.nth-of-type",
    "compat": {
     "description": "<code>:nth-of-type()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-of-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-of-type",
     "source_file": "css/selectors/nth-of-type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#nth-of-type-pseudo",
     "status": {
@@ -431,7 +431,7 @@
    "key": "css.selectors.only-of-type",
    "compat": {
     "description": "<code>:only-of-type</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:only-of-type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:only-of-type",
     "source_file": "css/selectors/only-of-type.json",
     "spec_url": "https://drafts.csswg.org/selectors/#only-of-type-pseudo",
     "status": {

@@ -165,18 +165,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "overflow-block",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-block"
-  },
-  {
-   "title": "overflow-inline",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -194,7 +183,7 @@
    "key": "css.at-rules.media.overflow-block",
    "compat": {
     "description": "<code>overflow-block</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-block",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/overflow-block",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#mf-overflow-block",
     "status": {
@@ -255,7 +244,7 @@
    "key": "css.at-rules.media.overflow-inline",
    "compat": {
     "description": "<code>overflow-inline</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/overflow-inline",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#mf-overflow-inline",
     "status": {

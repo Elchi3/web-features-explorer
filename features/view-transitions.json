@@ -1676,7 +1676,7 @@
    "key": "css.selectors.view-transition",
    "compat": {
     "description": "<code>::view-transition</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::view-transition",
     "source_file": "css/selectors/view-transition.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions/#selectordef-view-transition",
     "status": {
@@ -1737,7 +1737,7 @@
    "key": "css.selectors.view-transition-group",
    "compat": {
     "description": "<code>::view-transition-group()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::view-transition-group",
     "source_file": "css/selectors/view-transition-group.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions/#::view-transition-group",
     "status": {
@@ -1798,7 +1798,7 @@
    "key": "css.selectors.view-transition-image-pair",
    "compat": {
     "description": "<code>::view-transition-image-pair()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::view-transition-image-pair",
     "source_file": "css/selectors/view-transition-image-pair.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions/#::view-transition-image-pair",
     "status": {
@@ -1859,7 +1859,7 @@
    "key": "css.selectors.view-transition-new",
    "compat": {
     "description": "<code>::view-transition-new()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::view-transition-new",
     "source_file": "css/selectors/view-transition-new.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions/#::view-transition-new",
     "status": {
@@ -1920,7 +1920,7 @@
    "key": "css.selectors.view-transition-old",
    "compat": {
     "description": "<code>::view-transition-old()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-old",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::view-transition-old",
     "source_file": "css/selectors/view-transition-old.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions/#::view-transition-old",
     "status": {

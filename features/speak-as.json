@@ -132,13 +132,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "speak-as",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

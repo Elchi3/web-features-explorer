@@ -162,13 +162,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "@import",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@import"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -423,7 +417,7 @@
    "key": "css.at-rules.import",
    "compat": {
     "description": "<code>@import</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@import",
     "source_file": "css/at-rules/import.json",
     "spec_url": "https://drafts.csswg.org/css-cascade-5/#at-import",
     "status": {

@@ -88,13 +88,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "inverted-colors",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/853",
@@ -113,7 +107,7 @@
    "key": "css.at-rules.media.inverted-colors",
    "compat": {
     "description": "<code>inverted-colors</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/inverted-colors",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#inverted",
     "status": {

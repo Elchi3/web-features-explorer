@@ -110,7 +110,7 @@
    "key": "css.selectors.open",
    "compat": {
     "description": "<code>:open</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:open",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:open",
     "source_file": "css/selectors/open.json",
     "spec_url": [
      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open",

@@ -132,23 +132,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "device-aspect-ratio",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio"
-  },
-  {
-   "title": "device-height",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-height"
-  },
-  {
-   "title": "device-width",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-width"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -163,7 +147,7 @@
    "key": "css.at-rules.media.device-aspect-ratio",
    "compat": {
     "description": "<code>device-aspect-ratio</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#device-aspect-ratio",
     "status": {
@@ -224,7 +208,7 @@
    "key": "css.at-rules.media.device-height",
    "compat": {
     "description": "<code>device-height</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-height",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#device-height",
     "status": {
@@ -285,7 +269,7 @@
    "key": "css.at-rules.media.device-width",
    "compat": {
     "description": "<code>device-width</code> media feature",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media/device-width",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-width",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#device-width",
     "status": {

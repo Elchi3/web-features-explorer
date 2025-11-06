@@ -133,7 +133,7 @@
    "key": "css.selectors.target-text",
    "compat": {
     "description": "<code>::target-text</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::target-text",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::target-text",
     "source_file": "css/selectors/target-text.json",
     "spec_url": "https://drafts.csswg.org/css-pseudo/#selectordef-target-text",
     "status": {
