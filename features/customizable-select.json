@@ -33,9 +33,9 @@
    "css.selectors.checkmark": {
     "baseline": false,
     "support": {
-     "chrome": "135",
-     "chrome_android": "135",
-     "edge": "135"
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
     }
    },
    "css.selectors.picker": {
@@ -49,9 +49,9 @@
    "css.selectors.picker-icon": {
     "baseline": false,
     "support": {
-     "chrome": "135",
-     "chrome_android": "135",
-     "edge": "135"
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
     }
    },
    "html.elements.selectedcontent": {
