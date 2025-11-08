@@ -119,13 +119,7 @@
    "Color types"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "color()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -182,7 +176,7 @@
    "key": "css.types.color.color",
    "compat": {
     "description": "<code>color()</code> (Profiled color values)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#color-function",
     "status": {

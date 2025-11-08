@@ -2833,7 +2833,7 @@
    "key": "css.types.ray",
    "compat": {
     "description": "<code>ray()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ray",
     "source_file": "css/types/ray.json",
     "spec_url": "https://drafts.fxtf.org/motion/#ray-function",
     "status": {

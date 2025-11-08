@@ -151,13 +151,7 @@
    "Color types"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "hsl()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -181,7 +175,7 @@
    "key": "css.types.color.hsl",
    "compat": {
     "description": "<code>hsl()</code> (HSL color model)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hsl",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#the-hsl-notation",
     "status": {

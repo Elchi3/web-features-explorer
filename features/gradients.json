@@ -510,7 +510,7 @@
    "key": "css.properties.background-image.gradients",
    "compat": {
     "description": "Gradients",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient",
     "source_file": "css/properties/background-image.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#gradients",
     "status": {
@@ -583,7 +583,7 @@
    "key": "css.types.gradient",
    "compat": {
     "description": "<code>&lt;gradient&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#gradients",
     "status": {
@@ -719,7 +719,7 @@
    "key": "css.types.gradient.linear-gradient",
    "compat": {
     "description": "<code>linear-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/linear-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#linear-gradients",
     "status": {
@@ -1270,7 +1270,7 @@
    "key": "css.types.gradient.radial-gradient",
    "compat": {
     "description": "<code>radial-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/radial-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images/#radial-gradients",
     "status": {
@@ -1725,7 +1725,7 @@
    "key": "css.types.gradient.repeating-linear-gradient",
    "compat": {
     "description": "<code>repeating-linear-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images/#repeating-gradients",
     "status": {
@@ -2219,7 +2219,7 @@
    "key": "css.types.gradient.repeating-radial-gradient",
    "compat": {
     "description": "<code>repeating-radial-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images/#repeating-gradients",
     "status": {
@@ -2656,7 +2656,7 @@
    "key": "css.types.image",
    "compat": {
     "description": "<code>&lt;image&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image",
     "source_file": "css/types/image.json",
     "spec_url": "https://drafts.csswg.org/css-images/#image-values",
     "status": {

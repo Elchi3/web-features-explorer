@@ -1267,7 +1267,7 @@
    "key": "css.types.angle",
    "compat": {
     "description": "<code>&lt;angle&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle",
     "source_file": "css/types/angle.json",
     "spec_url": "https://drafts.csswg.org/css-values/#angles",
     "status": {
@@ -1328,7 +1328,7 @@
    "key": "css.types.angle-percentage",
    "compat": {
     "description": "<code>&lt;angle-percentage&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle-percentage",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle-percentage",
     "source_file": "css/types/angle-percentage.json",
     "spec_url": "https://drafts.csswg.org/css-values/#mixed-percentages",
     "status": {
@@ -1388,7 +1388,7 @@
   {
    "key": "css.types.angle.deg",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle#deg",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle",
     "source_file": "css/types/angle.json",
     "status": {
      "deprecated": false,
@@ -1447,7 +1447,7 @@
   {
    "key": "css.types.angle.grad",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle#grad",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle",
     "source_file": "css/types/angle.json",
     "status": {
      "deprecated": false,
@@ -1506,7 +1506,7 @@
   {
    "key": "css.types.angle.rad",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle#rad",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle",
     "source_file": "css/types/angle.json",
     "status": {
      "deprecated": false,
@@ -1565,7 +1565,7 @@
   {
    "key": "css.types.angle.turn",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle#turn",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle",
     "source_file": "css/types/angle.json",
     "status": {
      "deprecated": false,
@@ -1625,7 +1625,7 @@
    "key": "css.types.position",
    "compat": {
     "description": "<code>&lt;position&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position_value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/position_value",
     "source_file": "css/types/position.json",
     "spec_url": "https://drafts.csswg.org/css-values/#position",
     "status": {
@@ -1804,7 +1804,7 @@
    "key": "css.types.transform-function",
    "compat": {
     "description": "<code>&lt;transform-function&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function",
     "source_file": "css/types/transform-function.json",
     "spec_url": [
      "https://drafts.csswg.org/css-transforms/#transform-functions",
@@ -1869,7 +1869,7 @@
    "key": "css.types.transform-function.matrix",
    "compat": {
     "description": "<code>matrix()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-matrix",
     "status": {
@@ -1931,7 +1931,7 @@
    "key": "css.types.transform-function.rotate",
    "compat": {
     "description": "<code>rotate()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate",
     "status": {
@@ -1992,7 +1992,7 @@
    "key": "css.types.transform-function.scale",
    "compat": {
     "description": "<code>scale()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-scale",
     "status": {
@@ -2053,7 +2053,7 @@
    "key": "css.types.transform-function.scaleX",
    "compat": {
     "description": "<code>scaleX()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleX",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleX",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-scalex",
     "status": {
@@ -2114,7 +2114,7 @@
    "key": "css.types.transform-function.scaleY",
    "compat": {
     "description": "<code>scaleY()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleY",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleY",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-scaley",
     "status": {
@@ -2175,7 +2175,7 @@
    "key": "css.types.transform-function.skew",
    "compat": {
     "description": "<code>skew()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skew",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skew",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-skew",
     "status": {
@@ -2237,7 +2237,7 @@
    "key": "css.types.transform-function.skewX",
    "compat": {
     "description": "<code>skewX()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewX",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skewX",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-skewx",
     "status": {
@@ -2298,7 +2298,7 @@
    "key": "css.types.transform-function.skewY",
    "compat": {
     "description": "<code>skewY()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewY",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skewY",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-skewy",
     "status": {
@@ -2359,7 +2359,7 @@
    "key": "css.types.transform-function.translate",
    "compat": {
     "description": "<code>translate()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-translate",
     "status": {
@@ -2420,7 +2420,7 @@
    "key": "css.types.transform-function.translateX",
    "compat": {
     "description": "<code>translateX()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateX",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateX",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-translatex",
     "status": {
@@ -2481,7 +2481,7 @@
    "key": "css.types.transform-function.translateY",
    "compat": {
     "description": "<code>translateY()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateY",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateY",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms/#funcdef-transform-translatey",
     "status": {

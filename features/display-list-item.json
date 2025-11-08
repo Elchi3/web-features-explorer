@@ -119,13 +119,7 @@
    "Lists"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<display-listitem>",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -139,7 +133,7 @@
   {
    "key": "css.properties.display.list-item",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-listitem",
     "source_file": "css/properties/display.json",
     "spec_url": "https://drafts.csswg.org/css-display/#typedef-display-listitem",
     "status": {

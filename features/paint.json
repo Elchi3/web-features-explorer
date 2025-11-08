@@ -3460,7 +3460,7 @@
    "key": "css.types.image.paint",
    "compat": {
     "description": "<code>paint()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/paint",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/paint",
     "source_file": "css/types/image.json",
     "spec_url": "https://drafts.css-houdini.org/css-paint-api/#paint-notation",
     "status": {

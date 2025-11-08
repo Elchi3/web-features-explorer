@@ -105,13 +105,7 @@
    "Color types"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<color>",
-   "anchor": "currentcolor_keyword",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor_keyword"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -126,7 +120,7 @@
    "key": "css.types.color.currentcolor",
    "compat": {
     "description": "<code>currentcolor</code> keyword",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor_keyword",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#currentcolor-color",
     "status": {

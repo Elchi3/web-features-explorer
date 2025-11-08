@@ -370,7 +370,7 @@
    "key": "css.types.integer",
    "compat": {
     "description": "<code>&lt;integer&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/integer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/integer",
     "source_file": "css/types/integer.json",
     "spec_url": "https://drafts.csswg.org/css-values/#integers",
     "status": {

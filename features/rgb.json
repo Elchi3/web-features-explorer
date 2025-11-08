@@ -193,18 +193,7 @@
    "Color types"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "rgb()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
-  },
-  {
-   "title": "<hex-color>",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hex-color"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -228,7 +217,7 @@
    "key": "css.types.color.rgb",
    "compat": {
     "description": "<code>rgb()</code> (RGB color model)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#rgb-functions",
     "status": {
@@ -525,7 +514,7 @@
    "key": "css.types.color.rgb_hexadecimal_notation",
    "compat": {
     "description": "RGB hexadecimal notation (<code>#RRGGBB</code>, <code>#RGB</code>, …)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hex-color",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/hex-color",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#hex-notation",
     "status": {

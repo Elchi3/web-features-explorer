@@ -160,13 +160,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<calc-keyword>",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/calc-keyword"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -184,7 +178,7 @@
    "key": "css.types.calc-keyword",
    "compat": {
     "description": "<code>&lt;calc-keyword&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-keyword",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-keyword",
     "source_file": "css/types/calc-keyword.json",
     "spec_url": "https://drafts.csswg.org/css-values/#typedef-calc-keyword",
     "status": {

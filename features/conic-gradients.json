@@ -150,18 +150,7 @@
    "Gradients"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "conic-gradient()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient"
-  },
-  {
-   "title": "repeating-conic-gradient()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -192,7 +181,7 @@
    "key": "css.types.gradient.conic-gradient",
    "compat": {
     "description": "<code>conic-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/conic-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#conic-gradients",
     "status": {
@@ -372,7 +361,7 @@
    "key": "css.types.gradient.repeating-conic-gradient",
    "compat": {
     "description": "<code>repeating-conic-gradient()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient",
     "source_file": "css/types/gradient.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#repeating-gradients",
     "status": {

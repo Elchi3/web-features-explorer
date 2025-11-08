@@ -2371,7 +2371,7 @@
    "key": "css.types.line-style",
    "compat": {
     "description": "<code>&lt;line-style&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-style",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/line-style",
     "source_file": "css/types/line-style.json",
     "spec_url": "https://drafts.csswg.org/css-backgrounds/#typedef-line-style",
     "status": {

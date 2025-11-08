@@ -796,7 +796,7 @@
    "key": "css.types.text-edge",
    "compat": {
     "description": "<code>&lt;text-edge&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-edge",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/text-edge",
     "source_file": "css/types/text-edge.json",
     "spec_url": "https://drafts.csswg.org/css-inline-3/#typedef-text-edge",
     "status": {

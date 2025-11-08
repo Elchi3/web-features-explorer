@@ -193,43 +193,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "sin()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/sin"
-  },
-  {
-   "title": "cos()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/cos"
-  },
-  {
-   "title": "tan()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/tan"
-  },
-  {
-   "title": "asin()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/asin"
-  },
-  {
-   "title": "acos()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/acos"
-  },
-  {
-   "title": "atan()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/atan"
-  },
-  {
-   "title": "atan2()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/atan2"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -268,7 +232,7 @@
    "key": "css.types.acos",
    "compat": {
     "description": "<code>acos()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/acos",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/acos",
     "source_file": "css/types/acos.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -329,7 +293,7 @@
    "key": "css.types.asin",
    "compat": {
     "description": "<code>asin()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/asin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/asin",
     "source_file": "css/types/asin.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -390,7 +354,7 @@
    "key": "css.types.atan",
    "compat": {
     "description": "<code>atan()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan",
     "source_file": "css/types/atan.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -451,7 +415,7 @@
    "key": "css.types.atan2",
    "compat": {
     "description": "<code>atan2()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan2",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan2",
     "source_file": "css/types/atan2.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -512,7 +476,7 @@
    "key": "css.types.cos",
    "compat": {
     "description": "<code>cos()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cos",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cos",
     "source_file": "css/types/cos.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -573,7 +537,7 @@
    "key": "css.types.sin",
    "compat": {
     "description": "<code>sin()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sin",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sin",
     "source_file": "css/types/sin.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {
@@ -634,7 +598,7 @@
    "key": "css.types.tan",
    "compat": {
     "description": "<code>tan()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/tan",
     "source_file": "css/types/tan.json",
     "spec_url": "https://drafts.csswg.org/css-values/#trig-funcs",
     "status": {

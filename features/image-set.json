@@ -131,13 +131,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "image-set()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/image/image-set"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -185,7 +179,7 @@
    "key": "css.properties.background-image.image-set",
    "compat": {
     "description": "<code>image-set()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/image-set",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set",
     "source_file": "css/properties/background-image.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#image-set-notation",
     "status": {
@@ -481,7 +475,7 @@
    "key": "css.properties.content.image-set",
    "compat": {
     "description": "<code>image-set()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/image-set",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set",
     "source_file": "css/properties/content.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#image-set-notation",
     "status": {
@@ -777,7 +771,7 @@
    "key": "css.types.image.image-set",
    "compat": {
     "description": "<code>image-set()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/image-set",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set",
     "source_file": "css/types/image.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#image-set-notation",
     "status": {

@@ -4529,7 +4529,7 @@
    "key": "css.properties.list-style-type.symbols",
    "compat": {
     "description": "<code>symbols()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/symbols",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols",
     "source_file": "css/properties/list-style-type.json",
     "spec_url": "https://drafts.csswg.org/css-counter-styles/#symbols-function",
     "status": {
@@ -5240,7 +5240,7 @@
    "key": "css.properties.list-style.symbols",
    "compat": {
     "description": "<code>symbols()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/symbols",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols",
     "source_file": "css/properties/list-style.json",
     "spec_url": "https://drafts.csswg.org/css-counter-styles/#symbols-function",
     "status": {

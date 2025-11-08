@@ -256,18 +256,7 @@
    "Gradients"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<color-interpolation-method>",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color-interpolation-method"
-  },
-  {
-   "title": "<hue-interpolation-method>",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hue-interpolation-method"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -107,13 +107,7 @@
    "Explicit defaults"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "revert",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/revert"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -130,7 +124,7 @@
   {
    "key": "css.types.global_keywords.revert",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/revert",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/revert",
     "source_file": "css/types/global_keywords.json",
     "spec_url": "https://drafts.csswg.org/css-cascade/#default",
     "status": {

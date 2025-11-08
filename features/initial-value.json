@@ -105,13 +105,7 @@
    "Explicit defaults"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "initial",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/initial"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -125,7 +119,7 @@
   {
    "key": "css.types.global_keywords.initial",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/initial",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/initial",
     "source_file": "css/types/global_keywords.json",
     "spec_url": "https://drafts.csswg.org/css-cascade/#initial",
     "status": {

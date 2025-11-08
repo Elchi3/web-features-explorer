@@ -96,13 +96,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "rex",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#rex"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -117,13 +117,7 @@
    "Explicit defaults"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "inherit",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/inherit"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -196,7 +190,7 @@
   {
    "key": "css.types.global_keywords.inherit",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inherit",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/inherit",
     "source_file": "css/types/global_keywords.json",
     "spec_url": "https://drafts.csswg.org/css-cascade/#inherit",
     "status": {

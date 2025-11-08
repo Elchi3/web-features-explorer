@@ -89,13 +89,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "calc-size()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/1022",
@@ -144,7 +138,7 @@
    "key": "css.types.calc-size",
    "compat": {
     "description": "<code>calc-size()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-size",
     "source_file": "css/types/calc-size.json",
     "spec_url": "https://drafts.csswg.org/css-values-5/#calc-size",
     "status": {

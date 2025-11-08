@@ -709,7 +709,7 @@
   {
    "key": "css.types.global_keywords.revert-layer",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/revert-layer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/revert-layer",
     "source_file": "css/types/global_keywords.json",
     "spec_url": "https://drafts.csswg.org/css-cascade-5/#revert-layer",
     "status": {

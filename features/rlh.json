@@ -102,13 +102,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "rlh",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#rlh"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/699",

@@ -15716,7 +15716,7 @@
    "key": "css.types.anchor",
    "compat": {
     "description": "<code>anchor()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/anchor",
     "source_file": "css/types/anchor.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-pos",
     "status": {
@@ -15778,7 +15778,7 @@
    "key": "css.types.anchor-size",
    "compat": {
     "description": "<code>anchor-size()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-size",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/anchor-size",
     "source_file": "css/types/anchor-size.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn",
     "status": {

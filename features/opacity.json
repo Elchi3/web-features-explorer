@@ -317,7 +317,7 @@
    "key": "css.types.number",
    "compat": {
     "description": "<code>&lt;number&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/number",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/number",
     "source_file": "css/types/number.json",
     "spec_url": "https://drafts.csswg.org/css-values/#numbers",
     "status": {

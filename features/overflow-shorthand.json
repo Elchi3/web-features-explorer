@@ -1542,7 +1542,7 @@
   {
    "key": "css.types.overflow",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow_value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/overflow_value",
     "source_file": "css/types/overflow.json",
     "spec_url": "https://drafts.csswg.org/css-overflow/#propdef-overflow",
     "status": {

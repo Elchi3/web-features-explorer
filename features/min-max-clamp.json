@@ -136,23 +136,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "min()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/min"
-  },
-  {
-   "title": "max()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/max"
-  },
-  {
-   "title": "clamp()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -197,7 +181,7 @@
    "key": "css.types.clamp",
    "compat": {
     "description": "<code>clamp()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/clamp",
     "source_file": "css/types/clamp.json",
     "spec_url": "https://drafts.csswg.org/css-values/#funcdef-clamp",
     "status": {
@@ -258,7 +242,7 @@
    "key": "css.types.max",
    "compat": {
     "description": "<code>max()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/max",
     "source_file": "css/types/max.json",
     "spec_url": "https://drafts.csswg.org/css-values/#calc-notation",
     "status": {
@@ -319,7 +303,7 @@
    "key": "css.types.min",
    "compat": {
     "description": "<code>min()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/min",
     "source_file": "css/types/min.json",
     "spec_url": "https://drafts.csswg.org/css-values/#calc-notation",
     "status": {

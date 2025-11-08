@@ -1162,7 +1162,7 @@
    "key": "css.types.filter-function",
    "compat": {
     "description": "<code>&lt;filter-function&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#typedef-filter-function",
     "status": {
@@ -1223,7 +1223,7 @@
    "key": "css.types.filter-function.blur",
    "compat": {
     "description": "<code>blur()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/blur",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/blur",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
     "status": {
@@ -1284,7 +1284,7 @@
    "key": "css.types.filter-function.brightness",
    "compat": {
     "description": "<code>brightness()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/brightness",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/brightness",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
     "status": {
@@ -1345,7 +1345,7 @@
    "key": "css.types.filter-function.contrast",
    "compat": {
     "description": "<code>contrast()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/contrast",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
     "status": {
@@ -1406,7 +1406,7 @@
    "key": "css.types.filter-function.drop-shadow",
    "compat": {
     "description": "<code>drop-shadow()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/drop-shadow",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
     "status": {
@@ -1467,7 +1467,7 @@
    "key": "css.types.filter-function.grayscale",
    "compat": {
     "description": "<code>grayscale()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/grayscale",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
     "status": {
@@ -1528,7 +1528,7 @@
    "key": "css.types.filter-function.hue-rotate",
    "compat": {
     "description": "<code>hue-rotate()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/hue-rotate",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
     "status": {
@@ -1589,7 +1589,7 @@
    "key": "css.types.filter-function.invert",
    "compat": {
     "description": "<code>invert()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/invert",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
     "status": {
@@ -1650,7 +1650,7 @@
    "key": "css.types.filter-function.opacity",
    "compat": {
     "description": "<code>opacity()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/opacity",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
     "status": {
@@ -1711,7 +1711,7 @@
    "key": "css.types.filter-function.saturate",
    "compat": {
     "description": "<code>saturate()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/saturate",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
     "status": {
@@ -1772,7 +1772,7 @@
    "key": "css.types.filter-function.sepia",
    "compat": {
     "description": "<code>sepia()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/sepia",
     "source_file": "css/types/filter-function.json",
     "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
     "status": {

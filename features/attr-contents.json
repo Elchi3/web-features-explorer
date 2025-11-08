@@ -101,13 +101,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "attr()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/attr"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "not": [
@@ -126,7 +120,7 @@
    "key": "css.types.attr",
    "compat": {
     "description": "<code>attr()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr",
     "source_file": "css/types/attr.json",
     "spec_url": "https://drafts.csswg.org/css-values-5/#attr-notation",
     "status": {

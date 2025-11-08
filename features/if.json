@@ -92,7 +92,7 @@
  "mdnUrls": [
   {
    "title": "if()",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/if"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/if"
   }
  ],
  "standardPositions": {
@@ -132,7 +132,7 @@
    "key": "css.types.if",
    "compat": {
     "description": "<code>if()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/if",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/if",
     "source_file": "css/types/if.json",
     "spec_url": "https://drafts.csswg.org/css-values-5/#if-notation",
     "status": {

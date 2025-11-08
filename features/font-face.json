@@ -1161,7 +1161,7 @@
    "key": "css.types.url",
    "compat": {
     "description": "<code>url()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url_function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/url_function",
     "source_file": "css/types/url.json",
     "spec_url": "https://drafts.csswg.org/css-values/#urls",
     "status": {

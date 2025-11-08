@@ -100,13 +100,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "light-dark()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -182,7 +176,7 @@
    "key": "css.types.color.light-dark",
    "compat": {
     "description": "<code>light-dark()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/light-dark",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color-5/#light-dark",
     "status": {

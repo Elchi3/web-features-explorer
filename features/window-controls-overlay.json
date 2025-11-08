@@ -792,7 +792,7 @@
    "key": "css.types.env.titlebar-area-height",
    "compat": {
     "description": "Window Controls Overlay variable <code>titlebar-area-height</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables",
     "status": {
@@ -880,7 +880,7 @@
    "key": "css.types.env.titlebar-area-width",
    "compat": {
     "description": "Window Controls Overlay variable <code>titlebar-area-width</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables",
     "status": {
@@ -968,7 +968,7 @@
    "key": "css.types.env.titlebar-area-x",
    "compat": {
     "description": "Window Controls Overlay variable <code>titlebar-area-x</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables",
     "status": {
@@ -1056,7 +1056,7 @@
    "key": "css.types.env.titlebar-area-y",
    "compat": {
     "description": "Window Controls Overlay variable <code>titlebar-area-y</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables",
     "status": {

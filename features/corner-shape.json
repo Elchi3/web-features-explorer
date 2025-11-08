@@ -376,11 +376,11 @@
   },
   {
    "title": "<corner-shape-value>",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/corner-shape-value"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/corner-shape-value"
   },
   {
    "title": "superellipse()",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/superellipse"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/superellipse"
   }
  ],
  "hasNegativeStandardPosition": false,
@@ -1413,7 +1413,7 @@
    "key": "css.types.corner-shape-value",
    "compat": {
     "description": "<code>&lt;corner-shape-value&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-shape-value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/corner-shape-value",
     "source_file": "css/types/corner-shape-value.json",
     "spec_url": "https://drafts.csswg.org/css-borders-4/#typedef-corner-shape-value",
     "status": {
@@ -1888,7 +1888,7 @@
    "key": "css.types.superellipse",
    "compat": {
     "description": "<code>superellipse()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/superellipse",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/superellipse",
     "source_file": "css/types/superellipse.json",
     "spec_url": "https://drafts.csswg.org/css-borders-4/#funcdef-superellipse",
     "status": {

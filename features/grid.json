@@ -3227,7 +3227,7 @@
    "key": "css.properties.grid-template-columns.fit-content",
    "compat": {
     "description": "<code>fit-content()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/fit-content_function",
     "source_file": "css/properties/grid-template-columns.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-fit-content",
     "status": {
@@ -3406,7 +3406,7 @@
    "key": "css.properties.grid-template-columns.minmax",
    "compat": {
     "description": "<code>minmax()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/minmax",
     "source_file": "css/properties/grid-template-columns.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax",
     "status": {
@@ -3526,7 +3526,7 @@
    "key": "css.properties.grid-template-columns.repeat",
    "compat": {
     "description": "<code>repeat()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/repeat",
     "source_file": "css/properties/grid-template-columns.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#repeat-notation",
     "status": {
@@ -3750,7 +3750,7 @@
    "key": "css.properties.grid-template-rows.fit-content",
    "compat": {
     "description": "<code>fit-content()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/fit-content",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-fit-content",
     "status": {
@@ -3929,7 +3929,7 @@
    "key": "css.properties.grid-template-rows.minmax",
    "compat": {
     "description": "<code>minmax()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/minmax",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax",
     "status": {
@@ -4049,7 +4049,7 @@
    "key": "css.properties.grid-template-rows.repeat",
    "compat": {
     "description": "<code>repeat()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/repeat",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/repeat",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#repeat-notation",
     "status": {
@@ -5173,7 +5173,7 @@
    "key": "css.types.flex",
    "compat": {
     "description": "<code>&lt;flex&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex_value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/flex_value",
     "source_file": "css/types/flex.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#fr-unit",
     "status": {

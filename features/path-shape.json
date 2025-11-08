@@ -129,13 +129,7 @@
  "id": "path-shape",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "path()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -150,7 +144,7 @@
    "key": "css.types.basic-shape.path",
    "compat": {
     "description": "<code>path()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path",
     "source_file": "css/types/basic-shape.json",
     "spec_url": "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-path",
     "status": {

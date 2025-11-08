@@ -3873,8 +3873,7 @@
       "version_added": "122"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1867045",
-      "version_added": false
+      "version_added": "145"
      },
      "ie": {
       "version_added": false
@@ -4171,9 +4170,7 @@
   "chrome_android": [],
   "edge": [],
   "firefox": [],
-  "firefox_android": [
-   "https://bugzil.la/1867045"
-  ],
+  "firefox_android": [],
   "safari": [],
   "safari_ios": [
    "https://webkit.org/b/227042"

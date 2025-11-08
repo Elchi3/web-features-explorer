@@ -100,13 +100,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "color-mix()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -184,7 +178,7 @@
    "key": "css.types.color.color-mix",
    "compat": {
     "description": "<code>color-mix()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color-mix",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color-5/#color-mix",
     "status": {

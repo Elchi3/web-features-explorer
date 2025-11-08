@@ -104,13 +104,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "ic",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#ic"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

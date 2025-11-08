@@ -538,7 +538,7 @@
    "key": "css.types.dimension",
    "compat": {
     "description": "<code>&lt;dimension&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dimension",
     "source_file": "css/types/dimension.json",
     "spec_url": "https://drafts.csswg.org/css-values/#dimensions",
     "status": {
@@ -599,7 +599,7 @@
    "key": "css.types.length",
    "compat": {
     "description": "<code>&lt;length&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length",
     "source_file": "css/types/length.json",
     "spec_url": "https://drafts.csswg.org/css-values/#lengths",
     "status": {
@@ -660,7 +660,7 @@
    "key": "css.types.length-percentage",
    "compat": {
     "description": "<code>&lt;length-percentage&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length-percentage",
     "source_file": "css/types/length-percentage.json",
     "spec_url": "https://drafts.csswg.org/css-values/#mixed-percentages",
     "status": {
@@ -721,7 +721,7 @@
    "key": "css.types.percentage",
    "compat": {
     "description": "<code>&lt;percentage&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/percentage",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/percentage",
     "source_file": "css/types/percentage.json",
     "spec_url": "https://drafts.csswg.org/css-values/#percentages",
     "status": {

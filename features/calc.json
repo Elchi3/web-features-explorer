@@ -149,13 +149,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "calc()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/calc"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -170,7 +164,7 @@
    "key": "css.types.calc",
    "compat": {
     "description": "<code>calc()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc",
     "source_file": "css/types/calc.json",
     "spec_url": "https://drafts.csswg.org/css-values/#calc-func",
     "status": {

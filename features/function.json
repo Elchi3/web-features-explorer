@@ -227,11 +227,11 @@
   },
   {
    "title": "<dashed-function>: CSS custom functions",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/dashed-function"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dashed-function"
   },
   {
    "title": "type()",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/type"
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/type"
   }
  ],
  "standardPositions": {
@@ -838,7 +838,7 @@
    "key": "css.types.dashed-function",
    "compat": {
     "description": "<code>&lt;dashed-function&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dashed-function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dashed-function",
     "source_file": "css/types/dashed-function.json",
     "spec_url": "https://drafts.csswg.org/css-mixins-1/#using-custom-functions",
     "status": {
@@ -896,7 +896,7 @@
    "key": "css.types.type",
    "compat": {
     "description": "<code>type()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/type",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/type",
     "source_file": "css/types/type.json",
     "spec_url": "https://drafts.csswg.org/css-mixins-1/#funcdef-function-type",
     "status": {

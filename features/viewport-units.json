@@ -152,13 +152,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "relative_length_units_based_on_viewport",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#relative_length_units_based_on_viewport"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/605",

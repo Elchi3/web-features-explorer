@@ -192,23 +192,7 @@
    "Transforms"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "translate()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate"
-  },
-  {
-   "title": "rotate()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate"
-  },
-  {
-   "title": "scale()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -341,7 +341,7 @@
    "key": "css.properties.content.gradient",
    "compat": {
     "description": "<code>&lt;gradient&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient",
     "source_file": "css/properties/content.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#gradients",
     "status": {
@@ -589,7 +589,7 @@
    "key": "css.properties.content.url",
    "compat": {
     "description": "<code>url()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url_function",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/url_function",
     "source_file": "css/properties/content.json",
     "spec_url": "https://drafts.csswg.org/css-values/#urls",
     "status": {
@@ -650,7 +650,7 @@
    "key": "css.types.string",
    "compat": {
     "description": "<code>&lt;string&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/string",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/string",
     "source_file": "css/types/string.json",
     "spec_url": "https://drafts.csswg.org/css-values/#strings",
     "status": {

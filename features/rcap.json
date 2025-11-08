@@ -96,13 +96,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "rcap",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#rcap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

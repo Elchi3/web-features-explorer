@@ -165,13 +165,7 @@
    "CSS environment variables"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "env()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/env"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -186,7 +180,7 @@
    "key": "css.types.env",
    "compat": {
     "description": "<code>env()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://drafts.csswg.org/css-env/#env-function",
     "status": {
@@ -271,7 +265,7 @@
    "key": "css.types.env.safe-area-inset-bottom",
    "compat": {
     "description": "Safe area inset variable <code>safe-area-inset-bottom</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://drafts.csswg.org/css-env/#safe-area-insets",
     "status": {
@@ -332,7 +326,7 @@
    "key": "css.types.env.safe-area-inset-left",
    "compat": {
     "description": "Safe area inset variable <code>safe-area-inset-left</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://drafts.csswg.org/css-env/#safe-area-insets",
     "status": {
@@ -393,7 +387,7 @@
    "key": "css.types.env.safe-area-inset-right",
    "compat": {
     "description": "Safe area inset variable <code>safe-area-inset-right</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://drafts.csswg.org/css-env/#safe-area-insets",
     "status": {
@@ -454,7 +448,7 @@
    "key": "css.types.env.safe-area-inset-top",
    "compat": {
     "description": "Safe area inset variable <code>safe-area-inset-top</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env",
     "source_file": "css/types/env.json",
     "spec_url": "https://drafts.csswg.org/css-env/#safe-area-insets",
     "status": {

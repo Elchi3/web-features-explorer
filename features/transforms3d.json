@@ -1448,7 +1448,7 @@
    "key": "css.types.transform-function.matrix3d",
    "compat": {
     "description": "<code>matrix3d()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix3d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix3d",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-matrix3d",
     "status": {
@@ -1510,7 +1510,7 @@
    "key": "css.types.transform-function.perspective",
    "compat": {
     "description": "<code>perspective()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/perspective",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-perspective",
     "status": {
@@ -1631,7 +1631,7 @@
    "key": "css.types.transform-function.rotate3d",
    "compat": {
     "description": "<code>rotate3d()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate3d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate3d",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-rotate3d",
     "status": {
@@ -1692,7 +1692,7 @@
    "key": "css.types.transform-function.rotateX",
    "compat": {
     "description": "<code>rotateX()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateX",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateX",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatex",
     "status": {
@@ -1753,7 +1753,7 @@
    "key": "css.types.transform-function.rotateY",
    "compat": {
     "description": "<code>rotateY()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateY",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateY",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatey",
     "status": {
@@ -1814,7 +1814,7 @@
    "key": "css.types.transform-function.rotateZ",
    "compat": {
     "description": "<code>rotateZ()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateZ",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateZ",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatez",
     "status": {
@@ -1875,7 +1875,7 @@
    "key": "css.types.transform-function.scale3d",
    "compat": {
     "description": "<code>scale3d()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale3d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale3d",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-scale3d",
     "status": {
@@ -1936,7 +1936,7 @@
    "key": "css.types.transform-function.scaleZ",
    "compat": {
     "description": "<code>scaleZ()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleZ",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-scalez",
     "status": {
@@ -1997,7 +1997,7 @@
    "key": "css.types.transform-function.translate3d",
    "compat": {
     "description": "<code>translate3d()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate3d",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate3d",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-translate3d",
     "status": {
@@ -2058,7 +2058,7 @@
    "key": "css.types.transform-function.translateZ",
    "compat": {
     "description": "<code>translateZ()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateZ",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateZ",
     "source_file": "css/types/transform-function.json",
     "spec_url": "https://drafts.csswg.org/css-transforms-2/#funcdef-translatez",
     "status": {

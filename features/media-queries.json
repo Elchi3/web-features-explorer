@@ -460,7 +460,7 @@
    "key": "css.at-rules.media.calc",
    "compat": {
     "description": "<code>calc()</code> expressions",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc",
     "source_file": "css/at-rules/media.json",
     "spec_url": "https://drafts.csswg.org/css-values/#calc-notation",
     "status": {
@@ -1185,7 +1185,7 @@
    "key": "css.types.ratio",
    "compat": {
     "description": "<code>&lt;ratio&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ratio",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ratio",
     "source_file": "css/types/ratio.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries/#values",
     "status": {

@@ -177,13 +177,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "fit-content",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/fit-content"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -844,7 +838,7 @@
   {
    "key": "css.properties.width.fit-content",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/fit-content",
     "source_file": "css/properties/width.json",
     "spec_url": "https://drafts.csswg.org/css-sizing-4/#valdef-width-fit-content",
     "status": {

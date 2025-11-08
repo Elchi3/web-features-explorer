@@ -157,33 +157,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "pow()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/pow"
-  },
-  {
-   "title": "sqrt()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
-  },
-  {
-   "title": "hypot()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
-  },
-  {
-   "title": "log()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/log"
-  },
-  {
-   "title": "exp()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/exp"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -222,7 +196,7 @@
    "key": "css.types.exp",
    "compat": {
     "description": "<code>exp()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/exp",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/exp",
     "source_file": "css/types/exp.json",
     "spec_url": "https://drafts.csswg.org/css-values/#exponent-funcs",
     "status": {
@@ -283,7 +257,7 @@
    "key": "css.types.hypot",
    "compat": {
     "description": "<code>hypot()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/hypot",
     "source_file": "css/types/hypot.json",
     "spec_url": "https://drafts.csswg.org/css-values/#exponent-funcs",
     "status": {
@@ -344,7 +318,7 @@
    "key": "css.types.log",
    "compat": {
     "description": "<code>log()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/log",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/log",
     "source_file": "css/types/log.json",
     "spec_url": "https://drafts.csswg.org/css-values/#exponent-funcs",
     "status": {
@@ -405,7 +379,7 @@
    "key": "css.types.pow",
    "compat": {
     "description": "<code>pow()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/pow",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/pow",
     "source_file": "css/types/pow.json",
     "spec_url": "https://drafts.csswg.org/css-values/#exponent-funcs",
     "status": {
@@ -466,7 +440,7 @@
    "key": "css.types.sqrt",
    "compat": {
     "description": "<code>sqrt()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sqrt",
     "source_file": "css/types/sqrt.json",
     "spec_url": "https://drafts.csswg.org/css-values/#exponent-funcs",
     "status": {

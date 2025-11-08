@@ -99,13 +99,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<easing-function>",
-   "anchor": "linear",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/easing-function#linear"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/649",
@@ -147,7 +141,7 @@
    "key": "css.types.easing-function.linear-function",
    "compat": {
     "description": "<code>linear()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/linear",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/linear",
     "source_file": "css/types/easing-function.json",
     "spec_url": "https://drafts.csswg.org/css-easing/#the-linear-easing-function",
     "status": {

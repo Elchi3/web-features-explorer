@@ -96,13 +96,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "ric",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#ric"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

@@ -118,13 +118,7 @@
    "Color types"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "hwb()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -151,7 +145,7 @@
    "key": "css.types.color.hwb",
    "compat": {
     "description": "<code>hwb()</code> (HWB color model)",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hwb",
     "source_file": "css/types/color.json",
     "spec_url": "https://drafts.csswg.org/css-color/#the-hwb-notation",
     "status": {

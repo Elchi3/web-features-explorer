@@ -102,13 +102,7 @@
    "Units"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "<length>",
-   "anchor": "cap",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/length#cap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

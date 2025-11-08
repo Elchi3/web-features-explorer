@@ -81,13 +81,7 @@
  "id": "element",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "element()",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/element"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -102,7 +96,7 @@
    "key": "css.properties.background-image.element",
    "compat": {
     "description": "<code>element()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element",
     "source_file": "css/properties/background-image.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#element-notation",
     "status": {
@@ -165,7 +159,7 @@
    "key": "css.types.image.element",
    "compat": {
     "description": "<code>element()</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element",
     "source_file": "css/types/image.json",
     "spec_url": "https://drafts.csswg.org/css-images-4/#element-notation",
     "status": {

@@ -230,7 +230,7 @@
    "key": "css.properties.tab-size.length",
    "compat": {
     "description": "<code>&lt;length&gt;</code>",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length",
     "source_file": "css/properties/tab-size.json",
     "spec_url": "https://drafts.csswg.org/css-values/#lengths",
     "status": {
