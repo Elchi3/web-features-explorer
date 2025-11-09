@@ -1021,13 +1021,7 @@
    "Grid"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS grid layout",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {
@@ -1090,7 +1084,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.38208467,
+  "percentageOfPageLoad": 0.39038965,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/38"
  },
  "interop": [

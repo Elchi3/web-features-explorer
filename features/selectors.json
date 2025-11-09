@@ -272,13 +272,7 @@
    "Selectors"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS selectors",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_selectors"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

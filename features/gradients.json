@@ -489,13 +489,7 @@
    "Gradients"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Using CSS gradients",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_images/Using_CSS_gradients"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

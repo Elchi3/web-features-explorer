@@ -215,13 +215,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Using relative colors",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_colors/Relative_colors"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/841",
@@ -284,7 +278,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.03256539,
+  "percentageOfPageLoad": 0.03617191,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/53"
  },
  "interop": [

@@ -749,13 +749,7 @@
    "Scrolling"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS scroll snap",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_scroll_snap"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -779,7 +773,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.15087562,
+  "percentageOfPageLoad": 0.15726689,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/59"
  },
  "interop": [

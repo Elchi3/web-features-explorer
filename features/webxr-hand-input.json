@@ -225,7 +225,10 @@
  },
  "hasNegativeStandardPosition": false,
  "originTrials": [],
- "useCounters": {},
+ "useCounters": {
+  "percentageOfPageLoad": 1.3e-7,
+  "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/407"
+ },
  "interop": [],
  "wpt": true,
  "bcdData": [

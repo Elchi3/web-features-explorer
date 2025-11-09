@@ -269,13 +269,7 @@
    "Container queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS container queries",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/118",
@@ -338,7 +332,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.1316468,
+  "percentageOfPageLoad": 0.14967859,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/19"
  },
  "interop": [

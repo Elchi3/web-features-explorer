@@ -1365,13 +1365,7 @@
    "CSS"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS logical properties and values",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_logical_properties_and_values"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -1416,7 +1410,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.34806794,
+  "percentageOfPageLoad": 0.33777155,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/168"
  },
  "interop": [],

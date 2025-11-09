@@ -485,13 +485,7 @@
    "Animation"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "CSS scroll-driven animations",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_scroll-driven_animations"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/347",
@@ -579,7 +573,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.01042955,
+  "percentageOfPageLoad": 0.01405459,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/230"
  },
  "interop": [],

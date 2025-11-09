@@ -87,13 +87,7 @@
    "Layout"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Masonry layout",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Masonry_layout"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {

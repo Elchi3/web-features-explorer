@@ -395,13 +395,7 @@
    "Transitions (CSS)"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Using CSS transitions",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_transitions/Using_CSS_transitions"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}

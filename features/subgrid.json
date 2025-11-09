@@ -120,13 +120,7 @@
    "Grid"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Subgrid",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/125",
@@ -203,7 +197,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00334938,
+  "percentageOfPageLoad": 0.00375847,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/4"
  },
  "interop": [

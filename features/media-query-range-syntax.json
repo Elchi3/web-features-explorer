@@ -107,13 +107,7 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Using media queries",
-   "anchor": "syntax_improvements_in_level_4",
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries#syntax_improvements_in_level_4"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -137,7 +131,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.09373597,
+  "percentageOfPageLoad": 0.11115472,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/145"
  },
  "interop": [

@@ -126,13 +126,7 @@
    "Container queries"
   ]
  ],
- "mdnUrls": [
-  {
-   "title": "Using container scroll-state queries",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {},
   "webkit": {}
@@ -156,7 +150,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00403415,
+  "percentageOfPageLoad": 0.00452708,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/280"
  },
  "interop": [],
