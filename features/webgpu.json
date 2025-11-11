@@ -13,7 +13,7 @@
   "api.GPUAdapter.info",
   "api.GPUAdapter.limits",
   "api.GPUAdapter.requestDevice",
-  "api.GPUAdapter.requestDevice.lost_device_on_duplicate",
+  "api.GPUAdapter.requestDevice.handles_duplicate_calls",
   "api.GPUAdapterInfo",
   "api.GPUAdapterInfo.architecture",
   "api.GPUAdapterInfo.description",
@@ -438,12 +438,10 @@
      "safari_ios": "26"
     }
    },
-   "api.GPUAdapter.requestDevice.lost_device_on_duplicate": {
+   "api.GPUAdapter.requestDevice.handles_duplicate_calls": {
     "baseline": false,
     "support": {
-     "chrome_android": "121",
-     "safari": "26",
-     "safari_ios": "26"
+     "chrome_android": "140"
     }
    },
    "api.GPUAdapterInfo": {
@@ -3414,6 +3412,133 @@
       "version_added": "121"
      },
      "webview_ios": {
+      "version_added": "26"
+     }
+    },
+    "tags": [
+     "web-features:webgpu"
+    ]
+   }
+  },
+  {
+   "key": "api.GPUAdapter.requestDevice.handles_duplicate_calls",
+   "compat": {
+    "description": "Rejects duplicate calls as adapter is consumed.",
+    "source_file": "api/GPUAdapter.json",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before Chrome 140, lost <code>GPUDevice</code> is returned on duplicate calls."
+      ],
+      "partial_implementation": true,
+      "version_added": "116"
+     },
+     "chrome_android": [
+      {
+       "version_added": "140"
+      },
+      {
+       "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+       "partial_implementation": true,
+       "version_added": "121",
+       "version_last": "139",
+       "version_removed": "140"
+      }
+     ],
+     "deno": [
+      {
+       "flags": [
+        {
+         "name": "--unstable-webgpu",
+         "type": "runtime_flag"
+        }
+       ],
+       "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+       "partial_implementation": true,
+       "version_added": "1.39"
+      },
+      {
+       "version_added": "1.8",
+       "version_last": "1.31",
+       "version_removed": "1.32"
+      }
+     ],
+     "edge": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before Edge 140, lost <code>GPUDevice</code> is returned on duplicate calls."
+      ],
+      "partial_implementation": true,
+      "version_added": "116"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows only.",
+       "Before Opera 124, lost <code>GPUDevice</code> is returned on duplicate calls."
+      ],
+      "partial_implementation": true,
+      "version_added": "102"
+     },
+     "opera_android": [
+      {
+       "version_added": "92"
+      },
+      {
+       "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+       "partial_implementation": true,
+       "version_added": "81",
+       "version_last": "91",
+       "version_removed": "92"
+      }
+     ],
+     "safari": {
+      "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+      "partial_implementation": true,
+      "version_added": "26"
+     },
+     "safari_ios": {
+      "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+      "partial_implementation": true,
+      "version_added": "26"
+     },
+     "samsunginternet_android": {
+      "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+      "partial_implementation": true,
+      "version_added": "25.0"
+     },
+     "webview_android": [
+      {
+       "version_added": "140"
+      },
+      {
+       "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+       "partial_implementation": true,
+       "version_added": "121",
+       "version_last": "139",
+       "version_removed": "140"
+      }
+     ],
+     "webview_ios": {
+      "notes": "Duplicate calls don't reject; instead, lost <code>GPUDevice</code> is returned on duplicate calls.",
+      "partial_implementation": true,
       "version_added": "26"
      }
     },
