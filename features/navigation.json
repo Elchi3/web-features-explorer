@@ -726,10 +726,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -791,7 +790,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -869,7 +869,8 @@
       }
      ],
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -954,7 +955,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1014,7 +1016,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1074,7 +1077,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1134,7 +1138,8 @@
       "version_added": "118"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1194,7 +1199,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1254,7 +1260,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1338,7 +1345,8 @@
       }
      ],
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1431,7 +1439,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1515,7 +1524,8 @@
       }
      ],
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1608,7 +1618,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1668,7 +1679,8 @@
       "version_added": "102"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -1729,10 +1741,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -1794,10 +1805,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -1856,10 +1866,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -1918,10 +1927,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -1980,10 +1988,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2042,10 +2049,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2105,10 +2111,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2167,10 +2172,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2229,10 +2233,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2291,10 +2294,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2354,10 +2356,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2417,10 +2418,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2480,10 +2480,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2542,10 +2541,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2604,10 +2602,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2666,10 +2663,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2728,10 +2724,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2790,10 +2785,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -2854,7 +2848,8 @@
       "version_added": "123"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2914,7 +2909,8 @@
       "version_added": "123"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -2974,7 +2970,8 @@
       "version_added": "123"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1777171",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false
@@ -3035,10 +3032,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3101,10 +3097,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3163,10 +3158,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3225,10 +3219,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3287,10 +3280,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3352,10 +3344,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3414,10 +3405,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3476,10 +3466,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3538,10 +3527,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3600,10 +3588,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3662,10 +3649,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3724,10 +3710,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3790,10 +3775,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3852,10 +3836,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3914,10 +3897,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -3976,10 +3958,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4038,10 +4019,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4100,10 +4080,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4162,10 +4141,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4224,10 +4202,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4289,10 +4266,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4351,10 +4327,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {
@@ -4413,10 +4388,9 @@
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1777171",
-      "version_added": false
+      "version_added": "preview"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1777171",
       "version_added": false
      },
      "ie": {

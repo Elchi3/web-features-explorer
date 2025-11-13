@@ -204,7 +204,7 @@
   {
    "key": "css.properties.grid-template-rows.masonry",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Masonry_layout",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Grid_layout/Masonry_layout",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid-3/#masonry-layout",
     "status": {

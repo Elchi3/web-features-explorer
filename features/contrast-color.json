@@ -112,7 +112,7 @@
     "spec_url": "https://drafts.csswg.org/css-color-5/#contrast-color",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -129,12 +129,10 @@
       "version_added": false
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1682439",
-      "version_added": false
+      "version_added": "146"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1682439",
-      "version_added": false
+      "version_added": "146"
      },
      "ie": {
       "version_added": false
@@ -190,12 +188,8 @@
   "edge": [
    "https://crbug.com/40142548"
   ],
-  "firefox": [
-   "https://bugzil.la/1682439"
-  ],
-  "firefox_android": [
-   "https://bugzil.la/1682439"
-  ],
+  "firefox": [],
+  "firefox_android": [],
   "safari": [],
   "safari_ios": []
  }

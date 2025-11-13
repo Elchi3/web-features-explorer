@@ -223,7 +223,7 @@
   {
    "key": "css.properties.grid-template-columns.subgrid",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Grid_layout/Subgrid",
     "source_file": "css/properties/grid-template-columns.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#subgrids",
     "status": {
@@ -283,7 +283,7 @@
   {
    "key": "css.properties.grid-template-rows.subgrid",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Guides/Grid_layout/Subgrid",
     "source_file": "css/properties/grid-template-rows.json",
     "spec_url": "https://drafts.csswg.org/css-grid/#subgrids",
     "status": {

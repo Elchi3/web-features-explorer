@@ -3850,10 +3850,9 @@
     "support": {
      "chrome": {
       "notes": [
-       "Only exposes the <code>&lt;hr&gt;</code> visually in the page when the menu is expanded (arrowing within the collapsed menu does not show them).",
-       "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree."
+       "Exposes the <code>&lt;hr&gt;</code> visually in the page only when the menu is expanded (arrowing within the collapsed menu does not show them).",
+       "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree."
       ],
-      "partial_implementation": true,
       "version_added": "119"
      },
      "chrome_android": {
@@ -3861,15 +3860,13 @@
      },
      "edge": {
       "notes": [
-       "Only exposes the <code>&lt;hr&gt;</code> visually in the page when the menu is expanded (arrowing within the collapsed menu does not show them).",
-       "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree."
+       "Exposes the <code>&lt;hr&gt;</code> visually in the page only when the menu is expanded (arrowing within the collapsed menu does not show them).",
+       "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree."
       ],
-      "partial_implementation": true,
       "version_added": "119"
      },
      "firefox": {
-      "notes": "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree.",
-      "partial_implementation": true,
+      "notes": "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree.",
       "version_added": "122"
      },
      "firefox_android": {
@@ -3883,23 +3880,20 @@
      },
      "opera": {
       "notes": [
-       "Only exposes the <code>&lt;hr&gt;</code> visually in the page when the menu is expanded (arrowing within the collapsed menu does not show them).",
-       "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree."
+       "Exposes the <code>&lt;hr&gt;</code> visually in the page only when the menu is expanded (arrowing within the collapsed menu does not show them).",
+       "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree."
       ],
-      "partial_implementation": true,
       "version_added": "105"
      },
      "opera_android": {
       "version_added": false
      },
      "safari": {
-      "notes": "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree.",
-      "partial_implementation": true,
+      "notes": "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree.",
       "version_added": "17"
      },
      "safari_ios": {
-      "notes": "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree.",
-      "partial_implementation": true,
+      "notes": "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree.",
       "version_added": "17.4"
      },
      "samsunginternet_android": {
@@ -3909,8 +3903,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "notes": "Does not expose the <code>&lt;hr&gt;</code> within the accessibility tree.",
-      "partial_implementation": true,
+      "notes": "Does not expose the <code>&lt;hr&gt;</code> in the accessibility tree.",
       "version_added": "17.4"
      }
     },
