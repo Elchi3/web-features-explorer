@@ -68,14 +68,18 @@
     "support": {
      "chrome": "109",
      "chrome_android": "109",
-     "edge": "109"
+     "edge": "109",
+     "firefox": "145",
+     "firefox_android": "145"
     }
    }
   },
   "support": {
    "chrome": "109",
    "chrome_android": "109",
-   "edge": "109"
+   "edge": "109",
+   "firefox": "145",
+   "firefox_android": "145"
   }
  },
  "id": "font-family-math",
@@ -167,5 +171,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Safari",
+ "monthsBlocked": 0,
+ "blockedSince": "November 2025"
 }

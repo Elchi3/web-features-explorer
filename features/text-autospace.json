@@ -71,11 +71,14 @@
   "baseline": false,
   "by_compat_key": {
    "css.properties.text-autospace": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
     "support": {
      "chrome": "140",
      "chrome_android": "140",
      "edge": "140",
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }
@@ -83,6 +86,8 @@
    "css.properties.text-autospace.auto": {
     "baseline": false,
     "support": {
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }
@@ -90,6 +95,8 @@
    "css.properties.text-autospace.ideograph-alpha": {
     "baseline": false,
     "support": {
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }
@@ -97,30 +104,41 @@
    "css.properties.text-autospace.ideograph-numeric": {
     "baseline": false,
     "support": {
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }
    },
    "css.properties.text-autospace.insert": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "firefox": "145",
+     "firefox_android": "145"
+    }
    },
    "css.properties.text-autospace.no-autospace": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
     "support": {
      "chrome": "140",
      "chrome_android": "140",
      "edge": "140",
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }
    },
    "css.properties.text-autospace.normal": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
     "support": {
      "chrome": "140",
      "chrome_android": "140",
      "edge": "140",
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "18.4",
      "safari_ios": "18.4"
     }

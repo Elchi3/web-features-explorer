@@ -96,14 +96,18 @@
   }
  ],
  "status": {
-  "baseline": false,
+  "baseline": "low",
+  "baseline_low_date": "2025-11-11",
   "by_compat_key": {
    "javascript.builtins.Atomics.waitAsync": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-11-11",
     "support": {
      "chrome": "87",
      "chrome_android": "89",
      "edge": "87",
+     "firefox": "145",
+     "firefox_android": "145",
      "safari": "16.4",
      "safari_ios": "16.4"
     }
@@ -113,6 +117,8 @@
    "chrome": "87",
    "chrome_android": "89",
    "edge": "87",
+   "firefox": "145",
+   "firefox_android": "145",
    "safari": "16.4",
    "safari_ios": "16.4"
   }
@@ -224,8 +230,9 @@
  "bcdTags": [
   "javascript"
  ],
- "baselineLowDateAsObject": null,
+ "baselineLowDateAsObject": "2025-11-11T00:00:00.000Z",
  "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-05-11",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],
@@ -234,8 +241,5 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- },
- "blockedOn": "Firefox",
- "monthsBlocked": 32,
- "blockedSince": "March 2023"
+ }
 }

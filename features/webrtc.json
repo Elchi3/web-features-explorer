@@ -1638,7 +1638,8 @@
     }
    },
    "api.RTCPeerConnection.connectionState": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "72",
@@ -1651,7 +1652,8 @@
     }
    },
    "api.RTCPeerConnection.connectionstatechange_event": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "72",
@@ -2335,7 +2337,8 @@
     }
    },
    "api.RTCRtpReceiver.getCapabilities_static": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "59",
@@ -2604,7 +2607,8 @@
     }
    },
    "api.RTCRtpSender.getCapabilities_static": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "69",
@@ -2829,7 +2833,8 @@
     }
    },
    "api.RTCRtpSender.setStreams": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "76",

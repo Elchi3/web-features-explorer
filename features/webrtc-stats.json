@@ -1964,7 +1964,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2015,7 +2016,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source.id": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2028,7 +2030,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source.kind": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2041,7 +2044,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source.timestamp": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2070,7 +2074,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source.trackIdentifier": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2083,7 +2088,8 @@
     }
    },
    "api.RTCStatsReport.type_media-source.type": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2472,7 +2478,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2485,7 +2492,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection.dataChannelsClosed": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2498,7 +2506,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection.dataChannelsOpened": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2511,7 +2520,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection.id": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2524,7 +2534,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection.timestamp": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
@@ -2537,7 +2548,8 @@
     }
    },
    "api.RTCStatsReport.type_peer-connection.type": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2025-11-09",
     "baseline_low_date": "2023-05-09",
     "support": {
      "chrome": "80",
