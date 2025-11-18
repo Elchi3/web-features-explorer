@@ -3874,8 +3874,6 @@
       "version_added": "134"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "134"
      },
      "edge": {
@@ -3903,8 +3901,6 @@
       "version_added": "119"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "88"
      },
      "safari": {
@@ -3914,13 +3910,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "134"
      },
      "webview_ios": {
@@ -3950,8 +3942,6 @@
       "version_added": "134"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "134"
      },
      "edge": {
@@ -3979,8 +3969,6 @@
       "version_added": "119"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "88"
      },
      "safari": {
@@ -3990,13 +3978,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "134"
      },
      "webview_ios": {
@@ -5417,8 +5401,6 @@
       "version_added": "129"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "129"
      },
      "deno": {
@@ -5447,8 +5429,6 @@
       "version_added": "115"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "86"
      },
      "safari": {
@@ -5458,13 +5438,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "28.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "129"
      },
      "webview_ios": {
@@ -5494,8 +5470,6 @@
       "version_added": "131"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "deno": {
@@ -5526,8 +5500,6 @@
       "version_added": "116"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -5537,13 +5509,9 @@
       "version_added": "26"
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "webview_ios": {
@@ -9217,8 +9185,6 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "132"
      },
      "edge": {
@@ -9246,8 +9212,6 @@
       "version_added": "117"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -9257,13 +9221,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "132"
      },
      "webview_ios": {
@@ -9461,8 +9421,6 @@
       "version_added": "124"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "124"
      },
      "deno": {
@@ -9491,8 +9449,6 @@
       "version_added": "110"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "82"
      },
      "safari": {
@@ -9502,13 +9458,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "27.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "124"
      },
      "webview_ios": {
@@ -9867,8 +9819,6 @@
       "version_added": "121"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "deno": {
@@ -9897,8 +9847,6 @@
       "version_added": "107"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "81"
      },
      "safari": {
@@ -9908,13 +9856,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "25.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "webview_ios": {
@@ -10027,8 +9971,6 @@
       "version_added": "121"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "deno": {
@@ -10057,8 +9999,6 @@
       "version_added": "107"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "81"
      },
      "safari": {
@@ -10068,13 +10008,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "25.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "webview_ios": {
@@ -10645,8 +10581,6 @@
       "version_added": "121"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "deno": {
@@ -10675,8 +10609,6 @@
       "version_added": "107"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "81"
      },
      "safari": {
@@ -10686,13 +10618,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "25.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "webview_ios": {
@@ -10790,8 +10718,6 @@
       "version_added": "131"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "deno": {
@@ -10820,8 +10746,6 @@
       "version_added": "116"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -10831,13 +10755,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "webview_ios": {
@@ -11156,8 +11076,6 @@
       "version_added": "121"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "deno": {
@@ -11186,8 +11104,6 @@
       "version_added": "107"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "81"
      },
      "safari": {
@@ -11197,13 +11113,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "25.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "121"
      },
      "webview_ios": {
@@ -11301,8 +11213,6 @@
       "version_added": "131"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "deno": {
@@ -11331,8 +11241,6 @@
       "version_added": "116"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -11342,13 +11250,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "webview_ios": {
@@ -15102,8 +15006,6 @@
       "version_added": "126"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "126"
      },
      "deno": {
@@ -15132,8 +15034,6 @@
       "version_added": "112"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "83"
      },
      "safari": {
@@ -15143,13 +15043,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "28.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "126"
      },
      "webview_ios": {
@@ -19713,8 +19609,6 @@
       "version_added": "131"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "deno": {
@@ -19743,8 +19637,6 @@
       "version_added": "116"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -19754,13 +19646,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "131"
      },
      "webview_ios": {
@@ -19928,8 +19816,6 @@
       "version_added": "130"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "130"
      },
      "deno": {
@@ -19958,8 +19844,6 @@
       "version_added": "115"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "86"
      },
      "safari": {
@@ -19969,13 +19853,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "28.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "130"
      },
      "webview_ios": {
@@ -20005,8 +19885,6 @@
       "version_added": "132"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "132"
      },
      "deno": {
@@ -20035,8 +19913,6 @@
       "version_added": "117"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "87"
      },
      "safari": {
@@ -20046,13 +19922,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "29.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "132"
      },
      "webview_ios": {
@@ -25609,8 +25481,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -25679,8 +25549,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -25748,8 +25616,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -25805,8 +25671,6 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "123"
      },
      "edge": {
@@ -25832,8 +25696,6 @@
       "version_added": "109"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "82"
      },
      "safari": {
@@ -25843,13 +25705,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "27.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "123"
      },
      "webview_ios": {
@@ -25879,8 +25737,6 @@
       "version_added": "124"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "124"
      },
      "edge": {
@@ -25906,8 +25762,6 @@
       "version_added": "110"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "82"
      },
      "safari": {
@@ -25917,13 +25771,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "27.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "124"
      },
      "webview_ios": {
@@ -25953,8 +25803,6 @@
       "version_added": "123"
      },
      "chrome_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "123"
      },
      "edge": {
@@ -25980,8 +25828,6 @@
       "version_added": "109"
      },
      "opera_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "82"
      },
      "safari": {
@@ -25991,13 +25837,9 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "27.0"
      },
      "webview_android": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
       "version_added": "123"
      },
      "webview_ios": {
@@ -26039,8 +25881,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -26108,8 +25948,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -26177,8 +26015,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -26246,8 +26082,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -26315,8 +26149,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {
@@ -26401,8 +26233,6 @@
       "version_added": "141"
      },
      "firefox_android": {
-      "notes": "Supported on Windows only, in all contexts except for service workers.",
-      "partial_implementation": true,
       "version_added": "141"
      },
      "ie": {

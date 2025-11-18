@@ -247,6 +247,9 @@
      "ie": {
       "version_added": false
      },
+     "nodejs": {
+      "version_added": "24.5.0"
+     },
      "oculus": {
       "version_added": "6.0"
      },
@@ -306,6 +309,9 @@
      },
      "ie": {
       "version_added": false
+     },
+     "nodejs": {
+      "version_added": "24.5.0"
      },
      "oculus": {
       "version_added": "6.0"
@@ -367,6 +373,9 @@
      "ie": {
       "version_added": false
      },
+     "nodejs": {
+      "version_added": "24.5.0"
+     },
      "oculus": {
       "version_added": "6.0"
      },
@@ -426,6 +435,9 @@
      },
      "ie": {
       "version_added": false
+     },
+     "nodejs": {
+      "version_added": "24.5.0"
      },
      "oculus": {
       "version_added": "6.0"
@@ -487,6 +499,9 @@
      "ie": {
       "version_added": false
      },
+     "nodejs": {
+      "version_added": "24.5.0"
+     },
      "oculus": {
       "version_added": "6.0"
      },
@@ -546,6 +561,9 @@
      },
      "ie": {
       "version_added": false
+     },
+     "nodejs": {
+      "version_added": "24.5.0"
      },
      "oculus": {
       "version_added": "6.0"
@@ -608,7 +626,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "24.5.0"
      },
      "oculus": {
       "version_added": "6.0"

@@ -171,18 +171,45 @@
      "bun": {
       "version_added": "1.0.0"
      },
-     "chrome": {
-      "version_added": "87"
-     },
-     "chrome_android": {
-      "version_added": "89"
-     },
+     "chrome": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "87",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "89",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
      "deno": {
       "version_added": "1.4"
      },
-     "edge": {
-      "version_added": "87"
-     },
+     "edge": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "87",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
      "firefox": {
       "version_added": "145"
      },
@@ -195,15 +222,33 @@
      "nodejs": {
       "version_added": "16.0.0"
      },
-     "oculus": {
-      "version_added": "15.0"
-     },
+     "oculus": [
+      {
+       "version_added": "16.0"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "15.0",
+       "version_last": "15.1",
+       "version_removed": "16.0"
+      }
+     ],
      "opera": {
       "version_added": "75"
      },
-     "opera_android": {
-      "version_added": "63"
-     },
+     "opera_android": [
+      {
+       "version_added": "64"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "63",
+       "version_last": "63",
+       "version_removed": "64"
+      }
+     ],
      "safari": {
       "version_added": "16.4"
      },
@@ -213,9 +258,18 @@
      "samsunginternet_android": {
       "version_added": "15.0"
      },
-     "webview_android": {
-      "version_added": "89"
-     },
+     "webview_android": [
+      {
+       "version_added": "90"
+      },
+      {
+       "notes": "The <code>Atomics.waitAsync()</code> method never times out. See <a href=\"https://crbug.com/40742782\">bug 40742782</a>.",
+       "partial_implementation": true,
+       "version_added": "89",
+       "version_last": "89",
+       "version_removed": "90"
+      }
+     ],
      "webview_ios": {
       "version_added": "16.4"
      }

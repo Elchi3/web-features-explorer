@@ -4,6 +4,7 @@
  ],
  "compat_features": [
   "api.File.webkitRelativePath",
+  "api.HTMLInputElement.webkitdirectory",
   "html.elements.input.webkitdirectory"
  ],
  "description": "The <input type=\"file\" webkitdirectory> HTML element shows a file picker from which users can choose a folder to upload with the form.",
@@ -74,6 +75,19 @@
      "safari_ios": "11.3"
     }
    },
+   "api.HTMLInputElement.webkitdirectory": {
+    "baseline": "low",
+    "baseline_low_date": "2025-08-19",
+    "support": {
+     "chrome": "7",
+     "chrome_android": "132",
+     "edge": "13",
+     "firefox": "50",
+     "firefox_android": "142",
+     "safari": "11.1",
+     "safari_ios": "18.4"
+    }
+   },
    "html.elements.input.webkitdirectory": {
     "baseline": "low",
     "baseline_low_date": "2025-07-22",
@@ -116,6 +130,10 @@
   {
    "title": "File: webkitRelativePath property",
    "url": "https://developer.mozilla.org/docs/Web/API/File/webkitRelativePath"
+  },
+  {
+   "title": "HTMLInputElement: webkitdirectory property",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory"
   }
  ],
  "hasNegativeStandardPosition": false,
@@ -190,6 +208,142 @@
      "webview_ios": {
       "version_added": "11.3"
      }
+    }
+   }
+  },
+  {
+   "key": "api.HTMLInputElement.webkitdirectory",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory",
+    "source_file": "api/HTMLInputElement.json",
+    "spec_url": "https://wicg.github.io/entries-api/#dom-htmlinputelement-webkitdirectory",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "7"
+     },
+     "chrome_android": [
+      {
+       "version_added": "132"
+      },
+      {
+       "notes": "In Chrome for Android 131, if a user selects a directory, the browser crashes (see <a href=\"https://crbug.com/376834374\">bug 376834374</a>).",
+       "partial_implementation": true,
+       "version_added": "131",
+       "version_last": "131",
+       "version_removed": "132"
+      },
+      {
+       "notes": "The property reflects the attribute, but users cannot choose a directory, only individual files (see <a href=\"https://crbug.com/40248532\">bug 40248532</a>.",
+       "partial_implementation": true,
+       "version_added": "18",
+       "version_last": "130",
+       "version_removed": "131"
+      }
+     ],
+     "edge": {
+      "version_added": "13"
+     },
+     "firefox": {
+      "version_added": "50"
+     },
+     "firefox_android": [
+      {
+       "version_added": "142"
+      },
+      {
+       "notes": "<code>File</code> entries returned for a selected directory have an empty string for <code>webkitRelativePath</code> (<a href=\"https://bugzil.la/1973726\">bug 1973726</a>).",
+       "partial_implementation": true,
+       "version_added": "141",
+       "version_last": "141",
+       "version_removed": "142"
+      }
+     ],
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "notes": "The property reflects the attribute, but users cannot choose a directory, only individual files (see <a href=\"https://crbug.com/40248532\">bug 40248532</a>.",
+      "partial_implementation": true,
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "15"
+     },
+     "opera_android": [
+      {
+       "version_added": "87"
+      },
+      {
+       "notes": "The property reflects the attribute, but users cannot choose a directory, only individual files (see <a href=\"https://crbug.com/40248532\">bug 40248532</a>.",
+       "partial_implementation": true,
+       "version_added": "14",
+       "version_last": "86",
+       "version_removed": "87"
+      }
+     ],
+     "safari": {
+      "version_added": "11.1"
+     },
+     "safari_ios": [
+      {
+       "version_added": "18.4"
+      },
+      {
+       "notes": "The property can be set, but has no effect (see <a href=\"https://webkit.org/b/271705\">bug 271705</a>).",
+       "partial_implementation": true,
+       "version_added": "11.3",
+       "version_last": "18.3",
+       "version_removed": "18.4"
+      }
+     ],
+     "samsunginternet_android": [
+      {
+       "version_added": "29.0"
+      },
+      {
+       "notes": "The property reflects the attribute, but users cannot choose a directory, only individual files (see <a href=\"https://crbug.com/40248532\">bug 40248532</a>.",
+       "partial_implementation": true,
+       "version_added": "1.0",
+       "version_last": "28.0",
+       "version_removed": "29.0"
+      }
+     ],
+     "webview_android": [
+      {
+       "version_added": "132"
+      },
+      {
+       "notes": "In Chrome for Android 131, if a user selects a directory, the browser crashes (see <a href=\"https://crbug.com/376834374\">bug 376834374</a>).",
+       "partial_implementation": true,
+       "version_added": "131",
+       "version_last": "131",
+       "version_removed": "132"
+      },
+      {
+       "notes": "The property reflects the attribute, but users cannot choose a directory, only individual files (see <a href=\"https://crbug.com/40248532\">bug 40248532</a>.",
+       "partial_implementation": true,
+       "version_added": "4.4",
+       "version_last": "130",
+       "version_removed": "131"
+      }
+     ],
+     "webview_ios": [
+      {
+       "version_added": "18.4"
+      },
+      {
+       "notes": "The property can be set, but has no effect (see <a href=\"https://webkit.org/b/271705\">bug 271705</a>).",
+       "partial_implementation": true,
+       "version_added": "11.3",
+       "version_last": "18.3",
+       "version_removed": "18.4"
+      }
+     ]
     }
    }
   },
