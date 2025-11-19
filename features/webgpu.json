@@ -478,11 +478,15 @@
    },
    "api.GPUAdapterInfo.subgroupMaxSize": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "134"
+    }
    },
    "api.GPUAdapterInfo.subgroupMinSize": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "134"
+    }
    },
    "api.GPUAdapterInfo.vendor": {
     "baseline": false,
@@ -622,11 +626,14 @@
    },
    "api.GPUCanvasContext.configure.toneMapping": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "129"
+    }
    },
    "api.GPUCanvasContext.getConfiguration": {
     "baseline": false,
     "support": {
+     "chrome_android": "131",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -991,7 +998,9 @@
    },
    "api.GPUDevice.adapterInfo": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "132"
+    }
    },
    "api.GPUDevice.createBindGroup": {
     "baseline": false,
@@ -1011,7 +1020,9 @@
    },
    "api.GPUDevice.createBindGroupLayout.storageTexture_access_read-write_read-only": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "124"
+    }
    },
    "api.GPUDevice.createBindGroupLayout.texture_rgb10a2uint": {
     "baseline": false,
@@ -1045,7 +1056,9 @@
    },
    "api.GPUDevice.createComputePipeline.optional_entryPoint": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "121"
+    }
    },
    "api.GPUDevice.createComputePipelineAsync": {
     "baseline": false,
@@ -1057,7 +1070,9 @@
    },
    "api.GPUDevice.createComputePipelineAsync.optional_entryPoint": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "121"
+    }
    },
    "api.GPUDevice.createPipelineLayout": {
     "baseline": false,
@@ -1111,7 +1126,9 @@
    },
    "api.GPUDevice.createRenderPipeline.optional_entryPoint": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "121"
+    }
    },
    "api.GPUDevice.createRenderPipeline.texture_rgb10a2uint": {
     "baseline": false,
@@ -1121,7 +1138,9 @@
    },
    "api.GPUDevice.createRenderPipeline.validates_depth_bias_for_line_and_point_topologies": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "131"
+    }
    },
    "api.GPUDevice.createRenderPipeline.vertex_unorm10-10-10-2": {
     "baseline": false,
@@ -1151,7 +1170,9 @@
    },
    "api.GPUDevice.createRenderPipelineAsync.optional_entryPoint": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "121"
+    }
    },
    "api.GPUDevice.createRenderPipelineAsync.texture_rgb10a2uint": {
     "baseline": false,
@@ -1161,7 +1182,9 @@
    },
    "api.GPUDevice.createRenderPipelineAsync.validates_depth_bias_for_line_and_point_topologies": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "131"
+    }
    },
    "api.GPUDevice.createRenderPipelineAsync.vertex_unorm10-10-10-2": {
     "baseline": false,
@@ -1525,7 +1548,9 @@
    },
    "api.GPUQueue.submit.validates_command_buffer_uniqueness": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "126"
+    }
    },
    "api.GPUQueue.writeBuffer": {
     "baseline": false,
@@ -1963,7 +1988,9 @@
    },
    "api.GPUSupportedFeatures.feature_clip-distances": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "131"
+    }
    },
    "api.GPUSupportedFeatures.feature_depth-clip-control": {
     "baseline": false,
@@ -1979,11 +2006,15 @@
    },
    "api.GPUSupportedFeatures.feature_dual-source-blending": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "130"
+    }
    },
    "api.GPUSupportedFeatures.feature_float32-blendable": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "132"
+    }
    },
    "api.GPUSupportedFeatures.feature_float32-filterable": {
     "baseline": false,
@@ -2527,6 +2558,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2535,6 +2567,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2543,26 +2576,34 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
    },
    "api.WGSLLanguageFeatures.extension_packed_4x8_integer_dot_product": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "123"
+    }
    },
    "api.WGSLLanguageFeatures.extension_readonly_and_readwrite_storage_textures": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "124"
+    }
    },
    "api.WGSLLanguageFeatures.extension_unrestricted_pointer_parameters": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome_android": "123"
+    }
    },
    "api.WGSLLanguageFeatures.forEach": {
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2571,6 +2612,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2579,6 +2621,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2587,6 +2630,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2595,6 +2639,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2603,6 +2648,7 @@
     "baseline": false,
     "support": {
      "chrome_android": "121",
+     "firefox_android": "141",
      "safari": "26",
      "safari_ios": "26"
     }
