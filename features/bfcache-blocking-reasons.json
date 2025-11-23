@@ -275,11 +275,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.14252569,
+  "percentageOfPageLoad": 0.13781323,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/276"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.NotRestoredReasonDetails",

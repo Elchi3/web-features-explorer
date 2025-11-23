@@ -290,11 +290,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.11059726,
+  "percentageOfPageLoad": 0.11350712,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/274"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.BarProp",
