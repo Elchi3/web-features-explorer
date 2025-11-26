@@ -1580,12 +1580,15 @@
     },
     "support": {
      "chrome": {
+      "notes": "Before version 142, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "77"
      },
      "chrome_android": {
+      "notes": "Before version 142, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "77"
      },
      "edge": {
+      "notes": "Before version 142, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "79"
      },
      "firefox": {
@@ -1598,12 +1601,15 @@
       "version_added": false
      },
      "oculus": {
+      "notes": "Before version false, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "7.0"
      },
      "opera": {
+      "notes": "Before version 126, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "64"
      },
      "opera_android": {
+      "notes": "Before version false, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "55"
      },
      "safari": {
@@ -1613,9 +1619,11 @@
       "version_added": false
      },
      "samsunginternet_android": {
+      "notes": "Before version false, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "12.0"
      },
      "webview_android": {
+      "notes": "Before version 142, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "77"
      },
      "webview_ios": {

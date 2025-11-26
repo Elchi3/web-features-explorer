@@ -419,9 +419,11 @@
       "version_added": "14"
      },
      "safari": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      },
      "safari_ios": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      },
      "samsunginternet_android": {
@@ -431,6 +433,7 @@
       "version_added": "4.4"
      },
      "webview_ios": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      }
     },
@@ -479,9 +482,11 @@
       "version_added": "14"
      },
      "safari": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      },
      "safari_ios": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      },
      "samsunginternet_android": {
@@ -491,6 +496,7 @@
       "version_added": "4.4"
      },
      "webview_ios": {
+      "notes": "Cookies with <code>Secure</code> flag are not sent to unsecured <code>http://localhost/</code> endpoints. See <a href=\"https://webkit.org/b/281149\">bug 281149</a>.",
       "version_added": "1"
      }
     },

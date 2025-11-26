@@ -222,7 +222,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false
@@ -291,7 +291,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false
@@ -360,7 +360,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false
@@ -429,7 +429,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false
@@ -498,7 +498,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false
@@ -567,7 +567,7 @@
       "version_added": false
      },
      "nodejs": {
-      "version_added": false
+      "version_added": "25.0.0"
      },
      "oculus": {
       "version_added": false

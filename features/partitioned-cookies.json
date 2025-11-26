@@ -520,30 +520,45 @@
      "opera_android": {
       "version_added": "76"
      },
-     "safari": {
-      "impl_url": "https://webkit.org/b/292975",
-      "version_added": "18.4",
-      "version_last": "18.4",
-      "version_removed": "18.5"
-     },
-     "safari_ios": {
-      "impl_url": "https://webkit.org/b/292975",
-      "version_added": "18.4",
-      "version_last": "18.4",
-      "version_removed": "18.5"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "impl_url": "https://webkit.org/b/292975",
+       "version_added": "18.4",
+       "version_last": "18.4",
+       "version_removed": "18.5"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "impl_url": "https://webkit.org/b/292975",
+       "version_added": "18.4",
+       "version_last": "18.4",
+       "version_removed": "18.5"
+      }
+     ],
      "samsunginternet_android": {
       "version_added": "23.0"
      },
      "webview_android": {
       "version_added": false
      },
-     "webview_ios": {
-      "impl_url": "https://webkit.org/b/292975",
-      "version_added": "18.4",
-      "version_last": "18.4",
-      "version_removed": "18.5"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "impl_url": "https://webkit.org/b/292975",
+       "version_added": "18.4",
+       "version_last": "18.4",
+       "version_removed": "18.5"
+      }
+     ]
     },
     "tags": [
      "web-features:partitioned-cookies"
