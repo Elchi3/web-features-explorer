@@ -92,6 +92,7 @@
      "chrome": "128",
      "chrome_android": "76",
      "edge": "93",
+     "firefox_android": "96",
      "safari": "14",
      "safari_ios": "14"
     }
@@ -123,6 +124,7 @@
      "chrome": "128",
      "chrome_android": "76",
      "edge": "93",
+     "firefox_android": "79",
      "safari": "14",
      "safari_ios": "14"
     }
