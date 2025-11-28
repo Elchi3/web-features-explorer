@@ -357,7 +357,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.DedicatedWorkerGlobalScope.message_event",
