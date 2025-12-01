@@ -5,7 +5,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@ddbeck/mdn-content-inventory": "^0.2.20251129",
+    "@ddbeck/mdn-content-inventory": "^0.2.20251130",
     "@mdn/browser-compat-data": "^7.1.23",
     "apexcharts": "^5.3.6",
     "browser-specs": "^4.63.0",
@@ -13,7 +13,7 @@
     "pagefind": "^1.4.0",
     "playwright": "^1.57.0",
     "web-features": "next",
-    "yaml": "^2.8.1"
+    "yaml": "^2.8.2"
   },
   "scripts": {
     "build": "npx rimraf docs && npx @11ty/eleventy",
