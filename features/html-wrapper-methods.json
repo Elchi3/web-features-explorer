@@ -23,7 +23,9 @@
   ],
   "alternatives": [
    "dom"
-  ]
+  ],
+  "reason": "HTML wrapper methods exist only for backwards compatibility. Use DOM APIs to create elements instead.",
+  "reason_html": "HTML wrapper methods exist only for backwards compatibility. Use DOM APIs to create elements instead."
  },
  "group": [
   "javascript"
@@ -386,7 +388,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.0869393,
+  "percentageOfPageLoad": 0.08313839,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/394"
  },
  "interop": [],
