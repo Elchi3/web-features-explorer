@@ -128,7 +128,7 @@
    "label": "interop-2025-webassembly"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "webassembly.api.Module.Module.compile_options",

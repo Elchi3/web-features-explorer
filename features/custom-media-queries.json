@@ -87,7 +87,12 @@
    "Media queries"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "@custom-media",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@custom-media"
+  }
+ ],
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {},
