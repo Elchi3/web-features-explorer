@@ -2238,13 +2238,7 @@
     }
    }
   },
-  "support": {
-   "chrome": "125",
-   "chrome_android": "125",
-   "edge": "125",
-   "safari": "26",
-   "safari_ios": "26"
-  }
+  "support": {}
  },
  "id": "anchor-positioning",
  "groups": [],
@@ -16034,8 +16028,5 @@
   ],
   "safari": [],
   "safari_ios": []
- },
- "blockedOn": "Firefox",
- "monthsBlocked": 3,
- "blockedSince": "September 2025"
+ }
 }
