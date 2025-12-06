@@ -201,7 +201,7 @@
    "key": "http.mixed-content",
    "compat": {
     "description": "Blocks some or all insecure mixed content.",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/Security/Mixed_content",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/Security/Defenses/Mixed_content",
     "source_file": "http/mixed-content.json",
     "spec_url": "https://w3c.github.io/webappsec-mixed-content/#intro",
     "status": {

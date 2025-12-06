@@ -151,7 +151,7 @@
     "spec_url": "https://drafts.csswg.org/css-values-5/#funcdef-sibling-count",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -185,11 +185,10 @@
       "version_added": "91"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/290698",
-      "version_added": "preview"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -198,7 +197,7 @@
       "version_added": "138"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -215,7 +214,7 @@
     "spec_url": "https://drafts.csswg.org/css-values-5/#funcdef-sibling-index",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -249,11 +248,10 @@
       "version_added": "91"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/290698",
-      "version_added": "preview"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -262,7 +260,7 @@
       "version_added": "138"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [

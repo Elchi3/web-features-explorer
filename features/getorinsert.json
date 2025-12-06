@@ -118,7 +118,7 @@
     "spec_url": "https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsert",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -150,10 +150,10 @@
       "version_added": false
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -162,7 +162,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     }
    }
@@ -175,7 +175,7 @@
     "spec_url": "https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsertComputed",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -207,10 +207,10 @@
       "version_added": false
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -219,7 +219,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     }
    }
@@ -232,7 +232,7 @@
     "spec_url": "https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsert",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -264,10 +264,10 @@
       "version_added": false
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -276,7 +276,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     }
    }
@@ -289,7 +289,7 @@
     "spec_url": "https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsertComputed",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -321,10 +321,10 @@
       "version_added": false
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": false
@@ -333,7 +333,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     }
    }

@@ -70,7 +70,7 @@
     "spec_url": "https://github.com/WebAssembly/relaxed-simd/blob/main/proposals/relaxed-simd/Overview.md",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -84,10 +84,10 @@
       "version_added": "114"
      },
      "firefox": {
-      "version_added": "preview"
+      "version_added": "146"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "146"
      },
      "ie": {
       "version_added": false

@@ -664,7 +664,7 @@
    "label": "interop-2023-url"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.URL",

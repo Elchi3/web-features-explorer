@@ -523,12 +523,10 @@
       "version_added": "109"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1863140",
-      "version_added": false
+      "version_added": "146"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1863140",
-      "version_added": false
+      "version_added": "146"
      },
      "ie": {
       "version_added": false
@@ -873,12 +871,10 @@
       "version_added": "109"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1863140",
-      "version_added": false
+      "version_added": "146"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1863140",
-      "version_added": false
+      "version_added": "146"
      },
      "ie": {
       "version_added": false

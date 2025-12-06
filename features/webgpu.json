@@ -19420,6 +19420,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -19442,6 +19444,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -19459,6 +19463,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20064,6 +20070,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20073,6 +20081,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20088,6 +20098,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20127,6 +20139,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20136,6 +20150,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20151,6 +20167,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20190,6 +20208,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "120"
      },
      "chrome_android": {
@@ -20199,6 +20219,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "120"
      },
      "firefox": {
@@ -20214,6 +20236,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "106"
      },
      "opera_android": {
@@ -20253,6 +20277,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20262,6 +20288,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20277,6 +20305,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20316,6 +20346,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20325,6 +20357,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20340,6 +20374,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20379,6 +20415,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20388,6 +20426,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20403,6 +20443,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20442,6 +20484,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "121"
      },
      "chrome_android": {
@@ -20451,6 +20495,8 @@
       "version_added": false
      },
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "121"
      },
      "firefox": {
@@ -20466,6 +20512,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "107"
      },
      "opera_android": {
@@ -20504,6 +20552,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20526,6 +20576,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20543,6 +20595,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20581,6 +20635,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20603,6 +20659,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20620,6 +20678,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20658,6 +20718,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20680,6 +20742,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20697,6 +20761,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20735,6 +20801,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20757,6 +20825,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20774,6 +20844,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -20812,6 +20884,8 @@
     },
     "support": {
      "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "chrome_android": {
@@ -20834,6 +20908,8 @@
       }
      ],
      "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "113"
      },
      "firefox": {
@@ -20851,6 +20927,8 @@
       "version_added": false
      },
      "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
       "version_added": "99"
      },
      "opera_android": {
@@ -23668,144 +23746,6 @@
      },
      "webview_ios": {
       "version_added": "26"
-     }
-    },
-    "tags": [
-     "web-features:webgpu"
-    ]
-   }
-  },
-  {
-   "key": "api.GPUTexture.createView.texture_rgb10a2uint",
-   "compat": {
-    "description": "<code>rgb10a2uint</code> texture format",
-    "source_file": "api/GPUTexture.json",
-    "spec_url": "https://gpuweb.github.io/gpuweb/#dom-gputextureformat-rgb10a2uint",
-    "status": {
-     "deprecated": false,
-     "experimental": true,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "119"
-     },
-     "chrome_android": {
-      "version_added": "121"
-     },
-     "deno": {
-      "version_added": false
-     },
-     "edge": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "119"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "105"
-     },
-     "opera_android": {
-      "version_added": "81"
-     },
-     "safari": {
-      "version_added": false
-     },
-     "safari_ios": {
-      "version_added": false
-     },
-     "samsunginternet_android": {
-      "version_added": "25.0"
-     },
-     "webview_android": {
-      "version_added": "121"
-     },
-     "webview_ios": {
-      "version_added": false
-     }
-    },
-    "tags": [
-     "web-features:webgpu"
-    ]
-   }
-  },
-  {
-   "key": "api.GPUTexture.createView.usage",
-   "compat": {
-    "description": "<code>usage</code> option",
-    "source_file": "api/GPUTexture.json",
-    "spec_url": "https://gpuweb.github.io/gpuweb/#dom-gputextureviewdescriptor-usage",
-    "status": {
-     "deprecated": false,
-     "experimental": true,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "132"
-     },
-     "chrome_android": {
-      "version_added": "132"
-     },
-     "deno": {
-      "version_added": false
-     },
-     "edge": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "132"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "Supported on ChromeOS, macOS, and Windows only.",
-      "partial_implementation": true,
-      "version_added": "117"
-     },
-     "opera_android": {
-      "version_added": "87"
-     },
-     "safari": {
-      "version_added": false
-     },
-     "safari_ios": {
-      "version_added": false
-     },
-     "samsunginternet_android": {
-      "version_added": "29.0"
-     },
-     "webview_android": {
-      "version_added": "132"
-     },
-     "webview_ios": {
-      "version_added": false
      }
     },
     "tags": [

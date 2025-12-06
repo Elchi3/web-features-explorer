@@ -147,7 +147,7 @@
     "spec_url": "https://drafts.csswg.org/css-forms-1/#propdef-field-sizing",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -181,11 +181,10 @@
       "version_added": "82"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/264720",
-      "version_added": "preview"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -194,7 +193,7 @@
       "version_added": "123"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -209,7 +208,7 @@
     "spec_url": "https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-content",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -243,11 +242,10 @@
       "version_added": "82"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/264720",
-      "version_added": "preview"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -256,7 +254,7 @@
       "version_added": "123"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -271,7 +269,7 @@
     "spec_url": "https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-fixed",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -305,11 +303,10 @@
       "version_added": "82"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/264720",
-      "version_added": "preview"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -318,7 +315,7 @@
       "version_added": "123"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [

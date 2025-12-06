@@ -177,6 +177,7 @@
    "key": "css.at-rules.custom-media",
    "compat": {
     "description": "<code>@custom-media</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@custom-media",
     "source_file": "css/at-rules/custom-media.json",
     "spec_url": "https://drafts.csswg.org/mediaqueries-5/#at-ruledef-custom-media",
     "status": {

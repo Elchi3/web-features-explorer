@@ -1609,7 +1609,7 @@
       "version_added": "64"
      },
      "opera_android": {
-      "notes": "Before version false, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
+      "notes": "Before version 93, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "55"
      },
      "safari": {

@@ -162,12 +162,10 @@
       "version_added": "81"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/231590",
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/231590",
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -176,8 +174,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/231590",
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -224,10 +221,10 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -236,7 +233,7 @@
       "version_added": false
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -256,12 +253,8 @@
   "edge": [],
   "firefox": [],
   "firefox_android": [],
-  "safari": [
-   "https://webkit.org/b/231590"
-  ],
-  "safari_ios": [
-   "https://webkit.org/b/231590"
-  ]
+  "safari": [],
+  "safari_ios": []
  },
  "blockedOn": "Safari",
  "monthsBlocked": 23,

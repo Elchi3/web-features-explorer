@@ -11876,14 +11876,24 @@
       "partial_implementation": true,
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "x-self-end",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "x-self-end",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "x-self-end",
       "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
@@ -11905,10 +11915,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "x-self-end",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -11996,14 +12011,24 @@
       "partial_implementation": true,
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "x-self-start",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "x-self-start",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "x-self-start",
       "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
@@ -12025,10 +12050,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "x-self-start",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -12116,14 +12146,24 @@
       "partial_implementation": true,
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "y-self-end",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "y-self-end",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "y-self-end",
       "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
@@ -12145,10 +12185,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "y-self-end",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -12236,14 +12281,24 @@
       "partial_implementation": true,
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "y-self-start",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "y-self-start",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "y-self-start",
       "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
@@ -12265,10 +12320,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "y-self-start",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -13134,14 +13194,24 @@
       "alternative_name": "span-x-self-end",
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "span-x-self-end",
       "version_added": "28.0"
@@ -13157,10 +13227,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -13232,14 +13307,24 @@
       "alternative_name": "span-x-self-start",
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "span-x-self-start",
       "version_added": "28.0"
@@ -13255,10 +13340,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -13330,14 +13420,24 @@
       "alternative_name": "span-y-self-end",
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "span-y-self-end",
       "version_added": "28.0"
@@ -13353,10 +13453,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -13428,14 +13533,24 @@
       "alternative_name": "span-y-self-start",
       "version_added": "86"
      },
-     "safari": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "26"
-     },
-     "safari_ios": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "26"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "26"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "26"
+      }
+     ],
      "samsunginternet_android": {
       "alternative_name": "span-y-self-start",
       "version_added": "28.0"
@@ -13451,10 +13566,15 @@
        "version_removed": "143"
       }
      ],
-     "webview_ios": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "26"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "26"
+      }
+     ]
     },
     "tags": [
      "web-features:anchor-positioning"
@@ -15161,7 +15281,7 @@
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -15194,10 +15314,10 @@
       "version_added": "83"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -15206,7 +15326,7 @@
       "version_added": "125"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -15221,7 +15341,7 @@
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-always",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -15254,10 +15374,10 @@
       "version_added": "83"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -15266,7 +15386,7 @@
       "version_added": "125"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -15281,7 +15401,7 @@
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-visible",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -15315,10 +15435,10 @@
       "version_added": "83"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -15327,7 +15447,7 @@
       "version_added": "125"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -15342,7 +15462,7 @@
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-no-overflow",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -15375,10 +15495,10 @@
       "version_added": "83"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "27.0"
@@ -15387,7 +15507,7 @@
       "version_added": "125"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [

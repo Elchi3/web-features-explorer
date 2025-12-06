@@ -221,7 +221,7 @@
    "label": "interop-2023-fonts"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.CSSImportRule.supportsText",

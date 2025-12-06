@@ -235,24 +235,10 @@
       "version_added": "85"
      },
      "safari": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -261,7 +247,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -309,24 +295,10 @@
       "version_added": "85"
      },
      "safari": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -335,7 +307,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -383,24 +355,10 @@
       "version_added": "85"
      },
      "safari": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -409,7 +367,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -457,24 +415,10 @@
       "version_added": "85"
      },
      "safari": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "flags": [
-       {
-        "name": "document.caretPositionFromPoint() API",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "version_added": "18.4"
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -483,7 +427,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -531,10 +475,10 @@
       "version_added": "85"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -543,7 +487,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -599,10 +543,10 @@
       "version_added": "85"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "28.0"
@@ -611,7 +555,7 @@
       "version_added": "128"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [

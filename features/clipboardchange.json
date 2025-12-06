@@ -73,7 +73,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [],
  "bcdTags": [],
  "baselineLowDateAsObject": null,
