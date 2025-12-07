@@ -149,7 +149,44 @@
    "HTML"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "HTMLAnchorElement: interestForElement property",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/interestForElement"
+  },
+  {
+   "title": "HTMLAreaElement: interestForElement property",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/interestForElement"
+  },
+  {
+   "title": "HTMLButtonElement: interestForElement property",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/interestForElement"
+  },
+  {
+   "title": "HTMLElement: interest event",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/interest_event"
+  },
+  {
+   "title": "HTMLElement: loseinterest event",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/loseinterest_event"
+  },
+  {
+   "title": "InterestEvent",
+   "url": "https://developer.mozilla.org/docs/Web/API/InterestEvent"
+  },
+  {
+   "title": "InterestEvent: InterestEvent() constructor",
+   "url": "https://developer.mozilla.org/docs/Web/API/InterestEvent/InterestEvent"
+  },
+  {
+   "title": "InterestEvent: source property",
+   "url": "https://developer.mozilla.org/docs/Web/API/InterestEvent/source"
+  },
+  {
+   "title": "SVGAElement: interestForElement property",
+   "url": "https://developer.mozilla.org/docs/Web/API/SVGAElement/interestForElement"
+  }
+ ],
  "hasNegativeStandardPosition": false,
  "interop": [],
  "wpt": false,

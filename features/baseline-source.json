@@ -117,7 +117,12 @@
  "id": "baseline-source",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "baseline-source",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/baseline-source"
+  }
+ ],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/727",
