@@ -6,7 +6,6 @@
   "api.Element.scrollIntoView",
   "api.Element.scrollIntoView.options_parameter",
   "api.Element.scrollIntoView.options_parameter.block_option",
-  "api.Element.scrollIntoView.options_parameter.container_option",
   "api.Element.scrollIntoView.options_parameter.inline_option"
  ],
  "description": "The scrollIntoView() method scrolls an element's ancestor containers such that the element is visible to the user.",
@@ -114,14 +113,6 @@
      "firefox_android": "58",
      "safari": "14",
      "safari_ios": "14"
-    }
-   },
-   "api.Element.scrollIntoView.options_parameter.container_option": {
-    "baseline": false,
-    "support": {
-     "chrome": "140",
-     "chrome_android": "140",
-     "edge": "140"
     }
    },
    "api.Element.scrollIntoView.options_parameter.inline_option": {
@@ -404,66 +395,6 @@
      },
      "webview_ios": {
       "version_added": "14"
-     }
-    },
-    "tags": [
-     "web-features:scroll-into-view"
-    ]
-   }
-  },
-  {
-   "key": "api.Element.scrollIntoView.options_parameter.container_option",
-   "compat": {
-    "description": "<code>container</code> option",
-    "source_file": "api/Element.json",
-    "spec_url": "https://drafts.csswg.org/cssom-view/#dom-scrollintoviewoptions-container",
-    "status": {
-     "deprecated": false,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "140"
-     },
-     "chrome_android": {
-      "version_added": "140"
-     },
-     "edge": {
-      "version_added": "140"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "124"
-     },
-     "opera_android": {
-      "version_added": "92"
-     },
-     "safari": {
-      "version_added": false
-     },
-     "safari_ios": {
-      "version_added": false
-     },
-     "samsunginternet_android": {
-      "version_added": false
-     },
-     "webview_android": {
-      "version_added": "140"
-     },
-     "webview_ios": {
-      "version_added": false
      }
     },
     "tags": [

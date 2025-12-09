@@ -268,8 +268,8 @@
   "api.GPUSupportedLimits.minUniformBufferOffsetAlignment",
   "api.GPUTexture",
   "api.GPUTexture.createView",
-  "api.GPUTexture.createView.texture_rgb10a2uint",
-  "api.GPUTexture.createView.usage",
+  "api.GPUTexture.createView.descriptor_format_parameter_accepts_rgb10a2uint",
+  "api.GPUTexture.createView.descriptor_usage_parameter",
   "api.GPUTexture.depthOrArrayLayers",
   "api.GPUTexture.destroy",
   "api.GPUTexture.dimension",
@@ -2376,13 +2376,13 @@
      "safari_ios": "26"
     }
    },
-   "api.GPUTexture.createView.texture_rgb10a2uint": {
+   "api.GPUTexture.createView.descriptor_format_parameter_accepts_rgb10a2uint": {
     "baseline": false,
     "support": {
      "chrome_android": "121"
     }
    },
-   "api.GPUTexture.createView.usage": {
+   "api.GPUTexture.createView.descriptor_usage_parameter": {
     "baseline": false,
     "support": {
      "chrome_android": "132"
@@ -2681,7 +2681,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.02326228,
+  "percentageOfPageLoad": 0.02110317,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/290"
  },
  "interop": [],
@@ -23746,6 +23746,144 @@
      },
      "webview_ios": {
       "version_added": "26"
+     }
+    },
+    "tags": [
+     "web-features:webgpu"
+    ]
+   }
+  },
+  {
+   "key": "api.GPUTexture.createView.descriptor_format_parameter_accepts_rgb10a2uint",
+   "compat": {
+    "description": "<code>descriptor.format</code> parameter accepts <code>\"rgb10a2uint\"</code>",
+    "source_file": "api/GPUTexture.json",
+    "spec_url": "https://gpuweb.github.io/gpuweb/#dom-gputextureformat-rgb10a2uint",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "119"
+     },
+     "chrome_android": {
+      "version_added": "121"
+     },
+     "deno": {
+      "version_added": false
+     },
+     "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "119"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "105"
+     },
+     "opera_android": {
+      "version_added": "81"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "25.0"
+     },
+     "webview_android": {
+      "version_added": "121"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webgpu"
+    ]
+   }
+  },
+  {
+   "key": "api.GPUTexture.createView.descriptor_usage_parameter",
+   "compat": {
+    "description": "<code>descriptor.usage</code> parameter",
+    "source_file": "api/GPUTexture.json",
+    "spec_url": "https://gpuweb.github.io/gpuweb/#dom-gputextureviewdescriptor-usage",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "132"
+     },
+     "chrome_android": {
+      "version_added": "132"
+     },
+     "deno": {
+      "version_added": false
+     },
+     "edge": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "132"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "notes": "Supported on ChromeOS, macOS, and Windows only.",
+      "partial_implementation": true,
+      "version_added": "117"
+     },
+     "opera_android": {
+      "version_added": "87"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "29.0"
+     },
+     "webview_android": {
+      "version_added": "132"
+     },
+     "webview_ios": {
+      "version_added": false
      }
     },
     "tags": [

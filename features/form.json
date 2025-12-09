@@ -42,7 +42,8 @@
  "description": "The <form> element contains interactive controls for submitting information.",
  "description_html": "The <code>&#x3C;form></code> element contains interactive controls for submitting information.",
  "group": [
-  "forms"
+  "forms",
+  "landmark-elements"
  ],
  "kind": "feature",
  "name": "<form>",
@@ -717,12 +718,18 @@
  },
  "id": "form",
  "groups": [
-  "forms"
+  "forms",
+  "landmark-elements"
  ],
  "groupPaths": [
   [
    "HTML",
    "Forms"
+  ],
+  [
+   "HTML",
+   "HTML elements",
+   "Landmark elements"
   ]
  ],
  "mdnUrls": [

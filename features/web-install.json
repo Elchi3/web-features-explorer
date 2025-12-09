@@ -1,0 +1,44 @@
+{
+ "description": "The navigator.install() method triggers a request to install a progressive web app.",
+ "description_html": "The <code>navigator.install()</code> method triggers a request to install a progressive web app.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "navigator.install()",
+ "spec": [
+  {
+   "url": "https://github.com/w3c/manifest/pull/1175"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "support": {}
+ },
+ "id": "web-install",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "groupPaths": [
+  [
+   "Progressive web app"
+  ]
+ ],
+ "mdnUrls": [],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [],
+ "bcdTags": [],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

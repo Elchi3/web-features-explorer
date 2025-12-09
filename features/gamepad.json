@@ -325,8 +325,12 @@
     }
    },
    "api.Window.gamepadconnected_event": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-12-04",
     "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
      "firefox": "89",
      "firefox_android": "89",
      "safari": "16",
@@ -334,8 +338,12 @@
     }
    },
    "api.Window.gamepaddisconnected_event": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-12-04",
     "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
      "firefox": "89",
      "firefox_android": "89",
      "safari": "16",
@@ -380,7 +388,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00001864,
+  "percentageOfPageLoad": 0.00001795,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/103"
  },
  "interop": [],
