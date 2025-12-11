@@ -196,6 +196,7 @@
   {
    "key": "api.HTMLAnchorElement.interestForElement",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/interestForElement",
     "source_file": "api/HTMLAnchorElement.json",
     "status": {
      "deprecated": false,
@@ -251,6 +252,7 @@
   {
    "key": "api.HTMLAreaElement.interestForElement",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/interestForElement",
     "source_file": "api/HTMLAreaElement.json",
     "status": {
      "deprecated": false,
@@ -306,6 +308,7 @@
   {
    "key": "api.HTMLButtonElement.interestForElement",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/interestForElement",
     "source_file": "api/HTMLButtonElement.json",
     "status": {
      "deprecated": false,
@@ -362,6 +365,7 @@
    "key": "api.HTMLElement.interest_event",
    "compat": {
     "description": "<code>interest</code> event",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/interest_event",
     "source_file": "api/HTMLElement.json",
     "status": {
      "deprecated": false,
@@ -418,6 +422,7 @@
    "key": "api.HTMLElement.loseinterest_event",
    "compat": {
     "description": "<code>loseinterest</code> event",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/loseinterest_event",
     "source_file": "api/HTMLElement.json",
     "status": {
      "deprecated": false,
@@ -473,6 +478,7 @@
   {
    "key": "api.InterestEvent",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/InterestEvent",
     "source_file": "api/InterestEvent.json",
     "status": {
      "deprecated": false,
@@ -529,6 +535,7 @@
    "key": "api.InterestEvent.InterestEvent",
    "compat": {
     "description": "<code>InterestEvent()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/InterestEvent/InterestEvent",
     "source_file": "api/InterestEvent.json",
     "status": {
      "deprecated": false,
@@ -584,6 +591,7 @@
   {
    "key": "api.InterestEvent.source",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/InterestEvent/source",
     "source_file": "api/InterestEvent.json",
     "status": {
      "deprecated": false,
@@ -639,6 +647,7 @@
   {
    "key": "api.SVGAElement.interestForElement",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAElement/interestForElement",
     "source_file": "api/SVGAElement.json",
     "status": {
      "deprecated": false,

@@ -634,6 +634,7 @@
        "version_added": "16"
       },
       {
+       "notes": "From version 147, Firefox supports <code>-webkit-perspective</code> with unitless values for increased compatibility.",
        "prefix": "-webkit-",
        "version_added": "49"
       },
@@ -647,6 +648,7 @@
        "version_added": "16"
       },
       {
+       "notes": "From version 147, Firefox for Android supports <code>-webkit-perspective</code> with unitless values for increased compatibility.",
        "prefix": "-webkit-",
        "version_added": "49"
       },

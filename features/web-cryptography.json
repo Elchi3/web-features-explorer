@@ -3016,7 +3016,7 @@
      },
      "deno": [
       {
-       "notes": "Not supported: ECDSA P-521, ECDH P-521.",
+       "notes": "Not supported: ECDH P-521.",
        "partial_implementation": true,
        "version_added": "1.17"
       },
@@ -3028,7 +3028,7 @@
        "version_removed": "1.17"
       },
       {
-       "notes": "Not supported: ECDSA, ECDH, AES-CTR, AES-CBC, AES-GCM, AES-KW.",
+       "notes": "Not supported: AES-CTR, AES-CBC, AES-GCM, AES-KW.",
        "partial_implementation": true,
        "version_added": "1.14",
        "version_last": "1.14",

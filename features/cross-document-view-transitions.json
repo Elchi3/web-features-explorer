@@ -236,6 +236,7 @@
   {
    "key": "api.CSSViewTransitionRule",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSViewTransitionRule",
     "source_file": "api/CSSViewTransitionRule.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#cssviewtransitionrule",
     "status": {
@@ -297,6 +298,7 @@
   {
    "key": "api.CSSViewTransitionRule.navigation",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSViewTransitionRule/navigation",
     "source_file": "api/CSSViewTransitionRule.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-navigation",
     "status": {
@@ -356,6 +358,7 @@
   {
    "key": "api.CSSViewTransitionRule.types",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSSViewTransitionRule/types",
     "source_file": "api/CSSViewTransitionRule.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-types",
     "status": {

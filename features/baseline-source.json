@@ -147,6 +147,7 @@
   {
    "key": "css.properties.baseline-source",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/baseline-source",
     "source_file": "css/properties/baseline-source.json",
     "spec_url": "https://drafts.csswg.org/css-inline/#baseline-source",
     "status": {

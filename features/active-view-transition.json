@@ -247,8 +247,20 @@
  ],
  "mdnUrls": [
   {
+   "title": "ViewTransition: types property",
+   "url": "https://developer.mozilla.org/docs/Web/API/ViewTransition/types"
+  },
+  {
+   "title": "ViewTransitionTypeSet",
+   "url": "https://developer.mozilla.org/docs/Web/API/ViewTransitionTypeSet"
+  },
+  {
    "title": ":active-view-transition",
    "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition"
+  },
+  {
+   "title": ":active-view-transition-type()",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition-type"
   }
  ],
  "standardPositions": {
@@ -271,6 +283,7 @@
   {
    "key": "api.ViewTransition.types",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ViewTransition/types",
     "source_file": "api/ViewTransition.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-types",
     "status": {
@@ -289,12 +302,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1860854",
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1860854",
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -332,6 +343,7 @@
   {
    "key": "api.ViewTransitionTypeSet",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ViewTransitionTypeSet",
     "source_file": "api/ViewTransitionTypeSet.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#viewtransitiontypeset",
     "status": {
@@ -350,12 +362,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1860854",
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1860854",
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -411,10 +421,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -469,10 +479,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -527,10 +537,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -585,10 +595,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -643,10 +653,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -701,10 +711,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -759,10 +769,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -817,10 +827,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -875,10 +885,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -933,10 +943,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -1043,6 +1053,7 @@
    "key": "css.selectors.active-view-transition-type",
    "compat": {
     "description": "<code>:active-view-transition-type()</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition-type",
     "source_file": "css/selectors/active-view-transition-type.json",
     "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo",
     "status": {
@@ -1064,10 +1075,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "version_added": false
+      "version_added": "147"
      },
      "firefox_android": {
-      "version_added": false
+      "version_added": "147"
      },
      "ie": {
       "version_added": false
@@ -1117,12 +1128,8 @@
   "chrome": [],
   "chrome_android": [],
   "edge": [],
-  "firefox": [
-   "https://bugzil.la/1860854"
-  ],
-  "firefox_android": [
-   "https://bugzil.la/1860854"
-  ],
+  "firefox": [],
+  "firefox_android": [],
   "safari": [],
   "safari_ios": []
  },
