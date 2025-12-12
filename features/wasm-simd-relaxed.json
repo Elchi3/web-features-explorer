@@ -22,14 +22,18 @@
     "support": {
      "chrome": "114",
      "chrome_android": "114",
-     "edge": "114"
+     "edge": "114",
+     "firefox": "146",
+     "firefox_android": "146"
     }
    }
   },
   "support": {
    "chrome": "114",
    "chrome_android": "114",
-   "edge": "114"
+   "edge": "114",
+   "firefox": "146",
+   "firefox_android": "146"
   }
  },
  "id": "wasm-simd-relaxed",
@@ -136,5 +140,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Safari",
+ "monthsBlocked": 0,
+ "blockedSince": "December 2025"
 }

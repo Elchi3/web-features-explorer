@@ -1,4 +1,10 @@
 {
+ "compat_features": [
+  "api.ClipboardChangeEvent",
+  "api.ClipboardChangeEvent.ClipboardChangeEvent",
+  "api.ClipboardChangeEvent.changeId",
+  "api.ClipboardChangeEvent.types"
+ ],
  "description": "The clipboardchange event for navigator.clipboard fires when the user modifies the clipboard's contents.",
  "description_html": "The <code>clipboardchange</code> event for <code>navigator.clipboard</code> fires when the user modifies the clipboard's contents.",
  "group": [
@@ -57,6 +63,24 @@
  ],
  "status": {
   "baseline": false,
+  "by_compat_key": {
+   "api.ClipboardChangeEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.ClipboardChangeEvent.ClipboardChangeEvent": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.ClipboardChangeEvent.changeId": {
+    "baseline": false,
+    "support": {}
+   },
+   "api.ClipboardChangeEvent.types": {
+    "baseline": false,
+    "support": {}
+   }
+  },
   "support": {}
  },
  "id": "clipboardchange",
@@ -74,8 +98,236 @@
  "useCounters": {},
  "interop": [],
  "wpt": true,
- "bcdData": [],
- "bcdTags": [],
+ "bcdData": [
+  {
+   "key": "api.ClipboardChangeEvent",
+   "compat": {
+    "source_file": "api/ClipboardChangeEvent.json",
+    "spec_url": "https://w3c.github.io/clipboard-apis/#clipboardchangeevent",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "144"
+     },
+     "chrome_android": {
+      "version_added": "144"
+     },
+     "edge": {
+      "version_added": "144"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "144"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.ClipboardChangeEvent.ClipboardChangeEvent",
+   "compat": {
+    "description": "<code>ClipboardChangeEvent()</code> constructor",
+    "source_file": "api/ClipboardChangeEvent.json",
+    "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "144"
+     },
+     "chrome_android": {
+      "version_added": "144"
+     },
+     "edge": {
+      "version_added": "144"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "144"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.ClipboardChangeEvent.changeId",
+   "compat": {
+    "source_file": "api/ClipboardChangeEvent.json",
+    "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-changeid",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "144"
+     },
+     "chrome_android": {
+      "version_added": "144"
+     },
+     "edge": {
+      "version_added": "144"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "144"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.ClipboardChangeEvent.types",
+   "compat": {
+    "source_file": "api/ClipboardChangeEvent.json",
+    "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-types",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "144"
+     },
+     "chrome_android": {
+      "version_added": "144"
+     },
+     "edge": {
+      "version_added": "144"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "144"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "api"
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "implUrls": {
