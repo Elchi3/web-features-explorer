@@ -15,7 +15,7 @@
   "baseline": false,
   "support": {}
  },
- "id": "web-install",
+ "id": "navigator-install",
  "groups": [
   "progressive-web-app"
  ],

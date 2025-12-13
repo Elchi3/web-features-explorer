@@ -255,8 +255,8 @@
     "source_file": "api/HTMLAnchorElement.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -314,8 +314,8 @@
     "source_file": "api/HTMLAreaElement.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -374,8 +374,8 @@
     "source_file": "api/HTMLImageElement.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -434,8 +434,8 @@
     "source_file": "api/HTMLScriptElement.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -494,8 +494,8 @@
     "source_file": "api/Request.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -559,8 +559,8 @@
     "description": "<code>features</code> parameter accepts <code>\"attributionsrc\"</code> value",
     "source_file": "api/Window.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -622,8 +622,8 @@
     "source_file": "api/XMLHttpRequest.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-xmlhttprequest-setattributionreporting",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -682,8 +682,8 @@
     "source_file": "api/_globals/fetch.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -747,8 +747,8 @@
     "source_file": "html/elements/a.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#element-attrdef-a-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -806,8 +806,8 @@
     "source_file": "html/elements/area.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#element-attrdef-area-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -865,8 +865,8 @@
     "source_file": "html/elements/iframe.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#permission-policy-integration",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -924,8 +924,8 @@
     "source_file": "html/elements/img.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#element-attrdef-img-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -983,8 +983,8 @@
     "source_file": "html/elements/script.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#element-attrdef-script-attributionsrc",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1043,8 +1043,8 @@
     "source_file": "http/headers/Attribution-Reporting-Eligible.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#attribution-reporting-eligible",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1103,8 +1103,8 @@
     "source_file": "http/headers/Attribution-Reporting-Register-Source.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#parse-source-registration-json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1163,8 +1163,8 @@
     "source_file": "http/headers/Attribution-Reporting-Register-Trigger.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#create-an-attribution-trigger",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1222,8 +1222,8 @@
     "source_file": "http/headers/Attribution-Reporting-Support.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#attribution-reporting-support",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1282,8 +1282,8 @@
     "source_file": "http/headers/Permissions-Policy.json",
     "spec_url": "https://wicg.github.io/attribution-reporting-api/#permission-policy-integration",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {

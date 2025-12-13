@@ -1716,6 +1716,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -1799,6 +1802,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -1933,6 +1939,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "76"
      },
@@ -2007,6 +2016,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "76"
      },
@@ -2145,6 +2157,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2210,6 +2225,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2293,6 +2311,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2431,6 +2452,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2496,6 +2520,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2579,6 +2606,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2717,6 +2747,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2782,6 +2815,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -2865,6 +2901,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -3993,6 +4032,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": [
       {
        "version_added": "91"
@@ -5392,6 +5434,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "35"
      },
@@ -5677,6 +5722,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": [
       {
        "version_added": "91"
@@ -7142,6 +7190,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -7207,6 +7258,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "106"
      },
@@ -7616,6 +7670,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "106"
      },
@@ -8251,6 +8308,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -8334,6 +8394,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -8542,6 +8605,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -8625,6 +8691,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "24"
      },
@@ -8764,6 +8833,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "58"
      },
@@ -8921,6 +8993,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "58"
      },

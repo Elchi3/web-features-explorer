@@ -147,6 +147,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.1.43"
+     },
      "chrome": {
       "version_added": "114"
      },
@@ -214,6 +217,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.1.43"
+     },
      "chrome": {
       "version_added": "114"
      },
@@ -280,6 +286,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.1.43"
+     },
      "chrome": {
       "version_added": "114"
      },

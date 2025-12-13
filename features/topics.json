@@ -138,8 +138,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/Document/browsingTopics",
     "source_file": "api/Document.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -194,8 +194,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/browsingTopics",
     "source_file": "api/HTMLIFrameElement.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -250,8 +250,8 @@
     "description": "<code>init.browsingTopics</code> parameter",
     "source_file": "api/Request.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -312,8 +312,8 @@
     "description": "<code>init.browsingTopics</code> parameter",
     "source_file": "api/_globals/fetch.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -373,8 +373,8 @@
    "compat": {
     "source_file": "html/elements/iframe.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -428,8 +428,8 @@
    "compat": {
     "source_file": "html/elements/iframe.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -484,8 +484,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Observe-Browsing-Topics",
     "source_file": "http/headers/Observe-Browsing-Topics.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -540,8 +540,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/browsing-topics",
     "source_file": "http/headers/Permissions-Policy.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {
@@ -596,8 +596,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Sec-Browsing-Topics",
     "source_file": "http/headers/Sec-Browsing-Topics.json",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": false
     },
     "support": {

@@ -276,8 +276,8 @@
     "source_file": "api/HTMLIFrameElement.json",
     "spec_url": "https://wicg.github.io/shared-storage/#html-attr",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -335,8 +335,8 @@
     "source_file": "api/HTMLImageElement.json",
     "spec_url": "https://wicg.github.io/shared-storage/#html-attr",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -395,8 +395,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstorage",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -455,8 +455,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-append",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -515,8 +515,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-clear",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -574,8 +574,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-createworklet",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -634,8 +634,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-delete",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -693,8 +693,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-get",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -752,8 +752,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-run",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -811,8 +811,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-selecturl",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -871,8 +871,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-set",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -930,8 +930,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-worklet",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -990,8 +990,8 @@
     "source_file": "api/SharedStorageWorklet.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstorageworklet",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1049,8 +1049,8 @@
     "source_file": "api/SharedStorageWorklet.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-run",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1108,8 +1108,8 @@
     "source_file": "api/SharedStorageWorklet.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-selecturl",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1168,8 +1168,8 @@
     "source_file": "api/SharedStorageWorkletGlobalScope.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1228,8 +1228,8 @@
     "source_file": "api/SharedStorageWorkletGlobalScope.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-register",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1288,8 +1288,8 @@
     "source_file": "api/SharedStorageWorkletGlobalScope.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-sharedstorage",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -1348,8 +1348,8 @@
     "source_file": "api/Window.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-window-sharedstorage",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {

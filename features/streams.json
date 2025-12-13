@@ -2519,6 +2519,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "78"
      },
@@ -2860,6 +2863,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "notes": "Before version 105, <code>releaseLock()</code> throws instead of rejecting.",
       "version_added": "105"

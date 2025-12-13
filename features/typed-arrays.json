@@ -6161,6 +6161,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "7"
      },
@@ -6506,6 +6509,10 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "notes": "Negative integers are not considered as indexed properties and therefore return the value of the prototype property.",
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "notes": "Negative integers are not considered as indexed properties and therefore return the value of the prototype property.",
       "version_added": "7"
@@ -6796,6 +6803,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "7"
      },
@@ -6862,6 +6872,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.0.0"
+     },
      "chrome": {
       "version_added": "7"
      },

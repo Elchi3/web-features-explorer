@@ -1,4 +1,10 @@
 {
+ "compat_features": [
+  "css.at-rules.container.anchor_position_queries",
+  "css.at-rules.container.anchor_position_queries.fallback",
+  "css.at-rules.container.anchor_position_queries.fallback.any_value",
+  "css.properties.container-type.anchored"
+ ],
  "description": "Anchor position container queries with the @container anchored(fallback: …) at-rule apply styles to an element based on the element's anchor position.",
  "description_html": "Anchor position container queries with the <code>@container anchored(fallback: …)</code> at-rule apply styles to an element based on the element's anchor position.",
  "kind": "feature",
@@ -58,7 +64,45 @@
  ],
  "status": {
   "baseline": false,
-  "support": {}
+  "by_compat_key": {
+   "css.at-rules.container.anchor_position_queries": {
+    "baseline": false,
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143"
+    }
+   },
+   "css.at-rules.container.anchor_position_queries.fallback": {
+    "baseline": false,
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143"
+    }
+   },
+   "css.at-rules.container.anchor_position_queries.fallback.any_value": {
+    "baseline": false,
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143"
+    }
+   },
+   "css.properties.container-type.anchored": {
+    "baseline": false,
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143"
+    }
+   }
+  },
+  "support": {
+   "chrome": "143",
+   "chrome_android": "143",
+   "edge": "143"
+  }
  },
  "id": "container-anchor-position-queries",
  "groups": [],
@@ -69,8 +113,238 @@
  "useCounters": {},
  "interop": [],
  "wpt": false,
- "bcdData": [],
- "bcdTags": [],
+ "bcdData": [
+  {
+   "key": "css.at-rules.container.anchor_position_queries",
+   "compat": {
+    "description": "Anchor position queries (<code>anchored()</code>)",
+    "source_file": "css/at-rules/container.json",
+    "spec_url": "https://drafts.csswg.org/css-anchor-position-2/#anchored-container-queries",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "143"
+     },
+     "chrome_android": {
+      "version_added": "143"
+     },
+     "edge": {
+      "version_added": "143"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "143"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.container.anchor_position_queries.fallback",
+   "compat": {
+    "description": "<code>fallback</code> feature",
+    "source_file": "css/at-rules/container.json",
+    "spec_url": "https://drafts.csswg.org/css-anchor-position-2/#descdef-container-fallback",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "143"
+     },
+     "chrome_android": {
+      "version_added": "143"
+     },
+     "edge": {
+      "version_added": "143"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "143"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.container.anchor_position_queries.fallback.any_value",
+   "compat": {
+    "description": "<code>any</code> query value",
+    "source_file": "css/at-rules/container.json",
+    "spec_url": "https://drafts.csswg.org/css-anchor-position-2/#valdef-position-area-query-any",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "143"
+     },
+     "chrome_android": {
+      "version_added": "143"
+     },
+     "edge": {
+      "version_added": "143"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "143"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "css.properties.container-type.anchored",
+   "compat": {
+    "source_file": "css/properties/container-type.json",
+    "spec_url": "https://drafts.csswg.org/css-anchor-position-2/#valdef-container-type-anchored",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "143"
+     },
+     "chrome_android": {
+      "version_added": "143"
+     },
+     "edge": {
+      "version_added": "143"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "143"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "css"
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "implUrls": {

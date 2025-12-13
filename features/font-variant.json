@@ -263,7 +263,7 @@
    "label": "interop-2022-text"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.at-rules.font-face.font-variant",

@@ -122,6 +122,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.2.20"
+     },
      "chrome": {
       "version_added": false
      },
@@ -179,6 +182,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.2.20"
+     },
      "chrome": {
       "version_added": false
      },
@@ -236,6 +242,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.2.20"
+     },
      "chrome": {
       "version_added": false
      },
@@ -293,6 +302,9 @@
      "standard_track": true
     },
     "support": {
+     "bun": {
+      "version_added": "1.2.20"
+     },
      "chrome": {
       "version_added": false
      },

@@ -162,8 +162,8 @@
     "source_file": "api/SharedStorage.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorage-batchupdate",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -221,8 +221,8 @@
     "source_file": "api/SharedStorageAppendMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstorageappendmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -281,8 +281,8 @@
     "source_file": "api/SharedStorageAppendMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageappendmethod-sharedstorageappendmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -340,8 +340,8 @@
     "source_file": "api/SharedStorageClearMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstorageclearmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -400,8 +400,8 @@
     "source_file": "api/SharedStorageClearMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstorageclearmethod-sharedstorageclearmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -459,8 +459,8 @@
     "source_file": "api/SharedStorageDeleteMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstoragedeletemethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -519,8 +519,8 @@
     "source_file": "api/SharedStorageDeleteMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstoragedeletemethod-sharedstoragedeletemethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -578,8 +578,8 @@
     "source_file": "api/SharedStorageModifierMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstoragemodifiermethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -637,8 +637,8 @@
     "source_file": "api/SharedStorageSetMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#sharedstoragesetmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -697,8 +697,8 @@
     "source_file": "api/SharedStorageSetMethod.json",
     "spec_url": "https://wicg.github.io/shared-storage/#dom-sharedstoragesetmethod-sharedstoragesetmethod",
     "status": {
-     "deprecated": false,
-     "experimental": true,
+     "deprecated": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
