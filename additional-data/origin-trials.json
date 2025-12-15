@@ -610,6 +610,16 @@
   "navigation": [],
   "navigation-timing": [],
   "navigator": [],
+  "navigator-install": [
+    {
+      "browser": "Chrome",
+      "name": "WebAppInstallation",
+      "start": "143",
+      "end": "148",
+      "feedbackUrl": "https://github.com/MicrosoftEdge/MSEdgeExplainers/issues/new?template=web-install-api.md",
+      "registrationUrl": "https://developer.chrome.com/origintrials/#/register_trial/2367204554136616961"
+    }
+  ],
   "nesting": [],
   "network-information": [],
   "non-cookie-storage-access": [],
@@ -799,6 +809,7 @@
   "scroll-elements": [],
   "scroll-initial-target": [],
   "scroll-into-view": [],
+  "scroll-into-view-container": [],
   "scroll-markers": [],
   "scroll-snap": [],
   "scroll-snap-events": [],
@@ -885,6 +896,7 @@
   "structured-clone": [],
   "style": [],
   "style-attr": [],
+  "style-query-range-syntax": [],
   "sub-sup": [],
   "subgrid": [],
   "summarizer": [],
@@ -942,6 +954,7 @@
   "time-relative-selectors": [],
   "title": [],
   "title-attr": [],
+  "toggleevent-source": [],
   "top-level-await": [],
   "topics": [],
   "touch-action": [],
@@ -1020,6 +1033,7 @@
   "web-audio": [],
   "web-bluetooth": [],
   "web-cryptography": [],
+  "web-install": [],
   "web-locks": [],
   "web-midi": [],
   "web-nfc": [],
