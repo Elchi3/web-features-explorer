@@ -930,7 +930,7 @@
  ],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Document.securitypolicyviolation_event",
