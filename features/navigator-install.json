@@ -26,6 +26,17 @@
  ],
  "mdnUrls": [],
  "hasNegativeStandardPosition": false,
+ "originTrials": [
+  {
+   "browser": "Chrome",
+   "name": "WebAppInstallation",
+   "start": "143",
+   "end": "148",
+   "feedbackUrl": "https://github.com/MicrosoftEdge/MSEdgeExplainers/issues/new?template=web-install-api.md",
+   "registrationUrl": "https://developer.chrome.com/origintrials/#/register_trial/2367204554136616961"
+  }
+ ],
+ "useCounters": {},
  "interop": [],
  "wpt": false,
  "bcdData": [],
