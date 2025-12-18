@@ -1450,9 +1450,11 @@
       "version_added": "91"
      },
      "safari": {
+      "impl_url": "https://webkit.org/b/277912",
       "version_added": false
      },
      "safari_ios": {
+      "impl_url": "https://webkit.org/b/277912",
       "version_added": false
      },
      "samsunginternet_android": {
@@ -1462,6 +1464,7 @@
       "version_added": "139"
      },
      "webview_ios": {
+      "impl_url": "https://webkit.org/b/277912",
       "version_added": false
      }
     },
@@ -1957,7 +1960,11 @@
   "edge": [],
   "firefox": [],
   "firefox_android": [],
-  "safari": [],
-  "safari_ios": []
+  "safari": [
+   "https://webkit.org/b/277912"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/277912"
+  ]
  }
 }

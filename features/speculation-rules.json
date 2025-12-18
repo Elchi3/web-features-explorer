@@ -672,10 +672,22 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -780,10 +792,22 @@
       }
      ],
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": [
       {
@@ -859,10 +883,26 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "notes": "Only <code>conservative</code> is supported for document rules (though <code>moderate</code> automatically falls back to <code>conservative</code>). Only <code>eager</code> and <code>immediate</code> is supported for list rules.",
+      "partial_implementation": true,
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "notes": "Only <code>conservative</code> is supported for document rules (though <code>moderate</code> automatically falls back to <code>conservative</code>). Only <code>eager</code> and <code>immediate</code> is supported for list rules.",
+      "partial_implementation": true,
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -1046,12 +1086,24 @@
       "version_added": "71"
      },
      "safari": {
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
       "impl_url": "https://webkit.org/b/295193",
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
       "impl_url": "https://webkit.org/b/295193",
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "20.0"
@@ -1060,7 +1112,6 @@
       "version_added": "103"
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/295193",
       "version_added": false
      }
     },
@@ -1174,10 +1225,22 @@
       "version_added": "75"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "22.0"
@@ -1235,10 +1298,22 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -1418,10 +1493,22 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "26.0"
@@ -1479,10 +1566,22 @@
       "version_added": "90"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "29.0"
@@ -1613,10 +1712,22 @@
       "version_added": "71"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "20.0"
@@ -1674,10 +1785,22 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -1733,10 +1856,22 @@
       "version_added": "74"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "21.0"
@@ -1792,10 +1927,22 @@
       "version_added": false
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "21.0"
@@ -1852,10 +1999,22 @@
       "version_added": "90"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "29.0"
@@ -1912,10 +2071,22 @@
       "version_added": "81"
      },
      "safari": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "flags": [
+       {
+        "name": "SpeculationRules prefetch",
+        "type": "preference"
+       }
+      ],
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "25.0"
@@ -2132,11 +2303,7 @@
    "https://bugzil.la/1969396",
    "https://bugzil.la/1969838"
   ],
-  "safari": [
-   "https://webkit.org/b/295193"
-  ],
-  "safari_ios": [
-   "https://webkit.org/b/295193"
-  ]
+  "safari": [],
+  "safari_ios": []
  }
 }

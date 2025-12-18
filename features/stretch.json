@@ -229,10 +229,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "samsunginternet_android": {
@@ -250,6 +252,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      }
     },
@@ -329,10 +332,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "samsunginternet_android": {
@@ -350,6 +355,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      }
     },
@@ -429,10 +435,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "samsunginternet_android": {
@@ -450,6 +458,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      }
     },
@@ -528,10 +537,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      },
      "samsunginternet_android": {
@@ -549,6 +560,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "9"
      }
     },
@@ -627,10 +639,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "samsunginternet_android": {
@@ -648,6 +662,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      }
     },
@@ -731,10 +746,12 @@
      ],
      "safari": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "safari_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      },
      "samsunginternet_android": {
@@ -752,6 +769,7 @@
      ],
      "webview_ios": {
       "alternative_name": "-webkit-fill-available",
+      "impl_url": "https://webkit.org/b/277117",
       "version_added": "7"
      }
     },

@@ -586,13 +586,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "edge": {
-      "version_added": false
+      "version_added": "133"
      },
      "firefox": {
       "impl_url": "https://bugzil.la/1871815",
@@ -609,10 +609,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": false
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "88"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/26609",
@@ -623,10 +623,10 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/26609",
@@ -652,13 +652,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "edge": {
-      "version_added": false
+      "version_added": "133"
      },
      "firefox": {
       "impl_url": "https://bugzil.la/435426",
@@ -675,10 +675,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": false
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "88"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/26609",
@@ -689,10 +689,10 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/26609",
@@ -850,13 +850,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "edge": {
-      "version_added": false
+      "version_added": "133"
      },
      "firefox": {
       "impl_url": "https://bugzil.la/435426",
@@ -873,10 +873,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": false
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "88"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/26609",
@@ -887,10 +887,10 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/26609",
@@ -1048,13 +1048,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "edge": {
-      "version_added": false
+      "version_added": "133"
      },
      "firefox": {
       "impl_url": "https://bugzil.la/435426",
@@ -1071,10 +1071,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": false
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "88"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/26609",
@@ -1085,10 +1085,10 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/26609",
@@ -1246,13 +1246,13 @@
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "133"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "edge": {
-      "version_added": false
+      "version_added": "133"
      },
      "firefox": {
       "impl_url": "https://bugzil.la/435426",
@@ -1269,10 +1269,10 @@
       "version_added": false
      },
      "opera": {
-      "version_added": false
+      "version_added": "118"
      },
      "opera_android": {
-      "version_added": false
+      "version_added": "88"
      },
      "safari": {
       "impl_url": "https://webkit.org/b/26609",
@@ -1283,10 +1283,10 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "version_added": false
+      "version_added": "29.0"
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "133"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/26609",

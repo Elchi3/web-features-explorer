@@ -300,9 +300,13 @@
       "version_added": "102"
      },
      "firefox": {
+      "notes": "The browser does not correctly scroll to the matching text. See <a href=\"https://bugzil.la/2006040\">bug 2006040</a>.",
+      "partial_implementation": true,
       "version_added": "139"
      },
      "firefox_android": {
+      "notes": "The browser does not correctly scroll to the matching text. See <a href=\"https://bugzil.la/2006040\">bug 2006040</a>.",
+      "partial_implementation": true,
       "version_added": "139"
      },
      "ie": {
@@ -318,9 +322,13 @@
       "version_added": "70"
      },
      "safari": {
+      "notes": "The browser does not correctly scroll to the matching text. See <a href=\"https://webkit.org/b/304174\">bug 304174</a>.",
+      "partial_implementation": true,
       "version_added": "26.2"
      },
      "safari_ios": {
+      "notes": "The browser does not correctly scroll to the matching text. See <a href=\"https://webkit.org/b/304174\">bug 304174</a>.",
+      "partial_implementation": true,
       "version_added": "26.2"
      },
      "samsunginternet_android": {
@@ -330,6 +338,8 @@
       "version_added": "102"
      },
      "webview_ios": {
+      "notes": "The browser does not correctly scroll to the matching text. See <a href=\"https://webkit.org/b/304174\">bug 304174</a>.",
+      "partial_implementation": true,
       "version_added": "26.2"
      }
     },
