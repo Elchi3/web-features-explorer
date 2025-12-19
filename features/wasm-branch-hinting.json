@@ -1,0 +1,128 @@
+{
+ "compat_features": [
+  "webassembly.branch-hinting"
+ ],
+ "description": "Branch hints in WebAssembly allows a browser to optimize performance when a branch is a likely to take a specific path.",
+ "description_html": "Branch hints in WebAssembly allows a browser to optimize performance when a branch is a likely to take a specific path.",
+ "group": [
+  "webassembly"
+ ],
+ "kind": "feature",
+ "name": "Branch hinting (WebAssembly)",
+ "spec": [
+  {
+   "url": "https://github.com/WebAssembly/branch-hinting/blob/main/proposals/branch-hinting/Overview.md"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "webassembly.branch-hinting": {
+    "baseline": false,
+    "support": {
+     "chrome": "137",
+     "chrome_android": "137",
+     "edge": "137",
+     "safari": "16",
+     "safari_ios": "16"
+    }
+   }
+  },
+  "support": {
+   "chrome": "137",
+   "chrome_android": "137",
+   "edge": "137",
+   "safari": "16",
+   "safari_ios": "16"
+  }
+ },
+ "id": "wasm-branch-hinting",
+ "groups": [
+  "webassembly"
+ ],
+ "groupPaths": [
+  [
+   "WebAssembly"
+  ]
+ ],
+ "mdnUrls": [],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "webassembly.branch-hinting",
+   "compat": {
+    "source_file": "webassembly/branch-hinting.json",
+    "spec_url": "https://github.com/WebAssembly/branch-hinting/blob/main/proposals/branch-hinting/Overview.md",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "137"
+     },
+     "chrome_android": {
+      "version_added": "137"
+     },
+     "edge": {
+      "version_added": "137"
+     },
+     "firefox": {
+      "impl_url": "https://bugzil.la/1950729",
+      "version_added": "preview"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "121"
+     },
+     "opera_android": {
+      "version_added": "90"
+     },
+     "safari": {
+      "version_added": "16"
+     },
+     "safari_ios": {
+      "version_added": "16"
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "137"
+     },
+     "webview_ios": {
+      "version_added": "16"
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "webassembly"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ },
+ "blockedOn": "Firefox",
+ "monthsBlocked": 7,
+ "blockedSince": "May 2025"
+}

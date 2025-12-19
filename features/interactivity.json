@@ -69,6 +69,7 @@
     "baseline": false,
     "support": {
      "chrome": "135",
+     "chrome_android": "135",
      "edge": "135"
     }
    },
@@ -76,6 +77,7 @@
     "baseline": false,
     "support": {
      "chrome": "135",
+     "chrome_android": "135",
      "edge": "135"
     }
    },
@@ -83,12 +85,14 @@
     "baseline": false,
     "support": {
      "chrome": "135",
+     "chrome_android": "135",
      "edge": "135"
     }
    }
   },
   "support": {
    "chrome": "135",
+   "chrome_android": "135",
    "edge": "135"
   }
  },

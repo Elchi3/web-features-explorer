@@ -2,9 +2,7 @@
  "compat_features": [
   "api.Document.hasStorageAccess",
   "api.Document.requestStorageAccess",
-  "api.Document.requestStorageAccessFor",
   "api.Permissions.permission_storage-access",
-  "api.Permissions.permission_top-level-storage-access",
   "html.elements.iframe.allow.storage-access",
   "http.headers.Permissions-Policy.storage-access"
  ],
@@ -88,30 +86,17 @@
      "safari_ios": "11.3"
     }
    },
-   "api.Document.requestStorageAccessFor": {
-    "baseline": false,
-    "support": {
-     "chrome": "119",
-     "chrome_android": "119",
-     "edge": "119"
-    }
-   },
    "api.Permissions.permission_storage-access": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
     "support": {
      "chrome": "119",
      "chrome_android": "120",
      "edge": "85",
      "firefox": "117",
-     "firefox_android": "117"
-    }
-   },
-   "api.Permissions.permission_top-level-storage-access": {
-    "baseline": false,
-    "support": {
-     "chrome": "113",
-     "chrome_android": "120",
-     "edge": "113"
+     "firefox_android": "117",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "html.elements.iframe.allow.storage-access": {
@@ -303,72 +288,6 @@
    }
   },
   {
-   "key": "api.Document.requestStorageAccessFor",
-   "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccessFor",
-    "source_file": "api/Document.json",
-    "spec_url": "https://privacycg.github.io/requestStorageAccessFor/#dom-document-requeststorageaccessfor",
-    "status": {
-     "deprecated": false,
-     "experimental": true,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "119"
-     },
-     "chrome_android": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "119"
-     },
-     "edge": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "119"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "105"
-     },
-     "opera_android": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "79"
-     },
-     "safari": {
-      "version_added": false
-     },
-     "safari_ios": {
-      "version_added": false
-     },
-     "samsunginternet_android": {
-      "notes": "Requires the calling top-level page and the embedded document (that the storage access is being requested for) to be part of the same <a href=\"https://developer.mozilla.org/docs/Web/API/Storage_Access_API/Related_website_sets\">related website set</a>.",
-      "version_added": "25.0"
-     },
-     "webview_android": {
-      "version_added": false
-     },
-     "webview_ios": {
-      "version_added": false
-     }
-    },
-    "tags": [
-     "web-features:storage-access"
-    ]
-   }
-  },
-  {
    "key": "api.Permissions.permission_storage-access",
    "compat": {
     "description": "<code>storage-access</code> permission",
@@ -421,66 +340,6 @@
      },
      "webview_ios": {
       "version_added": "26.2"
-     }
-    },
-    "tags": [
-     "web-features:storage-access"
-    ]
-   }
-  },
-  {
-   "key": "api.Permissions.permission_top-level-storage-access",
-   "compat": {
-    "description": "<code>top-level-storage-access</code> permission",
-    "source_file": "api/Permissions.json",
-    "spec_url": "https://privacycg.github.io/requestStorageAccessFor/#permissions-integration",
-    "status": {
-     "deprecated": false,
-     "experimental": true,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "version_added": "113"
-     },
-     "chrome_android": {
-      "version_added": "120"
-     },
-     "edge": {
-      "version_added": "113"
-     },
-     "firefox": {
-      "version_added": false
-     },
-     "firefox_android": {
-      "version_added": false
-     },
-     "ie": {
-      "version_added": false
-     },
-     "oculus": {
-      "version_added": false
-     },
-     "opera": {
-      "version_added": "99"
-     },
-     "opera_android": {
-      "version_added": "80"
-     },
-     "safari": {
-      "version_added": false
-     },
-     "safari_ios": {
-      "version_added": false
-     },
-     "samsunginternet_android": {
-      "version_added": "25.0"
-     },
-     "webview_android": {
-      "version_added": false
-     },
-     "webview_ios": {
-      "version_added": false
      }
     },
     "tags": [

@@ -1,0 +1,3293 @@
+{
+ "caniuse": [
+  "feature-policy"
+ ],
+ "compat_features": [
+  "api.Document.featurePolicy",
+  "api.FeaturePolicy",
+  "api.FeaturePolicy.allowedFeatures",
+  "api.FeaturePolicy.allowsFeature",
+  "api.FeaturePolicy.features",
+  "api.FeaturePolicy.getAllowlistForFeature",
+  "api.HTMLIFrameElement.featurePolicy",
+  "http.headers.Feature-Policy",
+  "http.headers.Feature-Policy.accelerometer",
+  "http.headers.Feature-Policy.ambient-light-sensor",
+  "http.headers.Feature-Policy.attribution-reporting",
+  "http.headers.Feature-Policy.autoplay",
+  "http.headers.Feature-Policy.bluetooth",
+  "http.headers.Feature-Policy.browsing-topics",
+  "http.headers.Feature-Policy.camera",
+  "http.headers.Feature-Policy.compute-pressure",
+  "http.headers.Feature-Policy.cross-origin-isolated",
+  "http.headers.Feature-Policy.deferred-fetch",
+  "http.headers.Feature-Policy.deferred-fetch-minimal",
+  "http.headers.Feature-Policy.display-capture",
+  "http.headers.Feature-Policy.document-domain",
+  "http.headers.Feature-Policy.encrypted-media",
+  "http.headers.Feature-Policy.fullscreen",
+  "http.headers.Feature-Policy.geolocation",
+  "http.headers.Feature-Policy.gyroscope",
+  "http.headers.Feature-Policy.hid",
+  "http.headers.Feature-Policy.identity-credentials-get",
+  "http.headers.Feature-Policy.idle-detection",
+  "http.headers.Feature-Policy.local-fonts",
+  "http.headers.Feature-Policy.magnetometer",
+  "http.headers.Feature-Policy.microphone",
+  "http.headers.Feature-Policy.midi",
+  "http.headers.Feature-Policy.otp-credentials",
+  "http.headers.Feature-Policy.payment",
+  "http.headers.Feature-Policy.picture-in-picture",
+  "http.headers.Feature-Policy.publickey-credentials-create",
+  "http.headers.Feature-Policy.publickey-credentials-get",
+  "http.headers.Feature-Policy.screen-wake-lock",
+  "http.headers.Feature-Policy.serial",
+  "http.headers.Feature-Policy.storage-access",
+  "http.headers.Feature-Policy.usb",
+  "http.headers.Feature-Policy.web-share",
+  "http.headers.Feature-Policy.wildcards",
+  "http.headers.Feature-Policy.window-management",
+  "http.headers.Feature-Policy.xr-spatial-tracking"
+ ],
+ "description": "The Feature-Policy response header sets whether a policy-controlled feature, such as an API, may be used in a document. Not to be confused with permissions policy.",
+ "description_html": "The <code>Feature-Policy</code> response header sets whether a policy-controlled feature, such as an API, may be used in a document. Not to be confused with permissions policy.",
+ "discouraged": {
+  "according_to": [
+   "https://github.com/w3c/webappsec-permissions-policy/pull/379"
+  ],
+  "alternatives": [
+   "permissions-policy"
+  ],
+  "reason": "Feature policy is superseded by permissions policy.",
+  "reason_html": "Feature policy is superseded by permissions policy."
+ },
+ "kind": "feature",
+ "name": "Feature policy",
+ "spec": [
+  {
+   "url": "https://www.w3.org/TR/2019/WD-feature-policy-1-20190416/"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Document.featurePolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.FeaturePolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.FeaturePolicy.allowedFeatures": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.FeaturePolicy.allowsFeature": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.FeaturePolicy.features": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.FeaturePolicy.getAllowlistForFeature": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "api.HTMLIFrameElement.featurePolicy": {
+    "baseline": false,
+    "support": {
+     "chrome": "74",
+     "chrome_android": "74",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.accelerometer": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.ambient-light-sensor": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Feature-Policy.attribution-reporting": {
+    "baseline": false,
+    "support": {
+     "chrome": "117",
+     "chrome_android": "117",
+     "edge": "117"
+    }
+   },
+   "http.headers.Feature-Policy.autoplay": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.bluetooth": {
+    "baseline": false,
+    "support": {
+     "chrome": "104",
+     "chrome_android": "104",
+     "edge": "104"
+    }
+   },
+   "http.headers.Feature-Policy.browsing-topics": {
+    "baseline": false,
+    "support": {
+     "chrome": "115",
+     "chrome_android": "115",
+     "edge": "115"
+    }
+   },
+   "http.headers.Feature-Policy.camera": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.compute-pressure": {
+    "baseline": false,
+    "support": {
+     "chrome": "125",
+     "edge": "125"
+    }
+   },
+   "http.headers.Feature-Policy.cross-origin-isolated": {
+    "baseline": false,
+    "support": {
+     "chrome": "87",
+     "chrome_android": "87",
+     "edge": "87"
+    }
+   },
+   "http.headers.Feature-Policy.deferred-fetch": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Feature-Policy.deferred-fetch-minimal": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   },
+   "http.headers.Feature-Policy.display-capture": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "http.headers.Feature-Policy.document-domain": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Feature-Policy.encrypted-media": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.fullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "62",
+     "chrome_android": "62",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.geolocation": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.gyroscope": {
+    "baseline": false,
+    "support": {
+     "chrome": "66",
+     "chrome_android": "66",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.hid": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Feature-Policy.identity-credentials-get": {
+    "baseline": false,
+    "support": {
+     "chrome": "110",
+     "chrome_android": "110",
+     "edge": "110"
+    }
+   },
+   "http.headers.Feature-Policy.idle-detection": {
+    "baseline": false,
+    "support": {
+     "chrome": "94",
+     "chrome_android": "94",
+     "edge": "94"
+    }
+   },
+   "http.headers.Feature-Policy.local-fonts": {
+    "baseline": false,
+    "support": {
+     "chrome": "103",
+     "edge": "103"
+    }
+   },
+   "http.headers.Feature-Policy.magnetometer": {
+    "baseline": false,
+    "support": {}
+   },
+   "http.headers.Feature-Policy.microphone": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.midi": {
+    "baseline": false,
+    "support": {
+     "chrome": "64",
+     "chrome_android": "64",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.otp-credentials": {
+    "baseline": false,
+    "support": {
+     "chrome": "93",
+     "chrome_android": "84",
+     "edge": "93"
+    }
+   },
+   "http.headers.Feature-Policy.payment": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.picture-in-picture": {
+    "baseline": false,
+    "support": {
+     "chrome": "69",
+     "chrome_android": "105",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.publickey-credentials-create": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "http.headers.Feature-Policy.publickey-credentials-get": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "http.headers.Feature-Policy.screen-wake-lock": {
+    "baseline": false,
+    "support": {
+     "chrome": "84",
+     "chrome_android": "84",
+     "edge": "84"
+    }
+   },
+   "http.headers.Feature-Policy.serial": {
+    "baseline": false,
+    "support": {
+     "chrome": "89",
+     "chrome_android": "89",
+     "edge": "89"
+    }
+   },
+   "http.headers.Feature-Policy.storage-access": {
+    "baseline": false,
+    "support": {
+     "chrome": "113",
+     "chrome_android": "113",
+     "edge": "113"
+    }
+   },
+   "http.headers.Feature-Policy.usb": {
+    "baseline": false,
+    "support": {
+     "chrome": "60",
+     "chrome_android": "60",
+     "edge": "79"
+    }
+   },
+   "http.headers.Feature-Policy.web-share": {
+    "baseline": false,
+    "support": {
+     "chrome": "86",
+     "chrome_android": "86",
+     "edge": "86"
+    }
+   },
+   "http.headers.Feature-Policy.wildcards": {
+    "baseline": false,
+    "support": {
+     "chrome": "108",
+     "chrome_android": "108",
+     "edge": "108"
+    }
+   },
+   "http.headers.Feature-Policy.window-management": {
+    "baseline": false,
+    "support": {
+     "chrome": "100",
+     "chrome_android": "100",
+     "edge": "100"
+    }
+   },
+   "http.headers.Feature-Policy.xr-spatial-tracking": {
+    "baseline": false,
+    "support": {
+     "chrome": "79",
+     "chrome_android": "79",
+     "edge": "79"
+    }
+   }
+  },
+  "support": {
+   "chrome": "74",
+   "chrome_android": "74",
+   "edge": "79"
+  }
+ },
+ "id": "feature-policy",
+ "groups": [],
+ "groupPaths": [],
+ "mdnUrls": [
+  {
+   "title": "Document: featurePolicy property",
+   "url": "https://developer.mozilla.org/docs/Web/API/Document/featurePolicy"
+  },
+  {
+   "title": "FeaturePolicy",
+   "url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy"
+  },
+  {
+   "title": "FeaturePolicy: allowedFeatures() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/allowedFeatures"
+  },
+  {
+   "title": "FeaturePolicy: allowsFeature() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/allowsFeature"
+  },
+  {
+   "title": "FeaturePolicy: features() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/features"
+  },
+  {
+   "title": "FeaturePolicy: getAllowlistForFeature() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/getAllowlistForFeature"
+  },
+  {
+   "title": "HTMLIFrameElement: featurePolicy property",
+   "url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/featurePolicy"
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "api.Document.featurePolicy",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Document/featurePolicy",
+    "source_file": "api/Document.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "69"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.FeaturePolicy",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy",
+    "source_file": "api/FeaturePolicy.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "alternative_name": "Policy",
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "65"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.FeaturePolicy.allowedFeatures",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/allowedFeatures",
+    "source_file": "api/FeaturePolicy.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "65"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.FeaturePolicy.allowsFeature",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/allowsFeature",
+    "source_file": "api/FeaturePolicy.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "65"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.FeaturePolicy.features",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/features",
+    "source_file": "api/FeaturePolicy.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "70"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.FeaturePolicy.getAllowlistForFeature",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/FeaturePolicy/getAllowlistForFeature",
+    "source_file": "api/FeaturePolicy.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "65"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "api.HTMLIFrameElement.featurePolicy",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/featurePolicy",
+    "source_file": "api/HTMLIFrameElement.json",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "74"
+     },
+     "chrome_android": {
+      "version_added": "74"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "flags": [
+       {
+        "name": "dom.security.featurePolicy.webidl.enabled",
+        "type": "preference",
+        "value_to_set": "true"
+       }
+      ],
+      "version_added": "69"
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "6.0"
+     },
+     "opera": {
+      "version_added": "62"
+     },
+     "opera_android": {
+      "version_added": "53"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "11.0"
+     },
+     "webview_android": {
+      "version_added": "74"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy",
+   "compat": {
+    "source_file": "http/headers/Feature-Policy.json",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "60"
+     },
+     "chrome_android": {
+      "version_added": "60"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "47"
+     },
+     "opera_android": {
+      "version_added": "44"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "8.0"
+     },
+     "webview_android": {
+      "version_added": "60"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.accelerometer",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/accelerometer",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/sensors/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "66"
+     },
+     "chrome_android": {
+      "version_added": "66"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "53"
+     },
+     "opera_android": {
+      "version_added": "47"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "66"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:accelerometer"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.ambient-light-sensor",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/ambient-light-sensor",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/sensors/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "flags": [
+       {
+        "name": "#enable-experimental-web-platform-features",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "66"
+     },
+     "chrome_android": {
+      "flags": [
+       {
+        "name": "#enable-experimental-web-platform-features",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "66"
+     },
+     "edge": {
+      "flags": [
+       {
+        "name": "#enable-experimental-web-platform-features",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "flags": [
+       {
+        "name": "#enable-experimental-web-platform-features",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "5.0"
+     },
+     "opera": {
+      "flags": [
+       {
+        "name": "#enable-experimental-web-platform-features",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "53"
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:ambient-light"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.attribution-reporting",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/attribution-reporting",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/attribution-reporting-api/#permission-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "117"
+     },
+     "chrome_android": {
+      "version_added": "117"
+     },
+     "edge": {
+      "version_added": "117"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "103"
+     },
+     "opera_android": {
+      "version_added": "78"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "24.0"
+     },
+     "webview_android": {
+      "version_added": "117"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:attribution-reporting"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.autoplay",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/autoplay",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "51"
+     },
+     "opera_android": {
+      "version_added": "47"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.bluetooth",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/bluetooth",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "104"
+     },
+     "chrome_android": {
+      "version_added": "104"
+     },
+     "edge": {
+      "version_added": "104"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "23.0"
+     },
+     "opera": {
+      "version_added": "90"
+     },
+     "opera_android": {
+      "version_added": "71"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "20.0"
+     },
+     "webview_android": {
+      "version_added": "104"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:web-bluetooth"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.browsing-topics",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/browsing-topics",
+    "source_file": "http/headers/Feature-Policy.json",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": false
+    },
+    "support": {
+     "chrome": {
+      "version_added": "115"
+     },
+     "chrome_android": {
+      "version_added": "115"
+     },
+     "edge": {
+      "version_added": "115"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "101"
+     },
+     "opera_android": {
+      "version_added": "77"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "23.0"
+     },
+     "webview_android": {
+      "version_added": "115"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.camera",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/camera",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/mediacapture-main/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "48"
+     },
+     "opera_android": {
+      "version_added": "45"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:media-capture"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.compute-pressure",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/compute-pressure",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/compute-pressure/#policy-control",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": false
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:compute-pressure"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.cross-origin-isolated",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/cross-origin-isolated",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://html.spec.whatwg.org/multipage/infrastructure.html#cross-origin-isolated-feature",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "87"
+     },
+     "chrome_android": {
+      "version_added": "87"
+     },
+     "edge": {
+      "version_added": "87"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "13.0"
+     },
+     "opera": {
+      "version_added": "73"
+     },
+     "opera_android": {
+      "version_added": "62"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "version_added": "87"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.deferred-fetch",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/deferred-fetch",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://fetch.spec.whatwg.org/#available-deferred-fetch-quota",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "135"
+     },
+     "chrome_android": {
+      "version_added": "135"
+     },
+     "edge": {
+      "version_added": "135"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "120"
+     },
+     "opera_android": {
+      "version_added": "89"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "29.0"
+     },
+     "webview_android": {
+      "version_added": "135"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:fetchlater"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.deferred-fetch-minimal",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/deferred-fetch-minimal",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://fetch.spec.whatwg.org/#available-deferred-fetch-quota",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "135"
+     },
+     "chrome_android": {
+      "version_added": "135"
+     },
+     "edge": {
+      "version_added": "135"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "120"
+     },
+     "opera_android": {
+      "version_added": "89"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "29.0"
+     },
+     "webview_android": {
+      "version_added": "135"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:fetchlater"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.display-capture",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/display-capture",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "94"
+     },
+     "chrome_android": {
+      "version_added": "94"
+     },
+     "edge": {
+      "version_added": "94"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "18.0"
+     },
+     "opera": {
+      "version_added": "80"
+     },
+     "opera_android": {
+      "version_added": "66"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "17.0"
+     },
+     "webview_android": {
+      "version_added": "94"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:screen-capture"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.document-domain",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://html.spec.whatwg.org/multipage/infrastructure.html#policy-controlled-features",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "flags": [
+       {
+        "name": "--enable-blink-features=ExperimentalProductivityFeatures",
+        "type": "runtime_flag"
+       }
+      ],
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": false
+     },
+     "edge": {
+      "flags": [
+       {
+        "name": "--enable-blink-features=ExperimentalProductivityFeatures",
+        "type": "runtime_flag"
+       }
+      ],
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "flags": [
+       {
+        "name": "--enable-blink-features=ExperimentalProductivityFeatures",
+        "type": "runtime_flag"
+       }
+      ],
+      "version_added": "51"
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.encrypted-media",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/encrypted-media",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/encrypted-media/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "48"
+     },
+     "opera_android": {
+      "version_added": "45"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:encrypted-media-extensions"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.fullscreen",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/fullscreen",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://fullscreen.spec.whatwg.org/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "62"
+     },
+     "chrome_android": {
+      "version_added": "62"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "49"
+     },
+     "opera_android": {
+      "version_added": "46"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "8.0"
+     },
+     "webview_android": {
+      "version_added": "62"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:fullscreen"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.geolocation",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/geolocation",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/geolocation/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "51"
+     },
+     "opera_android": {
+      "version_added": "47"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:geolocation"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.gyroscope",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gyroscope",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/sensors/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "66"
+     },
+     "chrome_android": {
+      "version_added": "66"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "53"
+     },
+     "opera_android": {
+      "version_added": "47"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "66"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:gyroscope"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.hid",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/hid",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/webhid/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "89"
+     },
+     "chrome_android": {
+      "impl_url": "https://crbug.com/40628009",
+      "version_added": false
+     },
+     "edge": {
+      "version_added": "89"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "impl_url": "https://crbug.com/40628009",
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "75"
+     },
+     "opera_android": {
+      "impl_url": "https://crbug.com/40628009",
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "impl_url": "https://crbug.com/40628009",
+      "version_added": false
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40163407",
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webhid"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.identity-credentials-get",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/identity-credentials-get",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c-fedid.github.io/FedCM/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "110"
+     },
+     "chrome_android": {
+      "version_added": "110"
+     },
+     "edge": {
+      "version_added": "110"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "96"
+     },
+     "opera_android": {
+      "version_added": "74"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "21.0"
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.idle-detection",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/idle-detection",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/idle-detection/#api-permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "94"
+     },
+     "chrome_android": {
+      "version_added": "94"
+     },
+     "edge": {
+      "version_added": "94"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "18.0"
+     },
+     "opera": {
+      "version_added": "80"
+     },
+     "opera_android": {
+      "version_added": "66"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "17.0"
+     },
+     "webview_android": {
+      "version_added": "94"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:idle-detection"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.local-fonts",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/local-fonts",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/local-font-access/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "103"
+     },
+     "chrome_android": {
+      "impl_url": "https://crbug.com/40840834",
+      "version_added": false
+     },
+     "edge": {
+      "version_added": "103"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "impl_url": "https://crbug.com/40840834",
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "impl_url": "https://crbug.com/40840834",
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "impl_url": "https://crbug.com/40840834",
+      "version_added": false
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40840834",
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:local-fonts"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.magnetometer",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/magnetometer",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/sensors/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "flags": [
+       {
+        "name": "#enable-generic-sensor-extra-classes",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "66"
+     },
+     "chrome_android": {
+      "flags": [
+       {
+        "name": "#enable-generic-sensor-extra-classes",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "66"
+     },
+     "edge": {
+      "flags": [
+       {
+        "name": "#enable-generic-sensor-extra-classes",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "flags": [
+       {
+        "name": "#enable-generic-sensor-extra-classes",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "5.0"
+     },
+     "opera": {
+      "flags": [
+       {
+        "name": "#enable-generic-sensor-extra-classes",
+        "type": "preference",
+        "value_to_set": "Enabled"
+       }
+      ],
+      "version_added": "53"
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:magnetometer"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.microphone",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/microphone",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/mediacapture-main/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "48"
+     },
+     "opera_android": {
+      "version_added": "45"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:media-capture"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.midi",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/midi",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://webaudio.github.io/web-midi-api/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "64"
+     },
+     "chrome_android": {
+      "version_added": "64"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "51"
+     },
+     "opera_android": {
+      "version_added": "47"
+     },
+     "safari": {
+      "impl_url": "https://webkit.org/b/107250",
+      "version_added": false
+     },
+     "safari_ios": {
+      "impl_url": "https://webkit.org/b/107250",
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "9.0"
+     },
+     "webview_android": {
+      "version_added": "64"
+     },
+     "webview_ios": {
+      "impl_url": "https://webkit.org/b/107250",
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:web-midi"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.otp-credentials",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/otp-credentials",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/web-otp/#sctn-permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "93"
+     },
+     "chrome_android": {
+      "version_added": "84"
+     },
+     "edge": {
+      "version_added": "93"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "11.0"
+     },
+     "opera": {
+      "version_added": "79"
+     },
+     "opera_android": {
+      "version_added": "60"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:web-otp"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.payment",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/payment",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/payment-request/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "60"
+     },
+     "chrome_android": {
+      "version_added": "60"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "47"
+     },
+     "opera_android": {
+      "version_added": "44"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "8.0"
+     },
+     "webview_android": {
+      "version_added": "136"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:payment-request"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.picture-in-picture",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/picture-in-picture",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/picture-in-picture/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "69"
+     },
+     "chrome_android": {
+      "version_added": "105"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "impl_url": "https://bugzil.la/1463402",
+      "version_added": false
+     },
+     "firefox_android": {
+      "impl_url": "https://bugzil.la/1463402",
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "72"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "20.0"
+     },
+     "webview_android": {
+      "version_added": "105"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:picture-in-picture"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.publickey-credentials-create",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/publickey-credentials-create",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/webauthn/#sctn-permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "84"
+     },
+     "chrome_android": {
+      "version_added": "84"
+     },
+     "edge": {
+      "version_added": "84"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "11.0"
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "version_added": "84"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webauthn"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.publickey-credentials-get",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/publickey-credentials-get",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/webauthn/#sctn-permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "84"
+     },
+     "chrome_android": {
+      "version_added": "84"
+     },
+     "edge": {
+      "version_added": "84"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "11.0"
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "version_added": "84"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webauthn"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.screen-wake-lock",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/screen-wake-lock",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/screen-wake-lock/#policy-control",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "84"
+     },
+     "chrome_android": {
+      "version_added": "84"
+     },
+     "edge": {
+      "version_added": "84"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "11.0"
+     },
+     "opera": {
+      "version_added": "70"
+     },
+     "opera_android": {
+      "version_added": "60"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40740509",
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:screen-wake-lock"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.serial",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/serial",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/serial/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "89"
+     },
+     "chrome_android": {
+      "version_added": "89"
+     },
+     "edge": {
+      "version_added": "89"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "15.0"
+     },
+     "opera": {
+      "version_added": "75"
+     },
+     "opera_android": {
+      "version_added": "63"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "15.0"
+     },
+     "webview_android": {
+      "version_added": "89"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:serial"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.storage-access",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/storage-access",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://privacycg.github.io/storage-access/#permissions-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "113"
+     },
+     "chrome_android": {
+      "version_added": "113"
+     },
+     "edge": {
+      "version_added": "113"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "99"
+     },
+     "opera_android": {
+      "version_added": "76"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "23.0"
+     },
+     "webview_android": {
+      "version_added": "113"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:storage-access"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.usb",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/usb",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://wicg.github.io/webusb/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "60"
+     },
+     "chrome_android": {
+      "version_added": "60"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "47"
+     },
+     "opera_android": {
+      "version_added": "44"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "8.0"
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webusb"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.web-share",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/web-share",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/web-share/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "86"
+     },
+     "chrome_android": {
+      "version_added": "86"
+     },
+     "edge": {
+      "version_added": "86"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "12.0"
+     },
+     "opera": {
+      "version_added": "72"
+     },
+     "opera_android": {
+      "version_added": "61"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "14.0"
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40540400",
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:share"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.wildcards",
+   "compat": {
+    "description": "Wildcards in allowlist origins",
+    "source_file": "http/headers/Feature-Policy.json",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "108"
+     },
+     "chrome_android": {
+      "version_added": "108"
+     },
+     "edge": {
+      "version_added": "108"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "94"
+     },
+     "opera_android": {
+      "version_added": "73"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "21.0"
+     },
+     "webview_android": {
+      "version_added": "108"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.window-management",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/window-management",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://w3c.github.io/window-management/#api-permission-policy-integration",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "100"
+     },
+     "chrome_android": {
+      "version_added": "100"
+     },
+     "edge": {
+      "version_added": "100"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "21.0"
+     },
+     "opera": {
+      "version_added": "86"
+     },
+     "opera_android": {
+      "version_added": "69"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "19.0"
+     },
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:window-management"
+    ]
+   }
+  },
+  {
+   "key": "http.headers.Feature-Policy.xr-spatial-tracking",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy/xr-spatial-tracking",
+    "source_file": "http/headers/Feature-Policy.json",
+    "spec_url": "https://immersive-web.github.io/webxr/#permissions-policy",
+    "status": {
+     "deprecated": true,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "79"
+     },
+     "chrome_android": {
+      "version_added": "79"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "8.0"
+     },
+     "opera": {
+      "version_added": "66"
+     },
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "12.0"
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40652382",
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webxr-device"
+    ]
+   }
+  }
+ ],
+ "bcdTags": [
+  "api",
+  "http"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [
+   "https://crbug.com/40628009",
+   "https://crbug.com/40840834"
+  ],
+  "edge": [],
+  "firefox": [
+   "https://bugzil.la/1463402"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1463402"
+  ],
+  "safari": [
+   "https://webkit.org/b/107250"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/107250"
+  ]
+ }
+}

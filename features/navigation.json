@@ -193,7 +193,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.NavigateEvent": {
@@ -201,7 +203,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.canIntercept": {
@@ -209,7 +213,9 @@
     "support": {
      "chrome": "105",
      "chrome_android": "105",
-     "edge": "105"
+     "edge": "105",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.destination": {
@@ -217,7 +223,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.downloadRequest": {
@@ -225,7 +233,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.formData": {
@@ -233,7 +243,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.hasUAVisualTransition": {
@@ -241,7 +253,9 @@
     "support": {
      "chrome": "118",
      "chrome_android": "118",
-     "edge": "118"
+     "edge": "118",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.hashChange": {
@@ -249,7 +263,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.info": {
@@ -257,7 +273,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.intercept": {
@@ -265,7 +283,9 @@
     "support": {
      "chrome": "105",
      "chrome_android": "105",
-     "edge": "105"
+     "edge": "105",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.navigationType": {
@@ -273,7 +293,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.scroll": {
@@ -281,7 +303,9 @@
     "support": {
      "chrome": "105",
      "chrome_android": "105",
-     "edge": "105"
+     "edge": "105",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.signal": {
@@ -289,7 +313,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigateEvent.userInitiated": {
@@ -297,7 +323,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation": {
@@ -305,7 +333,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.activation": {
@@ -313,7 +343,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.back": {
@@ -321,7 +353,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.canGoBack": {
@@ -329,7 +363,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.canGoForward": {
@@ -337,7 +373,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.currentEntry": {
@@ -345,7 +383,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.currententrychange_event": {
@@ -361,7 +401,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.forward": {
@@ -369,7 +411,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.navigate": {
@@ -377,7 +421,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.navigate_event": {
@@ -409,7 +455,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.transition": {
@@ -417,7 +465,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.traverseTo": {
@@ -425,7 +475,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.updateCurrentEntry": {
@@ -433,7 +485,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationActivation": {
@@ -441,7 +495,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationActivation.entry": {
@@ -449,7 +505,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationActivation.from": {
@@ -457,7 +515,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationActivation.navigationType": {
@@ -465,7 +525,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationCurrentEntryChangeEvent": {
@@ -473,7 +535,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationCurrentEntryChangeEvent.NavigationCurrentEntryChangeEvent": {
@@ -481,7 +545,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationCurrentEntryChangeEvent.from": {
@@ -489,7 +555,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationCurrentEntryChangeEvent.navigationType": {
@@ -497,7 +565,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination": {
@@ -505,7 +575,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.getState": {
@@ -513,7 +585,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.id": {
@@ -521,7 +595,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.index": {
@@ -529,7 +605,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.key": {
@@ -537,7 +615,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.sameDocument": {
@@ -545,7 +625,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationDestination.url": {
@@ -553,7 +635,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry": {
@@ -561,7 +645,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.dispose_event": {
@@ -577,7 +663,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.id": {
@@ -585,7 +673,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.index": {
@@ -593,7 +683,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.key": {
@@ -601,7 +693,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.sameDocument": {
@@ -609,7 +703,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationHistoryEntry.url": {
@@ -617,7 +713,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationTransition": {
@@ -625,7 +723,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationTransition.finished": {
@@ -633,7 +733,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationTransition.from": {
@@ -641,7 +743,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.NavigationTransition.navigationType": {
@@ -649,7 +753,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Window.navigation": {
@@ -657,14 +763,18 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    }
   },
   "support": {
    "chrome": "102",
    "chrome_android": "102",
-   "edge": "102"
+   "edge": "102",
+   "safari": "26.2",
+   "safari_ios": "26.2"
   }
  },
  "id": "navigation",
@@ -4436,5 +4546,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Firefox",
+ "monthsBlocked": 0,
+ "blockedSince": "December 2025"
 }

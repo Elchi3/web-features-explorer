@@ -1,0 +1,316 @@
+{
+ "compat_features": [
+  "css.selectors.target-after",
+  "css.selectors.target-before",
+  "css.selectors.target-current"
+ ],
+ "description": "The :target-current CSS pseudo-class selects the active scroll marker (as in ::scroll-marker), while the :target-after and :target-before pseudo-classes select the inactive markers preceding and following the active scroll marker.",
+ "description_html": "The <code>:target-current</code> CSS pseudo-class selects the active scroll marker (as in <code>::scroll-marker</code>), while the <code>:target-after</code> and <code>:target-before</code> pseudo-classes select the inactive markers preceding and following the active scroll marker.",
+ "group": [
+  "scroll-markers"
+ ],
+ "kind": "feature",
+ "name": "Scroll marker target pseudo-classes",
+ "spec": [
+  {
+   "url": "https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers",
+   "seriesComposition": "delta",
+   "shortname": "css-overflow-5",
+   "series": {
+    "shortname": "css-overflow",
+    "currentSpecification": "css-overflow-3",
+    "title": "CSS Overflow",
+    "shortTitle": "CSS Overflow",
+    "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+    "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+   },
+   "seriesVersion": "5",
+   "seriesPrevious": "css-overflow-4",
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Cascading Style Sheets (CSS) Working Group",
+     "url": "https://www.w3.org/groups/wg/css/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/css-overflow-5/",
+    "status": "First Public Working Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://drafts.csswg.org/css-overflow-5/",
+    "status": "Editor's Draft",
+    "alternateUrls": [
+     "https://w3c.github.io/csswg-drafts/css-overflow-5/"
+    ],
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "sourcePath": "css-overflow-5/Overview.bs",
+    "filename": "index.html"
+   },
+   "title": "CSS Overflow Module Level 5",
+   "source": "w3c",
+   "shortTitle": "CSS Overflow 5",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "css/css-overflow"
+    ]
+   },
+   "fragment": "active-before-after-scroll-markers"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "css.selectors.target-after": {
+    "baseline": false,
+    "support": {
+     "chrome": "142",
+     "chrome_android": "142",
+     "edge": "142"
+    }
+   },
+   "css.selectors.target-before": {
+    "baseline": false,
+    "support": {
+     "chrome": "142",
+     "chrome_android": "142",
+     "edge": "142"
+    }
+   },
+   "css.selectors.target-current": {
+    "baseline": false,
+    "support": {
+     "chrome": "135",
+     "chrome_android": "135",
+     "edge": "135"
+    }
+   }
+  },
+  "support": {
+   "chrome": "142",
+   "chrome_android": "142",
+   "edge": "142"
+  }
+ },
+ "id": "scroll-marker-targets",
+ "groups": [
+  "scroll-markers"
+ ],
+ "groupPaths": [
+  [
+   "Scrolling",
+   "Scroll markers"
+  ]
+ ],
+ "mdnUrls": [
+  {
+   "title": ":target-after",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-after"
+  },
+  {
+   "title": ":target-before",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-before"
+  },
+  {
+   "title": ":target-current",
+   "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-current"
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "css.selectors.target-after",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-after",
+    "source_file": "css/selectors/target-after.json",
+    "spec_url": "https://drafts.csswg.org/css-overflow-5/#selectordef-target-after",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "142"
+     },
+     "chrome_android": {
+      "version_added": "142"
+     },
+     "edge": {
+      "version_added": "142"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "93"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "142"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "css.selectors.target-before",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-before",
+    "source_file": "css/selectors/target-before.json",
+    "spec_url": "https://drafts.csswg.org/css-overflow-5/#selectordef-target-before",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "142"
+     },
+     "chrome_android": {
+      "version_added": "142"
+     },
+     "edge": {
+      "version_added": "142"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "93"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "142"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "css.selectors.target-current",
+   "compat": {
+    "description": "<code>:target-current</code>",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target-current",
+    "source_file": "css/selectors/target-current.json",
+    "spec_url": "https://drafts.csswg.org/css-overflow-5/#active-scroll-marker",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "135"
+     },
+     "chrome_android": {
+      "version_added": "135"
+     },
+     "edge": {
+      "version_added": "135"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "120"
+     },
+     "opera_android": {
+      "version_added": "89"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "29.0"
+     },
+     "webview_android": {
+      "version_added": "135"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "css"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

@@ -131,11 +131,19 @@
    },
    "css.types.attr.type_function.ident": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
    },
    "css.types.attr.type_function.image": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
    },
    "css.types.attr.type_function.integer": {
     "baseline": false,
@@ -155,7 +163,11 @@
    },
    "css.types.attr.type_function.length-percentage": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
    },
    "css.types.attr.type_function.number": {
     "baseline": false,
@@ -175,7 +187,11 @@
    },
    "css.types.attr.type_function.resolution": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
    },
    "css.types.attr.type_function.string": {
     "baseline": false,
@@ -195,7 +211,11 @@
    },
    "css.types.attr.type_function.transform-function": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "133",
+     "chrome_android": "133",
+     "edge": "133"
+    }
    },
    "css.types.attr.type_function.url": {
     "baseline": false,
@@ -206,7 +226,11 @@
     }
    }
   },
-  "support": {}
+  "support": {
+   "chrome": "133",
+   "chrome_android": "133",
+   "edge": "133"
+  }
  },
  "id": "attr",
  "groups": [

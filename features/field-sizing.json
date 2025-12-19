@@ -66,7 +66,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "css.properties.field-sizing.content": {
@@ -74,7 +76,9 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "css.properties.field-sizing.fixed": {
@@ -82,14 +86,18 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    }
   },
   "support": {
    "chrome": "123",
    "chrome_android": "123",
-   "edge": "123"
+   "edge": "123",
+   "safari": "26.2",
+   "safari_ios": "26.2"
   }
  },
  "id": "field-sizing",
@@ -341,5 +349,8 @@
   ],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Firefox",
+ "monthsBlocked": 0,
+ "blockedSince": "December 2025"
 }
