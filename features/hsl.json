@@ -169,7 +169,7 @@
    "label": "interop-2023-color"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.types.color.hsl",
