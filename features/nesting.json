@@ -267,7 +267,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.08979645,
+  "percentageOfPageLoad": 0.08779722,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/163"
  },
  "interop": [
