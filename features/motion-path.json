@@ -49,52 +49,7 @@
  "name": "Motion path",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/motion-1/",
-   "seriesComposition": "full",
-   "shortname": "motion-1",
-   "series": {
-    "shortname": "motion",
-    "currentSpecification": "motion-1",
-    "title": "Motion Path",
-    "shortTitle": "Motion Path",
-    "releaseUrl": "https://www.w3.org/TR/motion/",
-    "nightlyUrl": "https://drafts.fxtf.org/motion/"
-   },
-   "seriesVersion": "1",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/motion-1/",
-    "status": "Working Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/motion-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "motion-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "Motion Path Module Level 1",
-   "source": "w3c",
-   "shortTitle": "Motion Path 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/motion"
-    ]
-   },
-   "fragment": null
+   "url": "https://drafts.fxtf.org/motion-1/"
   }
  ],
  "status": {
@@ -653,7 +608,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset",
     "source_file": "css/properties/offset.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-shorthand",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-shorthand",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -761,7 +716,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-anchor",
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-anchor-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-anchor-property",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -820,7 +775,7 @@
    "key": "css.properties.offset-anchor.auto",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-anchor-auto",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-anchor-auto",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -879,7 +834,7 @@
    "key": "css.properties.offset-anchor.bottom",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -938,7 +893,7 @@
    "key": "css.properties.offset-anchor.center",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -997,7 +952,7 @@
    "key": "css.properties.offset-anchor.left",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1056,7 +1011,7 @@
    "key": "css.properties.offset-anchor.right",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1115,7 +1070,7 @@
    "key": "css.properties.offset-anchor.top",
    "compat": {
     "source_file": "css/properties/offset-anchor.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1175,7 +1130,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance",
     "source_file": "css/properties/offset-distance.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-distance-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-distance-property",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1283,7 +1238,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path",
     "source_file": "css/properties/offset-path.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-path-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-path-property",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1392,7 +1347,7 @@
    "compat": {
     "description": "<code>&lt;basic-shape&gt;</code>",
     "source_file": "css/properties/offset-path.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-path-basic-shape",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-path-basic-shape",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1687,7 +1642,7 @@
    "key": "css.properties.offset-path.none",
    "compat": {
     "source_file": "css/properties/offset-path.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-path-none",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-path-none",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1865,7 +1820,7 @@
    "compat": {
     "description": "Support for <a href=\"https://developer.mozilla.org/docs/Web/CSS/ray\"><code>ray()</code></a> function as a value",
     "source_file": "css/properties/offset-path.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-path-ray",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-path-ray",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1984,7 +1939,7 @@
    "compat": {
     "description": "<code>&lt;url&gt;</code>",
     "source_file": "css/properties/offset-path.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-path-url",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-path-url",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2103,7 +2058,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-position",
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-position-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-position-property",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2162,7 +2117,7 @@
    "key": "css.properties.offset-position.auto",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-auto",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-auto",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2221,7 +2176,7 @@
    "key": "css.properties.offset-position.bottom",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2280,7 +2235,7 @@
    "key": "css.properties.offset-position.center",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2339,7 +2294,7 @@
    "key": "css.properties.offset-position.left",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2398,7 +2353,7 @@
    "key": "css.properties.offset-position.normal",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-normal",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-normal",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2457,7 +2412,7 @@
    "key": "css.properties.offset-position.right",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2516,7 +2471,7 @@
    "key": "css.properties.offset-position.top",
    "compat": {
     "source_file": "css/properties/offset-position.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-position-position",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-position-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2576,7 +2531,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate",
     "source_file": "css/properties/offset-rotate.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-rotate-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-rotate-property",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2715,7 +2670,7 @@
    "key": "css.properties.offset-rotate.auto",
    "compat": {
     "source_file": "css/properties/offset-rotate.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-rotate-auto",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-rotate-auto",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2774,7 +2729,7 @@
    "key": "css.properties.offset-rotate.reverse",
    "compat": {
     "source_file": "css/properties/offset-rotate.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#valdef-offset-rotate-reverse",
+    "spec_url": "https://drafts.csswg.org/motion/#valdef-offset-rotate-reverse",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2835,7 +2790,7 @@
     "description": "<code>ray()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ray",
     "source_file": "css/types/ray.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#ray-function",
+    "spec_url": "https://drafts.csswg.org/motion/#ray-function",
     "status": {
      "deprecated": false,
      "experimental": false,

@@ -2180,7 +2180,7 @@
     "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-currententrychange",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -2213,10 +2213,10 @@
       "version_added": "70"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "19.0"
@@ -2225,7 +2225,7 @@
       "version_added": "102"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -2430,7 +2430,7 @@
     "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-navigate",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -2463,10 +2463,10 @@
       "version_added": "70"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "19.0"
@@ -2475,7 +2475,7 @@
       "version_added": "102"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -2492,7 +2492,7 @@
     "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-navigateerror",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -2525,10 +2525,10 @@
       "version_added": "70"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "19.0"
@@ -2537,7 +2537,7 @@
       "version_added": "102"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -2554,7 +2554,7 @@
     "spec_url": "https://html.spec.whatwg.org/multipage/indices.html#event-navigatesuccess",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -2587,10 +2587,10 @@
       "version_added": "70"
      },
      "safari": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "version_added": "19.0"
@@ -2599,7 +2599,7 @@
       "version_added": "102"
      },
      "webview_ios": {
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [

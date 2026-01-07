@@ -337,53 +337,7 @@
  "name": "SVG filters",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/filter-effects-1/",
-   "seriesComposition": "full",
-   "shortname": "filter-effects-1",
-   "series": {
-    "shortname": "filter-effects",
-    "currentSpecification": "filter-effects-1",
-    "title": "Filter Effects",
-    "shortTitle": "Filter Effects",
-    "releaseUrl": "https://www.w3.org/TR/filter-effects/",
-    "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
-   },
-   "seriesVersion": "1",
-   "seriesNext": "filter-effects-2",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/filter-effects-1/",
-    "status": "Working Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/filter-effects-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "filter-effects-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "Filter Effects Module Level 1",
-   "source": "w3c",
-   "shortTitle": "Filter Effects 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/filter-effects"
-    ]
-   },
-   "fragment": null
+   "url": "https://drafts.fxtf.org/filter-effects-1/"
   }
  ],
  "status": {
@@ -4928,7 +4882,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEBlendElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEBlendElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -4988,7 +4942,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/height",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5048,7 +5002,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/in1",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5108,7 +5062,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/in2",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in2",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-in2",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5168,7 +5122,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/mode",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-mode",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-mode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5228,7 +5182,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/result",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5288,7 +5242,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/width",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5348,7 +5302,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/x",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5408,7 +5362,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/y",
     "source_file": "api/SVGFEBlendElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5468,7 +5422,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEColorMatrixElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEColorMatrixElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5528,7 +5482,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/height",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5588,7 +5542,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/in1",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5648,7 +5602,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/result",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5708,7 +5662,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/type",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-type",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-type",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5768,7 +5722,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/values",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-values",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-values",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5828,7 +5782,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/width",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5888,7 +5842,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/x",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -5948,7 +5902,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/y",
     "source_file": "api/SVGFEColorMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6008,7 +5962,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEComponentTransferElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEComponentTransferElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6068,7 +6022,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/height",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6142,7 +6096,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/in1",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecomponenttransferelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecomponenttransferelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6202,7 +6156,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/result",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6276,7 +6230,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/width",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6350,7 +6304,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/x",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6424,7 +6378,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/y",
     "source_file": "api/SVGFEComponentTransferElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6498,7 +6452,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFECompositeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFECompositeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6558,7 +6512,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/height",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6618,7 +6572,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/in1",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6678,7 +6632,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/in2",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in2",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-in2",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6738,7 +6692,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/k1",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6798,7 +6752,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/k2",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k2",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k2",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6858,7 +6812,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/k3",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k3",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k3",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6918,7 +6872,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/k4",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k4",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k4",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -6978,7 +6932,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/operator",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-operator",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-operator",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7038,7 +6992,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/result",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7098,7 +7052,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/width",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7158,7 +7112,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/x",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7218,7 +7172,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/y",
     "source_file": "api/SVGFECompositeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7278,7 +7232,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEConvolveMatrixElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEConvolveMatrixElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7338,7 +7292,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/bias",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-bias",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-bias",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7398,7 +7352,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/divisor",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-divisor",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-divisor",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7458,7 +7412,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/edgeMode",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-edgemode",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-edgemode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7518,7 +7472,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/height",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7578,7 +7532,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/in1",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7638,7 +7592,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelMatrix",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelmatrix",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelmatrix",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7698,7 +7652,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelUnitLengthX",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7758,7 +7712,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelUnitLengthY",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7818,7 +7772,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/orderX",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-orderx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-orderx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7878,7 +7832,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/orderY",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-ordery",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-ordery",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7938,7 +7892,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/preserveAlpha",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-preservealpha",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-preservealpha",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -7998,7 +7952,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/result",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8058,7 +8012,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/targetX",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targetx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-targetx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8118,7 +8072,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/targetY",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targety",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-targety",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8178,7 +8132,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/width",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8238,7 +8192,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/x",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8298,7 +8252,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/y",
     "source_file": "api/SVGFEConvolveMatrixElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8358,7 +8312,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDiffuseLightingElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDiffuseLightingElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8418,7 +8372,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-diffuseconstant",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-diffuseconstant",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8478,7 +8432,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/height",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8538,7 +8492,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/in1",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8598,7 +8552,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/kernelUnitLengthX",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8658,7 +8612,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/kernelUnitLengthY",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8718,7 +8672,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/result",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8778,7 +8732,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-surfacescale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-surfacescale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8838,7 +8792,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/width",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8898,7 +8852,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/x",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -8958,7 +8912,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/y",
     "source_file": "api/SVGFEDiffuseLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9018,7 +8972,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDisplacementMapElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDisplacementMapElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9078,7 +9032,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/height",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9138,7 +9092,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/in1",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9198,7 +9152,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/in2",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in2",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-in2",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9258,7 +9212,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/result",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9318,7 +9272,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/scale",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-scale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-scale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9378,7 +9332,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/width",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9438,7 +9392,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/x",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9498,7 +9452,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-xchannelselector",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-xchannelselector",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9558,7 +9512,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/y",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9618,7 +9572,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector",
     "source_file": "api/SVGFEDisplacementMapElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-ychannelselector",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-ychannelselector",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9678,7 +9632,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement",
     "source_file": "api/SVGFEDistantLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDistantLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDistantLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9738,7 +9692,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement/azimuth",
     "source_file": "api/SVGFEDistantLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-azimuth",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedistantlightelement-azimuth",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9798,7 +9752,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement/elevation",
     "source_file": "api/SVGFEDistantLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-elevation",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedistantlightelement-elevation",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9858,7 +9812,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDropShadowElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDropShadowElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9918,7 +9872,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/dx",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-dx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -9978,7 +9932,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/dy",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-dy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10038,7 +9992,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/height",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10098,7 +10052,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/in1",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10158,7 +10112,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/result",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10218,7 +10172,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/setStdDeviation",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-setstddeviation",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-setstddeviation",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10278,7 +10232,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/stdDeviationX",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-stddeviationx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10338,7 +10292,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/stdDeviationY",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-stddeviationy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10398,7 +10352,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/width",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10458,7 +10412,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/x",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10518,7 +10472,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/y",
     "source_file": "api/SVGFEDropShadowElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10578,7 +10532,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFloodElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFloodElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10638,7 +10592,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/height",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10712,7 +10666,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/result",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10786,7 +10740,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/width",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10860,7 +10814,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/x",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10934,7 +10888,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/y",
     "source_file": "api/SVGFEFloodElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11008,7 +10962,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncAElement",
     "source_file": "api/SVGFEFuncAElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncAElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncAElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11068,7 +11022,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncBElement",
     "source_file": "api/SVGFEFuncBElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncBElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncBElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11128,7 +11082,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncGElement",
     "source_file": "api/SVGFEFuncGElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncGElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncGElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11188,7 +11142,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncRElement",
     "source_file": "api/SVGFEFuncRElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncRElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncRElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11248,7 +11202,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEGaussianBlurElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEGaussianBlurElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11307,7 +11261,7 @@
    "key": "api.SVGFEGaussianBlurElement.edgeMode",
    "compat": {
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-edgemode",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-edgemode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11367,7 +11321,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/height",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11441,7 +11395,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/in1",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11501,7 +11455,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/result",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11575,7 +11529,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-setstddeviation",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-setstddeviation",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11635,7 +11589,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11695,7 +11649,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11755,7 +11709,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/width",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11829,7 +11783,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/x",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11903,7 +11857,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/y",
     "source_file": "api/SVGFEGaussianBlurElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -11977,7 +11931,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEImageElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEImageElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12037,7 +11991,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-crossorigin",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feimage-crossorigin",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12097,7 +12051,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/height",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12217,7 +12171,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/preserveAspectRatio",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeimageelement-preserveaspectratio",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeimageelement-preserveaspectratio",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12277,7 +12231,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/result",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12337,7 +12291,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/width",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12397,7 +12351,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/x",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12457,7 +12411,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/y",
     "source_file": "api/SVGFEImageElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12517,7 +12471,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMergeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12577,7 +12531,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/height",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12637,7 +12591,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/result",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12697,7 +12651,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/width",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12757,7 +12711,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/x",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12817,7 +12771,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/y",
     "source_file": "api/SVGFEMergeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12877,7 +12831,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement",
     "source_file": "api/SVGFEMergeNodeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeNodeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMergeNodeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12937,7 +12891,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement/in1",
     "source_file": "api/SVGFEMergeNodeElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfemergenodeelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfemergenodeelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -12997,7 +12951,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMorphologyElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMorphologyElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13057,7 +13011,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/height",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13117,7 +13071,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/in1",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13177,7 +13131,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/operator",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-operator",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-operator",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13237,7 +13191,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusX",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-radiusx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13297,7 +13251,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusY",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-radiusy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13357,7 +13311,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/result",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13417,7 +13371,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/width",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13477,7 +13431,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/x",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13537,7 +13491,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/y",
     "source_file": "api/SVGFEMorphologyElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13597,7 +13551,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEOffsetElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEOffsetElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13657,7 +13611,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/dx",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-dx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13717,7 +13671,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/dy",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-dy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13777,7 +13731,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/height",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13837,7 +13791,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/in1",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13897,7 +13851,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/result",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -13957,7 +13911,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/width",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14017,7 +13971,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/x",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14077,7 +14031,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/y",
     "source_file": "api/SVGFEOffsetElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14137,7 +14091,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
     "source_file": "api/SVGFEPointLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEPointLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEPointLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14197,7 +14151,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/x",
     "source_file": "api/SVGFEPointLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14257,7 +14211,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/y",
     "source_file": "api/SVGFEPointLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14317,7 +14271,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/z",
     "source_file": "api/SVGFEPointLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-z",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-z",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14377,7 +14331,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpecularLightingElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFESpecularLightingElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14437,7 +14391,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/height",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14497,7 +14451,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/in1",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14557,7 +14511,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/kernelUnitLengthX",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14617,7 +14571,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/kernelUnitLengthY",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14677,7 +14631,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/result",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14737,7 +14691,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularConstant",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularconstant",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-specularconstant",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14797,7 +14751,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularExponent",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularexponent",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-specularexponent",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14857,7 +14811,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/surfaceScale",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-surfacescale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-surfacescale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14917,7 +14871,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/width",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -14977,7 +14931,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/x",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15037,7 +14991,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/y",
     "source_file": "api/SVGFESpecularLightingElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15097,7 +15051,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpotLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFESpotLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15157,7 +15111,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/limitingConeAngle",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-limitingconeangle",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-limitingconeangle",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15217,7 +15171,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtX",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsatx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15277,7 +15231,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtY",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsaty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsaty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15337,7 +15291,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtZ",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatz",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsatz",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15397,7 +15351,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/specularExponent",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-specularexponent",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-specularexponent",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15457,7 +15411,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/x",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15517,7 +15471,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/y",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15577,7 +15531,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/z",
     "source_file": "api/SVGFESpotLightElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-z",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-z",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15637,7 +15591,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETileElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFETileElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15697,7 +15651,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/height",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15757,7 +15711,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/in1",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfetileelement-in1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfetileelement-in1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15817,7 +15771,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/result",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15877,7 +15831,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/width",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15937,7 +15891,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/x",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -15997,7 +15951,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/y",
     "source_file": "api/SVGFETileElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16057,7 +16011,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETurbulenceElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFETurbulenceElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16117,7 +16071,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/baseFrequencyX",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16177,7 +16131,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/baseFrequencyY",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyy",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyy",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16237,7 +16191,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/height",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16297,7 +16251,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/numOctaves",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-numoctaves",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-numoctaves",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16357,7 +16311,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/result",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16417,7 +16371,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/seed",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-seed",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-seed",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16477,7 +16431,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/stitchTiles",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-stitchtiles",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-stitchtiles",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16537,7 +16491,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/type",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-type",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-type",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16597,7 +16551,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/width",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16657,7 +16611,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/x",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16717,7 +16671,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/y",
     "source_file": "api/SVGFETurbulenceElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16777,7 +16731,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFilterElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGFilterElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16837,7 +16791,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/filterUnits",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-filterunits",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-filterunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -16897,7 +16851,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/height",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17017,7 +16971,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/primitiveUnits",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-primitiveunits",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-primitiveunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17077,7 +17031,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/width",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17137,7 +17091,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/x",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17197,7 +17151,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/y",
     "source_file": "api/SVGFilterElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17257,7 +17211,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation-filters",
     "source_file": "css/properties/color-interpolation-filters.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#ColorInterpolationFiltersProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17316,7 +17270,7 @@
    "key": "css.properties.color-interpolation-filters.auto",
    "compat": {
     "source_file": "css/properties/color-interpolation-filters.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects-1/#valdef-color-interpolation-filters-auto",
+    "spec_url": "https://drafts.csswg.org/filter-effects-1/#valdef-color-interpolation-filters-auto",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17375,7 +17329,7 @@
    "key": "css.properties.color-interpolation-filters.linearRGB",
    "compat": {
     "source_file": "css/properties/color-interpolation-filters.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects-1/#valdef-color-interpolation-filters-linearrgb",
+    "spec_url": "https://drafts.csswg.org/filter-effects-1/#valdef-color-interpolation-filters-linearrgb",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17434,7 +17388,7 @@
    "key": "css.properties.color-interpolation-filters.sRGB",
    "compat": {
     "source_file": "css/properties/color-interpolation-filters.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects-1/#valdef-color-interpolation-filters-srgb",
+    "spec_url": "https://drafts.csswg.org/filter-effects-1/#valdef-color-interpolation-filters-srgb",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17556,7 +17510,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-color",
     "source_file": "css/properties/flood-color.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodColorProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FloodColorProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17728,7 +17682,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flood-opacity",
     "source_file": "css/properties/flood-opacity.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FloodOpacityProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17788,7 +17742,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/lighting-color",
     "source_file": "css/properties/lighting-color.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#LightingColorProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#LightingColorProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17960,7 +17914,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feBlend",
     "source_file": "svg/elements/feBlend.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feBlendElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feBlendElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18136,7 +18090,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/mode",
     "source_file": "svg/elements/feBlend.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-mode",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feblend-mode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18196,7 +18150,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feColorMatrix",
     "source_file": "svg/elements/feColorMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feColorMatrixElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feColorMatrixElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18430,7 +18384,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feComponentTransfer",
     "source_file": "svg/elements/feComponentTransfer.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feComponentTransferElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feComponentTransferElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18548,7 +18502,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feComposite",
     "source_file": "svg/elements/feComposite.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feCompositeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feCompositeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18726,7 +18680,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k1",
     "source_file": "svg/elements/feComposite.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k1",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k1",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18786,7 +18740,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k2",
     "source_file": "svg/elements/feComposite.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k2",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k2",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18846,7 +18800,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k3",
     "source_file": "svg/elements/feComposite.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k3",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k3",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -18906,7 +18860,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/k4",
     "source_file": "svg/elements/feComposite.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k4",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k4",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19083,7 +19037,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feConvolveMatrix",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feConvolveMatrixElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feConvolveMatrixElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19143,7 +19097,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/bias",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-bias",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-bias",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19203,7 +19157,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/divisor",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-divisor",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-divisor",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19263,7 +19217,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/edgeMode",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-edgemode",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-edgemode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19323,7 +19277,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/in",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-primitive-in",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19383,7 +19337,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/kernelMatrix",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelmatrix",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-kernelmatrix",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19443,7 +19397,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/kernelUnitLength",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelunitlength",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-kernelunitlength",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19503,7 +19457,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/order",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-order",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-order",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19563,7 +19517,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/preserveAlpha",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-preservealpha",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-preservealpha",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19623,7 +19577,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/targetX",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targetx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-targetx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19683,7 +19637,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/targetY",
     "source_file": "svg/elements/feConvolveMatrix.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targety",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-targety",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19743,7 +19697,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDiffuseLighting",
     "source_file": "svg/elements/feDiffuseLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feDiffuseLightingElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feDiffuseLightingElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19803,7 +19757,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/diffuseConstant",
     "source_file": "svg/elements/feDiffuseLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19863,7 +19817,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/in",
     "source_file": "svg/elements/feDiffuseLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-primitive-in",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19923,7 +19877,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/kernelUnitLength",
     "source_file": "svg/elements/feDiffuseLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -19983,7 +19937,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/surfaceScale",
     "source_file": "svg/elements/feDiffuseLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20043,7 +19997,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDisplacementMap",
     "source_file": "svg/elements/feDisplacementMap.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feDisplacementMapElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feDisplacementMapElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20219,7 +20173,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/scale",
     "source_file": "svg/elements/feDisplacementMap.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-scale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-scale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20279,7 +20233,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/xChannelSelector",
     "source_file": "svg/elements/feDisplacementMap.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20339,7 +20293,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/yChannelSelector",
     "source_file": "svg/elements/feDisplacementMap.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20399,7 +20353,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDistantLight",
     "source_file": "svg/elements/feDistantLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feDistantLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feDistantLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20459,7 +20413,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/azimuth",
     "source_file": "svg/elements/feDistantLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-azimuth",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fedistantlight-azimuth",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20519,7 +20473,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/elevation",
     "source_file": "svg/elements/feDistantLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-elevation",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fedistantlight-elevation",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20579,7 +20533,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feDropShadow",
     "source_file": "svg/elements/feDropShadow.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feDropShadowElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feDropShadowElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20872,7 +20826,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feFlood",
     "source_file": "svg/elements/feFlood.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feFloodElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feFloodElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20932,7 +20886,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feFuncA",
     "source_file": "svg/elements/feFuncA.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feFuncAElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feFuncAElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20992,7 +20946,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feFuncB",
     "source_file": "svg/elements/feFuncB.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feFuncBElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feFuncBElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21052,7 +21006,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feFuncG",
     "source_file": "svg/elements/feFuncG.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feFuncGElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feFuncGElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21112,7 +21066,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feFuncR",
     "source_file": "svg/elements/feFuncR.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feFuncRElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feFuncRElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21172,7 +21126,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feGaussianBlur",
     "source_file": "svg/elements/feGaussianBlur.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feGaussianBlurElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feGaussianBlurElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21348,7 +21302,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stdDeviation",
     "source_file": "svg/elements/feGaussianBlur.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21408,7 +21362,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feImage",
     "source_file": "svg/elements/feImage.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feImageElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feImageElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21468,7 +21422,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/crossorigin",
     "source_file": "svg/elements/feImage.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-crossorigin",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feimage-crossorigin",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21528,7 +21482,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/href",
     "source_file": "svg/elements/feImage.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feimage-href",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21648,7 +21602,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feMerge",
     "source_file": "svg/elements/feMerge.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feMergeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feMergeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21708,7 +21662,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feMergeNode",
     "source_file": "svg/elements/feMergeNode.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feMergeNodeElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feMergeNodeElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -21826,7 +21780,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feMorphology",
     "source_file": "svg/elements/feMorphology.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feMorphologyElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feMorphologyElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22002,7 +21956,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/radius",
     "source_file": "svg/elements/feMorphology.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-femorphology-radius",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-femorphology-radius",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22062,7 +22016,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feOffset",
     "source_file": "svg/elements/feOffset.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feOffsetElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feOffsetElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22296,7 +22250,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/fePointLight",
     "source_file": "svg/elements/fePointLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#fePointLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#fePointLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22530,7 +22484,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feSpecularLighting",
     "source_file": "svg/elements/feSpecularLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feSpecularLightingElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feSpecularLightingElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22706,7 +22660,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/specularConstant",
     "source_file": "svg/elements/feSpecularLighting.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-specularconstant",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fespecularlighting-specularconstant",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22882,7 +22836,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feSpotLight",
     "source_file": "svg/elements/feSpotLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feSpotLightElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feSpotLightElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -22942,7 +22896,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/limitingConeAngle",
     "source_file": "svg/elements/feSpotLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23002,7 +22956,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtX",
     "source_file": "svg/elements/feSpotLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatx",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsatx",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23062,7 +23016,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtY",
     "source_file": "svg/elements/feSpotLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsaty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsaty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23122,7 +23076,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/pointsAtZ",
     "source_file": "svg/elements/feSpotLight.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatz",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsatz",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23414,7 +23368,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feTile",
     "source_file": "svg/elements/feTile.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feTileElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feTileElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23532,7 +23486,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/feTurbulence",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#feTurbulenceElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#feTurbulenceElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23594,7 +23548,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/baseFrequency",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-basefrequency",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-basefrequency",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23656,7 +23610,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/numOctaves",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-numoctaves",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-numoctaves",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23716,7 +23670,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/seed",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-seed",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-seed",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23778,7 +23732,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/stitchTiles",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-stitchtiles",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-stitchtiles",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23838,7 +23792,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/type",
     "source_file": "svg/elements/feTurbulence.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-type",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-type",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23898,7 +23852,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/filter",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FilterElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FilterElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -23958,7 +23912,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/filterUnits",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-filterunits",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-filterunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24018,7 +23972,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/height",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24078,7 +24032,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/primitiveUnits",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitiveunits",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-primitiveunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24138,7 +24092,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/width",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24198,7 +24152,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/x",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24258,7 +24212,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/y",
     "source_file": "svg/elements/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24318,7 +24272,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/filter",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FilterProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FilterProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24378,7 +24332,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/flood-color",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodColorProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FloodColorProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -24438,7 +24392,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/flood-opacity",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FloodOpacityProperty",
     "status": {
      "deprecated": false,
      "experimental": false,

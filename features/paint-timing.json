@@ -338,6 +338,7 @@
   {
    "key": "api.PerformancePaintTiming.toJSON",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming/toJSON",
     "source_file": "api/PerformancePaintTiming.json",
     "spec_url": "https://w3c.github.io/paint-timing/#dom-performancepainttiming-tojson",
     "status": {

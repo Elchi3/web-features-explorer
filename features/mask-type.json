@@ -13,52 +13,7 @@
  "name": "mask-type",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/css-masking-1/#the-mask-type",
-   "seriesComposition": "full",
-   "shortname": "css-masking-1",
-   "series": {
-    "shortname": "css-masking",
-    "currentSpecification": "css-masking-1",
-    "title": "CSS Masking",
-    "shortTitle": "CSS Masking",
-    "releaseUrl": "https://www.w3.org/TR/css-masking/",
-    "nightlyUrl": "https://drafts.fxtf.org/css-masking/"
-   },
-   "seriesVersion": "1",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/css-masking-1/",
-    "status": "Candidate Recommendation Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/css-masking-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "css-masking-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "CSS Masking Module Level 1",
-   "source": "w3c",
-   "shortTitle": "CSS Masking 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/css-masking"
-    ]
-   },
-   "fragment": "the-mask-type"
+   "url": "https://drafts.fxtf.org/css-masking-1/#the-mask-type"
   }
  ],
  "status": {
@@ -144,7 +99,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-type",
     "source_file": "css/properties/mask-type.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-type",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-type",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -203,7 +158,7 @@
    "key": "css.properties.mask-type.alpha",
    "compat": {
     "source_file": "css/properties/mask-type.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-type-alpha",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-type-alpha",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -262,7 +217,7 @@
    "key": "css.properties.mask-type.luminance",
    "compat": {
     "source_file": "css/properties/mask-type.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-type-luminance",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-type-luminance",
     "status": {
      "deprecated": false,
      "experimental": false,

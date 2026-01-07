@@ -2793,12 +2793,10 @@
       "version_added": "47"
      },
      "safari": {
-      "impl_url": "https://webkit.org/b/279540",
-      "version_added": false
+      "version_added": "26.2"
      },
      "safari_ios": {
-      "impl_url": "https://webkit.org/b/279540",
-      "version_added": false
+      "version_added": "26.2"
      },
      "samsunginternet_android": {
       "notes": "<code>movementX</code> and <code>movementY</code> are not fractional, see <a href=\"https://crbug.com/41364801\">bug 41364801</a>.",
@@ -2811,8 +2809,7 @@
       "version_added": "64"
      },
      "webview_ios": {
-      "impl_url": "https://webkit.org/b/279540",
-      "version_added": false
+      "version_added": "26.2"
      }
     },
     "tags": [
@@ -3210,12 +3207,9 @@
   "edge": [],
   "firefox": [],
   "firefox_android": [],
-  "safari": [
-   "https://webkit.org/b/279540"
-  ],
+  "safari": [],
   "safari_ios": [
-   "https://webkit.org/b/213953",
-   "https://webkit.org/b/279540"
+   "https://webkit.org/b/213953"
   ]
  }
 }

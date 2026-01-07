@@ -10307,7 +10307,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#InterfaceSVGComponentTransferFunctionElement",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#InterfaceSVGComponentTransferFunctionElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10367,7 +10367,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/amplitude",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-amplitude",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-amplitude",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10427,7 +10427,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/exponent",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-exponent",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-exponent",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10487,7 +10487,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/intercept",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-intercept",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-intercept",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10547,7 +10547,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/offset",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-offset",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-offset",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10607,7 +10607,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/slope",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-slope",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-slope",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10667,7 +10667,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/tableValues",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-tablevalues",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-tablevalues",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -10727,7 +10727,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/type",
     "source_file": "api/SVGComponentTransferFunctionElement.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17167,7 +17167,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#InterfaceSVGMaskElement",
+    "spec_url": "https://drafts.csswg.org/css-masking/#InterfaceSVGMaskElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17227,7 +17227,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/height",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-height",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-height",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17287,7 +17287,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/maskContentUnits",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-maskcontentunits",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-maskcontentunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17347,7 +17347,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/maskUnits",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-maskunits",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-maskunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17407,7 +17407,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/width",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-width",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17467,7 +17467,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/x",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-x",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-x",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -17527,7 +17527,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement/y",
     "source_file": "api/SVGMaskElement.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-y",
+    "spec_url": "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-y",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -20527,7 +20527,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGRect",
     "source_file": "api/SVGRect.json",
-    "spec_url": "https://drafts.fxtf.org/geometry/#DOMRect",
+    "spec_url": "https://drafts.csswg.org/geometry/#DOMRect",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28040,7 +28040,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-rule",
     "source_file": "css/properties/clip-rule.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-clip-rule",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-clip-rule",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28099,7 +28099,7 @@
    "key": "css.properties.clip-rule.evenodd",
    "compat": {
     "source_file": "css/properties/clip-rule.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-rule-evenodd",
+    "spec_url": "https://drafts.csswg.org/css-masking-1/#valdef-clip-rule-evenodd",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28158,7 +28158,7 @@
    "key": "css.properties.clip-rule.nonzero",
    "compat": {
     "source_file": "css/properties/clip-rule.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-rule-nonzero",
+    "spec_url": "https://drafts.csswg.org/css-masking-1/#valdef-clip-rule-nonzero",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28697,7 +28697,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/fill-rule",
     "source_file": "css/properties/fill-rule.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#fill-rule",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#fill-rule",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28756,7 +28756,7 @@
    "key": "css.properties.fill-rule.evenodd",
    "compat": {
     "source_file": "css/properties/fill-rule.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-fill-rule-evenodd",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-fill-rule-evenodd",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -28815,7 +28815,7 @@
    "key": "css.properties.fill-rule.nonzero",
    "compat": {
     "source_file": "css/properties/fill-rule.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-fill-rule-nonzero",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-fill-rule-nonzero",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -29935,7 +29935,7 @@
    "key": "css.properties.stroke-color",
    "compat": {
     "source_file": "css/properties/stroke-color.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-color",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-color",
     "status": {
      "deprecated": false,
      "experimental": true,
@@ -29995,7 +29995,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dasharray",
     "source_file": "css/properties/stroke-dasharray.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-dasharray",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-dasharray",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30054,7 +30054,7 @@
    "key": "css.properties.stroke-dasharray.none",
    "compat": {
     "source_file": "css/properties/stroke-dasharray.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-dasharray-none",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-dasharray-none",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30114,7 +30114,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-dashoffset",
     "source_file": "css/properties/stroke-dashoffset.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-dashoffset",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-dashoffset",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30174,7 +30174,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linecap",
     "source_file": "css/properties/stroke-linecap.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-linecap",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-linecap",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30233,7 +30233,7 @@
    "key": "css.properties.stroke-linecap.butt",
    "compat": {
     "source_file": "css/properties/stroke-linecap.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linecap-butt",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linecap-butt",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30292,7 +30292,7 @@
    "key": "css.properties.stroke-linecap.round",
    "compat": {
     "source_file": "css/properties/stroke-linecap.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linecap-round",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linecap-round",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30351,7 +30351,7 @@
    "key": "css.properties.stroke-linecap.square",
    "compat": {
     "source_file": "css/properties/stroke-linecap.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linecap-square",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linecap-square",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30411,7 +30411,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-linejoin",
     "source_file": "css/properties/stroke-linejoin.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-linejoin",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-linejoin",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30470,7 +30470,7 @@
    "key": "css.properties.stroke-linejoin.bevel",
    "compat": {
     "source_file": "css/properties/stroke-linejoin.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-bevel",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-bevel",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30529,7 +30529,7 @@
    "key": "css.properties.stroke-linejoin.miter",
    "compat": {
     "source_file": "css/properties/stroke-linejoin.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-miter",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-miter",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30588,7 +30588,7 @@
    "key": "css.properties.stroke-linejoin.round",
    "compat": {
     "source_file": "css/properties/stroke-linejoin.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-round",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-round",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30648,7 +30648,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-miterlimit",
     "source_file": "css/properties/stroke-miterlimit.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-miterlimit",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-miterlimit",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -30708,7 +30708,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/stroke-width",
     "source_file": "css/properties/stroke-width.json",
-    "spec_url": "https://drafts.fxtf.org/fill-stroke-3/#stroke-width",
+    "spec_url": "https://drafts.csswg.org/fill-stroke-3/#stroke-width",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -35639,7 +35639,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Element/mask",
     "source_file": "svg/elements/mask.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#MaskElement",
+    "spec_url": "https://drafts.csswg.org/css-masking/#MaskElement",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -35757,7 +35757,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/maskContentUnits",
     "source_file": "svg/elements/mask.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskcontentunits",
+    "spec_url": "https://drafts.csswg.org/css-masking/#element-attrdef-mask-maskcontentunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -35817,7 +35817,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/maskUnits",
     "source_file": "svg/elements/mask.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskunits",
+    "spec_url": "https://drafts.csswg.org/css-masking/#element-attrdef-mask-maskunits",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -43337,7 +43337,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/clip-rule",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-clip-rule",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-clip-rule",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -43542,7 +43542,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/color-interpolation-filters",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#ColorInterpolationFiltersProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -44215,7 +44215,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/lighting-color",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#LightingColorProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#LightingColorProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -44455,7 +44455,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/mask",
     "source_file": "svg/global_attributes.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask",
     "status": {
      "deprecated": false,
      "experimental": false,

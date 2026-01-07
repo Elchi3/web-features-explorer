@@ -194,7 +194,7 @@
  ],
  "mdnUrls": [
   {
-   "title": "rel=prefetch",
+   "title": "rel=\"prefetch\"",
    "anchor": null,
    "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Attributes/rel/prefetch"
   }

@@ -35,53 +35,7 @@
  "name": "filter",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/filter-effects-1/#propdef-filter",
-   "seriesComposition": "full",
-   "shortname": "filter-effects-1",
-   "series": {
-    "shortname": "filter-effects",
-    "currentSpecification": "filter-effects-1",
-    "title": "Filter Effects",
-    "shortTitle": "Filter Effects",
-    "releaseUrl": "https://www.w3.org/TR/filter-effects/",
-    "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
-   },
-   "seriesVersion": "1",
-   "seriesNext": "filter-effects-2",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/filter-effects-1/",
-    "status": "Working Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/filter-effects-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "filter-effects-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "Filter Effects Module Level 1",
-   "source": "w3c",
-   "shortTitle": "Filter Effects 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/filter-effects"
-    ]
-   },
-   "fragment": "propdef-filter"
+   "url": "https://drafts.fxtf.org/filter-effects-1/#propdef-filter"
   }
  ],
  "status": {
@@ -433,7 +387,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/filter",
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#FilterProperty",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#FilterProperty",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -571,7 +525,7 @@
    "key": "css.properties.filter.blur",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-blur",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -630,7 +584,7 @@
    "key": "css.properties.filter.brightness",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-brightness",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -689,7 +643,7 @@
    "key": "css.properties.filter.contrast",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-contrast",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -748,7 +702,7 @@
    "key": "css.properties.filter.drop-shadow",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-drop-shadow",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -807,7 +761,7 @@
    "key": "css.properties.filter.grayscale",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-grayscale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -866,7 +820,7 @@
    "key": "css.properties.filter.hue-rotate",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-hue-rotate",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -925,7 +879,7 @@
    "key": "css.properties.filter.invert",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-invert",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -984,7 +938,7 @@
    "key": "css.properties.filter.opacity",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-opacity",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1043,7 +997,7 @@
    "key": "css.properties.filter.saturate",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-saturate",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1103,7 +1057,7 @@
    "key": "css.properties.filter.sepia",
    "compat": {
     "source_file": "css/properties/filter.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-sepia",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1164,7 +1118,7 @@
     "description": "<code>&lt;filter-function&gt;</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#typedef-filter-function",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#typedef-filter-function",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1225,7 +1179,7 @@
     "description": "<code>blur()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/blur",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-blur",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1286,7 +1240,7 @@
     "description": "<code>brightness()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/brightness",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-brightness",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1347,7 +1301,7 @@
     "description": "<code>contrast()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/contrast",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-contrast",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1408,7 +1362,7 @@
     "description": "<code>drop-shadow()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/drop-shadow",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-drop-shadow",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1469,7 +1423,7 @@
     "description": "<code>grayscale()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/grayscale",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-grayscale",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1530,7 +1484,7 @@
     "description": "<code>hue-rotate()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/hue-rotate",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-hue-rotate",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1591,7 +1545,7 @@
     "description": "<code>invert()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/invert",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-invert",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1652,7 +1606,7 @@
     "description": "<code>opacity()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/opacity",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-opacity",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1713,7 +1667,7 @@
     "description": "<code>saturate()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/saturate",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-saturate",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1774,7 +1728,7 @@
     "description": "<code>sepia()</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/sepia",
     "source_file": "css/types/filter-function.json",
-    "spec_url": "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
+    "spec_url": "https://drafts.csswg.org/filter-effects/#funcdef-filter-sepia",
     "status": {
      "deprecated": false,
      "experimental": false,

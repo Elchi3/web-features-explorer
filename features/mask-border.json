@@ -16,52 +16,7 @@
  "name": "mask-border",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/css-masking-1/#mask-borders",
-   "seriesComposition": "full",
-   "shortname": "css-masking-1",
-   "series": {
-    "shortname": "css-masking",
-    "currentSpecification": "css-masking-1",
-    "title": "CSS Masking",
-    "shortTitle": "CSS Masking",
-    "releaseUrl": "https://www.w3.org/TR/css-masking/",
-    "nightlyUrl": "https://drafts.fxtf.org/css-masking/"
-   },
-   "seriesVersion": "1",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/css-masking-1/",
-    "status": "Candidate Recommendation Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/css-masking-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "css-masking-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "CSS Masking Module Level 1",
-   "source": "w3c",
-   "shortTitle": "CSS Masking 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/css-masking"
-    ]
-   },
-   "fragment": "mask-borders"
+   "url": "https://drafts.fxtf.org/css-masking-1/#mask-borders"
   }
  ],
  "status": {
@@ -140,7 +95,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border",
     "source_file": "css/properties/mask-border.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -228,7 +183,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-outset",
     "source_file": "css/properties/mask-border-outset.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-outset",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border-outset",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -316,7 +271,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-repeat",
     "source_file": "css/properties/mask-border-repeat.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-repeat",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border-repeat",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -404,7 +359,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-slice",
     "source_file": "css/properties/mask-border-slice.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-slice",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border-slice",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -492,7 +447,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-source",
     "source_file": "css/properties/mask-border-source.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-source",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border-source",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -580,7 +535,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-width",
     "source_file": "css/properties/mask-border-width.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-border-width",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-border-width",
     "status": {
      "deprecated": false,
      "experimental": false,

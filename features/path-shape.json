@@ -226,7 +226,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path",
     "source_file": "css/types/basic-shape.json",
     "spec_url": [
-     "https://drafts.fxtf.org/css-masking/#the-clip-path",
+     "https://drafts.csswg.org/css-masking/#the-clip-path",
      "https://drafts.csswg.org/css-shapes/#supported-basic-shapes"
     ],
     "status": {
@@ -368,7 +368,7 @@
     "description": "In <code>offset-path</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-path",
     "source_file": "css/types/basic-shape.json",
-    "spec_url": "https://drafts.fxtf.org/motion/#offset-path-property",
+    "spec_url": "https://drafts.csswg.org/motion/#offset-path-property",
     "status": {
      "deprecated": false,
      "experimental": false,

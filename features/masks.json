@@ -41,52 +41,7 @@
  "name": "Masks",
  "spec": [
   {
-   "url": "https://drafts.fxtf.org/css-masking-1/#positioned-masks",
-   "seriesComposition": "full",
-   "shortname": "css-masking-1",
-   "series": {
-    "shortname": "css-masking",
-    "currentSpecification": "css-masking-1",
-    "title": "CSS Masking",
-    "shortTitle": "CSS Masking",
-    "releaseUrl": "https://www.w3.org/TR/css-masking/",
-    "nightlyUrl": "https://drafts.fxtf.org/css-masking/"
-   },
-   "seriesVersion": "1",
-   "organization": "W3C",
-   "groups": [
-    {
-     "name": "Cascading Style Sheets (CSS) Working Group",
-     "url": "https://www.w3.org/groups/wg/css/"
-    }
-   ],
-   "release": {
-    "url": "https://www.w3.org/TR/css-masking-1/",
-    "status": "Candidate Recommendation Draft",
-    "filename": "Overview.html"
-   },
-   "nightly": {
-    "url": "https://drafts.fxtf.org/css-masking-1/",
-    "status": "Editor's Draft",
-    "alternateUrls": [],
-    "repository": "https://github.com/w3c/fxtf-drafts",
-    "sourcePath": "css-masking-1/Overview.bs",
-    "filename": "Overview.html"
-   },
-   "title": "CSS Masking Module Level 1",
-   "source": "w3c",
-   "shortTitle": "CSS Masking 1",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "tests": {
-    "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": [
-     "css/css-masking"
-    ]
-   },
-   "fragment": "positioned-masks"
+   "url": "https://drafts.fxtf.org/css-masking-1/#positioned-masks"
   }
  ],
  "status": {
@@ -445,7 +400,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask",
     "source_file": "css/properties/mask.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -677,7 +632,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-clip",
     "source_file": "css/properties/mask-clip.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-clip",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-clip",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1086,7 +1041,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-composite",
     "source_file": "css/properties/mask-composite.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-composite",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-composite",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1174,7 +1129,7 @@
    "key": "css.properties.mask-composite.add",
    "compat": {
     "source_file": "css/properties/mask-composite.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-composite-add",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-composite-add",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1233,7 +1188,7 @@
    "key": "css.properties.mask-composite.exclude",
    "compat": {
     "source_file": "css/properties/mask-composite.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-composite-exclude",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-composite-exclude",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1292,7 +1247,7 @@
    "key": "css.properties.mask-composite.intersect",
    "compat": {
     "source_file": "css/properties/mask-composite.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-composite-intersect",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-composite-intersect",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1351,7 +1306,7 @@
    "key": "css.properties.mask-composite.subtract",
    "compat": {
     "source_file": "css/properties/mask-composite.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-composite-subtract",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-composite-subtract",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1411,7 +1366,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-image",
     "source_file": "css/properties/mask-image.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-image",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-image",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1658,7 +1613,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-mode",
     "source_file": "css/properties/mask-mode.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-mode",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-mode",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1717,7 +1672,7 @@
    "key": "css.properties.mask-mode.alpha",
    "compat": {
     "source_file": "css/properties/mask-mode.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-mode-alpha",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-mode-alpha",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1776,7 +1731,7 @@
    "key": "css.properties.mask-mode.luminance",
    "compat": {
     "source_file": "css/properties/mask-mode.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-mode-luminance",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-mode-luminance",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1835,7 +1790,7 @@
    "key": "css.properties.mask-mode.match-source",
    "compat": {
     "source_file": "css/properties/mask-mode.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#valdef-mask-mode-match-source",
+    "spec_url": "https://drafts.csswg.org/css-masking/#valdef-mask-mode-match-source",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -1895,7 +1850,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-origin",
     "source_file": "css/properties/mask-origin.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-origin",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-origin",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2451,7 +2406,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-position",
     "source_file": "css/properties/mask-position.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-position",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-position",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2577,7 +2532,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-repeat",
     "source_file": "css/properties/mask-repeat.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-repeat",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-repeat",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -2703,7 +2658,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-size",
     "source_file": "css/properties/mask-size.json",
-    "spec_url": "https://drafts.fxtf.org/css-masking/#the-mask-size",
+    "spec_url": "https://drafts.csswg.org/css-masking/#the-mask-size",
     "status": {
      "deprecated": false,
      "experimental": false,
