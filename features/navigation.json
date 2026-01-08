@@ -393,7 +393,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.entries": {
@@ -431,7 +433,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.navigateerror_event": {
@@ -439,7 +443,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.navigatesuccess_event": {
@@ -447,7 +453,9 @@
     "support": {
      "chrome": "102",
      "chrome_android": "102",
-     "edge": "102"
+     "edge": "102",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    },
    "api.Navigation.reload": {

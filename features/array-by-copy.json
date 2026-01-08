@@ -610,11 +610,13 @@
   }
  ],
  "status": {
-  "baseline": "low",
+  "baseline": "high",
+  "baseline_high_date": "2026-01-04",
   "baseline_low_date": "2023-07-04",
   "by_compat_key": {
    "javascript.builtins.Array.toReversed": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -627,7 +629,8 @@
     }
    },
    "javascript.builtins.Array.toSorted": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -640,7 +643,8 @@
     }
    },
    "javascript.builtins.Array.toSpliced": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -653,7 +657,8 @@
     }
    },
    "javascript.builtins.Array.with": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -666,7 +671,8 @@
     }
    },
    "javascript.builtins.TypedArray.toReversed": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -679,7 +685,8 @@
     }
    },
    "javascript.builtins.TypedArray.toSorted": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -692,7 +699,8 @@
     }
    },
    "javascript.builtins.TypedArray.with": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-04",
     "baseline_low_date": "2023-07-04",
     "support": {
      "chrome": "110",
@@ -1278,8 +1286,7 @@
   "javascript"
  ],
  "baselineLowDateAsObject": "2023-07-04T00:00:00.000Z",
- "baselineHighDateAsObject": null,
- "expectedBaselineHighDate": "2026-01-04",
+ "baselineHighDateAsObject": "2026-01-04T00:00:00.000Z",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],

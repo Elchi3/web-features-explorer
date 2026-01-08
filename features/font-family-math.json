@@ -61,16 +61,20 @@
   }
  ],
  "status": {
-  "baseline": false,
+  "baseline": "low",
+  "baseline_low_date": "2025-12-12",
   "by_compat_key": {
    "css.properties.font-family.math": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
     "support": {
      "chrome": "109",
      "chrome_android": "109",
      "edge": "109",
      "firefox": "145",
-     "firefox_android": "145"
+     "firefox_android": "145",
+     "safari": "26.2",
+     "safari_ios": "26.2"
     }
    }
   },
@@ -79,7 +83,9 @@
    "chrome_android": "109",
    "edge": "109",
    "firefox": "145",
-   "firefox_android": "145"
+   "firefox_android": "145",
+   "safari": "26.2",
+   "safari_ios": "26.2"
   }
  },
  "id": "font-family-math",
@@ -161,8 +167,9 @@
  "bcdTags": [
   "css"
  ],
- "baselineLowDateAsObject": null,
+ "baselineLowDateAsObject": "2025-12-12T00:00:00.000Z",
  "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2028-06-12",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],
@@ -171,8 +178,5 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- },
- "blockedOn": "Safari",
- "monthsBlocked": 2,
- "blockedSince": "November 2025"
+ }
 }
