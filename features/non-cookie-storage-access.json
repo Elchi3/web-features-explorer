@@ -302,11 +302,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00053132,
+  "percentageOfPageLoad": 0.00057411,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/265"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Document.hasUnpartitionedCookieAccess",

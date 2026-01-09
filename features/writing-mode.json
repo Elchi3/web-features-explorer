@@ -223,7 +223,7 @@
    "label": "interop-2025-writingmodes"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.properties.writing-mode",

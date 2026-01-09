@@ -563,7 +563,7 @@
    "label": "interop-2021-transforms"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.properties.transform",

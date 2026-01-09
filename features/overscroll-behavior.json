@@ -437,7 +437,7 @@
    "label": "interop-2022-scrolling"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.properties.overscroll-behavior",
