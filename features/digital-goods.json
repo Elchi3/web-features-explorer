@@ -71,7 +71,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": true,
+ "wpt": false,
  "bcdData": [
   {
    "key": "api.Window.getDigitalGoodsService",

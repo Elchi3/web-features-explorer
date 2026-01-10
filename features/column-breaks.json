@@ -252,7 +252,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.properties.break-after.avoid-column",

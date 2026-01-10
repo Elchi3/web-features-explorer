@@ -111,13 +111,7 @@
  "id": "fetchlater",
  "groups": [],
  "groupPaths": [],
- "mdnUrls": [
-  {
-   "title": "fetchLater() API",
-   "anchor": null,
-   "url": "https://developer.mozilla.org/docs/Web/API/fetchLater_API"
-  }
- ],
+ "mdnUrls": [],
  "standardPositions": {
   "mozilla": {
    "url": "https://github.com/mozilla/standards-positions/issues/703",
