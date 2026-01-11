@@ -198,7 +198,7 @@
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/346"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "html.elements.img.sizes.auto",

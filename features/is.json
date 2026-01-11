@@ -134,7 +134,7 @@
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/46"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.selectors.is",

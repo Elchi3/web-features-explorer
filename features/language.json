@@ -251,7 +251,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Navigator.language",

@@ -475,7 +475,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.Element.keydown_event",
