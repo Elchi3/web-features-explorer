@@ -98,7 +98,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": true,
+ "wpt": false,
  "bcdData": [
   {
    "key": "css.properties.image-rendering.smooth",

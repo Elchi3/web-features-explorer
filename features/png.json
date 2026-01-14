@@ -1,0 +1,247 @@
+{
+ "caniuse": [
+  "png-alpha",
+  "link-icon-png",
+  "apng"
+ ],
+ "compat_features": [
+  "mediatypes.image.png",
+  "mediatypes.image.png.animation"
+ ],
+ "description": "The PNG (Portable Network Graphics) image format is a raster graphics file format with animation, alpha transparency, and lossless compression.",
+ "description_html": "The PNG (Portable Network Graphics) image format is a raster graphics file format with animation, alpha transparency, and lossless compression.",
+ "kind": "feature",
+ "name": "PNG",
+ "spec": [
+  {
+   "url": "https://w3c.github.io/png/#Introduction",
+   "seriesComposition": "full",
+   "shortname": "png-3",
+   "series": {
+    "shortname": "png",
+    "currentSpecification": "png-3",
+    "title": "Portable Network Graphics (PNG)",
+    "shortTitle": "PNG",
+    "releaseUrl": "https://www.w3.org/TR/png/",
+    "nightlyUrl": "https://w3c.github.io/png/"
+   },
+   "seriesVersion": "3",
+   "formerNames": [
+    "PNG-spec"
+   ],
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Portable Network Graphics (PNG) Working Group",
+     "url": "https://www.w3.org/groups/wg/png/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/png-3/",
+    "status": "Recommendation",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://w3c.github.io/png/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/w3c/png",
+    "sourcePath": "index.html",
+    "filename": "index.html"
+   },
+   "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
+   "source": "w3c",
+   "shortTitle": "PNG",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "Introduction"
+  }
+ ],
+ "status": {
+  "baseline": "high",
+  "baseline_high_date": "2018-01-29",
+  "baseline_low_date": "2015-07-29",
+  "by_compat_key": {
+   "mediatypes.image.png": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "1",
+     "firefox_android": "4",
+     "safari": "1",
+     "safari_ios": "1"
+    }
+   },
+   "mediatypes.image.png.animation": {
+    "baseline": "high",
+    "baseline_high_date": "2018-01-29",
+    "baseline_low_date": "2015-07-29",
+    "support": {
+     "chrome": "1",
+     "chrome_android": "18",
+     "edge": "12",
+     "firefox": "3",
+     "firefox_android": "4",
+     "safari": "8",
+     "safari_ios": "8"
+    }
+   }
+  },
+  "support": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "12",
+   "firefox": "3",
+   "firefox_android": "4",
+   "safari": "8",
+   "safari_ios": "8"
+  }
+ },
+ "id": "png",
+ "groups": [],
+ "groupPaths": [],
+ "mdnUrls": [],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "mediatypes.image.png",
+   "compat": {
+    "description": "Portable Network Graphics (PNG)",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Image_types#png_portable_network_graphics",
+    "source_file": "mediatypes/image/png.json",
+    "spec_url": "https://w3c.github.io/png/#Introduction",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "1"
+     },
+     "chrome_android": {
+      "version_added": "18"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "1"
+     },
+     "firefox_android": {
+      "version_added": "4"
+     },
+     "ie": [
+      {
+       "version_added": "7"
+      },
+      {
+       "notes": "Alpha transparency is not supported.",
+       "partial_implementation": true,
+       "version_added": "4",
+       "version_last": "6",
+       "version_removed": "7"
+      }
+     ],
+     "opera": {
+      "version_added": "≤2"
+     },
+     "opera_android": {
+      "version_added": "14"
+     },
+     "safari": {
+      "version_added": "1"
+     },
+     "safari_ios": {
+      "version_added": "1"
+     },
+     "samsunginternet_android": {
+      "version_added": "1.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "1"
+     }
+    }
+   }
+  },
+  {
+   "key": "mediatypes.image.png.animation",
+   "compat": {
+    "description": "Animation support (APNG)",
+    "source_file": "mediatypes/image/png.json",
+    "spec_url": "https://w3c.github.io/png/#apng-frame-based-animation",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "1"
+     },
+     "chrome_android": {
+      "version_added": "18"
+     },
+     "edge": {
+      "version_added": "12"
+     },
+     "firefox": {
+      "version_added": "3"
+     },
+     "firefox_android": {
+      "version_added": "4"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "15"
+     },
+     "opera_android": {
+      "version_added": "14"
+     },
+     "safari": {
+      "version_added": "8"
+     },
+     "safari_ios": {
+      "version_added": "8"
+     },
+     "samsunginternet_android": {
+      "version_added": "1.0"
+     },
+     "webview_android": {
+      "version_added": "4.4"
+     },
+     "webview_ios": {
+      "version_added": "8"
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "mediatypes"
+ ],
+ "baselineLowDateAsObject": "2015-07-29T00:00:00.000Z",
+ "baselineHighDateAsObject": "2018-01-29T00:00:00.000Z",
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

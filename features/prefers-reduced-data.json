@@ -106,7 +106,7 @@
  ],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.at-rules.media.prefers-reduced-data",

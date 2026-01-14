@@ -140,7 +140,7 @@
    "label": "interop-2023-mediaqueries"
   }
  ],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.at-rules.media.range_syntax",

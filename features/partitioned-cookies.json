@@ -155,7 +155,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.CookieStore.delete.partitioned_option",
