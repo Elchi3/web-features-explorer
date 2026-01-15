@@ -8,7 +8,7 @@
   "javascript"
  ],
  "kind": "feature",
- "name": "Atomics.waitAsync",
+ "name": "Atomics.waitAsync()",
  "spec": [
   {
    "url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync",
