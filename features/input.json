@@ -3325,6 +3325,7 @@
       "version_added": "1"
      },
      "safari_ios": {
+      "notes": "Does not support <code>audio/*</code> MIME type. See <a href=\"https://webkit.org/b/242110\">bug 242110</a>.",
       "version_added": "1"
      },
      "samsunginternet_android": {
@@ -3334,6 +3335,7 @@
       "version_added": "4.4"
      },
      "webview_ios": {
+      "notes": "Does not support <code>audio/*</code> MIME type. See <a href=\"https://webkit.org/b/242110\">bug 242110</a>.",
       "version_added": "1"
      }
     },

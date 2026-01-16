@@ -3034,7 +3034,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.0321993,
+  "percentageOfPageLoad": 0.03534647,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/150"
  },
  "interop": [],
@@ -6344,11 +6344,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6406,11 +6406,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6468,11 +6468,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6530,11 +6530,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6592,11 +6592,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6654,11 +6654,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setPosition()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6716,11 +6716,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6778,11 +6778,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {
@@ -6840,11 +6840,11 @@
       "version_added": "79"
      },
      "firefox": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "firefox_android": {
-      "notes": "Supports a deprecated way of setting orientation - the <code>setOrientation()</code> method.",
+      "notes": "Can be set using the <code>setOrientation()</code> method instead.",
       "version_added": false
      },
      "ie": {

@@ -164,7 +164,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.01668517,
+  "percentageOfPageLoad": 0.01699363,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/244"
  },
  "interop": [],
@@ -227,11 +227,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "calendars",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "calendars",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "calendars",
       "notes": "Implemented as an accessor property.",
@@ -372,11 +377,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "collations",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "collations",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "collations",
       "notes": "Implemented as an accessor property.",
@@ -517,11 +527,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "hourCycles",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "hourCycles",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "hourCycles",
       "notes": "Implemented as an accessor property.",
@@ -662,11 +677,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "numberingSystems",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "numberingSystems",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "numberingSystems",
       "notes": "Implemented as an accessor property.",
@@ -809,11 +829,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "textInfo",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "textInfo",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "textInfo",
       "notes": "Implemented as an accessor property.",
@@ -954,11 +979,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "timeZones",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "timeZones",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "timeZones",
       "notes": "Implemented as an accessor property.",
@@ -1107,11 +1137,16 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "alternative_name": "weekInfo",
-      "notes": "Implemented as an accessor property.",
-      "version_added": "18.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.0.0"
+      },
+      {
+       "alternative_name": "weekInfo",
+       "notes": "Implemented as an accessor property.",
+       "version_added": "18.0.0"
+      }
+     ],
      "oculus": {
       "alternative_name": "weekInfo",
       "notes": "Implemented as an accessor property.",

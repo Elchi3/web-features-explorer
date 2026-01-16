@@ -5829,6 +5829,7 @@
    "key": "api.RTCDtlsTransport.statechange_event",
    "compat": {
     "description": "<code>statechange</code> event",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCDtlsTransport/statechange_event",
     "source_file": "api/RTCDtlsTransport.json",
     "status": {
      "deprecated": false,
@@ -15429,7 +15430,7 @@
       "version_added": "74"
      },
      "edge": {
-      "version_added": false
+      "version_added": "79"
      },
      "firefox": {
       "version_added": "46"

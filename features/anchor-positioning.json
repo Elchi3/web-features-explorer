@@ -2589,7 +2589,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00349966,
+  "percentageOfPageLoad": 0.00356732,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
  },
  "interop": [
@@ -7666,6 +7666,7 @@
   {
    "key": "css.properties.anchor-scope",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/anchor-scope",
     "source_file": "css/properties/anchor-scope.json",
     "spec_url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-scope",
     "status": {
@@ -10796,27 +10797,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -10844,11 +10884,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -10869,27 +10916,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -10917,11 +11003,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -10942,27 +11035,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -10990,11 +11122,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>bottom</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11074,27 +11213,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11122,11 +11300,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11147,27 +11332,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11195,11 +11419,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11220,27 +11451,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11268,11 +11538,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11293,27 +11570,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11341,11 +11657,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>left</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11425,27 +11748,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11473,11 +11835,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>right</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11498,27 +11867,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11546,11 +11954,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11571,27 +11986,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11619,11 +12073,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-block-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11644,27 +12105,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11692,11 +12192,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11717,27 +12224,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11765,11 +12311,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11790,27 +12343,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11838,11 +12430,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-inline-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11863,27 +12462,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11911,11 +12549,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -11938,9 +12583,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -11953,9 +12603,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -11968,9 +12623,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -11981,12 +12641,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -11999,12 +12677,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-end",
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -12031,9 +12718,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -12072,9 +12764,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -12087,9 +12784,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -12102,9 +12804,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -12115,12 +12822,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -12133,12 +12858,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-start",
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -12165,9 +12899,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -12206,9 +12945,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -12221,9 +12965,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -12236,9 +12985,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -12249,12 +13003,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -12267,12 +13039,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-end",
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -12299,9 +13080,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -12340,9 +13126,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -12355,9 +13146,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -12370,9 +13166,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -12383,12 +13184,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -12401,12 +13220,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-start",
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -12433,9 +13261,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -12472,25 +13305,50 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "firefox": {
+      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+      "partial_implementation": true,
       "version_added": "147"
      },
      "firefox_android": {
+      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+      "partial_implementation": true,
       "version_added": "147"
      },
      "ie": {
@@ -12520,11 +13378,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "Using <code>span-all</code> unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -13420,10 +14285,17 @@
       "alternative_name": "span-x-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -13532,10 +14404,17 @@
       "alternative_name": "span-x-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -13644,10 +14523,17 @@
       "alternative_name": "span-y-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -13756,10 +14642,17 @@
       "alternative_name": "span-y-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -14232,27 +15125,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -14280,11 +15212,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>top</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -14305,27 +15244,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -14353,11 +15331,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -14378,27 +15363,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -14426,11 +15450,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -14451,27 +15482,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -14499,11 +15569,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -14524,27 +15601,66 @@
      "standard_track": true
     },
     "support": {
-     "chrome": {
-      "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "chrome_android": {
-      "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "edge": {
-      "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "chrome": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "chrome_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "edge": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -14572,11 +15688,18 @@
       "partial_implementation": true,
       "version_added": "28.0"
      },
-     "webview_android": {
-      "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "129"
-     },
+     "webview_android": [
+      {
+       "version_added": "144"
+      },
+      {
+       "notes": "When <code>y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "129",
+       "version_last": "143",
+       "version_removed": "144"
+      }
+     ],
      "webview_ios": {
       "version_added": "26"
      }
@@ -15127,9 +16250,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -15142,9 +16270,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -15157,9 +16290,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -15170,12 +16308,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -15188,12 +16344,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-end",
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15220,9 +16385,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -15261,9 +16431,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -15276,9 +16451,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -15291,9 +16471,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -15304,12 +16489,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -15322,12 +16525,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-start",
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15354,9 +16566,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -15395,9 +16612,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -15410,9 +16632,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -15425,9 +16652,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -15438,12 +16670,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -15456,12 +16706,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-end",
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15488,9 +16747,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -15529,9 +16793,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -15544,9 +16813,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -15559,9 +16833,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -15572,12 +16851,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -15590,12 +16887,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-start",
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15622,9 +16928,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -15710,10 +17021,17 @@
       "alternative_name": "span-x-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15822,10 +17140,17 @@
       "alternative_name": "span-x-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -15934,10 +17259,17 @@
       "alternative_name": "span-y-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16046,10 +17378,17 @@
       "alternative_name": "span-y-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16120,12 +17459,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16181,12 +17518,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16242,12 +17577,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16303,12 +17636,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16364,12 +17695,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16425,12 +17754,10 @@
       "version_added": "125"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1838746",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -16478,9 +17805,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -16493,9 +17825,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -16508,9 +17845,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -16521,12 +17863,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -16539,12 +17899,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-end",
-      "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-end",
+       "notes": "When <code>x-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16571,9 +17940,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-end",
@@ -16612,9 +17986,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -16627,9 +18006,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -16642,9 +18026,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -16655,12 +18044,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -16673,12 +18080,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "x-self-start",
-      "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "x-self-start",
+       "notes": "When <code>x-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16705,9 +18121,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-x-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "x-self-start",
@@ -16746,9 +18167,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -16761,9 +18187,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -16776,9 +18207,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -16789,12 +18225,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -16807,12 +18261,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-end",
-      "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-end",
+       "notes": "When <code>y-self-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16839,9 +18302,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-end</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-end",
@@ -16880,9 +18348,14 @@
     "support": {
      "chrome": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -16895,9 +18368,14 @@
      ],
      "chrome_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -16910,9 +18388,14 @@
      ],
      "edge": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -16923,12 +18406,30 @@
        "version_removed": "143"
       }
      ],
-     "firefox": {
-      "version_added": "147"
-     },
-     "firefox_android": {
-      "version_added": "147"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://bugzil.la/2008537\">bug 2008537</a>.",
+       "partial_implementation": true,
+       "version_added": "147",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },
@@ -16941,12 +18442,21 @@
       "partial_implementation": true,
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "y-self-start",
-      "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
-      "partial_implementation": true,
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "y-self-start",
+       "notes": "When <code>y-self-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
+       "partial_implementation": true,
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -16973,9 +18483,14 @@
      },
      "webview_android": [
       {
+       "version_added": "144"
+      },
+      {
        "notes": "When <code>self-y-start</code> is used as a single keyword, or alongside <code>span-all</code>, it unexpectedly allows the anchored box to overflow the viewport, obscuring content. Use <code>place-self: anchor-center</code> as a workaround. See <a href=\"https://crbug.com/438334710\">bug 438334710</a>.",
        "partial_implementation": true,
-       "version_added": "143"
+       "version_added": "143",
+       "version_last": "143",
+       "version_removed": "144"
       },
       {
        "alternative_name": "y-self-start",
@@ -17061,10 +18576,17 @@
       "alternative_name": "span-x-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -17173,10 +18695,17 @@
       "alternative_name": "span-x-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-x-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-x-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -17285,10 +18814,17 @@
       "alternative_name": "span-y-self-end",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-end",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-end",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -17397,10 +18933,17 @@
       "alternative_name": "span-y-self-start",
       "version_added": "115"
      },
-     "opera_android": {
-      "alternative_name": "span-y-self-start",
-      "version_added": "86"
-     },
+     "opera_android": [
+      {
+       "version_added": "94"
+      },
+      {
+       "alternative_name": "span-y-self-start",
+       "version_added": "86",
+       "version_last": "93",
+       "version_removed": "94"
+      }
+     ],
      "safari": [
       {
        "version_added": "26.2"
@@ -18300,12 +19843,8 @@
   "chrome": [],
   "chrome_android": [],
   "edge": [],
-  "firefox": [
-   "https://bugzil.la/1838746"
-  ],
-  "firefox_android": [
-   "https://bugzil.la/1838746"
-  ],
+  "firefox": [],
+  "firefox_android": [],
   "safari": [],
   "safari_ios": []
  }

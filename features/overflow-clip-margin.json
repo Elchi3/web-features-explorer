@@ -206,7 +206,7 @@
     "spec_url": "https://drafts.csswg.org/css-overflow/#valdef-overflow-clip-margin-visual-box",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -220,12 +220,10 @@
       "version_added": "104"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -270,7 +268,7 @@
     "spec_url": "https://drafts.csswg.org/css-overflow/#valdef-overflow-clip-margin-visual-box",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -284,12 +282,10 @@
       "version_added": "104"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -334,7 +330,7 @@
     "spec_url": "https://drafts.csswg.org/css-overflow/#valdef-overflow-clip-margin-visual-box",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
@@ -348,12 +344,10 @@
       "version_added": "104"
      },
      "firefox": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "firefox_android": {
-      "impl_url": "https://bugzil.la/1661582",
-      "version_added": false
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -401,12 +395,8 @@
   "chrome": [],
   "chrome_android": [],
   "edge": [],
-  "firefox": [
-   "https://bugzil.la/1661582"
-  ],
-  "firefox_android": [
-   "https://bugzil.la/1661582"
-  ],
+  "firefox": [],
+  "firefox_android": [],
   "safari": [
    "https://webkit.org/b/236153"
   ],

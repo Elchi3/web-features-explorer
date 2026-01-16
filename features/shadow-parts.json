@@ -171,7 +171,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/Element/part",
     "source_file": "api/Element.json",
-    "spec_url": "https://drafts.csswg.org/css-shadow-parts/#idl",
+    "spec_url": "https://drafts.csswg.org/css-shadow/#idl",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -232,7 +232,7 @@
     "description": "<code>::part</code>",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::part",
     "source_file": "css/selectors/part.json",
-    "spec_url": "https://drafts.csswg.org/css-shadow-parts/#part",
+    "spec_url": "https://drafts.csswg.org/css-shadow/#part",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -292,7 +292,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/exportparts",
     "source_file": "html/global_attributes.json",
-    "spec_url": "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+    "spec_url": "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -352,7 +352,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Global_attributes/part",
     "source_file": "html/global_attributes.json",
-    "spec_url": "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+    "spec_url": "https://drafts.csswg.org/css-shadow/#part-attr",
     "status": {
      "deprecated": false,
      "experimental": false,

@@ -131,7 +131,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.004735,
+  "percentageOfPageLoad": 0.004602,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/414"
  },
  "interop": [],
@@ -150,38 +150,14 @@
     },
     "support": {
      "chrome": {
-      "flags": [
-       {
-        "name": "#enable-experimental-web-platform-features",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
-      "version_added": "32"
+      "version_added": "145"
      },
      "chrome_android": {
-      "flags": [
-       {
-        "name": "#enable-experimental-web-platform-features",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
-      "version_added": "32"
+      "version_added": "145"
      },
      "edge": [
       {
-       "flags": [
-        {
-         "name": "#enable-experimental-web-platform-features",
-         "type": "preference",
-         "value_to_set": "true"
-        }
-       ],
-       "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
-       "version_added": "79"
+       "version_added": "145"
       },
       {
        "notes": "Standard values <code>inter-character</code> and <code>none</code> are supported. The deprecated <code>distribute</code> value is also supported.",
@@ -201,26 +177,10 @@
       "version_added": "11"
      },
      "oculus": {
-      "flags": [
-       {
-        "name": "#enable-experimental-web-platform-features",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
-      "version_added": "5.0"
+      "version_added": false
      },
      "opera": {
-      "flags": [
-       {
-        "name": "#enable-experimental-web-platform-features",
-        "type": "preference",
-        "value_to_set": "true"
-       }
-      ],
-      "notes": "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy.",
-      "version_added": "19"
+      "version_added": false
      },
      "opera_android": {
       "version_added": false
@@ -237,7 +197,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "impl_url": "https://webkit.org/b/99945",
@@ -256,18 +216,18 @@
     "spec_url": "https://drafts.csswg.org/css-text/#valdef-text-justify-auto",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "55"
@@ -297,7 +257,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -315,18 +275,18 @@
     "spec_url": "https://drafts.csswg.org/css-text/#valdef-text-justify-inter-character",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": [
       {
@@ -368,7 +328,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -386,18 +346,18 @@
     "spec_url": "https://drafts.csswg.org/css-text/#valdef-text-justify-inter-word",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "55"
@@ -427,7 +387,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -445,18 +405,18 @@
     "spec_url": "https://drafts.csswg.org/css-text/#valdef-text-justify-none",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "55"
@@ -486,7 +446,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false

@@ -308,9 +308,11 @@
       "version_added": "10.1"
      },
      "safari": {
+      "notes": "Setting <code>font-family: initial</code> behaves like <code>font-family: inherit</code>. See <a href=\"https://webkit.org/b/200709\">bug 200709</a>.",
       "version_added": "1"
      },
      "safari_ios": {
+      "notes": "Setting <code>font-family: initial</code> behaves like <code>font-family: inherit</code>. See <a href=\"https://webkit.org/b/200709\">bug 200709</a>.",
       "version_added": "1"
      },
      "samsunginternet_android": {
@@ -320,6 +322,7 @@
       "version_added": "4.4"
      },
      "webview_ios": {
+      "notes": "Setting <code>font-family: initial</code> behaves like <code>font-family: inherit</code>. See <a href=\"https://webkit.org/b/200709\">bug 200709</a>.",
       "version_added": "1"
      }
     },

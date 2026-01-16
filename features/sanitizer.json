@@ -260,41 +260,38 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-element-sethtml",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
       "notes": "Chrome 105 to Chrome 118 (inclusive) supported this method with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
       "notes": "Chrome Android 105 to Chrome Android 118 (inclusive) supported this method with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
       "notes": "Edge 105 to Edge 118 (inclusive) supported this method with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
      },
      "oculus": {
-      "notes": "Quest Browser false to Quest Browser false (inclusive) supported this method with a significantly different specification.",
       "version_added": false
      },
      "opera": {
-      "notes": "Opera 91 to Opera 104 (inclusive) supported this method with a significantly different specification.",
       "version_added": false
      },
      "opera_android": {
-      "notes": "Opera Android 72 to Opera Android 79 (inclusive) supported this method with a significantly different specification.",
       "version_added": false
      },
      "safari": {
@@ -304,12 +301,11 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Samsung Internet 20.0 to Samsung Internet 25.0 (inclusive) supported this method with a significantly different specification.",
       "version_added": false
      },
      "webview_android": {
       "notes": "WebView Android 105 to WebView Android 118 (inclusive) supported this method with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -327,41 +323,38 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#sanitizer",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
       "notes": "Chrome 105 to Chrome 118 (inclusive) supported this interface name with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
       "notes": "Chrome Android 105 to Chrome Android 118 (inclusive) supported this interface name with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
       "notes": "Edge 105 to Edge 118 (inclusive) supported this interface name with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
      },
      "oculus": {
-      "notes": "Quest Browser false to Quest Browser false (inclusive) supported this interface name with a significantly different specification.",
       "version_added": false
      },
      "opera": {
-      "notes": "Opera 91 to Opera 104 (inclusive) supported this interface name with a significantly different specification.",
       "version_added": false
      },
      "opera_android": {
-      "notes": "Opera Android 72 to Opera Android 79 (inclusive) supported this interface name with a significantly different specification.",
       "version_added": false
      },
      "safari": {
@@ -371,12 +364,11 @@
       "version_added": false
      },
      "samsunginternet_android": {
-      "notes": "Samsung Internet 20.0 to Samsung Internet 25.0 (inclusive) supported this interface name with a significantly different specification.",
       "version_added": false
      },
      "webview_android": {
       "notes": "WebView Android 105 to WebView Android 118 (inclusive) supported this interface name with a significantly different specification.",
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -395,24 +387,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -436,7 +428,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -455,24 +447,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-allowattribute",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -496,7 +488,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -515,24 +507,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-allowelement",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -556,7 +548,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -575,24 +567,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-get",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -616,7 +608,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -635,24 +627,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeattribute",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -676,7 +668,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -695,24 +687,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeelement",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -736,7 +728,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -755,24 +747,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeunsafe",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -796,7 +788,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -815,24 +807,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-replaceelementwithchildren",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -856,7 +848,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -875,24 +867,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-setcomments",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -916,7 +908,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false
@@ -935,24 +927,24 @@
     "spec_url": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-setdataattributes",
     "status": {
      "deprecated": false,
-     "experimental": true,
+     "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "firefox_android": {
-      "version_added": "147"
+      "version_added": "148"
      },
      "ie": {
       "version_added": false
@@ -976,7 +968,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": false

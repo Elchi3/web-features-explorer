@@ -147,13 +147,13 @@
       "version_added": "1.2.20"
      },
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "144"
@@ -183,7 +183,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": "26.2"
@@ -207,13 +207,13 @@
       "version_added": "1.2.20"
      },
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "144"
@@ -243,7 +243,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": "26.2"
@@ -267,13 +267,13 @@
       "version_added": "1.2.20"
      },
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "144"
@@ -303,7 +303,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": "26.2"
@@ -327,13 +327,13 @@
       "version_added": "1.2.20"
      },
      "chrome": {
-      "version_added": false
+      "version_added": "145"
      },
      "chrome_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "edge": {
-      "version_added": false
+      "version_added": "145"
      },
      "firefox": {
       "version_added": "144"
@@ -363,7 +363,7 @@
       "version_added": false
      },
      "webview_android": {
-      "version_added": false
+      "version_added": "145"
      },
      "webview_ios": {
       "version_added": "26.2"

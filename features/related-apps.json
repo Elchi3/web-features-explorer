@@ -1,0 +1,369 @@
+{
+ "compat_features": [
+  "api.Navigator.getInstalledRelatedApps",
+  "manifests.webapp.prefer_related_applications",
+  "manifests.webapp.related_applications"
+ ],
+ "description": "The related_applications web app manifest member lists operating system-specific applications that are related to the current web app, such as an Android app that provides similar functionality. The getInstalledRelatedApps() method lists which of those are installed on the current device.",
+ "description_html": "The <code>related_applications</code> web app manifest member lists operating system-specific applications that are related to the current web app, such as an Android app that provides similar functionality. The <code>getInstalledRelatedApps()</code> method lists which of those are installed on the current device.",
+ "group": [
+  "progressive-web-app"
+ ],
+ "kind": "feature",
+ "name": "Related apps",
+ "spec": [
+  {
+   "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+   "seriesComposition": "full",
+   "shortname": "get-installed-related-apps",
+   "series": {
+    "shortname": "get-installed-related-apps",
+    "currentSpecification": "get-installed-related-apps",
+    "title": "Get Installed Related Apps API",
+    "shortTitle": "Get Installed Related Apps API",
+    "nightlyUrl": "https://wicg.github.io/get-installed-related-apps/spec/"
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "Web Platform Incubator Community Group",
+     "url": "https://www.w3.org/community/wicg/"
+    }
+   ],
+   "nightly": {
+    "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+    "status": "Draft Community Group Report",
+    "alternateUrls": [],
+    "repository": "https://github.com/WICG/get-installed-related-apps",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "Get Installed Related Apps API",
+   "source": "spec",
+   "shortTitle": "Get Installed Related Apps API",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "installedapp"
+    ]
+   },
+   "fragment": null
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Navigator.getInstalledRelatedApps": {
+    "baseline": false,
+    "support": {
+     "chrome": "85",
+     "chrome_android": "84",
+     "edge": "85"
+    }
+   },
+   "manifests.webapp.prefer_related_applications": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "44",
+     "edge": "17"
+    }
+   },
+   "manifests.webapp.related_applications": {
+    "baseline": false,
+    "support": {
+     "chrome_android": "44",
+     "edge": "17"
+    }
+   }
+  },
+  "support": {
+   "chrome_android": "84",
+   "edge": "85"
+  }
+ },
+ "id": "related-apps",
+ "groups": [
+  "progressive-web-app"
+ ],
+ "groupPaths": [
+  [
+   "Progressive web app"
+  ]
+ ],
+ "mdnUrls": [
+  {
+   "title": "Navigator: getInstalledRelatedApps() method",
+   "url": "https://developer.mozilla.org/docs/Web/API/Navigator/getInstalledRelatedApps"
+  },
+  {
+   "title": "prefer_related_applications",
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/prefer_related_applications"
+  },
+  {
+   "title": "related_applications",
+   "url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/related_applications"
+  }
+ ],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "api.Navigator.getInstalledRelatedApps",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Navigator/getInstalledRelatedApps",
+    "source_file": "api/Navigator.json",
+    "spec_url": "https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": [
+      {
+       "notes": "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms.",
+       "version_added": "85"
+      },
+      {
+       "notes": "Always resolves with an empty array.",
+       "partial_implementation": true,
+       "version_added": "80",
+       "version_last": "84",
+       "version_removed": "85"
+      }
+     ],
+     "chrome_android": [
+      {
+       "notes": "Supports checking of Progressive Web App (PWA) installation.",
+       "version_added": "84"
+      },
+      {
+       "notes": "Supports checking of Android app installation.",
+       "partial_implementation": true,
+       "version_added": "80",
+       "version_last": "83",
+       "version_removed": "84"
+      }
+     ],
+     "edge": [
+      {
+       "notes": "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms.",
+       "version_added": "85"
+      },
+      {
+       "notes": "Always resolves with an empty array.",
+       "partial_implementation": true,
+       "version_added": "80",
+       "version_last": "84",
+       "version_removed": "85"
+      }
+     ],
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "nodejs": {
+      "version_added": false
+     },
+     "oculus": [
+      {
+       "notes": "Supports checking of Progressive Web App (PWA) installation.",
+       "version_added": "11.0"
+      },
+      {
+       "notes": "Supports checking of Android app installation.",
+       "partial_implementation": true,
+       "version_added": "9.0",
+       "version_last": "10.0",
+       "version_removed": "11.0"
+      }
+     ],
+     "opera": [
+      {
+       "notes": "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms.",
+       "version_added": "71"
+      },
+      {
+       "notes": "Always resolves with an empty array.",
+       "partial_implementation": true,
+       "version_added": "67",
+       "version_last": "70",
+       "version_removed": "71"
+      }
+     ],
+     "opera_android": {
+      "version_added": false
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": [
+      {
+       "notes": "Supports checking of Progressive Web App (PWA) installation.",
+       "version_added": "14.0"
+      },
+      {
+       "notes": "Supports checking of Android app installation.",
+       "partial_implementation": true,
+       "version_added": "13.0",
+       "version_last": "13.2",
+       "version_removed": "14.0"
+      }
+     ],
+     "webview_android": {
+      "version_added": false
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "manifests.webapp.prefer_related_applications",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/prefer_related_applications",
+    "source_file": "manifests/webapp/prefer_related_applications.json",
+    "spec_url": "https://wicg.github.io/manifest-incubations/#prefer_related_applications-member",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": "<code>prefer_related_applications</code> must be <code>false</code> or not present for a web app to be installable.",
+      "version_added": false
+     },
+     "chrome_android": {
+      "version_added": "44"
+     },
+     "edge": {
+      "version_added": "17"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "notes": "The property parses, but has no effect.",
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "notes": "<code>prefer_related_applications</code> must be <code>false</code> or not present for a web app to be installable.",
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "32"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "4.0"
+     },
+     "webview_android": {
+      "version_added": "44"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  },
+  {
+   "key": "manifests.webapp.related_applications",
+   "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/Progressive_web_apps/Manifest/Reference/related_applications",
+    "source_file": "manifests/webapp/related_applications.json",
+    "spec_url": "https://wicg.github.io/manifest-incubations/#related_applications-member",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": false
+     },
+     "chrome_android": {
+      "version_added": "44"
+     },
+     "edge": {
+      "version_added": "17"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "notes": "The property parses, but has no effect.",
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "32"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "version_added": "4.0"
+     },
+     "webview_android": {
+      "version_added": "44"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    }
+   }
+  }
+ ],
+ "bcdTags": [
+  "api",
+  "manifests"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

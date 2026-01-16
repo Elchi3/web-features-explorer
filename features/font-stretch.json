@@ -182,9 +182,9 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch",
     "source_file": "css/at-rules/font-face.json",
-    "spec_url": "https://drafts.csswg.org/css-fonts/#font-prop-desc",
+    "spec_url": "https://drafts.csswg.org/css-fonts/#font-stretch-desc",
     "status": {
-     "deprecated": true,
+     "deprecated": false,
      "experimental": false,
      "standard_track": true
     },
@@ -244,17 +244,17 @@
     "source_file": "css/properties/font-stretch.json",
     "spec_url": "https://drafts.csswg.org/css-fonts/#font-stretch-prop",
     "status": {
-     "deprecated": true,
+     "deprecated": false,
      "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "60"
      },
      "chrome_android": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "60"
      },
      "edge": {
@@ -270,15 +270,15 @@
       "version_added": "9"
      },
      "oculus": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "5.0"
      },
      "opera": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "47"
      },
      "opera_android": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "44"
      },
      "safari": {
@@ -288,11 +288,11 @@
       "version_added": "11"
      },
      "samsunginternet_android": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "8.0"
      },
      "webview_android": {
-      "notes": "A <code>font-stretch</code> definition must be added to the <code>@font-face</code> before this property will function.",
+      "notes": "A <code>font-stretch</code> declaration must be added to the <code>@font-face</code> before this property will function.",
       "version_added": "60"
      },
      "webview_ios": {
@@ -310,7 +310,7 @@
     "description": "<code>&lt;percentage&gt;</code> syntax",
     "source_file": "css/properties/font-stretch.json",
     "status": {
-     "deprecated": true,
+     "deprecated": false,
      "experimental": false,
      "standard_track": true
     },

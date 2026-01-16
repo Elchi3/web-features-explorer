@@ -126,7 +126,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "webdriver.classic.CreateVirtualSensor",

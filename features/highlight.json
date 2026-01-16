@@ -514,7 +514,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00039581,
+  "percentageOfPageLoad": 0.00042805,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/269"
  },
  "interop": [],
@@ -2147,12 +2147,18 @@
       "version_added": "105"
      },
      "firefox": {
-      "notes": "Cannot yet be used with <code>text-decoration</code> and <code>text-shadow</code>.",
+      "notes": [
+       "Cannot yet be used with <code>text-shadow</code>. See <a href=\"https://bugzil.la/1845447\">bug 1845447</a>.",
+       "Before Firefox 146, cannot be used with <code>text-decoration</code>. See <a href=\"https://bugzil.la/1845446\">bug 1845446</a>."
+      ],
       "partial_implementation": true,
       "version_added": "140"
      },
      "firefox_android": {
-      "notes": "Cannot yet be used with <code>text-decoration</code> and <code>text-shadow</code>.",
+      "notes": [
+       "Cannot yet be used with <code>text-shadow</code>. See <a href=\"https://bugzil.la/1845447\">bug 1845447</a>.",
+       "Before Firefox for Android 146, cannot be used with <code>text-decoration</code>. See <a href=\"https://bugzil.la/1845446\">bug 1845446</a>."
+      ],
       "partial_implementation": true,
       "version_added": "140"
      },

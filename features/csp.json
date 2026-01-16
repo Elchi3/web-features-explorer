@@ -4097,21 +4097,48 @@
      "opera_android": {
       "version_added": "54"
      },
-     "safari": {
-      "version_added": "15.4"
-     },
-     "safari_ios": {
-      "version_added": "15.4"
-     },
+     "safari": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "notes": "The <code>style-src-elem</code> directive was parsed, but had no effect. See <a href=\"https://webkit.org/b/276931\">bug 276931</a>.",
+       "partial_implementation": true,
+       "version_added": "15.4",
+       "version_last": "26.1",
+       "version_removed": "26.2"
+      }
+     ],
+     "safari_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "notes": "The <code>style-src-elem</code> directive was parsed, but had no effect. See <a href=\"https://webkit.org/b/276931\">bug 276931</a>.",
+       "partial_implementation": true,
+       "version_added": "15.4",
+       "version_last": "26.1",
+       "version_removed": "26.2"
+      }
+     ],
      "samsunginternet_android": {
       "version_added": "11.0"
      },
      "webview_android": {
       "version_added": "75"
      },
-     "webview_ios": {
-      "version_added": "15.4"
-     }
+     "webview_ios": [
+      {
+       "version_added": "26.2"
+      },
+      {
+       "notes": "The <code>style-src-elem</code> directive was parsed, but had no effect. See <a href=\"https://webkit.org/b/276931\">bug 276931</a>.",
+       "partial_implementation": true,
+       "version_added": "15.4",
+       "version_last": "26.1",
+       "version_removed": "26.2"
+      }
+     ]
     },
     "tags": [
      "web-features:csp"

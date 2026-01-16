@@ -1650,9 +1650,11 @@
     },
     "support": {
      "chrome": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "51"
      },
      "chrome_android": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "51"
      },
      "edge": {
@@ -1669,12 +1671,15 @@
       "version_added": "9"
      },
      "oculus": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "5.0"
      },
      "opera": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "38"
      },
      "opera_android": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "41"
      },
      "safari": {
@@ -1684,9 +1689,11 @@
       "version_added": "10.3"
      },
      "samsunginternet_android": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "5.0"
      },
      "webview_android": {
+      "notes": "When selecting an autocomplete suggestion, a <code>keydown</code> event fires where the event's <code>key</code> property is <code>undefined</code>. See <a href=\"https://crbug.com/41425904\">bug 41425904</a>.",
       "version_added": "51"
      },
      "webview_ios": {
