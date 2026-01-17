@@ -4,7 +4,9 @@
  ],
  "compat_features": [
   "api.Document.startViewTransition",
-  "api.Document.startViewTransition.callbackOptions_parameter",
+  "api.Document.startViewTransition.options_parameter",
+  "api.Document.startViewTransition.options_parameter.types_parameter",
+  "api.Document.startViewTransition.options_parameter.update_parameter",
   "api.Document.startViewTransition.updateCallback_parameter",
   "api.PageRevealEvent",
   "api.PageRevealEvent.PageRevealEvent",
@@ -107,12 +109,41 @@
      "safari_ios": "18"
     }
    },
-   "api.Document.startViewTransition.callbackOptions_parameter": {
-    "baseline": false,
+   "api.Document.startViewTransition.options_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
     "support": {
      "chrome": "125",
      "chrome_android": "125",
      "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.Document.startViewTransition.options_parameter.types_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
+     "safari": "18.2",
+     "safari_ios": "18.2"
+    }
+   },
+   "api.Document.startViewTransition.options_parameter.update_parameter": {
+    "baseline": "low",
+    "baseline_low_date": "2026-01-13",
+    "support": {
+     "chrome": "125",
+     "chrome_android": "125",
+     "edge": "125",
+     "firefox": "147",
+     "firefox_android": "147",
      "safari": "18.2",
      "safari_ios": "18.2"
     }
@@ -495,6 +526,186 @@
      },
      "webview_ios": {
       "version_added": "18"
+     }
+    },
+    "tags": [
+     "web-features:view-transitions"
+    ]
+   }
+  },
+  {
+   "key": "api.Document.startViewTransition.options_parameter",
+   "compat": {
+    "description": "<code>options</code> parameter",
+    "source_file": "api/Document.json",
+    "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dictdef-startviewtransitionoptions",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "147"
+     },
+     "firefox_android": {
+      "version_added": "147"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "18.2"
+     },
+     "safari_ios": {
+      "version_added": "18.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "18.2"
+     }
+    },
+    "tags": [
+     "web-features:view-transitions"
+    ]
+   }
+  },
+  {
+   "key": "api.Document.startViewTransition.options_parameter.types_parameter",
+   "compat": {
+    "description": "<code>options.types</code> parameter",
+    "source_file": "api/Document.json",
+    "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dom-startviewtransitionoptions-types",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "147"
+     },
+     "firefox_android": {
+      "version_added": "147"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "18.2"
+     },
+     "safari_ios": {
+      "version_added": "18.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "18.2"
+     }
+    },
+    "tags": [
+     "web-features:view-transitions"
+    ]
+   }
+  },
+  {
+   "key": "api.Document.startViewTransition.options_parameter.update_parameter",
+   "compat": {
+    "description": "<code>options.update</code> parameter",
+    "source_file": "api/Document.json",
+    "spec_url": "https://drafts.csswg.org/css-view-transitions-2/#dom-startviewtransitionoptions-update",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "125"
+     },
+     "chrome_android": {
+      "version_added": "125"
+     },
+     "edge": {
+      "version_added": "125"
+     },
+     "firefox": {
+      "version_added": "147"
+     },
+     "firefox_android": {
+      "version_added": "147"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": "111"
+     },
+     "opera_android": {
+      "version_added": "83"
+     },
+     "safari": {
+      "version_added": "18.2"
+     },
+     "safari_ios": {
+      "version_added": "18.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "27.0"
+     },
+     "webview_android": {
+      "version_added": "125"
+     },
+     "webview_ios": {
+      "version_added": "18.2"
      }
     },
     "tags": [

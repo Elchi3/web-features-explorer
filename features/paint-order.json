@@ -120,7 +120,8 @@
   }
  ],
  "status": {
-  "baseline": false,
+  "baseline": "low",
+  "baseline_low_date": "2024-03-22",
   "by_compat_key": {
    "css.properties.paint-order": {
     "baseline": "low",
@@ -136,14 +137,17 @@
     }
    },
    "svg.global_attributes.paint-order": {
-    "baseline": false,
+    "baseline": "high",
+    "baseline_high_date": "2022-07-15",
+    "baseline_low_date": "2020-01-15",
     "support": {
      "chrome": "≤73",
      "chrome_android": "≤73",
      "edge": "79",
      "firefox": "≤66",
      "firefox_android": "≤66",
-     "safari": "≤12"
+     "safari": "≤12",
+     "safari_ios": "≤12"
     }
    }
   },
@@ -153,7 +157,8 @@
    "edge": "123",
    "firefox": "≤66",
    "firefox_android": "≤66",
-   "safari": "≤12"
+   "safari": "≤12",
+   "safari_ios": "≤12"
   }
  },
  "id": "paint-order",
@@ -396,8 +401,9 @@
   "css",
   "svg"
  ],
- "baselineLowDateAsObject": null,
+ "baselineLowDateAsObject": "2024-03-22T00:00:00.000Z",
  "baselineHighDateAsObject": null,
+ "expectedBaselineHighDate": "2026-09-22",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],
@@ -406,8 +412,5 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- },
- "blockedOn": "Safari on iOS",
- "monthsBlocked": 22,
- "blockedSince": "March 2024"
+ }
 }

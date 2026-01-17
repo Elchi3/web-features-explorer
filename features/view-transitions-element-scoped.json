@@ -1,0 +1,44 @@
+{
+ "description": "The startViewTransition() method of an Element object starts a view transition that affects only that element's DOM tree. The contain: view-transition CSS declaration contains the layout of the tree to be transitioned. You can use this to run separate elements' transitions concurrently.",
+ "description_html": "The <code>startViewTransition()</code> method of an <code>Element</code> object starts a view transition that affects only that element's DOM tree. The <code>contain: view-transition</code> CSS declaration contains the layout of the tree to be transitioned. You can use this to run separate elements' transitions concurrently.",
+ "group": [
+  "view-transitions"
+ ],
+ "kind": "feature",
+ "name": "Element-scoped view transitions",
+ "spec": [
+  {
+   "url": "https://github.com/WICG/view-transitions/blob/main/scoped-transitions.md"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "support": {}
+ },
+ "id": "view-transitions-element-scoped",
+ "groups": [
+  "view-transitions"
+ ],
+ "groupPaths": [
+  [
+   "View transitions"
+  ]
+ ],
+ "mdnUrls": [],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [],
+ "bcdTags": [],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

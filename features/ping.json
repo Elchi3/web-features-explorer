@@ -160,7 +160,10 @@
    },
    "api.SVGAElement.ping": {
     "baseline": false,
-    "support": {}
+    "support": {
+     "chrome": "144",
+     "chrome_android": "144"
+    }
    },
    "html.elements.a.ping": {
     "baseline": false,

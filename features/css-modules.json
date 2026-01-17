@@ -135,14 +135,18 @@
     "support": {
      "chrome": "123",
      "chrome_android": "123",
-     "edge": "123"
+     "edge": "123",
+     "firefox": "147",
+     "firefox_android": "147"
     }
    }
   },
   "support": {
    "chrome": "123",
    "chrome_android": "123",
-   "edge": "123"
+   "edge": "123",
+   "firefox": "147",
+   "firefox_android": "147"
   }
  },
  "id": "css-modules",
@@ -265,5 +269,8 @@
   "safari_ios": [
    "https://webkit.org/b/227967"
   ]
- }
+ },
+ "blockedOn": "Safari",
+ "monthsBlocked": 0,
+ "blockedSince": "January 2026"
 }
