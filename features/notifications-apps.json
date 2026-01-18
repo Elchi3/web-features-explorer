@@ -81,7 +81,7 @@
  "originTrials": [],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [],
  "bcdTags": [],
  "baselineLowDateAsObject": "2023-03-27T00:00:00.000Z",
