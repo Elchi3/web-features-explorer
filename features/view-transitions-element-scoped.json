@@ -27,6 +27,10 @@
  "mdnUrls": [],
  "hasNegativeStandardPosition": false,
  "originTrials": [],
+ "useCounters": {
+  "percentageOfPageLoad": 0.000004,
+  "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/281"
+ },
  "interop": [],
  "wpt": false,
  "bcdData": [],
