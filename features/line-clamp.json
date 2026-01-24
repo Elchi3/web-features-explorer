@@ -196,6 +196,7 @@
        "version_added": "5"
       },
       {
+       "notes": "Accidental exposure.",
        "version_added": "18.2",
        "version_last": "18.3",
        "version_removed": "18.4"
@@ -207,6 +208,7 @@
        "version_added": "4.2"
       },
       {
+       "notes": "Accidental exposure.",
        "version_added": "18.2",
        "version_last": "18.3",
        "version_removed": "18.4"
@@ -228,6 +230,7 @@
        "version_added": "4.2"
       },
       {
+       "notes": "Accidental exposure.",
        "version_added": "18.2",
        "version_last": "18.3",
        "version_removed": "18.4"

@@ -228,18 +228,26 @@
      ],
      "firefox": [
       {
+       "notes": "The <code>:autofill</code> pseudo-class matches autofilled username and password fields, but not other autocompleted fields. See <a href=\"https://bugzil.la/1923525\">bug 1923525</a>.",
+       "partial_implementation": true,
        "version_added": "86"
       },
       {
+       "notes": "The <code>:-webkit-autofill</code> pseudo-class matches autofilled username and password fields, but not other autocompleted fields. See <a href=\"https://bugzil.la/1923525\">bug 1923525</a>.",
+       "partial_implementation": true,
        "prefix": "-webkit-",
        "version_added": "86"
       }
      ],
      "firefox_android": [
       {
+       "notes": "The <code>:autofill</code> pseudo-class matches autofilled username and password fields, but not other autocompleted fields. See <a href=\"https://bugzil.la/1923525\">bug 1923525</a>.",
+       "partial_implementation": true,
        "version_added": "86"
       },
       {
+       "notes": "The <code>:-webkit-autofill</code> pseudo-class matches autofilled username and password fields, but not other autocompleted fields. See <a href=\"https://bugzil.la/1923525\">bug 1923525</a>.",
+       "partial_implementation": true,
        "prefix": "-webkit-",
        "version_added": "86"
       }

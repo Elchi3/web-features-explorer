@@ -437,9 +437,13 @@
       "version_added": "30"
      },
      "safari": {
+      "notes": "The <code>onchange</code> event handler is supported, but the event never fires. See <a href=\"https://webkit.org/b/259432\">bug 259432</a>.",
+      "partial_implementation": true,
       "version_added": "16.4"
      },
      "safari_ios": {
+      "notes": "The <code>onchange</code> event handler is supported, but the event never fires. See <a href=\"https://webkit.org/b/259432\">bug 259432</a>.",
+      "partial_implementation": true,
       "version_added": "16.4"
      },
      "samsunginternet_android": {
@@ -449,6 +453,8 @@
       "version_added": false
      },
      "webview_ios": {
+      "notes": "The <code>onchange</code> event handler is supported, but the event never fires. See <a href=\"https://webkit.org/b/259432\">bug 259432</a>.",
+      "partial_implementation": true,
       "version_added": "16.4"
      }
     },

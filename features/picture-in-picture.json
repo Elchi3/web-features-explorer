@@ -1384,7 +1384,8 @@
       "version_added": "123"
      },
      "firefox": {
-      "version_added": false
+      "impl_url": "https://bugzil.la/1858562",
+      "version_added": "preview"
      },
      "firefox_android": {
       "version_added": false

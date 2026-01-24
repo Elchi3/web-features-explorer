@@ -26066,7 +26066,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGTransform/matrix",
     "source_file": "api/SVGTransform.json",
-    "spec_url": "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__matrix",
+    "spec_url": "https://www.w3.org/TR/SVG11/coords.html#__svg__SVGTransform__matrix",
     "status": {
      "deprecated": false,
      "experimental": false,

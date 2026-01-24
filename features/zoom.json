@@ -141,9 +141,11 @@
       "version_added": "12"
      },
      "firefox": {
+      "notes": "Before Firefox 131, SVG elements are not zoomed properly. See <a href=\"https://bugzil.la/1905023\">bug 1905023</a> and <a href=\"https://bugzil.la/878346\">bug 878346</a>.",
       "version_added": "126"
      },
      "firefox_android": {
+      "notes": "Before Firefox for Android 131, SVG elements are not zoomed properly. See <a href=\"https://bugzil.la/1905023\">bug 1905023</a> and <a href=\"https://bugzil.la/878346\">bug 878346</a>.",
       "version_added": "126"
      },
      "ie": {

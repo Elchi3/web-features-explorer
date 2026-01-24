@@ -280,7 +280,7 @@
        "version_added": "15.4"
       },
       {
-       "notes": "<code>local</code> is recognized but has no effect. See <a href=\"https://webkit.org/b/219324\">bug 219324</a>.",
+       "notes": "<code>fixed</code> is recognized but has no effect. See related <a href=\"https://webkit.org/b/219324\">bug 219324</a>.",
        "partial_implementation": true,
        "version_added": "14",
        "version_last": "15.3",
@@ -292,36 +292,22 @@
        "version_removed": "14"
       }
      ],
-     "safari_ios": [
-      {
-       "version_added": "15.4"
-      },
-      {
-       "notes": "<code>fixed</code> is recognized but has no effect. See <a href=\"https://webkit.org/b/219324\">bug 219324</a>.",
-       "partial_implementation": true,
-       "version_added": "5",
-       "version_last": "15.3",
-       "version_removed": "15.4"
-      }
-     ],
+     "safari_ios": {
+      "notes": "<code>fixed</code> is recognized but has no effect. See <a href=\"https://webkit.org/b/275247\">bug 275247</a>.",
+      "partial_implementation": true,
+      "version_added": "5"
+     },
      "samsunginternet_android": {
       "version_added": "1.0"
      },
      "webview_android": {
       "version_added": "37"
      },
-     "webview_ios": [
-      {
-       "version_added": "15.4"
-      },
-      {
-       "notes": "<code>fixed</code> is recognized but has no effect. See <a href=\"https://webkit.org/b/219324\">bug 219324</a>.",
-       "partial_implementation": true,
-       "version_added": "5",
-       "version_last": "15.3",
-       "version_removed": "15.4"
-      }
-     ]
+     "webview_ios": {
+      "notes": "<code>fixed</code> is recognized but has no effect. See <a href=\"https://webkit.org/b/275247\">bug 275247</a>.",
+      "partial_implementation": true,
+      "version_added": "5"
+     }
     },
     "tags": [
      "web-features:background-attachment"

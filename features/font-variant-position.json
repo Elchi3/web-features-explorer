@@ -156,16 +156,13 @@
     },
     "support": {
      "chrome": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "chrome_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "edge": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "firefox": {
       "version_added": "34"
@@ -177,16 +174,13 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "The property is recognized, but has no effect.",
       "version_added": false
      },
      "opera": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "103"
      },
      "opera_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "78"
      },
      "safari": {
       "version_added": "9.1"
@@ -195,12 +189,10 @@
       "version_added": "9.3"
      },
      "samsunginternet_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "24.0"
      },
      "webview_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "webview_ios": {
       "version_added": "9.3"
@@ -223,16 +215,13 @@
     },
     "support": {
      "chrome": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "chrome_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "edge": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "firefox": {
       "version_added": "34"
@@ -244,16 +233,13 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "The property is recognized, but has no effect.",
       "version_added": false
      },
      "opera": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "103"
      },
      "opera_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "78"
      },
      "safari": {
       "version_added": "9.1"
@@ -262,12 +248,10 @@
       "version_added": "9.3"
      },
      "samsunginternet_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "24.0"
      },
      "webview_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "version_added": "117"
      },
      "webview_ios": {
       "version_added": "9.3"
@@ -290,16 +274,19 @@
     },
     "support": {
      "chrome": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "chrome_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "edge": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "firefox": {
       "version_added": "34"
@@ -311,32 +298,41 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "The property is recognized, but has no effect.",
       "version_added": false
      },
      "opera": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "103"
      },
      "opera_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "78"
      },
      "safari": {
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.1"
      },
      "safari_ios": {
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.3"
      },
      "samsunginternet_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "24.0"
      },
      "webview_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "webview_ios": {
+      "notes": "If the font does not have subscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.3"
      }
     },
@@ -357,16 +353,19 @@
     },
     "support": {
      "chrome": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "chrome_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "edge": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "firefox": {
       "version_added": "34"
@@ -378,32 +377,41 @@
       "version_added": false
      },
      "oculus": {
-      "notes": "The property is recognized, but has no effect.",
       "version_added": false
      },
      "opera": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "103"
      },
      "opera_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "78"
      },
      "safari": {
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.1"
      },
      "safari_ios": {
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.3"
      },
      "samsunginternet_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "24.0"
      },
      "webview_android": {
-      "notes": "The property is recognized, but has no effect.",
-      "version_added": false
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://crbug.com/352218916\">bug 352218916</a>).",
+      "partial_implementation": true,
+      "version_added": "117"
      },
      "webview_ios": {
+      "notes": "If the font does not have superscript glyphs, then substitute characters are not synthesized (see <a href=\"https://webkit.org/b/151471\">bug 151471</a>).",
+      "partial_implementation": true,
       "version_added": "9.3"
      }
     },
