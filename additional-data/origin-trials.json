@@ -510,6 +510,7 @@
   "is-input-pending": [],
   "is-secure-context": [],
   "isolation": [],
+  "iterator-concat": [],
   "iterator-methods": [],
   "iterators": [],
   "javascript": [],
