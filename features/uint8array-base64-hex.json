@@ -16,39 +16,7 @@
  "name": "Uint8Array base64 and hex conversion",
  "spec": [
   {
-   "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
-   "seriesComposition": "full",
-   "shortname": "tc39-arraybuffer-base64",
-   "series": {
-    "shortname": "tc39-arraybuffer-base64",
-    "currentSpecification": "tc39-arraybuffer-base64",
-    "title": "Uint8Array to/from base64",
-    "shortTitle": "Uint8Array to/from base64",
-    "nightlyUrl": "https://tc39.es/proposal-arraybuffer-base64/spec/"
-   },
-   "nightly": {
-    "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
-    "status": "Editor's Draft",
-    "sourcePath": "spec.html",
-    "alternateUrls": [],
-    "repository": "https://github.com/tc39/proposal-arraybuffer-base64",
-    "filename": "index.html"
-   },
-   "organization": "Ecma International",
-   "groups": [
-    {
-     "name": "TC39",
-     "url": "https://tc39.es/"
-    }
-   ],
-   "title": "Uint8Array to/from base64",
-   "source": "spec",
-   "shortTitle": "Uint8Array to/from base64",
-   "categories": [
-    "browser"
-   ],
-   "standing": "good",
-   "fragment": null
+   "url": "https://tc39.es/proposal-arraybuffer-base64/spec/"
   }
  ],
  "status": {
