@@ -64,11 +64,13 @@
   }
  ],
  "status": {
-  "baseline": "low",
+  "baseline": "high",
+  "baseline_high_date": "2026-01-21",
   "baseline_low_date": "2023-07-21",
   "by_compat_key": {
    "css.properties.display.multi-keyword_values": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-01-21",
     "baseline_low_date": "2023-07-21",
     "support": {
      "chrome": "115",
@@ -108,7 +110,7 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.00378656,
+  "percentageOfPageLoad": 0.00420385,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/111"
  },
  "interop": [],
@@ -178,8 +180,7 @@
   "css"
  ],
  "baselineLowDateAsObject": "2023-07-21T00:00:00.000Z",
- "baselineHighDateAsObject": null,
- "expectedBaselineHighDate": "2026-01-21",
+ "baselineHighDateAsObject": "2026-01-21T00:00:00.000Z",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],

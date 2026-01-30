@@ -1994,6 +1994,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "firefox": "147",
      "firefox_android": "147"
     }
@@ -2016,6 +2017,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2025,6 +2027,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2034,6 +2037,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2056,6 +2060,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2065,6 +2070,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2074,6 +2080,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2083,6 +2090,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2105,6 +2113,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2114,6 +2123,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2123,6 +2133,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2132,6 +2143,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2141,6 +2153,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2150,6 +2163,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2159,6 +2173,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2168,6 +2183,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2177,6 +2193,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2186,6 +2203,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2195,6 +2213,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2204,6 +2223,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2538,6 +2558,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2547,6 +2568,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2556,6 +2578,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2565,6 +2588,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2574,6 +2598,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26",
      "safari_ios": "26"
     }
@@ -2674,6 +2699,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2683,6 +2709,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2692,6 +2719,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2701,6 +2729,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2822,6 +2851,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2831,6 +2861,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2840,6 +2871,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -2849,6 +2881,7 @@
     "support": {
      "chrome": "144",
      "chrome_android": "144",
+     "edge": "144",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
@@ -3203,7 +3236,7 @@
   }
  ],
  "useCounters": {
-  "percentageOfPageLoad": 0.00372391,
+  "percentageOfPageLoad": 0.00400486,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
  },
  "interop": [

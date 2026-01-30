@@ -71,9 +71,7 @@
   }
  ],
  "status": {
-  "baseline": "high",
-  "baseline_high_date": "2024-09-14",
-  "baseline_low_date": "2022-03-14",
+  "baseline": false,
   "by_compat_key": {
    "css.properties.background-attachment": {
     "baseline": "high",
@@ -90,17 +88,14 @@
     }
    },
    "css.properties.background-attachment.fixed": {
-    "baseline": "high",
-    "baseline_high_date": "2024-09-14",
-    "baseline_low_date": "2022-03-14",
+    "baseline": false,
     "support": {
      "chrome": "1",
      "chrome_android": "18",
      "edge": "12",
      "firefox": "2",
      "firefox_android": "4",
-     "safari": "15.4",
-     "safari_ios": "15.4"
+     "safari": "15.4"
     }
    },
    "css.properties.background-attachment.local": {
@@ -152,8 +147,7 @@
    "edge": "12",
    "firefox": "25",
    "firefox_android": "25",
-   "safari": "15.4",
-   "safari_ios": "15.4"
+   "safari": "15.4"
   }
  },
  "id": "background-attachment",
@@ -539,8 +533,8 @@
  "bcdTags": [
   "css"
  ],
- "baselineLowDateAsObject": "2022-03-14T00:00:00.000Z",
- "baselineHighDateAsObject": "2024-09-14T00:00:00.000Z",
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
  "implUrls": {
   "chrome": [],
   "chrome_android": [],
@@ -549,5 +543,8 @@
   "firefox_android": [],
   "safari": [],
   "safari_ios": []
- }
+ },
+ "blockedOn": "Safari on iOS",
+ "monthsBlocked": 46,
+ "blockedSince": "March 2022"
 }

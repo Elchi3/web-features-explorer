@@ -155,11 +155,11 @@
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {
-  "percentageOfPageLoad": 0.18703716,
+  "percentageOfPageLoad": 0.18425339,
   "chromeStatusUrl": "https://chromestatus.com/metrics/webfeature/timeline/popularity/336"
  },
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "css.properties.overflow-x.clip",
