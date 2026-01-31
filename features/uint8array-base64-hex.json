@@ -158,7 +158,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.frombase64",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.frombase64",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -227,7 +227,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromHex",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.fromhex",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.fromhex",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -296,7 +296,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.setfrombase64",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfrombase64",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -365,7 +365,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromHex",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.setfromhex",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfromhex",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -434,7 +434,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toBase64",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.tobase64",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tobase64",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -503,7 +503,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toHex",
     "source_file": "javascript/builtins/Uint8Array.json",
-    "spec_url": "https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.tohex",
+    "spec_url": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tohex",
     "status": {
      "deprecated": false,
      "experimental": false,

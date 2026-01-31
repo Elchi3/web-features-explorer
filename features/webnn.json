@@ -5777,8 +5777,12 @@
        }
       ],
       "notes": [
+       "Supports Android since Chrome 146 (CPUs)",
+       "Supports ChromeOS since Chrome 146 (CPUs)",
+       "Supports Linux since Chrome 146 (CPUs, GPUs)",
        "Supports macOS since Chrome 126 (CPUs, GPUs, NPUs)",
-       "Supports Windows 11 24H2+ since Chrome 139 (GPUs, NPUs)"
+       "Supports Windows 11 24H2+ since Chrome 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome 146 (CPUs, GPUs)"
       ],
       "version_added": "126"
      },
@@ -5791,8 +5795,12 @@
        }
       ],
       "notes": [
+       "Supports Android since Chrome Android 146 (CPUs)",
+       "Supports ChromeOS since Chrome Android 146 (CPUs)",
+       "Supports Linux since Chrome Android 146 (CPUs, GPUs)",
        "Supports macOS since Chrome Android 126 (CPUs, GPUs, NPUs)",
-       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)"
+       "Supports Windows 11 24H2+ since Chrome Android 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Chrome Android 146 (CPUs, GPUs)"
       ],
       "version_added": "126"
      },
@@ -5808,8 +5816,12 @@
        }
       ],
       "notes": [
+       "Supports Android since Edge 146 (CPUs)",
+       "Supports ChromeOS since Edge 146 (CPUs)",
+       "Supports Linux since Edge 146 (CPUs, GPUs)",
        "Supports macOS since Edge 126 (CPUs, GPUs, NPUs)",
-       "Supports Windows 11 24H2+ since Edge 139 (GPUs, NPUs)"
+       "Supports Windows 11 24H2+ since Edge 139 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Edge 146 (CPUs, GPUs)"
       ],
       "version_added": "126"
      },
@@ -5834,8 +5846,12 @@
        }
       ],
       "notes": [
+       "Supports Android since Opera false (CPUs)",
+       "Supports ChromeOS since Opera false (CPUs)",
+       "Supports Linux since Opera false (CPUs, GPUs)",
        "Supports macOS since Opera 112 (CPUs, GPUs, NPUs)",
-       "Supports Windows 11 24H2+ since Opera 123 (GPUs, NPUs)"
+       "Supports Windows 11 24H2+ since Opera 123 (GPUs, NPUs)",
+       "Supports Windows 11 pre-24H2 since Opera false (CPUs, GPUs)"
       ],
       "version_added": "112"
      },

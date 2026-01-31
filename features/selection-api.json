@@ -2447,7 +2447,7 @@
   {
    "key": "api.Range.collapsed",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/collapsed",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/collapsed",
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①",
     "status": {
@@ -2811,67 +2811,63 @@
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#dom-range-detach",
     "status": {
-     "deprecated": false,
+     "deprecated": true,
      "experimental": false,
      "standard_track": true
     },
     "support": {
      "chrome": {
-      "notes": "Starting in Chrome 37, this method is a no-op and has no effect.",
+      "notes": "Since Chrome 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "1"
      },
      "chrome_android": {
-      "notes": "Starting in Chrome Android 37, this method is a no-op and has no effect.",
+      "notes": "Since Chrome Android 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "18"
      },
      "edge": {
       "version_added": "12"
      },
      "firefox": {
-      "notes": "Starting in Firefox 15.0, this method is a no-op and has no effect.",
-      "version_added": "1",
-      "version_last": "14",
-      "version_removed": "15"
+      "notes": "Since Firefox 15, this method does nothing. See <a href=\"https://bugzil.la/702948\">bug 702948</a>.",
+      "version_added": "1"
      },
      "firefox_android": {
-      "notes": "Starting in Firefox for Android 15.0, this method is a no-op and has no effect.",
-      "version_added": "4",
-      "version_last": "14",
-      "version_removed": "15"
+      "notes": "Since Firefox for Android 15, this method does nothing. See <a href=\"https://bugzil.la/702948\">bug 702948</a>.",
+      "version_added": "4"
      },
      "ie": {
       "version_added": "9"
      },
      "oculus": {
-      "notes": "Starting in Quest Browser 5.0, this method is a no-op and has no effect.",
+      "notes": "Since Quest Browser 5.0, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "5.0"
      },
      "opera": {
-      "notes": "Starting in Opera 24, this method is a no-op and has no effect.",
+      "notes": "Since Opera 24, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "9"
      },
      "opera_android": {
-      "notes": "Starting in Opera 24, this method is a no-op and has no effect.",
+      "notes": "Since Opera 24, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "10.1"
      },
      "safari": {
-      "notes": "Starting in Safari 10, this method is a no-op and has no effect, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
+      "notes": "Since Safari 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
       "version_added": "1"
      },
      "safari_ios": {
-      "notes": "Starting in Safari on iOS 10, this method is a no-op and has no effect, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
+      "notes": "Since Safari on iOS 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
       "version_added": "1"
      },
      "samsunginternet_android": {
-      "notes": "Starting in Samsung Internet 3.0, this method is a no-op and has no effect.",
+      "notes": "Since Samsung Internet 3.0, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "1.0"
      },
      "webview_android": {
-      "notes": "Starting in WebView Android 37, this method is a no-op and has no effect.",
+      "notes": "Since WebView Android 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
       "version_added": "4.4"
      },
      "webview_ios": {
-      "notes": "Starting in WebView on iOS 10, this method is a no-op and has no effect, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
+      "notes": "Since WebView on iOS 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
       "version_added": "1"
      }
     },
@@ -2883,7 +2879,7 @@
   {
    "key": "api.Range.endContainer",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/endContainer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endContainer",
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①",
     "status": {
@@ -2943,7 +2939,7 @@
   {
    "key": "api.Range.endOffset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/endOffset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endOffset",
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①",
     "status": {
@@ -3843,7 +3839,7 @@
   {
    "key": "api.Range.startContainer",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/startContainer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startContainer",
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①",
     "status": {
@@ -3903,7 +3899,7 @@
   {
    "key": "api.Range.startOffset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/startOffset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startOffset",
     "source_file": "api/Range.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①",
     "status": {
@@ -5723,7 +5719,7 @@
   {
    "key": "api.StaticRange.collapsed",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/collapsed",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/collapsed",
     "source_file": "api/StaticRange.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①",
     "status": {
@@ -5783,7 +5779,7 @@
   {
    "key": "api.StaticRange.endContainer",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/endContainer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endContainer",
     "source_file": "api/StaticRange.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①",
     "status": {
@@ -5843,7 +5839,7 @@
   {
    "key": "api.StaticRange.endOffset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/endOffset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endOffset",
     "source_file": "api/StaticRange.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①",
     "status": {
@@ -5903,7 +5899,7 @@
   {
    "key": "api.StaticRange.startContainer",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/startContainer",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startContainer",
     "source_file": "api/StaticRange.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①",
     "status": {
@@ -5963,7 +5959,7 @@
   {
    "key": "api.StaticRange.startOffset",
    "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/StaticRange/startOffset",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startOffset",
     "source_file": "api/StaticRange.json",
     "spec_url": "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①",
     "status": {

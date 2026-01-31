@@ -104,7 +104,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsert",
     "source_file": "javascript/builtins/Map.json",
-    "spec_url": "https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsert",
+    "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsert",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -164,7 +164,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsertComputed",
     "source_file": "javascript/builtins/Map.json",
-    "spec_url": "https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsertComputed",
+    "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsertcomputed",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -224,7 +224,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/getOrInsert",
     "source_file": "javascript/builtins/WeakMap.json",
-    "spec_url": "https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsert",
+    "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsert",
     "status": {
      "deprecated": false,
      "experimental": false,
@@ -284,7 +284,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/getOrInsertComputed",
     "source_file": "javascript/builtins/WeakMap.json",
-    "spec_url": "https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsertComputed",
+    "spec_url": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsertcomputed",
     "status": {
      "deprecated": false,
      "experimental": false,

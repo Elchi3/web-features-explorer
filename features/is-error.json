@@ -182,11 +182,18 @@
      "ie": {
       "version_added": false
      },
-     "nodejs": {
-      "notes": "Returns <code>false</code> for <code>DOMException</code> instances. See <a href=\"https://github.com/nodejs/node/issues/56497\">issue 56497</a>.",
-      "partial_implementation": true,
-      "version_added": "24.0.0"
-     },
+     "nodejs": [
+      {
+       "version_added": "24.3.0"
+      },
+      {
+       "notes": "Returns <code>false</code> for <code>DOMException</code> instances. See <a href=\"https://github.com/nodejs/node/issues/56497\">issue 56497</a>.",
+       "partial_implementation": true,
+       "version_added": "24.0.0",
+       "version_last": "24.2.0",
+       "version_removed": "24.3.0"
+      }
+     ],
      "oculus": {
       "version_added": false
      },

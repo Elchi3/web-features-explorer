@@ -6,7 +6,8 @@
   "api.CSSScopeRule",
   "api.CSSScopeRule.end",
   "api.CSSScopeRule.start",
-  "css.at-rules.scope"
+  "css.at-rules.scope",
+  "css.selectors.nesting.at-scope"
  ],
  "description": "The @scope CSS at-rule sets the scope for a group of rules.",
  "description_html": "The <code>@scope</code> CSS at-rule sets the scope for a group of rules.",
@@ -70,7 +71,7 @@
  ],
  "status": {
   "baseline": "low",
-  "baseline_low_date": "2025-12-09",
+  "baseline_low_date": "2025-12-12",
   "by_compat_key": {
    "api.CSSScopeRule": {
     "baseline": "low",
@@ -123,16 +124,29 @@
      "safari": "17.4",
      "safari_ios": "17.4"
     }
+   },
+   "css.selectors.nesting.at-scope": {
+    "baseline": "low",
+    "baseline_low_date": "2025-12-12",
+    "support": {
+     "chrome": "143",
+     "chrome_android": "143",
+     "edge": "143",
+     "firefox": "142",
+     "firefox_android": "142",
+     "safari": "26.2",
+     "safari_ios": "26.2"
+    }
    }
   },
   "support": {
-   "chrome": "118",
-   "chrome_android": "118",
-   "edge": "118",
+   "chrome": "143",
+   "chrome_android": "143",
+   "edge": "143",
    "firefox": "146",
    "firefox_android": "146",
-   "safari": "17.4",
-   "safari_ios": "17.4"
+   "safari": "26.2",
+   "safari_ios": "26.2"
   }
  },
  "id": "scope",
@@ -441,15 +455,74 @@
      "web-features:scope"
     ]
    }
+  },
+  {
+   "key": "css.selectors.nesting.at-scope",
+   "compat": {
+    "description": "<code>&amp;</code> treated as <code>:where(:scope)</code> in <code>@scope</code> blocks",
+    "source_file": "css/selectors/nesting.json",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "143"
+     },
+     "chrome_android": {
+      "version_added": "143"
+     },
+     "edge": {
+      "version_added": "143"
+     },
+     "firefox": {
+      "version_added": "142"
+     },
+     "firefox_android": {
+      "version_added": "142"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "version_added": "94"
+     },
+     "safari": {
+      "version_added": "26.2"
+     },
+     "safari_ios": {
+      "version_added": "26.2"
+     },
+     "samsunginternet_android": {
+      "version_added": false
+     },
+     "webview_android": {
+      "version_added": "143"
+     },
+     "webview_ios": {
+      "version_added": "26.2"
+     }
+    },
+    "tags": [
+     "web-features:nesting"
+    ]
+   }
   }
  ],
  "bcdTags": [
   "api",
   "css"
  ],
- "baselineLowDateAsObject": "2025-12-09T00:00:00.000Z",
+ "baselineLowDateAsObject": "2025-12-12T00:00:00.000Z",
  "baselineHighDateAsObject": null,
- "expectedBaselineHighDate": "2028-06-09",
+ "expectedBaselineHighDate": "2028-06-12",
  "implUrls": {
   "chrome": [],
   "chrome_android": [],

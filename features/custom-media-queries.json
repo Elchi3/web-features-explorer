@@ -206,7 +206,7 @@
         "value_to_set": "true"
        }
       ],
-      "version_added": "146"
+      "version_added": "148"
      },
      "firefox_android": {
       "version_added": false
