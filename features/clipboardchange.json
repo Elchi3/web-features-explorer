@@ -112,7 +112,24 @@
    "Clipboard"
   ]
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "title": "ClipboardChangeEvent",
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent"
+  },
+  {
+   "title": "ClipboardChangeEvent: ClipboardChangeEvent() constructor",
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/ClipboardChangeEvent"
+  },
+  {
+   "title": "ClipboardChangeEvent: changeId property",
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/changeId"
+  },
+  {
+   "title": "ClipboardChangeEvent: types property",
+   "url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/types"
+  }
+ ],
  "hasNegativeStandardPosition": false,
  "originTrials": [],
  "useCounters": {},

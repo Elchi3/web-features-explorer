@@ -9054,7 +9054,7 @@
  ],
  "useCounters": {},
  "interop": [],
- "wpt": false,
+ "wpt": true,
  "bcdData": [
   {
    "key": "api.CanvasRenderingContext2D.drawImage.SVGImageElement_source_image",

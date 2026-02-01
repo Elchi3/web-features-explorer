@@ -125,8 +125,8 @@
    "url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allow"
   },
   {
-   "title": "Permissions Policy",
-   "url": "https://developer.mozilla.org/docs/Web/HTTP/Guides/Permissions_Policy"
+   "title": "Permissions-Policy header",
+   "url": "https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Permissions-Policy"
   }
  ],
  "hasNegativeStandardPosition": false,
