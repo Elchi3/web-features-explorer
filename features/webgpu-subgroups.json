@@ -1,0 +1,236 @@
+{
+ "compat_features": [
+  "api.GPUSupportedFeatures.feature_subgroups"
+ ],
+ "description": "The subgroups extension for the WebGPU Shading Language (WGSL) enables SIMD parallelism. Using subgroups, threads in a workgroup can efficiently communicate and perform collective operations.",
+ "description_html": "The subgroups extension for the WebGPU Shading Language (WGSL) enables SIMD parallelism. Using subgroups, threads in a workgroup can efficiently communicate and perform collective operations.",
+ "kind": "feature",
+ "name": "WebGPU subgroups",
+ "spec": [
+  {
+   "url": "https://gpuweb.github.io/gpuweb/#subgroups",
+   "seriesComposition": "full",
+   "shortname": "webgpu",
+   "series": {
+    "shortname": "webgpu",
+    "currentSpecification": "webgpu",
+    "title": "WebGPU",
+    "shortTitle": "WebGPU",
+    "releaseUrl": "https://www.w3.org/TR/webgpu/",
+    "nightlyUrl": "https://gpuweb.github.io/gpuweb/"
+   },
+   "tests": {
+    "repository": "https://github.com/gpuweb/cts",
+    "testPaths": [
+     "src/webgpu"
+    ]
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "GPU for the Web Working Group",
+     "url": "https://www.w3.org/groups/wg/gpu/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webgpu/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://gpuweb.github.io/gpuweb/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/gpuweb/gpuweb",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebGPU",
+   "source": "w3c",
+   "shortTitle": "WebGPU",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "subgroups"
+  },
+  {
+   "url": "https://gpuweb.github.io/gpuweb/wgsl/#extension-subgroups",
+   "seriesComposition": "full",
+   "shortname": "webgpu",
+   "series": {
+    "shortname": "webgpu",
+    "currentSpecification": "webgpu",
+    "title": "WebGPU",
+    "shortTitle": "WebGPU",
+    "releaseUrl": "https://www.w3.org/TR/webgpu/",
+    "nightlyUrl": "https://gpuweb.github.io/gpuweb/"
+   },
+   "tests": {
+    "repository": "https://github.com/gpuweb/cts",
+    "testPaths": [
+     "src/webgpu"
+    ]
+   },
+   "organization": "W3C",
+   "groups": [
+    {
+     "name": "GPU for the Web Working Group",
+     "url": "https://www.w3.org/groups/wg/gpu/"
+    }
+   ],
+   "release": {
+    "url": "https://www.w3.org/TR/webgpu/",
+    "status": "Candidate Recommendation Draft",
+    "filename": "Overview.html"
+   },
+   "nightly": {
+    "url": "https://gpuweb.github.io/gpuweb/",
+    "status": "Editor's Draft",
+    "alternateUrls": [],
+    "repository": "https://github.com/gpuweb/gpuweb",
+    "sourcePath": "spec/index.bs",
+    "filename": "index.html"
+   },
+   "title": "WebGPU",
+   "source": "w3c",
+   "shortTitle": "WebGPU",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "fragment": "extension-subgroups"
+  }
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.GPUSupportedFeatures.feature_subgroups": {
+    "baseline": false,
+    "support": {}
+   }
+  },
+  "support": {}
+ },
+ "id": "webgpu-subgroups",
+ "groups": [],
+ "groupPaths": [],
+ "mdnUrls": [],
+ "hasNegativeStandardPosition": false,
+ "interop": [],
+ "wpt": false,
+ "bcdData": [
+  {
+   "key": "api.GPUSupportedFeatures.feature_subgroups",
+   "compat": {
+    "description": "<code>subgroups</code> feature",
+    "source_file": "api/GPUSupportedFeatures.json",
+    "spec_url": "https://gpuweb.github.io/gpuweb/#subgroups",
+    "status": {
+     "deprecated": false,
+     "experimental": true,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Chrome 144."
+      ],
+      "partial_implementation": true,
+      "version_added": "134"
+     },
+     "chrome_android": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Chrome Android 144."
+      ],
+      "partial_implementation": true,
+      "version_added": "134"
+     },
+     "deno": {
+      "version_added": false
+     },
+     "edge": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Edge 144."
+      ],
+      "partial_implementation": true,
+      "version_added": "134"
+     },
+     "firefox": {
+      "version_added": false
+     },
+     "firefox_android": {
+      "version_added": false
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": false
+     },
+     "opera": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Opera false."
+      ],
+      "partial_implementation": true,
+      "version_added": "119"
+     },
+     "opera_android": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Opera Android false."
+      ],
+      "partial_implementation": true,
+      "version_added": "88"
+     },
+     "safari": {
+      "version_added": false
+     },
+     "safari_ios": {
+      "version_added": false
+     },
+     "samsunginternet_android": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since Samsung Internet false."
+      ],
+      "partial_implementation": true,
+      "version_added": "29.0"
+     },
+     "webview_android": {
+      "notes": [
+       "Supported on ChromeOS, macOS, and Windows.",
+       "Supported on Linux (Intel Gen12+ GPUs only) since WebView Android 144."
+      ],
+      "partial_implementation": true,
+      "version_added": "134"
+     },
+     "webview_ios": {
+      "version_added": false
+     }
+    },
+    "tags": [
+     "web-features:webgpu"
+    ]
+   }
+  }
+ ],
+ "bcdTags": [
+  "api"
+ ],
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null,
+ "implUrls": {
+  "chrome": [],
+  "chrome_android": [],
+  "edge": [],
+  "firefox": [],
+  "firefox_android": [],
+  "safari": [],
+  "safari_ios": []
+ }
+}

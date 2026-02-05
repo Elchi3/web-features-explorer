@@ -27,7 +27,6 @@
   "api.Range.comparePoint",
   "api.Range.createContextualFragment",
   "api.Range.deleteContents",
-  "api.Range.detach",
   "api.Range.endContainer",
   "api.Range.endOffset",
   "api.Range.extractContents",
@@ -470,16 +469,6 @@
      "edge": "12",
      "firefox": "1",
      "firefox_android": "4",
-     "safari": "1",
-     "safari_ios": "1"
-    }
-   },
-   "api.Range.detach": {
-    "baseline": false,
-    "support": {
-     "chrome": "1",
-     "chrome_android": "18",
-     "edge": "12",
      "safari": "1",
      "safari_ios": "1"
     }
@@ -2796,78 +2785,6 @@
       "version_added": "4.4"
      },
      "webview_ios": {
-      "version_added": "1"
-     }
-    },
-    "tags": [
-     "web-features:selection-api"
-    ]
-   }
-  },
-  {
-   "key": "api.Range.detach",
-   "compat": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/API/Range/detach",
-    "source_file": "api/Range.json",
-    "spec_url": "https://dom.spec.whatwg.org/#dom-range-detach",
-    "status": {
-     "deprecated": true,
-     "experimental": false,
-     "standard_track": true
-    },
-    "support": {
-     "chrome": {
-      "notes": "Since Chrome 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "1"
-     },
-     "chrome_android": {
-      "notes": "Since Chrome Android 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "18"
-     },
-     "edge": {
-      "version_added": "12"
-     },
-     "firefox": {
-      "notes": "Since Firefox 15, this method does nothing. See <a href=\"https://bugzil.la/702948\">bug 702948</a>.",
-      "version_added": "1"
-     },
-     "firefox_android": {
-      "notes": "Since Firefox for Android 15, this method does nothing. See <a href=\"https://bugzil.la/702948\">bug 702948</a>.",
-      "version_added": "4"
-     },
-     "ie": {
-      "version_added": "9"
-     },
-     "oculus": {
-      "notes": "Since Quest Browser 5.0, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "5.0"
-     },
-     "opera": {
-      "notes": "Since Opera 24, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "9"
-     },
-     "opera_android": {
-      "notes": "Since Opera 24, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "10.1"
-     },
-     "safari": {
-      "notes": "Since Safari 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
-      "version_added": "1"
-     },
-     "safari_ios": {
-      "notes": "Since Safari on iOS 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
-      "version_added": "1"
-     },
-     "samsunginternet_android": {
-      "notes": "Since Samsung Internet 3.0, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "1.0"
-     },
-     "webview_android": {
-      "notes": "Since WebView Android 37, this method does nothing. See <a href=\"https://crbug.com/40362748\">bug 40362748</a>.",
-      "version_added": "4.4"
-     },
-     "webview_ios": {
-      "notes": "Since WebView on iOS 10, this method does nothing, see <a href=\"https://webkit.org/b/148454\">bug 148454</a>.",
       "version_added": "1"
      }
     },
