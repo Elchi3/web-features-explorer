@@ -162,7 +162,7 @@
      }
     },
     "tags": [
-     "web-features:container-style-queries"
+     "web-features:style-query-range-syntax"
     ]
    }
   },
@@ -220,7 +220,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:style-query-range-syntax"
+    ]
    }
   }
  ],

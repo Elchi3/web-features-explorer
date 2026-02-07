@@ -1752,7 +1752,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -1948,7 +1951,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2004,7 +2010,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2060,7 +2069,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2116,7 +2128,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2172,7 +2187,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2228,7 +2246,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2284,7 +2305,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2340,7 +2364,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2396,7 +2423,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2452,7 +2482,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2648,7 +2681,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2704,7 +2740,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2760,7 +2799,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2816,7 +2858,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2872,7 +2917,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2928,7 +2976,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -2984,7 +3035,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3040,7 +3094,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3096,7 +3153,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3152,7 +3212,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3208,7 +3271,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3264,7 +3330,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3320,7 +3389,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3376,7 +3448,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3432,7 +3507,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3488,7 +3566,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3544,7 +3625,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:multi-column"
+    ]
    }
   },
   {
@@ -3755,7 +3839,7 @@
    "compat": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/columns",
     "source_file": "css/properties/columns.json",
-    "spec_url": "https://drafts.csswg.org/css-multicol/#columns",
+    "spec_url": "https://drafts.csswg.org/css-multicol-2/#propdef-columns",
     "status": {
      "deprecated": false,
      "experimental": false,

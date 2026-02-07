@@ -162,7 +162,10 @@
      "webview_ios": {
       "version_added": "26"
      }
-    }
+    },
+    "tags": [
+     "web-features:progress-function"
+    ]
    }
   }
  ],

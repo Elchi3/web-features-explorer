@@ -302,7 +302,7 @@
      }
     },
     "tags": [
-     "web-features:shapes"
+     "web-features:rect-xywx"
     ]
    }
   },
@@ -426,7 +426,7 @@
      }
     },
     "tags": [
-     "web-features:shapes"
+     "web-features:rect-xywx"
     ]
    }
   }

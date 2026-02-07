@@ -170,7 +170,10 @@
       "impl_url": "https://webkit.org/b/233820",
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:custom-media-queries"
+    ]
    }
   },
   {
@@ -246,7 +249,10 @@
       "impl_url": "https://webkit.org/b/233820",
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:custom-media-queries"
+    ]
    }
   }
  ],

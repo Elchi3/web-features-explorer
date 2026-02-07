@@ -586,12 +586,15 @@
     },
     "support": {
      "chrome": {
+      "notes": "From Chrome 144, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "90"
      },
      "chrome_android": {
+      "notes": "From Chrome Android 144, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "90"
      },
      "edge": {
+      "notes": "From Edge 144, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "90"
      },
      "firefox": {
@@ -604,12 +607,15 @@
       "version_added": false
      },
      "oculus": {
+      "notes": "From Quest Browser false, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "16.0"
      },
      "opera": {
+      "notes": "From Opera false, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "76"
      },
      "opera_android": {
+      "notes": "From Opera Android false, whether or not this feature can return high-entropy values can be controlled with the <code>ch-ua-high-entropy-values</code> permissions policy.",
       "version_added": "64"
      },
      "safari": {

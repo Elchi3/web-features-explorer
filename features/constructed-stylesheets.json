@@ -399,9 +399,11 @@
       "version_added": "79"
      },
      "firefox": {
+      "notes": "Before Firefox 121, when calling <code>replace()</code> repeatedly, the style is applied, but the change is not reflected in the CSS Object Model. See <a href=\"https://bugzil.la/1864815\">bug 1864815</a>.",
       "version_added": "101"
      },
      "firefox_android": {
+      "notes": "Before Firefox for Android 121, when calling <code>replace()</code> repeatedly, the style is applied, but the change is not reflected in the CSS Object Model. See <a href=\"https://bugzil.la/1864815\">bug 1864815</a>.",
       "version_added": "101"
      },
      "ie": {

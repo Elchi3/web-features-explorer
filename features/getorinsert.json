@@ -237,7 +237,10 @@
      "webview_ios": {
       "version_added": "26.2"
      }
-    }
+    },
+    "tags": [
+     "web-features:getorinsert"
+    ]
    }
   },
   {
@@ -297,7 +300,10 @@
      "webview_ios": {
       "version_added": "26.2"
      }
-    }
+    },
+    "tags": [
+     "web-features:getorinsert"
+    ]
    }
   },
   {
@@ -357,7 +363,10 @@
      "webview_ios": {
       "version_added": "26.2"
      }
-    }
+    },
+    "tags": [
+     "web-features:getorinsert"
+    ]
    }
   },
   {
@@ -417,7 +426,10 @@
      "webview_ios": {
       "version_added": "26.2"
      }
-    }
+    },
+    "tags": [
+     "web-features:getorinsert"
+    ]
    }
   }
  ],

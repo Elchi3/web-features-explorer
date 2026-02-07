@@ -5334,7 +5334,10 @@
      "webview_ios": {
       "version_added": "1"
      }
-    }
+    },
+    "tags": [
+     "web-features:list-style"
+    ]
    }
   },
   {
@@ -5393,7 +5396,10 @@
      "webview_ios": {
       "version_added": "1"
      }
-    }
+    },
+    "tags": [
+     "web-features:list-style"
+    ]
    }
   },
   {
@@ -5449,7 +5455,10 @@
      "webview_ios": {
       "version_added": "1"
      }
-    }
+    },
+    "tags": [
+     "web-features:list-style"
+    ]
    }
   },
   {

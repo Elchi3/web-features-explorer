@@ -535,9 +535,11 @@
     },
     "support": {
      "chrome": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "5"
      },
      "chrome_android": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "18"
      },
      "edge": {
@@ -553,27 +555,35 @@
       "version_added": "5"
      },
      "oculus": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "5.0"
      },
      "opera": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "15"
      },
      "opera_android": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "14"
      },
      "safari": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://webkit.org/b/265316\">bug 265316</a>.",
       "version_added": "5"
      },
      "safari_ios": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://webkit.org/b/265316\">bug 265316</a>.",
       "version_added": "4.2"
      },
      "samsunginternet_android": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "1.0"
      },
      "webview_android": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://crbug.com/347597919\">bug 347597919</a>.",
       "version_added": "4.4"
      },
      "webview_ios": {
+      "notes": "Nested <code>&lt;rt&gt;</code> elements do not render correctly due to missing <code>display: ruby-text</code> styling. See <a href=\"https://webkit.org/b/265316\">bug 265316</a>.",
       "version_added": "4.2"
      }
     },

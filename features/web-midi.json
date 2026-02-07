@@ -805,6 +805,8 @@
       "version_added": "79"
      },
      "firefox": {
+      "notes": "The <code>onstatechange</code> event handler is supported, but the event never fires. See <a href=\"https://bugzil.la/1802149\">bug 1802149</a>.",
+      "partial_implementation": true,
       "version_added": "108"
      },
      "firefox_android": {

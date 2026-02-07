@@ -426,10 +426,11 @@
       "version_added": "12"
      },
      "firefox": {
-      "notes": "Before Firefox 144, only displays a date picker without a time picker, see <a href=\"https://bugzil.la/1726107\">bug 1726107</a> and <a href=\"https://bugzil.la/1726108\">bug 1726108</a>.",
+      "notes": "Only displays a date picker without a time picker, see <a href=\"https://bugzil.la/1726107\">bug 1726107</a> and <a href=\"https://bugzil.la/1726108\">bug 1726108</a>.",
       "version_added": "93"
      },
      "firefox_android": {
+      "notes": "Only displays a date picker without a time picker, see <a href=\"https://bugzil.la/1726107\">bug 1726107</a> and <a href=\"https://bugzil.la/1726108\">bug 1726108</a>.",
       "version_added": "93"
      },
      "ie": {

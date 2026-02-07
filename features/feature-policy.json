@@ -522,7 +522,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -586,7 +589,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -649,7 +655,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -712,7 +721,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -775,7 +787,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -838,7 +853,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -901,7 +919,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -956,7 +977,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -1015,7 +1039,7 @@
      }
     },
     "tags": [
-     "web-features:accelerometer"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1110,7 +1134,7 @@
      }
     },
     "tags": [
-     "web-features:ambient-light"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1170,7 +1194,7 @@
      }
     },
     "tags": [
-     "web-features:attribution-reporting"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1228,7 +1252,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -1287,7 +1314,7 @@
      }
     },
     "tags": [
-     "web-features:web-bluetooth"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1344,7 +1371,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -1403,7 +1433,7 @@
      }
     },
     "tags": [
-     "web-features:media-capture"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1463,7 +1493,7 @@
      }
     },
     "tags": [
-     "web-features:compute-pressure"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1521,7 +1551,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -1580,7 +1613,7 @@
      }
     },
     "tags": [
-     "web-features:fetchlater"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1640,7 +1673,7 @@
      }
     },
     "tags": [
-     "web-features:fetchlater"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1700,7 +1733,7 @@
      }
     },
     "tags": [
-     "web-features:screen-capture"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1776,7 +1809,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -1835,7 +1871,7 @@
      }
     },
     "tags": [
-     "web-features:encrypted-media-extensions"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1895,7 +1931,7 @@
      }
     },
     "tags": [
-     "web-features:fullscreen"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -1955,7 +1991,7 @@
      }
     },
     "tags": [
-     "web-features:geolocation"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2015,7 +2051,7 @@
      }
     },
     "tags": [
-     "web-features:gyroscope"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2080,7 +2116,7 @@
      }
     },
     "tags": [
-     "web-features:webhid"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2138,7 +2174,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -2197,7 +2236,7 @@
      }
     },
     "tags": [
-     "web-features:idle-detection"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2262,7 +2301,7 @@
      }
     },
     "tags": [
-     "web-features:local-fonts"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2357,7 +2396,7 @@
      }
     },
     "tags": [
-     "web-features:magnetometer"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2417,7 +2456,7 @@
      }
     },
     "tags": [
-     "web-features:media-capture"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2480,7 +2519,7 @@
      }
     },
     "tags": [
-     "web-features:web-midi"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2540,7 +2579,7 @@
      }
     },
     "tags": [
-     "web-features:web-otp"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2600,7 +2639,7 @@
      }
     },
     "tags": [
-     "web-features:payment-request"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2662,7 +2701,7 @@
      }
     },
     "tags": [
-     "web-features:picture-in-picture"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2722,7 +2761,7 @@
      }
     },
     "tags": [
-     "web-features:webauthn"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2782,7 +2821,7 @@
      }
     },
     "tags": [
-     "web-features:webauthn"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2843,7 +2882,7 @@
      }
     },
     "tags": [
-     "web-features:screen-wake-lock"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2903,7 +2942,7 @@
      }
     },
     "tags": [
-     "web-features:serial"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -2963,7 +3002,7 @@
      }
     },
     "tags": [
-     "web-features:storage-access"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -3023,7 +3062,7 @@
      }
     },
     "tags": [
-     "web-features:webusb"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -3084,7 +3123,7 @@
      }
     },
     "tags": [
-     "web-features:share"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -3141,7 +3180,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:feature-policy"
+    ]
    }
   },
   {
@@ -3200,7 +3242,7 @@
      }
     },
     "tags": [
-     "web-features:window-management"
+     "web-features:feature-policy"
     ]
    }
   },
@@ -3261,7 +3303,7 @@
      }
     },
     "tags": [
-     "web-features:webxr-device"
+     "web-features:feature-policy"
     ]
    }
   }

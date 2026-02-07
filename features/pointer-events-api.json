@@ -1593,12 +1593,30 @@
       "notes": "Before version 142, <code>pointerrawupdate</code> events were exposed to non-secure contexts.",
       "version_added": "79"
      },
-     "firefox": {
-      "version_added": "140"
-     },
-     "firefox_android": {
-      "version_added": "140"
-     },
+     "firefox": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "The <code>pointerrawupdate</code> event handler receives a <code>MouseEvent</code> whose movement properties (<code>movementX</code>, <code>movementY</code>) are always <code>0</code>. See <a href=\"https://bugzil.la/1987671\">bug 1987671</a>.",
+       "partial_implementation": true,
+       "version_added": "140",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
+     "firefox_android": [
+      {
+       "version_added": "148"
+      },
+      {
+       "notes": "The <code>pointerrawupdate</code> event handler receives a <code>MouseEvent</code> whose movement properties (<code>movementX</code>, <code>movementY</code>) are always <code>0</code>. See <a href=\"https://bugzil.la/1987671\">bug 1987671</a>.",
+       "partial_implementation": true,
+       "version_added": "140",
+       "version_last": "147",
+       "version_removed": "148"
+      }
+     ],
      "ie": {
       "version_added": false
      },

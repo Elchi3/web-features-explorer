@@ -139,6 +139,7 @@
   {
    "key": "api.ClipboardChangeEvent",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent",
     "source_file": "api/ClipboardChangeEvent.json",
     "spec_url": "https://w3c.github.io/clipboard-apis/#clipboardchangeevent",
     "status": {
@@ -189,13 +190,17 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:clipboardchange"
+    ]
    }
   },
   {
    "key": "api.ClipboardChangeEvent.ClipboardChangeEvent",
    "compat": {
     "description": "<code>ClipboardChangeEvent()</code> constructor",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/ClipboardChangeEvent",
     "source_file": "api/ClipboardChangeEvent.json",
     "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent",
     "status": {
@@ -246,12 +251,16 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:clipboardchange"
+    ]
    }
   },
   {
    "key": "api.ClipboardChangeEvent.changeId",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/changeId",
     "source_file": "api/ClipboardChangeEvent.json",
     "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-changeid",
     "status": {
@@ -302,12 +311,16 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:clipboardchange"
+    ]
    }
   },
   {
    "key": "api.ClipboardChangeEvent.types",
    "compat": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/API/ClipboardChangeEvent/types",
     "source_file": "api/ClipboardChangeEvent.json",
     "spec_url": "https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-types",
     "status": {
@@ -358,7 +371,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:clipboardchange"
+    ]
    }
   }
  ],

@@ -231,7 +231,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:related-apps"
+    ]
    }
   },
   {
@@ -291,7 +294,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:related-apps"
+    ]
    }
   },
   {
@@ -349,7 +355,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:related-apps"
+    ]
    }
   }
  ],

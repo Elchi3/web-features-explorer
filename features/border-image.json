@@ -1350,7 +1350,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:border-image"
+    ]
    }
   },
   {
@@ -1465,7 +1468,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:border-image"
+    ]
    }
   },
   {
@@ -1521,7 +1527,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:border-image"
+    ]
    }
   },
   {
@@ -1577,7 +1586,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:border-image"
+    ]
    }
   },
   {
@@ -1633,7 +1645,10 @@
      "webview_ios": {
       "version_added": "2"
      }
-    }
+    },
+    "tags": [
+     "web-features:border-image"
+    ]
    }
   }
  ],

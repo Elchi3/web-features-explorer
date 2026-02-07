@@ -163,7 +163,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:justify-self-block"
+    ]
    }
   },
   {
@@ -220,7 +223,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:justify-self-block"
+    ]
    }
   }
  ],

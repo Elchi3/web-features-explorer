@@ -225,7 +225,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   },
   {
@@ -282,7 +285,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   },
   {
@@ -339,7 +345,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   },
   {
@@ -395,7 +404,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   },
   {
@@ -451,7 +463,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   },
   {
@@ -507,7 +522,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:origin"
+    ]
    }
   }
  ],

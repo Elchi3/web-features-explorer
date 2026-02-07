@@ -129,7 +129,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:arianotify"
+    ]
    }
   },
   {
@@ -216,7 +219,10 @@
      "webview_ios": {
       "version_added": false
      }
-    }
+    },
+    "tags": [
+     "web-features:arianotify"
+    ]
    }
   }
  ],

@@ -17661,7 +17661,10 @@
      "webview_ios": {
       "version_added": "6"
      }
-    }
+    },
+    "tags": [
+     "web-features:svg-filters"
+    ]
    }
   },
   {
@@ -17717,7 +17720,10 @@
      "webview_ios": {
       "version_added": "6"
      }
-    }
+    },
+    "tags": [
+     "web-features:svg-filters"
+    ]
    }
   },
   {
@@ -17893,7 +17899,10 @@
      "webview_ios": {
       "version_added": "6"
      }
-    }
+    },
+    "tags": [
+     "web-features:svg-filters"
+    ]
    }
   },
   {
@@ -17949,7 +17958,10 @@
      "webview_ios": {
       "version_added": "6"
      }
-    }
+    },
+    "tags": [
+     "web-features:svg-filters"
+    ]
    }
   },
   {

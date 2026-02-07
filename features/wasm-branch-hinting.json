@@ -106,7 +106,10 @@
      "webview_ios": {
       "version_added": "16"
      }
-    }
+    },
+    "tags": [
+     "web-features:wasm-branch-hinting"
+    ]
    }
   }
  ],

@@ -268,7 +268,7 @@
      }
     },
     "tags": [
-     "web-features:input-color"
+     "web-features:input-color-alpha"
     ]
    }
   },
@@ -338,7 +338,7 @@
      }
     },
     "tags": [
-     "web-features:input-color"
+     "web-features:input-color-alpha"
     ]
    }
   },
@@ -407,7 +407,7 @@
      }
     },
     "tags": [
-     "web-features:input-color"
+     "web-features:input-color-alpha"
     ]
    }
   },
@@ -477,7 +477,7 @@
      }
     },
     "tags": [
-     "web-features:input-color"
+     "web-features:input-color-alpha"
     ]
    }
   }

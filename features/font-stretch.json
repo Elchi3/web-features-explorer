@@ -477,7 +477,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -533,7 +536,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -589,7 +595,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -645,7 +654,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -701,7 +713,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -816,7 +831,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -872,7 +890,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -928,7 +949,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
@@ -984,7 +1008,10 @@
      "webview_ios": {
       "version_added": "11"
      }
-    }
+    },
+    "tags": [
+     "web-features:font-stretch"
+    ]
    }
   },
   {
