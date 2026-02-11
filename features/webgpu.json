@@ -306,6 +306,9 @@
  ],
  "description": "The navigator.gpu API performs operations such as rendering and computation on dedicated graphics hardware (also known as a Graphics Processing Unit).",
  "description_html": "The <code>navigator.gpu</code> API performs operations such as rendering and computation on dedicated graphics hardware (also known as a Graphics Processing Unit).",
+ "group": [
+  "webgpu"
+ ],
  "kind": "feature",
  "name": "WebGPU",
  "spec": [
@@ -2592,8 +2595,14 @@
   }
  },
  "id": "webgpu",
- "groups": [],
- "groupPaths": [],
+ "groups": [
+  "webgpu"
+ ],
+ "groupPaths": [
+  [
+   "WebGPU"
+  ]
+ ],
  "mdnUrls": [
   {
    "title": "WebGPU API",

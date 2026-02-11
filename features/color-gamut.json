@@ -1,6 +1,9 @@
 {
  "compat_features": [
-  "css.at-rules.media.color-gamut"
+  "css.at-rules.media.color-gamut",
+  "css.at-rules.media.color-gamut.p3",
+  "css.at-rules.media.color-gamut.rec2020",
+  "css.at-rules.media.color-gamut.srgb"
  ],
  "description": "The color-gamut media query sets styles based on the colors a device can display.",
  "description_html": "The <code>color-gamut</code> media query sets styles based on the colors a device can display.",
@@ -68,6 +71,48 @@
   "baseline_low_date": "2023-02-14",
   "by_compat_key": {
    "css.at-rules.media.color-gamut": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-14",
+    "baseline_low_date": "2023-02-14",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "110",
+     "firefox_android": "110",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.at-rules.media.color-gamut.p3": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-14",
+    "baseline_low_date": "2023-02-14",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "110",
+     "firefox_android": "110",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.at-rules.media.color-gamut.rec2020": {
+    "baseline": "high",
+    "baseline_high_date": "2025-08-14",
+    "baseline_low_date": "2023-02-14",
+    "support": {
+     "chrome": "58",
+     "chrome_android": "58",
+     "edge": "79",
+     "firefox": "110",
+     "firefox_android": "110",
+     "safari": "10",
+     "safari_ios": "10"
+    }
+   },
+   "css.at-rules.media.color-gamut.srgb": {
     "baseline": "high",
     "baseline_high_date": "2025-08-14",
     "baseline_low_date": "2023-02-14",
@@ -172,6 +217,186 @@
     "tags": [
      "web-features:color-gamut"
     ]
+   }
+  },
+  {
+   "key": "css.at-rules.media.color-gamut.p3",
+   "compat": {
+    "description": "<code>p3</code> value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-gamut#p3",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-p3",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "58"
+     },
+     "chrome_android": {
+      "version_added": "58"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "<code>color-gamut: p3</code> is always false because Firefox does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "firefox_android": {
+      "notes": "<code>color-gamut: p3</code> is always false because Firefox for Android does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "45"
+     },
+     "opera_android": {
+      "version_added": "43"
+     },
+     "safari": {
+      "version_added": "10"
+     },
+     "safari_ios": {
+      "version_added": "10"
+     },
+     "samsunginternet_android": {
+      "version_added": "7.0"
+     },
+     "webview_android": {
+      "version_added": "58"
+     },
+     "webview_ios": {
+      "version_added": "10"
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.media.color-gamut.rec2020",
+   "compat": {
+    "description": "<code>rec2020</code> value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-gamut#rec2020",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-rec2020",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "58"
+     },
+     "chrome_android": {
+      "version_added": "58"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "<code>color-gamut: rec2020</code> is always false because Firefox does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "firefox_android": {
+      "notes": "<code>color-gamut: rec2020</code> is always false because Firefox for Android does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "45"
+     },
+     "opera_android": {
+      "version_added": "43"
+     },
+     "safari": {
+      "version_added": "10"
+     },
+     "safari_ios": {
+      "version_added": "10"
+     },
+     "samsunginternet_android": {
+      "version_added": "7.0"
+     },
+     "webview_android": {
+      "version_added": "58"
+     },
+     "webview_ios": {
+      "version_added": "10"
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.media.color-gamut.srgb",
+   "compat": {
+    "description": "<code>srgb</code> value",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-gamut#srgb",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-srgb",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "58"
+     },
+     "chrome_android": {
+      "version_added": "58"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "<code>color-gamut: srgb</code> is always true because Firefox does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "firefox_android": {
+      "notes": "<code>color-gamut: srgb</code> is always true because Firefox for Android does not support wide-gamut color. See <a href=\"https://bugzil.la/1626624\">bug 1626624</a>.",
+      "version_added": "110"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "45"
+     },
+     "opera_android": {
+      "version_added": "43"
+     },
+     "safari": {
+      "version_added": "10"
+     },
+     "safari_ios": {
+      "version_added": "10"
+     },
+     "samsunginternet_android": {
+      "version_added": "7.0"
+     },
+     "webview_android": {
+      "version_added": "58"
+     },
+     "webview_ios": {
+      "version_added": "10"
+     }
+    }
    }
   }
  ],

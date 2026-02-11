@@ -1,6 +1,10 @@
 {
  "compat_features": [
-  "css.at-rules.media.display-mode"
+  "css.at-rules.media.display-mode",
+  "css.at-rules.media.display-mode.browser",
+  "css.at-rules.media.display-mode.fullscreen",
+  "css.at-rules.media.display-mode.minimal-ui",
+  "css.at-rules.media.display-mode.standalone"
  ],
  "description": "The display-mode CSS media query sets styles based on whether the web page is in an ordinary browser tab mode or another mode, such as fullscreen, standalone, or minimal-ui.",
  "description_html": "The <code>display-mode</code> CSS media query sets styles based on whether the web page is in an ordinary <code>browser</code> tab mode or another mode, such as <code>fullscreen</code>, <code>standalone</code>, or <code>minimal-ui</code>.",
@@ -63,8 +67,7 @@
   }
  ],
  "status": {
-  "baseline": "low",
-  "baseline_low_date": "2023-08-01",
+  "baseline": false,
   "by_compat_key": {
    "css.at-rules.media.display-mode": {
     "baseline": "high",
@@ -79,16 +82,56 @@
      "safari": "13",
      "safari_ios": "12.2"
     }
+   },
+   "css.at-rules.media.display-mode.browser": {
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
+    "baseline_low_date": "2023-08-01",
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "79",
+     "firefox": "47",
+     "firefox_android": "116",
+     "safari": "13",
+     "safari_ios": "12.2"
+    }
+   },
+   "css.at-rules.media.display-mode.fullscreen": {
+    "baseline": false,
+    "support": {
+     "chrome": "47",
+     "edge": "79",
+     "firefox_android": "116"
+    }
+   },
+   "css.at-rules.media.display-mode.minimal-ui": {
+    "baseline": false,
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "116",
+     "safari": "13"
+    }
+   },
+   "css.at-rules.media.display-mode.standalone": {
+    "baseline": false,
+    "support": {
+     "chrome": "42",
+     "chrome_android": "42",
+     "edge": "79",
+     "firefox": "57",
+     "firefox_android": "116",
+     "safari": "13"
+    }
    }
   },
   "support": {
-   "chrome": "42",
-   "chrome_android": "42",
+   "chrome": "47",
    "edge": "79",
-   "firefox": "47",
-   "firefox_android": "47",
-   "safari": "13",
-   "safari_ios": "12.2"
+   "firefox_android": "116"
   }
  },
  "id": "display-mode",
@@ -175,17 +218,288 @@
      "web-features:display-mode"
     ]
    }
+  },
+  {
+   "key": "css.at-rules.media.display-mode.browser",
+   "compat": {
+    "description": "<code>browser</code> value",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries-5/#valdef-media-display-mode-browser",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "42"
+     },
+     "chrome_android": {
+      "version_added": "42"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "version_added": "47"
+     },
+     "firefox_android": [
+      {
+       "version_added": "116"
+      },
+      {
+       "notes": "<code>display-mode: browser</code> is always true.",
+       "partial_implementation": true,
+       "version_added": "47",
+       "version_last": "115",
+       "version_removed": "116"
+      }
+     ],
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "29"
+     },
+     "opera_android": {
+      "version_added": "29"
+     },
+     "safari": {
+      "notes": "In a Safari browser window, <code>display-mode: browser</code> is always true, even in a macOS Full Screen window or when using the Fullscreen API. In an installed web application, other <code>display-mode</code> values are true only when given by a supported manifest <code>display</code> member value. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+      "version_added": "13"
+     },
+     "safari_ios": {
+      "notes": "In the Safari app, <code>display-mode: browser</code> is always true, even when using the Fullscreen API. In an installed web application, other <code>display-mode</code> values are true only when given by a supported manifest <code>display</code> member value. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+      "version_added": "12.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "4.0"
+     },
+     "webview_android": {
+      "version_added": "42"
+     },
+     "webview_ios": {
+      "notes": "In the Safari app, <code>display-mode: browser</code> is always true, even when using the Fullscreen API. In an installed web application, other <code>display-mode</code> values are true only when given by a supported manifest <code>display</code> member value. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+      "version_added": "12.2"
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.media.display-mode.fullscreen",
+   "compat": {
+    "description": "<code>fullscreen</code> value",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries-5/#valdef-media-display-mode-fullscreen",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "47"
+     },
+     "chrome_android": {
+      "impl_url": "https://crbug.com/40831406",
+      "version_added": false
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "In Firefox's \"Full Screen\" user interface, browser tabs and other user interface appear but <code>display-mode: fullscreen</code> is true.",
+      "partial_implementation": true,
+      "version_added": "47"
+     },
+     "firefox_android": {
+      "version_added": "116"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "impl_url": "https://crbug.com/40831406",
+      "version_added": false
+     },
+     "opera": {
+      "version_added": false
+     },
+     "opera_android": {
+      "impl_url": "https://crbug.com/40831406",
+      "version_added": false
+     },
+     "safari": {
+      "notes": "In a Safari browser window, <code>display-mode: fullscreen</code> is never true, even when using the Fullscreen API. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+      "partial_implementation": true,
+      "version_added": "13"
+     },
+     "safari_ios": {
+      "notes": [
+       "In the Safari app, <code>display-mode: fullscreen</code> is never true, even when using the Fullscreen API. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+       "In an installed web application with the <code>display</code> manifest member set to <code>standalone</code>, <code>display-mode: fullscreen</code> is true, even though the system status bar is visible. See <a href=\"https://webkit.org/b/264218\">bug 264218</a>."
+      ],
+      "partial_implementation": true,
+      "version_added": "12.2"
+     },
+     "samsunginternet_android": {
+      "impl_url": "https://crbug.com/40831406",
+      "version_added": false
+     },
+     "webview_android": {
+      "impl_url": "https://crbug.com/40831406",
+      "version_added": false
+     },
+     "webview_ios": {
+      "notes": [
+       "In the Safari app, <code>display-mode: fullscreen</code> is never true, even when using the Fullscreen API. See <a href=\"https://github.com/mdn/browser-compat-data/issues/18807#issuecomment-2607031785\">mdn/browser-compat-data#18807 (comment)</a>.",
+       "In an installed web application with the <code>display</code> manifest member set to <code>standalone</code>, <code>display-mode: fullscreen</code> is true, even though the system status bar is visible. See <a href=\"https://webkit.org/b/264218\">bug 264218</a>."
+      ],
+      "partial_implementation": true,
+      "version_added": "12.2"
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.media.display-mode.minimal-ui",
+   "compat": {
+    "description": "<code>minimal-ui</code> value",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries-5/#valdef-media-display-mode-minimal-ui",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "42"
+     },
+     "chrome_android": {
+      "version_added": "42"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "<code>display-mode: minimal-ui</code> is never true.",
+      "version_added": "57"
+     },
+     "firefox_android": {
+      "version_added": "116"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "29"
+     },
+     "opera_android": {
+      "version_added": "29"
+     },
+     "safari": {
+      "notes": "<code>display-mode: minimal-ui</code> is never true.",
+      "version_added": "13"
+     },
+     "safari_ios": {
+      "notes": "<code>display-mode: minimal-ui</code> is never true.",
+      "partial_implementation": true,
+      "version_added": "12.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "4.0"
+     },
+     "webview_android": {
+      "version_added": "42"
+     },
+     "webview_ios": {
+      "notes": "<code>display-mode: minimal-ui</code> is never true.",
+      "partial_implementation": true,
+      "version_added": "12.2"
+     }
+    }
+   }
+  },
+  {
+   "key": "css.at-rules.media.display-mode.standalone",
+   "compat": {
+    "description": "<code>standalone</code> value",
+    "source_file": "css/at-rules/media.json",
+    "spec_url": "https://drafts.csswg.org/mediaqueries-5/#valdef-media-display-mode-standalone",
+    "status": {
+     "deprecated": false,
+     "experimental": false,
+     "standard_track": true
+    },
+    "support": {
+     "chrome": {
+      "version_added": "42"
+     },
+     "chrome_android": {
+      "version_added": "42"
+     },
+     "edge": {
+      "version_added": "79"
+     },
+     "firefox": {
+      "notes": "<code>display-mode: standalone</code> is never true.",
+      "version_added": "57"
+     },
+     "firefox_android": {
+      "version_added": "116"
+     },
+     "ie": {
+      "version_added": false
+     },
+     "oculus": {
+      "version_added": "5.0"
+     },
+     "opera": {
+      "version_added": "29"
+     },
+     "opera_android": {
+      "version_added": "29"
+     },
+     "safari": {
+      "version_added": "13"
+     },
+     "safari_ios": {
+      "notes": "In an installed web application with the <code>display</code> manifest member set to <code>standalone</code>, <code>display-mode: standalone</code> is false and <code>display-mode: fullscreen</code> is true. See <a href=\"https://webkit.org/b/264218\">bug 264218</a>.",
+      "partial_implementation": true,
+      "version_added": "12.2"
+     },
+     "samsunginternet_android": {
+      "version_added": "4.0"
+     },
+     "webview_android": {
+      "version_added": "42"
+     },
+     "webview_ios": {
+      "notes": "In an installed web application with the <code>display</code> manifest member set to <code>standalone</code>, <code>display-mode: standalone</code> is false and <code>display-mode: fullscreen</code> is true. See <a href=\"https://webkit.org/b/264218\">bug 264218</a>.",
+      "partial_implementation": true,
+      "version_added": "12.2"
+     }
+    }
+   }
   }
  ],
  "bcdTags": [
   "css"
  ],
- "baselineLowDateAsObject": "2023-08-01T00:00:00.000Z",
+ "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "expectedBaselineHighDate": "2026-02-01",
  "implUrls": {
   "chrome": [],
-  "chrome_android": [],
+  "chrome_android": [
+   "https://crbug.com/40831406"
+  ],
   "edge": [],
   "firefox": [],
   "firefox_android": [],

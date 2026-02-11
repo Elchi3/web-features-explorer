@@ -1131,8 +1131,6 @@
     "support": {
      "chrome": "14",
      "edge": "12",
-     "firefox": "134",
-     "firefox_android": "134",
      "safari": "6",
      "safari_ios": "6"
     }
@@ -1142,8 +1140,6 @@
     "support": {
      "chrome": "14",
      "edge": "12",
-     "firefox": "134",
-     "firefox_android": "134",
      "safari": "6",
      "safari_ios": "6"
     }

@@ -1157,7 +1157,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_roundingIncrement_parameter": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1170,7 +1171,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_roundingMode_parameter": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1183,7 +1185,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_roundingPriority_parameter": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1210,7 +1213,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_signDisplay_parameter.negative": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1237,7 +1241,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_trailingZeroDisplay_parameter": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1292,7 +1297,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_useGrouping_parameter.string_values": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1319,7 +1325,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.format.number_parameter-string_decimal": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1332,7 +1339,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.formatRange": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",
@@ -1345,7 +1353,8 @@
     }
    },
    "javascript.builtins.Intl.NumberFormat.formatRangeToParts": {
-    "baseline": "low",
+    "baseline": "high",
+    "baseline_high_date": "2026-02-01",
     "baseline_low_date": "2023-08-01",
     "support": {
      "chrome": "106",

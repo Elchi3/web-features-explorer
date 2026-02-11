@@ -142,8 +142,7 @@
     "support": {
      "chrome": "43",
      "chrome_android": "43",
-     "edge": "79",
-     "firefox": "108"
+     "edge": "79"
     }
    },
    "api.MIDIAccess.sysexEnabled": {
