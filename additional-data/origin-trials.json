@@ -325,6 +325,7 @@
   "federated-credentials": [],
   "fencedframe": [],
   "fetch": [],
+  "fetch-formdata": [],
   "fetch-metadata": [],
   "fetch-priority": [],
   "fetch-request-streams": [],
@@ -638,6 +639,7 @@
       "registrationUrl": "https://developer.chrome.com/origintrials/#/register_trial/2367204554136616961"
     }
   ],
+  "navigator-modelcontext": [],
   "nesting": [],
   "network-information": [],
   "non-cookie-storage-access": [],
@@ -955,6 +957,7 @@
   "text-decoration-selection": [],
   "text-decoration-skip-ink": [],
   "text-decoration-skip-ink-all": [],
+  "text-decoration-spelling-grammar": [],
   "text-emphasis": [],
   "text-encoding": [],
   "text-indent": [],
