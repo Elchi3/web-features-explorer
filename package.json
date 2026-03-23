@@ -5,7 +5,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@ddbeck/mdn-content-inventory": "^0.2.20260321",
+    "@ddbeck/mdn-content-inventory": "^0.2.20260322",
     "@mdn/browser-compat-data": "^7.3.8",
     "apexcharts": "^5.10.4",
     "browser-specs": "^4.73.0",
